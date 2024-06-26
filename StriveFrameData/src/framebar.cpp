@@ -1,4 +1,6 @@
 #include "framebar_p.h"
+#include <fstream>
+#include <json/json.h>
 
 /* Debug Stuff */
 #if 0
@@ -25,7 +27,7 @@ namespace {
   constexpr int BORDER_THICKNESS = 3;
   constexpr double BAR_TEXT_SIZE = 1.4;
 
-  /* Scree-Space Settings */
+  /* Screen-Space Settings */
   constexpr double CENTER_X_RATIO = 0.5f;
   constexpr double CENTER_Y_RATIO = 0.8f;
 
@@ -426,6 +428,28 @@ PlayerState::PlayerState(asw_player &player, const PlayerState &last, bool combo
     auto cancel = player.can_gatling_cancel()  ? L"Y" : L"N";
     RC::Output::send<LogLevel::Warning>(format, local_script, time, local_sprite, nca, sca, bs, hs, pla, pja, aja, state_time, cin, player.hitbox_count, player.throw_range, flex, cancel, player.attack_flag);
   }
+  
+  // Append state to JSON
+  Json::Value jsonData;
+  jsonData["time"] = time;
+  jsonData["player"]["pos_x"] = player.get_pos_x();
+  jsonData["player"]["pos_y"] = player.get_pos_y();
+  jsonData["player"]["type"] = type;
+
+  if (player.opponent) {
+      jsonData["opponent"]["pos_x"] = player.opponent->get_pos_x();
+      jsonData["opponent"]["pos_y"] = player.opponent->get_pos_y();
+      jsonData["opponent"]["type"] = player.opponent->type;
+  }
+
+  appendToJson(jsonData);
+}
+
+void appendToJson(const Json::Value& jsonData) {
+    std::ofstream file("replay.json", std::ios::app);
+    Json::StreamWriterBuilder writer;
+    file << Json::writeString(writer, jsonData) << std::endl;
+    file.close();
 }
 
 // ############################################################
