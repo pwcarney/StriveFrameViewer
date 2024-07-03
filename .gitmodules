@@ -4,3 +4,4 @@
 [submodule "RE-UE4SS"]
 	path = RE-UE4SS
 	url = https://github.com/pwcarney/RE-UE4SS.git
+	branch = v3.0.1
