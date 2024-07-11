@@ -18,7 +18,7 @@ struct CurrentOptions {
 class ModMenu {
   DrawContext tool;
 
-  std::vector<int> settings;
+//  std::vector<int> settings;
 
   bool is_showing = false;
   int cursor_position = 0;
@@ -30,7 +30,7 @@ public:
   ~ModMenu();
   static ModMenu& instance();
 
-  void update(bool bar_toggled, bool hitbox_toggled, bool menu_toggled);
+  void update(bool framebar_pressed, bool hitbox_pressed, bool menu_pressed);
   void draw();
 
   bool barEnabled() const;
