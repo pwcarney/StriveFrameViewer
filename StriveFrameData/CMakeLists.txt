@@ -15,8 +15,10 @@ set(${TARGET}_Sources
         "${CMAKE_CURRENT_SOURCE_DIR}/src/menu.cpp"
         "${CMAKE_CURRENT_SOURCE_DIR}/src/sigscan.cpp"
         "${CMAKE_CURRENT_SOURCE_DIR}/src/bind_watcher.cpp"
+		"${CMAKE_CURRENT_SOURCE_DIR}/src/frame_data.cpp"
         )
 
 add_library(${TARGET} SHARED ${${TARGET}_Sources})
 target_include_directories(${TARGET} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_include_directories(${TARGET} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 target_link_libraries(${TARGET} PUBLIC UE4SS)

@@ -1,4 +1,5 @@
 #include "framebar_p.h"
+#include "frame_data.h"
 
 /* Debug Stuff */
 #if 0
@@ -503,6 +504,7 @@ void FrameBar::Data::addFrame() {
   } else if constexpr (ENABLE_STATE_DEBUG) {
     RC::Output::send<LogLevel::Warning>(STR("KEEP {} {} {} {}\n"), p_one.hitstop, p_one.atk_param_hit.hitstop, p_two.hitstop, p_two.hitstop);
   }
+  outputFrameData(engine->players[0].entity, engine->players[1].entity, next.first, next.second);
 
   // shift states
   data.first.shift(next.first);
