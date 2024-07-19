@@ -6,7 +6,6 @@
 
 struct PlayerFrameData {
     int hp;
-    int meter;
     int risc;
     int positionX;
     int positionY;
@@ -26,4 +25,4 @@ struct FrameData {
 };
 
 PlayerFrameData getPlayerFrameData(const asw_player* player, const PlayerState& state);
-void outputFrameData(const asw_player* p1, const asw_player* p2, const PlayerState& s1, const PlayerState& s2);
+void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerState &s1, const PlayerState &s2, AREDGameState_Battle *gameState);

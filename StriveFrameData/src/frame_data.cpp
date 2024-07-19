@@ -30,7 +30,7 @@ PlayerFrameData getPlayerFrameData(const asw_player *player, const PlayerState &
   return data;
 }
 
-void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerState &s1, const PlayerState &s2) {
+void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerState &s1, const PlayerState &s2, AREDGameState_Battle *gameState) {
 
     static int frameCount = 0;
     static std::ofstream outFile("frame_data.json", std::ios::app);
@@ -44,7 +44,7 @@ void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerSta
         {"frameNumber", frameData.frameNumber},
         {"player1", {
             {"hp", frameData.player1.hp},
-            {"meter", frameData.player1.meter},
+            {"tension", gameState->p1_tension},
             {"risc", frameData.player1.risc},
             {"positionX", frameData.player1.positionX},
             {"positionY", frameData.player1.positionY},
@@ -58,7 +58,7 @@ void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerSta
         }},
         {"player2", {
             {"hp", frameData.player2.hp},
-            {"meter", frameData.player2.meter},
+            {"tension", gameState->p2_tension},
             {"risc", frameData.player2.risc},
             {"positionX", frameData.player2.positionX},
             {"positionY", frameData.player2.positionY},

@@ -432,6 +432,12 @@ PlayerState::PlayerState(asw_player &player, const PlayerState &last, bool combo
 // ############################################################
 // FrameBar::Data
 
+FrameBar::~FrameBar() = default;
+FrameBar::FrameBar() : data(new Data()) {}
+void FrameBar::addFrame(AREDGameState_Battle *gameState) { data->addFrame(gameState); }
+void FrameBar::reset() { data->reset(); }
+void FrameBar::draw() { data->draw(); }
+
 FrameBar::Data::Data()
 : tool(CENTER_X_RATIO, CENTER_Y_RATIO) {
   resetFrames();
@@ -469,7 +475,7 @@ void FrameBar::Data::resetFrames() {
   doBoth(&PlayerData::resetFrames);
 }
 
-void FrameBar::Data::addFrame() {
+void FrameBar::Data::addFrame(AREDGameState_Battle *gameState) {
   const auto engine = asw_engine::get();
   if (!engine)
     return;
@@ -504,7 +510,7 @@ void FrameBar::Data::addFrame() {
   } else if constexpr (ENABLE_STATE_DEBUG) {
     RC::Output::send<LogLevel::Warning>(STR("KEEP {} {} {} {}\n"), p_one.hitstop, p_one.atk_param_hit.hitstop, p_two.hitstop, p_two.hitstop);
   }
-  outputFrameData(engine->players[0].entity, engine->players[1].entity, next.first, next.second);
+  outputFrameData(engine->players[0].entity, engine->players[1].entity, next.first, next.second, gameState);
 
   // shift states
   data.first.shift(next.first);
@@ -618,10 +624,3 @@ void FrameBar::Data::draw() {
     drawFrame(options, data.second.segments[idx], SEGS_TWO_TOP, left);
   }
 }
-
-FrameBar::~FrameBar() = default;
-FrameBar::FrameBar()
-: data(new Data()) {}
-void FrameBar::addFrame() { d().addFrame(); }
-void FrameBar::reset() { d().reset(); }
-void FrameBar::draw() { d().draw(); }

@@ -258,8 +258,13 @@ void hook_MatchStart(AREDGameState_Battle *GameState) {
   input_checker.reset();
   tracker.reset();
 
+  // Clear the existing frame_data.json file
+  std::ofstream outFile("frame_data.json", std::ios::trunc);
+  outFile.close();
+
   orig_MatchStart(GameState);
 }
+
 void hook_AHUDPostRender(void *hud) {
   if (!game_state.checkMode()) {
     orig_AHUDPostRender(hud);
@@ -276,6 +281,7 @@ void hook_AHUDPostRender(void *hud) {
   if (input_checker.advancing()) return;
   orig_AHUDPostRender(hud);
 }
+
 void hook_ACamUpdateCamera(void *cam, float DeltaTime) {
   if (!game_state.checkMode()) {
     orig_ACamUpdateCamera(cam, DeltaTime);
@@ -285,6 +291,7 @@ void hook_ACamUpdateCamera(void *cam, float DeltaTime) {
   if (input_checker.advancing()) return;
   orig_ACamUpdateCamera(cam, DeltaTime);
 }
+
 void hook_UpdateBattle(AREDGameState_Battle *GameState, float DeltaTime) {
   if (!game_state.checkMode()) {
     orig_UpdateBattle(GameState, DeltaTime);
@@ -313,7 +320,7 @@ void hook_UpdateBattle(AREDGameState_Battle *GameState, float DeltaTime) {
   }
 
   if (!tracker.isUePaused() && game_state.roundActive) {
-    the_bar.addFrame();
+    the_bar.addFrame(GameState);
   }
 }
 

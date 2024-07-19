@@ -1,6 +1,8 @@
 #pragma once
 
 #include "common.h"
+#include "arcsys.h"
+
 
 class FrameBar {
   PIMPL
@@ -8,7 +10,7 @@ class FrameBar {
 public:
   ~FrameBar();
   FrameBar();
-  void addFrame();
+  void addFrame(AREDGameState_Battle *gameState);
   void reset();
   void draw();
 };
