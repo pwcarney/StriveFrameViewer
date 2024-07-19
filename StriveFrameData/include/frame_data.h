@@ -5,9 +5,9 @@
 #include <json.hpp>
 
 struct PlayerFrameData {
-    double hp;
-    double meter;
-    double risc;
+    int hp;
+    int meter;
+    int risc;
     int positionX;
     int positionY;
     std::string currentAction;

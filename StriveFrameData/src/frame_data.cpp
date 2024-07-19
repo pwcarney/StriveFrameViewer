@@ -14,9 +14,8 @@ double safeStringToDouble(const char *str) {
 PlayerFrameData getPlayerFrameData(const asw_player *player, const PlayerState &state) {
   PlayerFrameData data;
 
-  data.hp = safeStringToDouble(player->move_datas.moves[77].get_name());
-  data.meter = safeStringToDouble(player->move_datas.moves[109].get_name());
-  data.risc = safeStringToDouble(player->move_datas.moves[258].get_name());
+  data.hp = player->hp;
+  data.risc = player->risc;
 
   data.positionX = player->get_pos_x();
   data.positionY = player->get_pos_y();

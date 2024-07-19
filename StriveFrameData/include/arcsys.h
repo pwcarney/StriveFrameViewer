@@ -20,8 +20,10 @@ public:
 
 class AREDGameState_Battle : public AGameState {
 public:
+  FIELD(0x48, int, p1_tension);
+  FIELD(0x1A8, int, p2_tension);
   FIELD(0xBB0, class asw_engine*, Engine);
-	FIELD(0xBB8, class asw_scene*, Scene);
+  FIELD(0xBB8, class asw_scene*, Scene);
   FIELD(0xBD0, class asw_events*, Events);
 };
 
@@ -287,7 +289,7 @@ public:
 	BIT_FIELD(0x394, 16, strike_invuln);
 	BIT_FIELD(0x394, 32, throw_invuln);
 	BIT_FIELD(0x394, 64, wakeup);
-  BIT_FIELD(0x398, 32, landed_hit);
+    BIT_FIELD(0x398, 32, landed_hit);
 	FIELD(0x3A4, direction, facing);
 	FIELD(0x3A8, int, pos_x);
 	FIELD(0x3AC, int, pos_y);
@@ -311,6 +313,8 @@ public:
     FIELD(0xC78, atk_param, atk_param_defend);
     FIELD(0x1070, atk_param_ex, atk_param_ex_defend);
     FIELD(0x1168, int, backdash_invuln);
+    FIELD(0x119C, int, hp);
+    FIELD(0xC8BC, int, risc);
     // bbscript
     FIELD(0x11E0, bbscript::event_bitmask, event_handler_bitmask);
     FIELD(0x1220, char*, bbs_file);
