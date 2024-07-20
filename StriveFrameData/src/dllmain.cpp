@@ -17,6 +17,7 @@
 
 #define WIN32_LEAN_AND_MEAN
 #include "Windows.h"
+#include <frame_data.h>
 
 #define STRIVEFRAMEDATA_API __declspec(dllexport)
 
@@ -125,10 +126,12 @@ public:
       if (e_type == BOM_EVENT_RESET || e_type == BOM_EVENT_DECISION) {
         resetting = true;
         roundActive = false;
+        logEvent("Round End");
       }
       if (e_type == BOM_EVENT_BATTLE_START) {
         resetting = true;
         roundActive = true;
+        logEvent("Round Start");
       };
     }
   }

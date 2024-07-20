@@ -15,7 +15,8 @@ set(${TARGET}_Sources
         "${CMAKE_CURRENT_SOURCE_DIR}/src/menu.cpp"
         "${CMAKE_CURRENT_SOURCE_DIR}/src/sigscan.cpp"
         "${CMAKE_CURRENT_SOURCE_DIR}/src/bind_watcher.cpp"
-		"${CMAKE_CURRENT_SOURCE_DIR}/src/frame_data.cpp"
+	"${CMAKE_CURRENT_SOURCE_DIR}/src/frame_data.cpp"
+	"${CMAKE_CURRENT_SOURCE_DIR}/src/output_file.cpp"
         )
 
 add_library(${TARGET} SHARED ${${TARGET}_Sources})
