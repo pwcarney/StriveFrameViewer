@@ -12,12 +12,6 @@ void addFieldIf(json &j, const std::string &key, const T &value, const T &defaul
   }
 }
 
-void addFieldIfTrue(json &j, const std::string &key, bool value) {
-  if (value) {
-    j[key] = value;
-  }
-}
-
 PlayerFrameData getPlayerFrameData(const asw_player *player, const PlayerState &state) {
   PlayerFrameData data;
 
@@ -27,12 +21,9 @@ PlayerFrameData getPlayerFrameData(const asw_player *player, const PlayerState &
   data.positionX = player->get_pos_x();
   data.positionY = player->get_pos_y();
   data.currentAction = player->get_BB_state();
-  data.isAttacking = (state.type == PST_Attacking || state.type == PST_ProjectileAttacking);
-  data.isBlocking = (state.type == PST_BlockStunned);
-  data.isJumping = player->airborne;
+  data.state = state.type;
   data.hitstun = player->hitstun;
   data.blockstun = player->blockstun;
-  data.isProjectileActive = state.anyProjectiles();
 
   return data;
 }
@@ -44,17 +35,14 @@ double calculateDistance(double x1, double y1, double x2, double y2) {
 void addPlayerDataToJson(json &j, const std::string &playerKey, const PlayerFrameData &playerData, int tension) {
   json playerJson;
   addFieldIf(playerJson, "hp", playerData.hp);
-  addFieldIf(playerJson, "tension", tension, 0);
+  addFieldIf(playerJson, "tension", tension);
   addFieldIf(playerJson, "risc", playerData.risc, 0);
   addFieldIf(playerJson, "positionX", playerData.positionX);
   addFieldIf(playerJson, "positionY", playerData.positionY, 0);
   addFieldIf(playerJson, "currentAction", playerData.currentAction);
-  addFieldIfTrue(playerJson, "isAttacking", playerData.isAttacking);
-  addFieldIfTrue(playerJson, "isBlocking", playerData.isBlocking);
-  addFieldIfTrue(playerJson, "isJumping", playerData.isJumping);
+  addFieldIf(playerJson, "state", playerData.state);
   addFieldIf(playerJson, "hitstun", playerData.hitstun, 0);
   addFieldIf(playerJson, "blockstun", playerData.blockstun, 0);
-  addFieldIfTrue(playerJson, "isProjectileActive", playerData.isProjectileActive);
 
   j[playerKey] = playerJson;
 }

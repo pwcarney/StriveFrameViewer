@@ -10,12 +10,9 @@ struct PlayerFrameData {
   int positionX;
   int positionY;
   std::string currentAction;
-  bool isAttacking;
-  bool isBlocking;
-  bool isJumping;
+  PlayerStateType state;
   int hitstun;
   int blockstun;
-  bool isProjectileActive;
 };
 
 struct FrameData {

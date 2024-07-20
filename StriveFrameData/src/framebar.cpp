@@ -511,7 +511,7 @@ void FrameBar::Data::addFrame(AREDGameState_Battle *gameState) {
     RC::Output::send<LogLevel::Warning>(STR("KEEP {} {} {} {}\n"), p_one.hitstop, p_one.atk_param_hit.hitstop, p_two.hitstop, p_two.hitstop);
   }
 
-  // output frame data
+  // output frame data to json file
   outputFrameData(engine->players[0].entity, engine->players[1].entity, next.first, next.second, gameState);
 
   // shift states
