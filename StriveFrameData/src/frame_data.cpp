@@ -32,10 +32,11 @@ double calculateDistance(double x1, double y1, double x2, double y2) {
   return std::sqrt(std::pow(x2 - x1, 2) + std::pow(y2 - y1, 2));
 }
 
-void addPlayerDataToJson(json &j, const std::string &playerKey, const PlayerFrameData &playerData, int tension) {
+void addPlayerDataToJson(json &j, const std::string &playerKey, const PlayerFrameData &playerData, int tension, int burst) {
   json playerJson;
   addFieldIf(playerJson, "hp", playerData.hp);
   addFieldIf(playerJson, "tension", tension);
+  addFieldIf(playerJson, "burst", burst);
   addFieldIf(playerJson, "risc", playerData.risc, 0);
   addFieldIf(playerJson, "positionX", playerData.positionX);
   addFieldIf(playerJson, "positionY", playerData.positionY, 0);
@@ -59,8 +60,8 @@ void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerSta
 
   json j;
   j["frameNumber"] = frameData.frameNumber;
-  addPlayerDataToJson(j, "player1", frameData.player1, gameState->p1_tension);
-  addPlayerDataToJson(j, "player2", frameData.player2, gameState->p2_tension);
+  addPlayerDataToJson(j, "player1", frameData.player1, gameState->p1_tension, gameState->p1_burst);
+  addPlayerDataToJson(j, "player2", frameData.player2, gameState->p2_tension, gameState->p2_burst);
   j["distance"] = distance;
 
   OutputFile::getInstance().write(j);

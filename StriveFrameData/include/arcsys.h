@@ -22,6 +22,10 @@ class AREDGameState_Battle : public AGameState {
 public:
   FIELD(0x48, int, p1_tension);
   FIELD(0x1A8, int, p2_tension);
+
+  FIELD(0x1448, int, p1_burst);
+  FIELD(0x144C, int, p2_burst);
+
   FIELD(0xBB0, class asw_engine*, Engine);
   FIELD(0xBB8, class asw_scene*, Scene);
   FIELD(0xBD0, class asw_events*, Events);
