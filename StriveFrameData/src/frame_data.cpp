@@ -1,11 +1,22 @@
 #include "frame_data.h"
 #include "output_file.h"
-#include "arcsys.h"
 #include <cmath>
 #include <fstream>
-#include <framebar_p.h>
 
 using json = nlohmann::json;
+
+template <typename T>
+void addFieldIf(json &j, const std::string &key, const T &value, const T &defaultValue = T()) {
+  if (value != defaultValue) {
+    j[key] = value;
+  }
+}
+
+void addFieldIfTrue(json &j, const std::string &key, bool value) {
+  if (value) {
+    j[key] = value;
+  }
+}
 
 PlayerFrameData getPlayerFrameData(const asw_player *player, const PlayerState &state) {
   PlayerFrameData data;
@@ -30,6 +41,24 @@ double calculateDistance(double x1, double y1, double x2, double y2) {
   return std::sqrt(std::pow(x2 - x1, 2) + std::pow(y2 - y1, 2));
 }
 
+void addPlayerDataToJson(json &j, const std::string &playerKey, const PlayerFrameData &playerData, int tension) {
+  json playerJson;
+  addFieldIf(playerJson, "hp", playerData.hp);
+  addFieldIf(playerJson, "tension", tension, 0);
+  addFieldIf(playerJson, "risc", playerData.risc, 0);
+  addFieldIf(playerJson, "positionX", playerData.positionX);
+  addFieldIf(playerJson, "positionY", playerData.positionY, 0);
+  addFieldIf(playerJson, "currentAction", playerData.currentAction);
+  addFieldIfTrue(playerJson, "isAttacking", playerData.isAttacking);
+  addFieldIfTrue(playerJson, "isBlocking", playerData.isBlocking);
+  addFieldIfTrue(playerJson, "isJumping", playerData.isJumping);
+  addFieldIf(playerJson, "hitstun", playerData.hitstun, 0);
+  addFieldIf(playerJson, "blockstun", playerData.blockstun, 0);
+  addFieldIfTrue(playerJson, "isProjectileActive", playerData.isProjectileActive);
+
+  j[playerKey] = playerJson;
+}
+
 void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerState &s1, const PlayerState &s2, AREDGameState_Battle *gameState) {
   static int frameCount = 0;
 
@@ -40,11 +69,11 @@ void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerSta
 
   double distance = calculateDistance(frameData.player1.positionX, frameData.player1.positionY, frameData.player2.positionX, frameData.player2.positionY);
 
-  json j = {
-      {"frameNumber", frameData.frameNumber},
-      {"player1", {{"hp", frameData.player1.hp}, {"tension", gameState->p1_tension}, {"risc", frameData.player1.risc}, {"positionX", frameData.player1.positionX}, {"positionY", frameData.player1.positionY}, {"currentAction", frameData.player1.currentAction}, {"isAttacking", frameData.player1.isAttacking}, {"isBlocking", frameData.player1.isBlocking}, {"isJumping", frameData.player1.isJumping}, {"hitstun", frameData.player1.hitstun}, {"blockstun", frameData.player1.blockstun}, {"isProjectileActive", frameData.player1.isProjectileActive}}},
-      {"player2", {{"hp", frameData.player2.hp}, {"tension", gameState->p2_tension}, {"risc", frameData.player2.risc}, {"positionX", frameData.player2.positionX}, {"positionY", frameData.player2.positionY}, {"currentAction", frameData.player2.currentAction}, {"isAttacking", frameData.player2.isAttacking}, {"isBlocking", frameData.player2.isBlocking}, {"isJumping", frameData.player2.isJumping}, {"hitstun", frameData.player2.hitstun}, {"blockstun", frameData.player2.blockstun}, {"isProjectileActive", frameData.player2.isProjectileActive}}},
-      {"distance", distance}};
+  json j;
+  j["frameNumber"] = frameData.frameNumber;
+  addPlayerDataToJson(j, "player1", frameData.player1, gameState->p1_tension);
+  addPlayerDataToJson(j, "player2", frameData.player2, gameState->p2_tension);
+  j["distance"] = distance;
 
   OutputFile::getInstance().write(j);
 }
