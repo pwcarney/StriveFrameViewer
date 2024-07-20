@@ -1,15 +1,8 @@
 #include "frame_data.h"
+#include "output_file.h"
 #include <fstream>
 
 using json = nlohmann::json;
-
-double safeStringToDouble(const char *str) {
-  try {
-    return std::stod(str);
-  } catch (const std::exception &) {
-    return 0.0;
-  }
-}
 
 PlayerFrameData getPlayerFrameData(const asw_player *player, const PlayerState &state) {
   PlayerFrameData data;
@@ -30,15 +23,20 @@ PlayerFrameData getPlayerFrameData(const asw_player *player, const PlayerState &
   return data;
 }
 
+double calculateDistance(double x1, double y1, double x2, double y2) {
+  return std::sqrt(std::pow(x2 - x1, 2) + std::pow(y2 - y1, 2));
+}
+
 void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerState &s1, const PlayerState &s2, AREDGameState_Battle *gameState) {
 
     static int frameCount = 0;
-    static std::ofstream outFile("frame_data.json", std::ios::app);
 
     FrameData frameData;
     frameData.frameNumber = ++frameCount;
     frameData.player1 = getPlayerFrameData(p1, s1);
     frameData.player2 = getPlayerFrameData(p2, s2);
+
+    double distance = calculateDistance(frameData.player1.positionX, frameData.player1.positionY, frameData.player2.positionX, frameData.player2.positionY);
 
     json j = {
         {"frameNumber", frameData.frameNumber},
@@ -69,8 +67,20 @@ void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerSta
             {"hitstun", frameData.player2.hitstun},
             {"blockstun", frameData.player2.blockstun},
             {"isProjectileActive", frameData.player2.isProjectileActive}
-        }}
+        }},
+		{"distance", distance}
     };
 
-    outFile << j.dump() << std::endl;
+    OutputFile::getInstance().write(j);
+}
+
+void logEvent(const std::string &event, int frameNumber, const nlohmann::json &details = nlohmann::json()) {
+  json eventLog = {
+      {"frameNumber", frameNumber},
+      {"event", event}};
+  if (!details.empty()) {
+    eventLog["details"] = details;
+  }
+
+  OutputFile::getInstance().write(eventLog);
 }

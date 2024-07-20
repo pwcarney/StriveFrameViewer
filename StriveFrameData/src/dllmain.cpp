@@ -7,6 +7,7 @@
 #include "hitboxes.h"
 #include "menu.h"
 #include "sigscan.h"
+#include "output_file.h"
 
 #include <DynamicOutput/DynamicOutput.hpp>
 #include <Mod/CppUserModBase.hpp>
@@ -259,8 +260,7 @@ void hook_MatchStart(AREDGameState_Battle *GameState) {
   tracker.reset();
 
   // Clear the existing frame_data.json file
-  std::ofstream outFile("frame_data.json", std::ios::trunc);
-  outFile.close();
+  OutputFile::getInstance().clear();
 
   orig_MatchStart(GameState);
 }
