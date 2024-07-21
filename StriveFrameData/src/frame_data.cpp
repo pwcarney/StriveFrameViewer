@@ -2,6 +2,7 @@
 #include "output_file.h"
 #include <cmath>
 #include <fstream>
+#include <set>
 
 using json = nlohmann::json;
 
@@ -48,23 +49,22 @@ void addPlayerDataToJson(json &j, const std::string &playerKey, const PlayerFram
   j[playerKey] = playerJson;
 }
 
-void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerState &s1, const PlayerState &s2, AREDGameState_Battle *gameState) {
-  static int frameCount = 0;
+bool shouldOutput(const PlayerFrameData &player1, const PlayerFrameData &player2, std::string &reason) {
+  static const std::set<std::string> excludedActions = {
+      "WSB_Master_Wait", "WSB_Master_Slide", "WSB_Slave_Slide"};
 
-  FrameData frameData;
-  frameData.frameNumber = ++frameCount;
-  frameData.player1 = getPlayerFrameData(p1, s1);
-  frameData.player2 = getPlayerFrameData(p2, s2);
+  if (excludedActions.count(player1.currentAction) > 0 || excludedActions.count(player2.currentAction) > 0) {
+    reason = "Wallbreak situation";
+    return false;
+  }
 
-  double distance = calculateDistance(frameData.player1.positionX, frameData.player1.positionY, frameData.player2.positionX, frameData.player2.positionY);
+  // Add more conditions here if needed in the future
+  // if (some_other_condition) {
+  //   reason = "Some other reason";
+  //   return false;
+  // }
 
-  json j;
-  j["frameNumber"] = frameData.frameNumber;
-  addPlayerDataToJson(j, "player1", frameData.player1, gameState->p1_tension, gameState->p1_burst);
-  addPlayerDataToJson(j, "player2", frameData.player2, gameState->p2_tension, gameState->p2_burst);
-  j["distance"] = distance;
-
-  OutputFile::getInstance().write(j);
+  return true;
 }
 
 void logEvent(const std::string &event, const nlohmann::json &details) {
@@ -80,4 +80,46 @@ void logEvent(const std::string &event, const nlohmann::json &details) {
   }
 
   OutputFile::getInstance().write(eventLog);
+}
+
+void logSpecificEvent(const std::string &reason, const PlayerFrameData &player1, const PlayerFrameData &player2) {
+  std::string eventDescription = reason;
+  if (reason == "Wallbreak situation" && player2.currentAction == "CmnActBDownLoop") {
+    eventDescription += " with a hard knockdown";
+  }
+  eventDescription += ".";
+
+  json eventDetails = {
+      {"player1Action", player1.currentAction},
+      {"player2Action", player2.currentAction}};
+
+  logEvent(eventDescription, eventDetails);
+}
+
+void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerState &s1, const PlayerState &s2, AREDGameState_Battle *gameState) {
+  static int frameCount = 0;
+
+  PlayerFrameData player1 = getPlayerFrameData(p1, s1);
+  PlayerFrameData player2 = getPlayerFrameData(p2, s2);
+
+  std::string reason;
+  if (!shouldOutput(player1, player2, reason)) {
+    logSpecificEvent(reason, player1, player2);
+    return;
+  }
+
+  FrameData frameData;
+  frameData.frameNumber = ++frameCount;
+  frameData.player1 = player1;
+  frameData.player2 = player2;
+
+  double distance = calculateDistance(frameData.player1.positionX, frameData.player1.positionY, frameData.player2.positionX, frameData.player2.positionY);
+
+  json j;
+  j["frameNumber"] = frameData.frameNumber;
+  addPlayerDataToJson(j, "player1", frameData.player1, gameState->p1_tension, gameState->p1_burst);
+  addPlayerDataToJson(j, "player2", frameData.player2, gameState->p2_tension, gameState->p2_burst);
+  j["distance"] = distance;
+
+  OutputFile::getInstance().write(j);
 }
