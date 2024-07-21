@@ -21,6 +21,27 @@ void addFieldIf<std::string>(json &j, const std::string &key, const std::string 
   }
 }
 
+// Define a mapping from PlayerStateType to string
+std::string playerStateTypeToString(PlayerStateType state) {
+  static const std::unordered_map<PlayerStateType, std::string> stateToString = {
+      {PST_Idle, "Idle"},
+      {PST_BlockStunned, "BlockStunned"},
+      {PST_HitStunned, "HitStunned"},
+      {PST_Busy, "Busy"},
+      {PST_Attacking, "Attacking"},
+      {PST_ProjectileAttacking, "ProjectileAttacking"},
+      {PST_Recovering, "Recovering"},
+      {PST_None, "None"},
+      {PST_End, "End"}};
+
+  auto it = stateToString.find(state);
+  if (it != stateToString.end()) {
+    return it->second;
+  } else {
+    return "Unknown";
+  }
+}
+
 PlayerFrameData getPlayerFrameData(const asw_player *player, const PlayerState &state) {
   PlayerFrameData data;
 
@@ -65,7 +86,7 @@ void addPlayerDataToJson(json &j, const std::string &playerKey, const PlayerFram
   addFieldIf(playerJson, "positionX", playerData.positionX);
   addFieldIf(playerJson, "positionY", playerData.positionY, 0);
   addFieldIf(playerJson, "currentAction", playerData.currentAction);
-  addFieldIf(playerJson, "state", playerData.state);
+  addFieldIf(playerJson, "state", playerStateTypeToString(playerData.state), std::string{""});
   addFieldIf(playerJson, "hitstun", playerData.hitstun, 0);
   addFieldIf(playerJson, "blockstun", playerData.blockstun, 0);
   addFieldIf(playerJson, "attackPhase", playerData.attackPhase, std::string{""});
