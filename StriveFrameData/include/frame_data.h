@@ -14,6 +14,8 @@ struct PlayerFrameData {
   PlayerStateType state;
   int hitstun;
   int blockstun;
+  std::string attackPhase; // "startup", "active", "recovery"
+  int attackFrame;         // Current frame within the attack phase
 };
 
 struct FrameData {

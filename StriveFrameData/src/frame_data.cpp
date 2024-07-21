@@ -13,6 +13,14 @@ void addFieldIf(json &j, const std::string &key, const T &value, const T &defaul
   }
 }
 
+// Specialization for std::string to handle empty string case
+template <>
+void addFieldIf<std::string>(json &j, const std::string &key, const std::string &value, const std::string &defaultValue) {
+  if (!value.empty() && value != defaultValue) {
+    j[key] = value;
+  }
+}
+
 PlayerFrameData getPlayerFrameData(const asw_player *player, const PlayerState &state) {
   PlayerFrameData data;
 
@@ -25,6 +33,21 @@ PlayerFrameData getPlayerFrameData(const asw_player *player, const PlayerState &
   data.state = state.type;
   data.hitstun = player->hitstun;
   data.blockstun = player->blockstun;
+
+  // Determine the attack phase and frame number
+  if (state.type == PST_Busy) {
+    data.attackPhase = "startup";
+    data.attackFrame = state.state_time;
+  } else if (state.type == PST_Attacking || state.type == PST_ProjectileAttacking) {
+    data.attackPhase = "active";
+    data.attackFrame = state.state_time;
+  } else if (state.type == PST_Recovering) {
+    data.attackPhase = "recovery";
+    data.attackFrame = state.state_time;
+  } else {
+    data.attackPhase = "";
+    data.attackFrame = 0;
+  }
 
   return data;
 }
@@ -45,6 +68,8 @@ void addPlayerDataToJson(json &j, const std::string &playerKey, const PlayerFram
   addFieldIf(playerJson, "state", playerData.state);
   addFieldIf(playerJson, "hitstun", playerData.hitstun, 0);
   addFieldIf(playerJson, "blockstun", playerData.blockstun, 0);
+  addFieldIf(playerJson, "attackPhase", playerData.attackPhase, std::string{""});
+  addFieldIf(playerJson, "attackFrame", playerData.attackFrame, 0);
 
   j[playerKey] = playerJson;
 }
@@ -57,12 +82,6 @@ bool shouldOutput(const PlayerFrameData &player1, const PlayerFrameData &player2
     reason = "Wallbreak situation";
     return false;
   }
-
-  // Add more conditions here if needed in the future
-  // if (some_other_condition) {
-  //   reason = "Some other reason";
-  //   return false;
-  // }
 
   return true;
 }
