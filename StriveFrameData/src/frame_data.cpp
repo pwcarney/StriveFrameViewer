@@ -71,6 +71,12 @@ PlayerFrameData getPlayerFrameData(const asw_player *player, const PlayerState &
     data.attackFrame = 0;
   }
 
+  // Check for special move
+  MoveData *currentMove = player->get_current_move();
+  if (currentMove != nullptr) {
+    data.currentAction = currentMove->get_name();
+  }
+
   return data;
 }
 
@@ -85,7 +91,7 @@ void addPlayerDataToJson(json &j, const std::string &playerKey, const PlayerFram
   addFieldIf(playerJson, "burst", burst);
   addFieldIf(playerJson, "risc", playerData.risc, 0);
   addFieldIf(playerJson, "positionX", playerData.positionX);
-  addFieldIf(playerJson, "positionY", playerData.positionY, 0);
+  addFieldIf(playerJson, "positionY", playerData.positionY);
   addFieldIf(playerJson, "currentAction", playerData.currentAction);
   addFieldIf(playerJson, "state", playerStateTypeToString(playerData.state), std::string{""});
   addFieldIf(playerJson, "hitstun", playerData.hitstun, 0);
