@@ -145,6 +145,8 @@ void logSpecificEvent(const std::string &reason, const PlayerFrameData &player1,
 
 void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerState &s1, const PlayerState &s2, AREDGameState_Battle *gameState) {
   static int frameCount = 0;
+  static int previousHPPlayer1 = p1->hp;
+  static int previousHPPlayer2 = p2->hp;
 
   PlayerFrameData player1 = getPlayerFrameData(p1, s1);
   PlayerFrameData player2 = getPlayerFrameData(p2, s2);
@@ -154,6 +156,20 @@ void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerSta
     logSpecificEvent(reason, player1, player2);
     return;
   }
+
+  // Detect HP change (hit events)
+  if (player1.hp < previousHPPlayer1) {
+    int hpLoss = previousHPPlayer1 - player1.hp;
+    logEvent("Player1 hit and lost " + std::to_string(hpLoss) + " hp");
+  }
+  if (player2.hp < previousHPPlayer2) {
+    int hpLoss = previousHPPlayer2 - player2.hp;
+    logEvent("Player2 hit and lost " + std::to_string(hpLoss) + " hp");
+  }
+
+  // Update previous HP values
+  previousHPPlayer1 = player1.hp;
+  previousHPPlayer2 = player2.hp;
 
   FrameData frameData;
   frameData.frameNumber = ++frameCount;
