@@ -11,7 +11,14 @@ struct SimpleFVector {
   float x, y, z;
 };
 
-class AGameState : public RC::Unreal::AActor {};
+class AGameState : public RC::Unreal::AActor {
+public:
+  FIELD(0x48, int, p1_tension);
+  FIELD(0x1A8, int, p2_tension);
+
+  FIELD(0x1448, int, p1_burst);
+  FIELD(0x144C, int, p2_burst);
+};
 
 class UWorld : public RC::Unreal::UObject {
 public:
@@ -20,12 +27,6 @@ public:
 
 class AREDGameState_Battle : public AGameState {
 public:
-  FIELD(0x48, int, p1_tension);
-  FIELD(0x1A8, int, p2_tension);
-
-  FIELD(0x1448, int, p1_burst);
-  FIELD(0x144C, int, p2_burst);
-
   FIELD(0xBB0, class asw_engine*, Engine);
   FIELD(0xBB8, class asw_scene*, Scene);
   FIELD(0xBD0, class asw_events*, Events);
@@ -35,6 +36,7 @@ class player_block {
 	char pad[0x160];
 public:
 	FIELD(0x8, class asw_player*, entity);
+    FIELD(0x29, int, character_int);
 };
 
 static_assert(sizeof(player_block) == 0x160);
@@ -121,7 +123,7 @@ public:
 	FIELD(0x8A0, int, entity_count);
 	ARRAY_FIELD(0xC10, class asw_entity* [107], entities);
 	ARRAY_FIELD(0x1498, RC::Unreal::AActor* [7], pawns);
-  ARRAY_FIELD(0x37A8, asw_inputs[6], inputs);
+    ARRAY_FIELD(0x37A8, asw_inputs[6], inputs);
 };
 
 class asw_scene {
@@ -590,9 +592,10 @@ public:
     FIELD(0xc32c, ID_CMNACT, cur_cmn_action_id); // original: 0xC26C + 0x060 = 0xC2CC
     FIELD(0xd05c, int, slowdown_timer); // original: 0xCF9C + 0x060 = 0xCFFC
     FIELD(0xfac0, MoveDataCollection, move_datas);
+
     FIELD(0xF548, int, afro); // m_IsAfro Header: 0xed28, Offset: 0x508
-	  FIELD(0xF580, int, afroW);
-	  FIELD(0xF584 , int, afroH);
+	FIELD(0xF580, int, afroW);
+	FIELD(0xF584 , int, afroH);
 
     int calc_advantage();
     bool is_in_hitstun() const;

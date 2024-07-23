@@ -1,5 +1,6 @@
 #include "frame_data.h"
 #include "output_file.h"
+#include "sigscan.h"
 #include <cmath>
 #include <fstream>
 #include <set>
@@ -120,6 +121,10 @@ void logEvent(const std::string &event, const nlohmann::json &details) {
   }
 
   OutputFile::getInstance().write(eventLog);
+}
+
+void initOutputFile() {
+  OutputFile::getInstance().clear();
 }
 
 void logSpecificEvent(const std::string &reason, const PlayerFrameData &player1, const PlayerFrameData &player2) {

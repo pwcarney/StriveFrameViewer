@@ -8,6 +8,7 @@
 #include "menu.h"
 #include "sigscan.h"
 #include "output_file.h"
+#include "frame_data.h"
 
 #include <DynamicOutput/DynamicOutput.hpp>
 #include <Mod/CppUserModBase.hpp>
@@ -126,12 +127,11 @@ public:
       if (e_type == BOM_EVENT_RESET || e_type == BOM_EVENT_DECISION) {
         resetting = true;
         roundActive = false;
-        logEvent("Round End");
       }
       if (e_type == BOM_EVENT_BATTLE_START) {
         resetting = true;
         roundActive = true;
-        logEvent("Round Start");
+        logEvent("Round Start!");
       };
     }
   }
@@ -262,8 +262,8 @@ void hook_MatchStart(AREDGameState_Battle *GameState) {
   input_checker.reset();
   tracker.reset();
 
-  // Clear the existing frame_data.json file
-  OutputFile::getInstance().clear();
+  // Init a new frame_data.json file
+  initOutputFile();
 
   orig_MatchStart(GameState);
 }
