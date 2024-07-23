@@ -97,15 +97,17 @@ void addPlayerDataToJson(json &j, const std::string &playerKey, const PlayerFram
 }
 
 bool shouldOutput(const PlayerFrameData &player1, const PlayerFrameData &player2, std::string &reason) {
-  static const std::set<std::string> excludedActions = {
-      "WSB_Master_Wait", "WSB_Master_Slide", "WSB_Slave_Slide"};
+    // Exclude certain actions from output
+    static const std::set<std::string> excludedActions = {
+        "WSB_Master_Wait", "WSB_Master_Slide", "WSB_Slave_Slide"};
 
-  if (excludedActions.count(player1.currentAction) > 0 || excludedActions.count(player2.currentAction) > 0) {
+    // Exclude wallbreak animation
+    if (excludedActions.count(player1.currentAction) > 0 || excludedActions.count(player2.currentAction) > 0) {
     reason = "Wallbreak situation";
     return false;
-  }
+    }
 
-  return true;
+    return true;
 }
 
 void logEvent(const std::string &event, const nlohmann::json &details) {

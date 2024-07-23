@@ -100,7 +100,7 @@ class StateMgr {
   UREDGameCommon *GameCommon = nullptr;
   int last_mode = GAME_MODE_DEBUG_BATTLE;
   bool in_allowed_mode = false;
-  std::vector<int> allowed_modes = {GAME_MODE_TRAINING, GAME_MODE_REPLAY, GAME_MODE_MISSION, GAME_MODE_UNDECIDED};
+  std::vector<int> allowed_modes = {GAME_MODE_TRAINING, GAME_MODE_REPLAY, GAME_MODE_NETWORK, GAME_MODE_UNDECIDED};
 
 public:
   bool checkMode() {
