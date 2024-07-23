@@ -17,6 +17,7 @@ set(${TARGET}_Sources
         "${CMAKE_CURRENT_SOURCE_DIR}/src/bind_watcher.cpp"
 	"${CMAKE_CURRENT_SOURCE_DIR}/src/frame_data.cpp"
 	"${CMAKE_CURRENT_SOURCE_DIR}/src/output_file.cpp"
+	"${CMAKE_CURRENT_SOURCE_DIR}/src/action_descriptions.cpp"
         )
 
 add_library(${TARGET} SHARED ${${TARGET}_Sources})

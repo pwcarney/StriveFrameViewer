@@ -335,17 +335,17 @@ public:
 
   StriveFrameData()
   : CppUserModBase() {
-    ModName = STR("Strive Frame Data");
+    ModName = STR("Strive Frame Data Outputter");
     ModVersion = STR("1.04");
-    ModDescription = STR("A tool to display frame advantage.");
-    ModAuthors = STR("pbozai, Sevoi");
+    ModDescription = STR("Outputs game state to text file for later parsing.");
+    ModAuthors = STR("pbozai, Sevoii, Patrick Carney");
     UpdateBattle_Detour = nullptr;
     MatchStart_Detour = nullptr;
     // Do not change this unless you want to target a UE4SS version
     // other than the one you're currently building with somehow.
     // ModIntendedSDKVersion = STR("2.6");
 
-    Output::send<LogLevel::Verbose>(STR("Strive Frame Viewer Started\n"));
+    Output::send<LogLevel::Verbose>(STR("Strive Frame Output Started\n"));
   }
 
   ~StriveFrameData() override {}

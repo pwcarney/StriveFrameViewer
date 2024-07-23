@@ -1,11 +1,15 @@
 #include "frame_data.h"
 #include "output_file.h"
+#include "action_descriptions.h"
 #include "sigscan.h"
 #include <cmath>
 #include <fstream>
 #include <set>
+#include <unordered_set>
 
 using json = nlohmann::json;
+
+static std::unordered_set<std::string> uniqueActions;
 
 template <typename T>
 void addFieldIf(json &j, const std::string &key, const T &value, const T &defaultValue = T()) {
@@ -151,12 +155,43 @@ void logSpecificEvent(const std::string &reason, const PlayerFrameData &player1,
   logEvent(eventDescription, eventDetails);
 }
 
+bool isMatchOver(const AREDGameState_Battle *gameState) {
+  const asw_events *events = gameState->Events;
+  if (!events) return false;
+
+  for (unsigned int i = 0; i < events->event_count; ++i) {
+    BOM_EVENT eventType = events->events[i].type;
+    if (eventType == BOM_EVENT_MATCH_WIN_ACTION || eventType == BOM_EVENT_MATCH_RESULT_WAIT) {
+      return true;
+    }
+  }
+  return false;
+}
+
+void outputUniqueActions() {
+  auto actionDescriptions = initializeActionDescriptions();
+  json j;
+  for (const auto &action : uniqueActions) {
+    std::string description = "MISSING ACTION DESCRIPTION";
+    auto it = actionDescriptions.find(action);
+    if (it != actionDescriptions.end()) {
+      description = it->second;
+    }
+    j[action] = description;
+  }
+  OutputFile::getInstance().write(j);
+}
+
 void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerState &s1, const PlayerState &s2, AREDGameState_Battle *gameState) {
   static int previousHPPlayer1 = p1->hp;
   static int previousHPPlayer2 = p2->hp;
 
   PlayerFrameData player1 = getPlayerFrameData(p1, s1);
   PlayerFrameData player2 = getPlayerFrameData(p2, s2);
+
+  // Log unique actions
+  uniqueActions.insert(player1.currentAction);
+  uniqueActions.insert(player2.currentAction);
 
   std::string reason;
   if (!shouldOutput(player1, player2, reason)) {
@@ -177,6 +212,12 @@ void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerSta
   // Update previous HP values
   previousHPPlayer1 = player1.hp;
   previousHPPlayer2 = player2.hp;
+
+  // Check if the match is over
+  if (isMatchOver(gameState)) {
+    outputUniqueActions();
+    return;
+  }
 
   FrameData frameData;
   static int frameCount = 0;
