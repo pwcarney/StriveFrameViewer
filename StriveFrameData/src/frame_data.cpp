@@ -115,7 +115,7 @@ void logEvent(const std::string &event, const nlohmann::json &details) {
   int frameNumber = ++frameCount;
 
   json eventLog = {
-      {"frameNumber", frameNumber},
+      {"gameFrameIndex", frameNumber},
       {"event", event}};
 
   if (!details.empty()) {
@@ -127,6 +127,8 @@ void logEvent(const std::string &event, const nlohmann::json &details) {
 
 void initOutputFile() {
   OutputFile::getInstance().clear();
+  static int frameCount = 0;
+  frameCount = 0;
 }
 
 void logSpecificEvent(const std::string &reason, const PlayerFrameData &player1, const PlayerFrameData &player2) {
@@ -144,7 +146,6 @@ void logSpecificEvent(const std::string &reason, const PlayerFrameData &player1,
 }
 
 void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerState &s1, const PlayerState &s2, AREDGameState_Battle *gameState) {
-  static int frameCount = 0;
   static int previousHPPlayer1 = p1->hp;
   static int previousHPPlayer2 = p2->hp;
 
@@ -172,6 +173,7 @@ void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerSta
   previousHPPlayer2 = player2.hp;
 
   FrameData frameData;
+  static int frameCount = 0;
   frameData.frameNumber = ++frameCount;
   frameData.player1 = player1;
   frameData.player2 = player2;
@@ -179,7 +181,7 @@ void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerSta
   double distance = calculateDistance(frameData.player1.positionX, frameData.player1.positionY, frameData.player2.positionX, frameData.player2.positionY);
 
   json j;
-  j["frameNumber"] = frameData.frameNumber;
+  j["gameFrameIndex"] = frameData.frameNumber;
   addPlayerDataToJson(j, "player1", frameData.player1, gameState->p1_tension, gameState->p1_burst);
   addPlayerDataToJson(j, "player2", frameData.player2, gameState->p2_tension, gameState->p2_burst);
   j["distance"] = distance;
