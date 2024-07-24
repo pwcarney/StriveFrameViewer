@@ -139,7 +139,7 @@ struct FrameBar::Data {
   void resetFrames();
 
   Data();
-  void addFrame(AREDGameState_Battle *gameState);
+  void addFrame();
   void reset();
   void draw();
 };

@@ -11,14 +11,7 @@ struct SimpleFVector {
   float x, y, z;
 };
 
-class AGameState : public RC::Unreal::AActor {
-public:
-  FIELD(0x48, int, p1_tension);
-  FIELD(0x1A8, int, p2_tension);
-
-  FIELD(0x1448, int, p1_burst);
-  FIELD(0x144C, int, p2_burst);
-};
+class AGameState : public RC::Unreal::AActor {};
 
 class UWorld : public RC::Unreal::UObject {
 public:

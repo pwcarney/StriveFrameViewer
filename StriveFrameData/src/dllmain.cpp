@@ -327,7 +327,7 @@ void hook_UpdateBattle(AREDGameState_Battle *GameState, float DeltaTime) {
   }
 
   if (!tracker.isUePaused() && game_state.roundActive) {
-    the_bar.addFrame(GameState);
+    the_bar.addFrame();
   }
 }
 

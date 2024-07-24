@@ -10,7 +10,7 @@ class FrameBar {
 public:
   ~FrameBar();
   FrameBar();
-  void addFrame(AREDGameState_Battle *gameState);
+  void addFrame();
   void reset();
   void draw();
 };

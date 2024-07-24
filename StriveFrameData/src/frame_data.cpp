@@ -84,6 +84,17 @@ PlayerFrameData getPlayerFrameData(const asw_player *player, const PlayerState &
   return data;
 }
 
+std::string getCharacterNameFromValue(int value) {
+  switch (value) {
+  case 1:
+    return "Ky Kiske";
+  case 27:
+    return "Slayer";
+  default:
+    return "Unknown";
+  }
+}
+
 double calculateDistance(double x1, double y1, double x2, double y2) {
   return std::sqrt(std::pow(x2 - x1, 2) + std::pow(y2 - y1, 2));
 }
@@ -135,17 +146,6 @@ void logEvent(const std::string &event, const nlohmann::json &details) {
   OutputFile::getInstance().write(eventLog);
 }
 
-std::string getCharacterNameFromValue(int value) {
-  switch (value) {
-  case 1:
-    return "Ky Kiske";
-  case 27:
-    return "Slayer";
-  default:
-    return "Unknown";
-  }
-}
-
 // Helper function to read memory
 uintptr_t readMemory(uintptr_t address) {
   return *reinterpret_cast<uintptr_t *>(address);
@@ -165,7 +165,7 @@ void initOutputFile() {
   static int frameCount = 0;
   frameCount = 0;
 
-  // Find the base address of GGST-Win64-Shipping.exe dynamically using sigscan
+  // Log the base address of GGST-Win64-Shipping.exe dynamically using sigscan
   auto basePattern = "\x4D\x5A\x90\x00\x03\x00\x00\x00\x04\x00\x00\x00\xFF\xFF\x00\x00";
   auto baseMask = "xxxxxxxxxxxxxxxx";
   uintptr_t ggstBaseAddress = sigscan::get().scan(basePattern, baseMask);
@@ -175,7 +175,7 @@ void initOutputFile() {
   }
 
   // Calculate the universal base address
-  uintptr_t universalBaseAddress = ggstBaseAddress + 0x050ECC60;
+  static uintptr_t universalBaseAddress = ggstBaseAddress + 0x050ECC60;
 
   // Offsets to GameSettings
   std::vector<uintptr_t> gameSettingsOffsets = {0x188, 0x520, 0x20, 0x1B0};
@@ -229,7 +229,7 @@ void outputUniqueActions() {
   OutputFile::getInstance().write(j);
 }
 
-void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerState &s1, const PlayerState &s2, AREDGameState_Battle *gameState) {
+void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerState &s1, const PlayerState &s2) {
   static int previousHPPlayer1 = p1->hp;
   static int previousHPPlayer2 = p2->hp;
 
@@ -246,6 +246,17 @@ void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerSta
     return;
   }
 
+  // Get tension and burst values
+  static uintptr_t universalBaseAddress;  // defined in init
+  std::vector<uintptr_t> tbStateOffsets = {0x130, 0xBB0};
+  uintptr_t tbStateAddress = resolvePointerChain(universalBaseAddress, tbStateOffsets);
+
+  // Offset values from CheatEngine
+  int p1tension = *reinterpret_cast<int *>(readMemory(tbStateAddress + 0x48));
+  int p2tension = *reinterpret_cast<int *>(readMemory(tbStateAddress + 0x1A8));
+  int p1burst = *reinterpret_cast<int *>(readMemory(tbStateAddress + 0x1448));
+  int p2burst = *reinterpret_cast<int *>(readMemory(tbStateAddress + 0x144C));
+
   // Detect HP change (hit events)
   if (player1.hp < previousHPPlayer1) {
     int hpLoss = previousHPPlayer1 - player1.hp;
@@ -255,8 +266,6 @@ void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerSta
     int hpLoss = previousHPPlayer2 - player2.hp;
     logEvent("Player2 hit and lost " + std::to_string(hpLoss) + " hp");
   }
-
-  // Update previous HP values
   previousHPPlayer1 = player1.hp;
   previousHPPlayer2 = player2.hp;
 
@@ -270,8 +279,8 @@ void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerSta
 
   json j;
   j["gameFrameIndex"] = frameData.frameNumber;
-  addPlayerDataToJson(j, "player1", frameData.player1, gameState->p1_tension, gameState->p1_burst);
-  addPlayerDataToJson(j, "player2", frameData.player2, gameState->p2_tension, gameState->p2_burst);
+  addPlayerDataToJson(j, "player1", frameData.player1, p1tension, p1burst);
+  addPlayerDataToJson(j, "player2", frameData.player2, p2tension, p2burst);
   j["distance"] = distance;
 
   OutputFile::getInstance().write(j);

@@ -434,7 +434,7 @@ PlayerState::PlayerState(asw_player &player, const PlayerState &last, bool combo
 
 FrameBar::~FrameBar() = default;
 FrameBar::FrameBar() : data(new Data()) {}
-void FrameBar::addFrame(AREDGameState_Battle *gameState) { data->addFrame(gameState); }
+void FrameBar::addFrame() { data->addFrame(); }
 void FrameBar::reset() { data->reset(); }
 void FrameBar::draw() { data->draw(); }
 
@@ -475,7 +475,7 @@ void FrameBar::Data::resetFrames() {
   doBoth(&PlayerData::resetFrames);
 }
 
-void FrameBar::Data::addFrame(AREDGameState_Battle *gameState) {
+void FrameBar::Data::addFrame() {
   const auto engine = asw_engine::get();
   if (!engine)
     return;
@@ -512,7 +512,7 @@ void FrameBar::Data::addFrame(AREDGameState_Battle *gameState) {
   }
 
   // output frame data to json file
-  outputFrameData(engine->players[0].entity, engine->players[1].entity, next.first, next.second, gameState);
+  outputFrameData(engine->players[0].entity, engine->players[1].entity, next.first, next.second);
 
   // shift states
   data.first.shift(next.first);
