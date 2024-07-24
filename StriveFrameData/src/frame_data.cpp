@@ -1,6 +1,6 @@
 #include "frame_data.h"
-#include "output_file.h"
 #include "action_descriptions.h"
+#include "output_file.h"
 #include "sigscan.h"
 #include <cmath>
 #include <fstream>
@@ -10,6 +10,7 @@
 using json = nlohmann::json;
 
 static std::unordered_set<std::string> uniqueActions;
+static uintptr_t universalBaseAddress;
 
 template <typename T>
 void addFieldIf(json &j, const std::string &key, const T &value, const T &defaultValue = T()) {
@@ -118,17 +119,17 @@ void addPlayerDataToJson(json &j, const std::string &playerKey, const PlayerFram
 }
 
 bool shouldOutput(const PlayerFrameData &player1, const PlayerFrameData &player2, std::string &reason) {
-    // Exclude certain actions from output
-    static const std::set<std::string> excludedActions = {
-        "WSB_Master_Wait", "WSB_Master_Slide", "WSB_Slave_Slide"};
+  // Exclude certain actions from output
+  const std::set<std::string> excludedActions = {
+      "WSB_Master_Wait", "WSB_Master_Slide", "WSB_Slave_Slide"};
 
-    // Exclude wallbreak animation
-    if (excludedActions.count(player1.currentAction) > 0 || excludedActions.count(player2.currentAction) > 0) {
+  // Exclude wallbreak animation
+  if (excludedActions.count(player1.currentAction) > 0 || excludedActions.count(player2.currentAction) > 0) {
     reason = "Wallbreak situation";
     return false;
-    }
+  }
 
-    return true;
+  return true;
 }
 
 void logEvent(const std::string &event, const nlohmann::json &details) {
@@ -175,7 +176,7 @@ void initOutputFile() {
   }
 
   // Calculate the universal base address
-  static uintptr_t universalBaseAddress = ggstBaseAddress + 0x050ECC60;
+  universalBaseAddress = ggstBaseAddress + 0x050ECC60;
 
   // Offsets to GameSettings
   std::vector<uintptr_t> gameSettingsOffsets = {0x188, 0x520, 0x20, 0x1B0};
@@ -246,16 +247,15 @@ void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerSta
     return;
   }
 
-  // Get tension and burst values
-  static uintptr_t universalBaseAddress;  // defined in init
-  std::vector<uintptr_t> tbStateOffsets = {0x130, 0xBB0};
+  // Get tension and burst values using consistent memory reading
+  std::vector<uintptr_t> tbStateOffsets = {0x130, 0xBB0, 0x0};
   uintptr_t tbStateAddress = resolvePointerChain(universalBaseAddress, tbStateOffsets);
 
-  // Offset values from CheatEngine
-  int p1tension = *reinterpret_cast<int *>(readMemory(tbStateAddress + 0x48));
-  int p2tension = *reinterpret_cast<int *>(readMemory(tbStateAddress + 0x1A8));
-  int p1burst = *reinterpret_cast<int *>(readMemory(tbStateAddress + 0x1448));
-  int p2burst = *reinterpret_cast<int *>(readMemory(tbStateAddress + 0x144C));
+  // Directly read the tension and burst values without additional memory reads
+  int p1tension = *reinterpret_cast<int *>(tbStateAddress + 0x48);
+  int p2tension = *reinterpret_cast<int *>(tbStateAddress + 0x1A8);
+  int p1burst = *reinterpret_cast<int *>(tbStateAddress + 0x1448);
+  int p2burst = *reinterpret_cast<int *>(tbStateAddress + 0x144C);
 
   // Detect HP change (hit events)
   if (player1.hp < previousHPPlayer1) {
@@ -269,19 +269,18 @@ void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerSta
   previousHPPlayer1 = player1.hp;
   previousHPPlayer2 = player2.hp;
 
+  // Write out
   FrameData frameData;
   static int frameCount = 0;
   frameData.frameNumber = ++frameCount;
   frameData.player1 = player1;
   frameData.player2 = player2;
 
-  double distance = calculateDistance(frameData.player1.positionX, frameData.player1.positionY, frameData.player2.positionX, frameData.player2.positionY);
-
   json j;
   j["gameFrameIndex"] = frameData.frameNumber;
   addPlayerDataToJson(j, "player1", frameData.player1, p1tension, p1burst);
   addPlayerDataToJson(j, "player2", frameData.player2, p2tension, p2burst);
-  j["distance"] = distance;
+  j["distance"] = calculateDistance(frameData.player1.positionX, frameData.player1.positionY, frameData.player2.positionX, frameData.player2.positionY);
 
   OutputFile::getInstance().write(j);
 }
