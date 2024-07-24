@@ -102,14 +102,17 @@ double calculateDistance(double x1, double y1, double x2, double y2) {
 
 void addPlayerDataToJson(json &j, const std::string &playerKey, const PlayerFrameData &playerData, int tension, int burst) {
   json playerJson;
-  addFieldIf(playerJson, "hp", playerData.hp);
-  addFieldIf(playerJson, "tension", tension);
-  addFieldIf(playerJson, "burst", burst);
+  playerJson["hp"] = playerData.hp;
+  playerJson["tension"] = tension;
+  playerJson["burst"] = burst;
   addFieldIf(playerJson, "risc", playerData.risc, 0);
-  addFieldIf(playerJson, "positionX", playerData.positionX);
+
+  playerJson["positionX"] = playerData.positionX;
   addFieldIf(playerJson, "positionY", playerData.positionY);
+
   addFieldIf(playerJson, "currentAction", playerData.currentAction);
   addFieldIf(playerJson, "state", playerStateTypeToString(playerData.state), std::string{""});
+
   addFieldIf(playerJson, "hitstun", playerData.hitstun, 0);
   addFieldIf(playerJson, "blockstun", playerData.blockstun, 0);
   addFieldIf(playerJson, "attackPhase", playerData.attackPhase, std::string{""});
