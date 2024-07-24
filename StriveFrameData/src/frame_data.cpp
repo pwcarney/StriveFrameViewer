@@ -155,19 +155,6 @@ void logSpecificEvent(const std::string &reason, const PlayerFrameData &player1,
   logEvent(eventDescription, eventDetails);
 }
 
-bool isMatchOver(const AREDGameState_Battle *gameState) {
-  const asw_events *events = gameState->Events;
-  if (!events) return false;
-
-  for (unsigned int i = 0; i < events->event_count; ++i) {
-    BOM_EVENT eventType = events->events[i].type;
-    if (eventType == BOM_EVENT_MATCH_WIN_ACTION || eventType == BOM_EVENT_MATCH_RESULT_WAIT) {
-      return true;
-    }
-  }
-  return false;
-}
-
 void outputUniqueActions() {
   auto actionDescriptions = initializeActionDescriptions();
   json j;
@@ -212,12 +199,6 @@ void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerSta
   // Update previous HP values
   previousHPPlayer1 = player1.hp;
   previousHPPlayer2 = player2.hp;
-
-  // Check if the match is over
-  if (isMatchOver(gameState)) {
-    outputUniqueActions();
-    return;
-  }
 
   FrameData frameData;
   static int frameCount = 0;

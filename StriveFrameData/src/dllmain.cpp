@@ -133,6 +133,10 @@ public:
         roundActive = true;
         logEvent("Round Start!");
       };
+      if (e_type == BOM_EVENT_MATCH_WIN_ACTION || e_type == BOM_EVENT_MATCH_RESULT_WAIT) {
+        // Output key for json 
+        outputUniqueActions();
+	  }
     }
   }
 
