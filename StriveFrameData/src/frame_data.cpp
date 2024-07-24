@@ -135,10 +135,70 @@ void logEvent(const std::string &event, const nlohmann::json &details) {
   OutputFile::getInstance().write(eventLog);
 }
 
+std::string getCharacterNameFromValue(int value) {
+  switch (value) {
+  case 1:
+    return "Ky Kiske";
+  case 27:
+    return "Slayer";
+  default:
+    return "Unknown";
+  }
+}
+
+// Helper function to read memory
+uintptr_t readMemory(uintptr_t address) {
+  return *reinterpret_cast<uintptr_t *>(address);
+}
+
+// Function to resolve the final address by following the pointer chain
+uintptr_t resolvePointerChain(uintptr_t baseAddress, const std::vector<uintptr_t> &offsets) {
+  uintptr_t currentAddress = baseAddress;
+  for (uintptr_t offset : offsets) {
+    currentAddress = readMemory(currentAddress) + offset;
+  }
+  return currentAddress;
+}
+
 void initOutputFile() {
   OutputFile::getInstance().clear();
   static int frameCount = 0;
   frameCount = 0;
+
+  // Find the base address of GGST-Win64-Shipping.exe dynamically using sigscan
+  auto basePattern = "\x4D\x5A\x90\x00\x03\x00\x00\x00\x04\x00\x00\x00\xFF\xFF\x00\x00";
+  auto baseMask = "xxxxxxxxxxxxxxxx";
+  uintptr_t ggstBaseAddress = sigscan::get().scan(basePattern, baseMask);
+  if (ggstBaseAddress == 0) {
+    logEvent("Error", {{"message", "GGST base address not found"}});
+    return;
+  }
+
+  // Calculate the universal base address
+  uintptr_t universalBaseAddress = ggstBaseAddress + 0x050ECC60;
+
+  // Offsets to GameSettings
+  std::vector<uintptr_t> gameSettingsOffsets = {0x188, 0x520, 0x20, 0x1B0};
+  uintptr_t gameSettingsAddress = resolvePointerChain(universalBaseAddress, gameSettingsOffsets);
+
+  // Offsets to Player 1 and Player 2
+  uintptr_t player1Address = readMemory(gameSettingsAddress + 0x318);
+  uintptr_t player2Address = readMemory(gameSettingsAddress + 0x320);
+
+  // Offset to character name int within player object
+  uintptr_t characterOffset = 0x29;
+
+  // Read the character values
+  int p1CharacterValue = *reinterpret_cast<int *>(player1Address + characterOffset);
+  int p2CharacterValue = *reinterpret_cast<int *>(player2Address + characterOffset);
+
+  // Convert character values to names
+  std::string p1CharacterName = getCharacterNameFromValue(p1CharacterValue);
+  std::string p2CharacterName = getCharacterNameFromValue(p2CharacterValue);
+
+  // Log the battle event
+  std::string battleEvent = "Battle: " + p1CharacterName + " vs " + p2CharacterName;
+  logEvent(battleEvent, {});
 }
 
 void logSpecificEvent(const std::string &reason, const PlayerFrameData &player1, const PlayerFrameData &player2) {
