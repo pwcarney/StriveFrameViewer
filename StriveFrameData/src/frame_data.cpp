@@ -15,6 +15,48 @@ static int frameCount = 0;
 static int identicalFrameCount = 0;
 static json previousFrame;
 
+// Previous state variables for both players
+static int prevTensionPlayer1 = -1;
+static int prevBurstPlayer1 = -1;
+static int prevHPPlayer1 = -1;
+static int prevRiscPlayer1 = -1;
+static int prevPosXPlayer1 = -1;
+static std::string prevStatePlayer1 = "";
+static std::string prevAtkPhasePlayer1 = "";
+
+static int prevTensionPlayer2 = -1;
+static int prevBurstPlayer2 = -1;
+static int prevHPPlayer2 = -1;
+static int prevRiscPlayer2 = -1;
+static int prevPosXPlayer2 = -1;
+static std::string prevStatePlayer2 = "";
+static std::string prevAtkPhasePlayer2 = "";
+
+// Utility function to reset previous state values
+void resetPreviousValues() {
+  prevTensionPlayer1 = -1;
+  prevBurstPlayer1 = -1;
+  prevHPPlayer1 = -1;
+  prevRiscPlayer1 = -1;
+  prevPosXPlayer1 = -1;
+  prevStatePlayer1 = "";
+  prevAtkPhasePlayer1 = "";
+
+  prevTensionPlayer2 = -1;
+  prevBurstPlayer2 = -1;
+  prevHPPlayer2 = -1;
+  prevRiscPlayer2 = -1;
+  prevPosXPlayer2 = -1;
+  prevStatePlayer2 = "";
+  prevAtkPhasePlayer2 = "";
+}
+
+// Function to log round start and reset previous values
+void logRoundStart() {
+  resetPreviousValues();
+  logEvent("Round Start!");
+}
+
 template <typename T>
 void addFieldIf(json &j, const std::string &key, const T &value, const T &defaultValue = T()) {
   if (value != defaultValue) {

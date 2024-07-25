@@ -131,7 +131,7 @@ public:
       if (e_type == BOM_EVENT_BATTLE_START) {
         resetting = true;
         roundActive = true;
-        logEvent("Round Start!");
+        logRoundStart();
       };
       if (e_type == BOM_EVENT_MATCH_WIN_ACTION || e_type == BOM_EVENT_MATCH_RESULT_WAIT) {
         // Output key for json 
