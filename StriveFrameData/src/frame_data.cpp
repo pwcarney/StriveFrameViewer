@@ -131,10 +131,70 @@ PlayerFrameData getPlayerFrameData(const asw_player *player, const PlayerState &
 
 std::string getCharacterNameFromValue(int value) {
   switch (value) {
+  case 0:
+    return "Sol Badguy";
   case 1:
     return "Ky Kiske";
+  case 2:
+    return "May";
+  case 3:
+    return "Axl Low";
+  case 4:
+    return "Chipp Zanuff";
+  case 5:
+    return "Potemkin";
+  case 6:
+    return "Faust";
+  case 7:
+    return "Millia Rage";
+  case 8:
+    return "Zato-1";
+  case 9:
+    return "Ramlethal Valentine";
+  case 10:
+    return "Leo Whitefang";
+  case 11:
+    return "Nagoriyuki";
+  case 12:
+    return "Giovanna";
+  case 13:
+    return "Anji Mito";
+  case 14:
+    return "I-No";
+  case 15:
+    return "Goldlewis Dickinson";
+  case 16:
+    return "Jack-O'";
+  case 17:
+    return "Happy Chaos";
+  case 18:
+    return "Baiken";
+  case 19:
+    return "Testament";
+  case 20:
+    return "Bridget";
+  case 21:
+    return "Sin Kiske";
+  case 22:
+    return "Bedman?";
+  case 23:
+    return "Asuka";
+  case 24:
+    return "Johnny";
+  case 25:
+    return "Elphelt Valentine";
+  case 26:
+    return "A.B.A.";
   case 27:
     return "Slayer";
+  case 28:
+    return "Queen Dizzy";
+  case 29:
+    return "Venom";
+  case 30:
+    return "Unika";
+  case 31:
+    return "Lucy";
   default:
     return "Unknown";
   }
@@ -276,6 +336,7 @@ void outputUniqueActions() {
     }
     j[action] = description;
   }
+  uniqueActions.clear();
   OutputFile::getInstance().write(j);
 }
 

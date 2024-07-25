@@ -109,13 +109,13 @@ public:
     }
     if (!GameCommon) return false;
     if (int current_mode = orig_GetGameMode(GameCommon); current_mode != last_mode) {
-//       RC::Output::send<LogLevel::Warning>(STR("Mode Change: {}\n"), current_mode);
       last_mode = current_mode;
       in_allowed_mode = (std::find(allowed_modes.begin(), allowed_modes.end(), current_mode) != allowed_modes.end());
     }
     
     return in_allowed_mode;
   }
+
   void checkRound() {
     resetting = false;
     auto *events = asw_events::get();
@@ -133,7 +133,7 @@ public:
         roundActive = true;
         logRoundStart();
       };
-      if (e_type == BOM_EVENT_MATCH_WIN_ACTION || e_type == BOM_EVENT_MATCH_RESULT_WAIT) {
+      if (e_type == BOM_EVENT_WIN_ACTION) {
         // Output key for json 
         outputUniqueActions();
 	  }
