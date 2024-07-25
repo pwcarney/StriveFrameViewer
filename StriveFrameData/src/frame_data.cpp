@@ -34,6 +34,9 @@ static std::string prevAtkPhasePlayer2 = "";
 
 // Utility function to reset previous state values
 void resetPreviousValues() {
+  frameCount = 0;
+  identicalFrameCount = 0;
+
   prevTensionPlayer1 = -1;
   prevBurstPlayer1 = -1;
   prevHPPlayer1 = -1;
@@ -322,9 +325,15 @@ void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerSta
   prevHPPlayer1 = player1.hp;
   prevHPPlayer2 = player2.hp;
 
+  // Sanity check: do not output if the frame number exceeds 10,000
+  frameCount++;
+  if (frameCount > 10000) {
+    return;
+  }
+
   // Write out
   FrameData frameData;
-  frameData.frameNumber = ++frameCount;
+  frameData.frameNumber = frameCount;
   frameData.player1 = player1;
   frameData.player2 = player2;
 
