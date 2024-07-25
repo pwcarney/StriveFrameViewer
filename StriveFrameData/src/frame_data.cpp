@@ -346,7 +346,7 @@ void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerSta
     ++identicalFrameCount;
   } else {
     if (identicalFrameCount > 0) {
-      logEvent(std::to_string(identicalFrameCount) + " identical frames");
+      logEvent("Omitted " + std::to_string(identicalFrameCount) + " identical frames");
       identicalFrameCount = 0;
     }
     previousFrame = j;
