@@ -11,6 +11,9 @@ using json = nlohmann::json;
 
 static std::unordered_set<std::string> uniqueActions;
 static uintptr_t universalBaseAddress;
+static int frameCount = 0;
+static int identicalFrameCount = 0;
+static json previousFrame;
 
 template <typename T>
 void addFieldIf(json &j, const std::string &key, const T &value, const T &defaultValue = T()) {
@@ -54,8 +57,10 @@ PlayerFrameData getPlayerFrameData(const asw_player *player, const PlayerState &
   data.hp = player->hp;
   data.risc = player->risc;
 
-  data.positionX = player->get_pos_x();
-  data.positionY = player->get_pos_y();
+  // Divide position by 1000 and round to the nearest whole number
+  data.positionX = std::round(player->pos_x_from_center / 1000.0);
+  data.positionY = std::round(player->pos_y / 1000.0);
+
   data.currentAction = player->get_BB_state();
   data.state = state.type;
   data.hitstun = player->hitstun;
@@ -76,12 +81,6 @@ PlayerFrameData getPlayerFrameData(const asw_player *player, const PlayerState &
     data.attackFrame = 0;
   }
 
-  // Check for special move
-  MoveData *currentMove = player->get_current_move();
-  if (currentMove != nullptr) {
-    data.currentAction = currentMove->get_name();
-  }
-
   return data;
 }
 
@@ -96,22 +95,48 @@ std::string getCharacterNameFromValue(int value) {
   }
 }
 
-void addPlayerDataToJson(json &j, const std::string &playerKey, const PlayerFrameData &playerData, int tension, int burst) {
+void addPlayerDataToJson(json &j, const std::string &playerKey, const PlayerFrameData &playerData, int tension, int burst, int &prevTension, int &prevBurst, int &prevHP, int &prevRisc, int &prevPosX, std::string &prevState, std::string &prevAtkPhase) {
   json playerJson;
-  playerJson["hp"] = playerData.hp;
-  playerJson["tension"] = tension;
-  playerJson["burst"] = burst;
-  addFieldIf(playerJson, "risc", playerData.risc, 0);
 
-  playerJson["posX"] = playerData.positionX;
+  if (playerData.hp != prevHP) {
+    playerJson["hp"] = playerData.hp;
+    prevHP = playerData.hp;
+  }
+
+  int roundedTension = std::round(tension / 100.0);
+  if (roundedTension != prevTension) {
+    playerJson["tension"] = roundedTension;
+    prevTension = roundedTension;
+  }
+
+  int roundedBurst = std::round(burst / 100.0);
+  if (roundedBurst != prevBurst) {
+    playerJson["burst"] = roundedBurst;
+    prevBurst = roundedBurst;
+  }
+
+  addFieldIf(playerJson, "risc", playerData.risc, prevRisc);
+  prevRisc = playerData.risc;
+
+  if (playerData.positionX != prevPosX) {
+    playerJson["posX"] = playerData.positionX;
+    prevPosX = playerData.positionX;
+  }
+
   addFieldIf(playerJson, "posY", playerData.positionY);
 
   addFieldIf(playerJson, "action", playerData.currentAction);
-  addFieldIf(playerJson, "state", playerStateTypeToString(playerData.state), std::string{""});
+  if (playerStateTypeToString(playerData.state) != prevState) {
+    playerJson["state"] = playerStateTypeToString(playerData.state);
+    prevState = playerStateTypeToString(playerData.state);
+  }
 
   addFieldIf(playerJson, "hitstun", playerData.hitstun, 0);
   addFieldIf(playerJson, "blkstun", playerData.blockstun, 0);
-  addFieldIf(playerJson, "atkPhase", playerData.attackPhase, std::string{""});
+  if (playerData.attackPhase != prevAtkPhase) {
+    playerJson["atkPhase"] = playerData.attackPhase;
+    prevAtkPhase = playerData.attackPhase;
+  }
   addFieldIf(playerJson, "atkFrame", playerData.attackFrame, 0);
 
   j[playerKey] = playerJson;
@@ -131,17 +156,10 @@ bool shouldOutput(const PlayerFrameData &player1, const PlayerFrameData &player2
   return true;
 }
 
-void logEvent(const std::string &event, const nlohmann::json &details) {
-  static int frameCount = 0;
-  int frameNumber = ++frameCount;
-
+void logEvent(const std::string &event) {
   json eventLog = {
-      {"frameInd", frameNumber},
+      {"frameInd", frameCount},
       {"event", event}};
-
-  if (!details.empty()) {
-    eventLog["details"] = details;
-  }
 
   OutputFile::getInstance().write(eventLog);
 }
@@ -162,15 +180,16 @@ uintptr_t resolvePointerChain(uintptr_t baseAddress, const std::vector<uintptr_t
 
 void initOutputFile() {
   OutputFile::getInstance().clear();
-  static int frameCount = 0;
-  frameCount = 0;
+  frameCount = 0;          // Reset frame count for new battle
+  identicalFrameCount = 0; // Reset identical frame count
+  previousFrame.clear();   // Clear previous frame for new battle
 
   // Log the base address of GGST-Win64-Shipping.exe dynamically using sigscan
   auto basePattern = "\x4D\x5A\x90\x00\x03\x00\x00\x00\x04\x00\x00\x00\xFF\xFF\x00\x00";
   auto baseMask = "xxxxxxxxxxxxxxxx";
   uintptr_t ggstBaseAddress = sigscan::get().scan(basePattern, baseMask);
   if (ggstBaseAddress == 0) {
-    logEvent("Error", {{"message", "GGST base address not found"}});
+    logEvent("Error: GGST base address not found");
     return;
   }
 
@@ -198,21 +217,7 @@ void initOutputFile() {
 
   // Log the battle event
   std::string battleEvent = "Battle: " + p1CharacterName + " vs " + p2CharacterName;
-  logEvent(battleEvent, {});
-}
-
-void logSpecificEvent(const std::string &reason, const PlayerFrameData &player1, const PlayerFrameData &player2) {
-  std::string eventDescription = reason;
-  if (reason == "Wallbreak situation" && player2.currentAction == "CmnActBDownLoop") {
-    eventDescription += " with a hard knockdown";
-  }
-  eventDescription += ".";
-
-  json eventDetails = {
-      {"player1Action", player1.currentAction},
-      {"player2Action", player2.currentAction}};
-
-  logEvent(eventDescription, eventDetails);
+  logEvent(battleEvent);
 }
 
 void outputUniqueActions() {
@@ -230,8 +235,21 @@ void outputUniqueActions() {
 }
 
 void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerState &s1, const PlayerState &s2) {
-  static int previousHPPlayer1 = p1->hp;
-  static int previousHPPlayer2 = p2->hp;
+  static int prevTensionPlayer1 = -1;
+  static int prevBurstPlayer1 = -1;
+  static int prevHPPlayer1 = p1->hp;
+  static int prevRiscPlayer1 = -1;
+  static int prevPosXPlayer1 = -1;
+  static std::string prevStatePlayer1 = "";
+  static std::string prevAtkPhasePlayer1 = "";
+
+  static int prevTensionPlayer2 = -1;
+  static int prevBurstPlayer2 = -1;
+  static int prevHPPlayer2 = p2->hp;
+  static int prevRiscPlayer2 = -1;
+  static int prevPosXPlayer2 = -1;
+  static std::string prevStatePlayer2 = "";
+  static std::string prevAtkPhasePlayer2 = "";
 
   PlayerFrameData player1 = getPlayerFrameData(p1, s1);
   PlayerFrameData player2 = getPlayerFrameData(p2, s2);
@@ -239,12 +257,6 @@ void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerSta
   // Log unique actions
   uniqueActions.insert(player1.currentAction);
   uniqueActions.insert(player2.currentAction);
-
-  std::string reason;
-  if (!shouldOutput(player1, player2, reason)) {
-    logSpecificEvent(reason, player1, player2);
-    return;
-  }
 
   // Get tension and burst values using consistent memory reading
   std::vector<uintptr_t> tbStateOffsets = {0x130, 0xBB0, 0x0};
@@ -257,28 +269,36 @@ void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerSta
   int p2burst = *reinterpret_cast<int *>(tbStateAddress + 0x144C);
 
   // Detect HP change (hit events)
-  if (player1.hp < previousHPPlayer1) {
-    int hpLoss = previousHPPlayer1 - player1.hp;
+  if (player1.hp < prevHPPlayer1) {
+    int hpLoss = prevHPPlayer1 - player1.hp;
     logEvent("Player1 hit and lost " + std::to_string(hpLoss) + " hp");
   }
-  if (player2.hp < previousHPPlayer2) {
-    int hpLoss = previousHPPlayer2 - player2.hp;
+  if (player2.hp < prevHPPlayer2) {
+    int hpLoss = prevHPPlayer2 - player2.hp;
     logEvent("Player2 hit and lost " + std::to_string(hpLoss) + " hp");
   }
-  previousHPPlayer1 = player1.hp;
-  previousHPPlayer2 = player2.hp;
+  prevHPPlayer1 = player1.hp;
+  prevHPPlayer2 = player2.hp;
 
   // Write out
   FrameData frameData;
-  static int frameCount = 0;
   frameData.frameNumber = ++frameCount;
   frameData.player1 = player1;
   frameData.player2 = player2;
 
   json j;
-  j["frameInd"] = frameData.frameNumber;
-  addPlayerDataToJson(j, "p1", frameData.player1, p1tension, p1burst);
-  addPlayerDataToJson(j, "p2", frameData.player2, p2tension, p2burst);
+  addPlayerDataToJson(j, "p1", frameData.player1, p1tension, p1burst, prevTensionPlayer1, prevBurstPlayer1, prevHPPlayer1, prevRiscPlayer1, prevPosXPlayer1, prevStatePlayer1, prevAtkPhasePlayer1);
+  addPlayerDataToJson(j, "p2", frameData.player2, p2tension, p2burst, prevTensionPlayer2, prevBurstPlayer2, prevHPPlayer2, prevRiscPlayer2, prevPosXPlayer2, prevStatePlayer2, prevAtkPhasePlayer2);
 
-  OutputFile::getInstance().write(j);
+  // Check for identical frame
+  if (previousFrame == j) {
+    ++identicalFrameCount;
+  } else {
+    if (identicalFrameCount > 0) {
+      logEvent(std::to_string(identicalFrameCount) + " identical frames");
+      identicalFrameCount = 0;
+    }
+    previousFrame = j;
+    OutputFile::getInstance().write(j);
+  }
 }

@@ -18,12 +18,6 @@ asw_entity_is_active_t asw_entity_is_active;
 using asw_entity_is_pushbox_active_t = bool (*)(const asw_entity*);
 asw_entity_is_pushbox_active_t asw_entity_is_pushbox_active;
 
-using asw_entity_get_pos_x_t = int (*)(const asw_entity*);
-asw_entity_get_pos_x_t asw_entity_get_pos_x;
-
-using asw_entity_get_pos_y_t = int (*)(const asw_entity*);
-asw_entity_get_pos_y_t asw_entity_get_pos_y;
-
 using asw_entity_pushbox_width_t = int (*)(const asw_entity*);
 asw_entity_pushbox_width_t asw_entity_pushbox_width;
 
@@ -44,8 +38,6 @@ void ASWInitFunctions() {
   asw_scene_camera_transform = reinterpret_cast<asw_scene_camera_transform_t>(sigscan::get().scan("\x4D\x85\xC0\x74\x15\xF2\x41\x0F", "xxxxxxxx") - 0x56);
   asw_entity_is_active = reinterpret_cast<asw_entity_is_active_t>(sigscan::get().scan("\xF7\x81\x00\x00\x00\x00\x00\x00\x00\x04\x0F", "xx????xxxxx") - 0x12);
   asw_entity_is_pushbox_active = reinterpret_cast<asw_entity_is_pushbox_active_t>(sigscan::get().scan("\xF7\x80\xCC\x5D\x00\x00\x00\x00\x02\x00", "xx????xxxx") - 0x1A);
-  asw_entity_get_pos_x = reinterpret_cast<asw_entity_get_pos_x_t>(sigscan::get().scan("\xF3\x0F\x59\xC2\xF3\x0F\x5C\xD8\xF3\x0F\x2C\xFB", "xxxxxxxxxxxx") - 0x15D);
-  asw_entity_get_pos_y = reinterpret_cast<asw_entity_get_pos_y_t>(sigscan::get().scan("\x3D\x00\x08\x04\x00\x75\x18", "xxxxxxx") - 0x3D);
   asw_entity_pushbox_width = reinterpret_cast<asw_entity_pushbox_width_t>(sigscan::get().scan("\xB8\x78\x00\x00\x00\x48\x83\xC4\x20\x5B\xC3", "xxxxxxxxxxx") - 0x77);
   asw_entity_pushbox_height = reinterpret_cast<asw_entity_pushbox_height_t>(sigscan::get().scan("\xB8\x64\x00\x00\x00\x48\x83\xC4\x20\x5B\xC3", "xxxxxxxxxxx") - 0x77);
   asw_entity_pushbox_bottom = reinterpret_cast<asw_entity_pushbox_bottom_t>(sigscan::get().scan("\x48\x0F\x44\xD8\x8B\x83\x00\x00\x00\x00\x48\x83\xC4\x20\x5B\xC3\x33\xC0\x48\x83\xC4\x20\x5B\xC3", "xxxxxx????xxxxxxxxxxxxxx") - 0x33);
@@ -102,14 +94,6 @@ bool asw_entity::is_strike_invuln() const {
 
 bool asw_entity::is_throw_invuln() const {
   return throw_invuln || wakeup || backdash_invuln > 0;
-}
-
-int asw_entity::get_pos_x() const {
-  return asw_entity_get_pos_x(this);
-}
-
-int asw_entity::get_pos_y() const {
-  return asw_entity_get_pos_y(this);
 }
 
 int asw_entity::pushbox_width() const {

@@ -221,13 +221,13 @@ void transform_hitbox_point(const DrawTool &tool, const asw_entity &entity, FVec
     TOO_MUCH_DEBUG(STR("--flipped: {},{}\n"), pos.x, pos.y);
   } else if (entity.opponent != nullptr) {
     // Throws hit on either side, so show it directed towards opponent
-    if (entity.get_pos_x() > entity.opponent->get_pos_x())
+    if (entity.pos_x > entity.opponent->pos_x)
       pos.x *= -1.f;
     TOO_MUCH_DEBUG(STR("--throw. flipped: {},{}\n"), pos.x, pos.y);
   }
 
-  pos.x += entity.get_pos_x();
-  pos.y += entity.get_pos_y();
+  pos.x += entity.pos_x;
+  pos.y += entity.pos_y;
   TOO_MUCH_DEBUG(STR("--offset: {},{}\n"), pos.x, pos.y);
 
   asw_coords_to_screen(tool, pos);

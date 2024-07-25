@@ -291,6 +291,7 @@ public:
     BIT_FIELD(0x398, 32, landed_hit);
 	FIELD(0x3A4, direction, facing);
 	FIELD(0x3A8, int, pos_x);
+    FIELD(0x4D74, int, pos_x_from_center);
 	FIELD(0x3AC, int, pos_y);
 	FIELD(0x3B0, int, pos_z);
 	FIELD(0x3B4, int, angle_x);
@@ -339,8 +340,6 @@ public:
     bool is_pushbox_active() const;
     bool is_strike_invuln() const;
     bool is_throw_invuln() const;
-    int get_pos_x() const;
-    int get_pos_y() const;
     int pushbox_width() const;
     int pushbox_height() const;
     int pushbox_bottom() const;
