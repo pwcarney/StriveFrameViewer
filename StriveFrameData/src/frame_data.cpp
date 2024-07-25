@@ -96,10 +96,6 @@ std::string getCharacterNameFromValue(int value) {
   }
 }
 
-double calculateDistance(double x1, double y1, double x2, double y2) {
-  return std::sqrt(std::pow(x2 - x1, 2) + std::pow(y2 - y1, 2));
-}
-
 void addPlayerDataToJson(json &j, const std::string &playerKey, const PlayerFrameData &playerData, int tension, int burst) {
   json playerJson;
   playerJson["hp"] = playerData.hp;
@@ -107,16 +103,16 @@ void addPlayerDataToJson(json &j, const std::string &playerKey, const PlayerFram
   playerJson["burst"] = burst;
   addFieldIf(playerJson, "risc", playerData.risc, 0);
 
-  playerJson["positionX"] = playerData.positionX;
-  addFieldIf(playerJson, "positionY", playerData.positionY);
+  playerJson["posX"] = playerData.positionX;
+  addFieldIf(playerJson, "posY", playerData.positionY);
 
-  addFieldIf(playerJson, "currentAction", playerData.currentAction);
+  addFieldIf(playerJson, "action", playerData.currentAction);
   addFieldIf(playerJson, "state", playerStateTypeToString(playerData.state), std::string{""});
 
   addFieldIf(playerJson, "hitstun", playerData.hitstun, 0);
-  addFieldIf(playerJson, "blockstun", playerData.blockstun, 0);
-  addFieldIf(playerJson, "attackPhase", playerData.attackPhase, std::string{""});
-  addFieldIf(playerJson, "attackFrame", playerData.attackFrame, 0);
+  addFieldIf(playerJson, "blkstun", playerData.blockstun, 0);
+  addFieldIf(playerJson, "atkPhase", playerData.attackPhase, std::string{""});
+  addFieldIf(playerJson, "atkFrame", playerData.attackFrame, 0);
 
   j[playerKey] = playerJson;
 }
@@ -140,7 +136,7 @@ void logEvent(const std::string &event, const nlohmann::json &details) {
   int frameNumber = ++frameCount;
 
   json eventLog = {
-      {"gameFrameIndex", frameNumber},
+      {"frameInd", frameNumber},
       {"event", event}};
 
   if (!details.empty()) {
@@ -280,10 +276,9 @@ void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerSta
   frameData.player2 = player2;
 
   json j;
-  j["gameFrameIndex"] = frameData.frameNumber;
-  addPlayerDataToJson(j, "player1", frameData.player1, p1tension, p1burst);
-  addPlayerDataToJson(j, "player2", frameData.player2, p2tension, p2burst);
-  j["distance"] = calculateDistance(frameData.player1.positionX, frameData.player1.positionY, frameData.player2.positionX, frameData.player2.positionY);
+  j["frameInd"] = frameData.frameNumber;
+  addPlayerDataToJson(j, "p1", frameData.player1, p1tension, p1burst);
+  addPlayerDataToJson(j, "p2", frameData.player2, p2tension, p2burst);
 
   OutputFile::getInstance().write(j);
 }
