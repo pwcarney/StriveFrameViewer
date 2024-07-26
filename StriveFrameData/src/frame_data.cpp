@@ -106,7 +106,7 @@ PlayerFrameData getPlayerFrameData(const asw_player *player, const PlayerState &
   data.positionY = std::round(player->pos_y / 1000.0);
 
   data.currentAction = player->get_BB_state();
-  data.state = state.type;
+  //data.state = state.type;
   //data.hitstun = player->hitstun;
   data.blockstun = player->blockstun;
 
@@ -230,10 +230,11 @@ void addPlayerDataToJson(json &j, const std::string &playerKey, const PlayerFram
   addFieldIf(playerJson, "posY", playerData.positionY);
 
   addFieldIf(playerJson, "action", playerData.currentAction);
-  if (playerStateTypeToString(playerData.state) != prevState) {
+  
+  /* if (playerStateTypeToString(playerData.state) != prevState) {
     playerJson["state"] = playerStateTypeToString(playerData.state);
     prevState = playerStateTypeToString(playerData.state);
-  }
+  }*/
 
   // Hitstun is kind of coded weird, omitted for now
   //addFieldIf(playerJson, "hitstun", playerData.hitstun, 0);

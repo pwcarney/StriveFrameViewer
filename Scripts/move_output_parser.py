@@ -103,10 +103,14 @@ action_mappings = {
     "WorldSideBreak_Master_DF": "Sent opponent through wall",
     "WSB_Master_Down": "Sent opponent through wall",
     "WSB_Master_Up": "Sent opponent through wall",
+    "WSB_Master_Bound": "Sent opponent through wall",
+    "WSB_Master_Slide": "Sent opponent through wall",
     
-    "WSB_Slave_Down": "Sent through wall",
-    "WSB_Slave_Up": "Sent through wall",
-    "WorldSideBreak_Slave_DF": "Sent through wall",
+    "WSB_Slave_Down": "Put through wall",
+    "WSB_Slave_Bound": "Put through wall",
+    "WSB_Slave_Slide": "Put through wall",
+    "WSB_Slave_Up": "Put through wall",
+    "WorldSideBreak_Slave_DF": "Put through wall",
     
     # Generic Attacks
     "NmlAtk2A": "2P",
@@ -130,6 +134,7 @@ action_mappings = {
     "NmlAtkAir5D": "j.H",
     "NmlAtkAir5E": "j.D",
     "NmlAtkThrow": "Throw",
+    "NmlAtkAirThrow": "Air throw",
     "ThrowExe": "Throwing",
     
     "CmnActRomanCancel": "Roman Cancel",
@@ -191,6 +196,37 @@ action_mappings = {
     "ABA_ULT1_exe": "The Law is Key, Key is King Animation", 
     "ABA_ULT2": "Keeper of the Key", 
     "ABA_ULT2_Moroha": "Keeper of the Key (Moroha)", 
+    
+    # Johnny
+    "MistFiner_FWalk": "MistFiner stance forward walk", 
+    "MistFiner_BWalk": "MistFiner stance back walk", 
+    "MistFiner_FDash": "MistFiner stance forward dash", 
+    "MistFiner_BDash": "MistFiner stance back dash", 
+    
+    # Leo
+    "NmlAtk5CFar_Guard": "Guard stance",
+    "NmlAtk5D_Guard": "Guard stance",
+    "GuardAttack": "Guard stance attack",
+    "Semuke": "Standing (Brynhildr Stance)",
+    "SemukeReverse": "Brynhildr Stance Canceled",
+    "Semuke5A": "bt.P",
+    "Semuke5B": "bt.K",
+    "Semuke5C": "bt.S",
+    "Semuke5D": "bt.H",
+    "Semuke5E": "bt.D",
+    "SemukeFWalk": "Forward Walk (Brynhildr Stance)",
+    "SemukeFDashStep": "Forward Dash Step (Brynhildr Stance)",
+    "SemukeBWalk": "Back Walk (Brynhildr Stance)",
+    "SemukeBDashStep": "Back Dash Step (Brynhildr Stance)",
+    "GraviertWurdeC": "Gravierte Würde S",
+    "GraviertWurdeD": "Gravierte Würde H",
+    "EisenSturmC": "Eisensturm S",
+    "EisenSturmD": "Eisensturm H",
+    "ErstWind": "Erstes Kaltes Gestöber",
+    "ZweitWind": "Zweites Kaltes Gestöber",
+    "GlaenzenDunkel": "Glänzendes Dunkel",
+    "GlaenzenDunkelExe": "Glänzendes Dunkel Animation",
+    "SchildBrechen": "Glänzendes Dunkel",
 }
 
 # Some actions are basically the same as the human-readable version so
@@ -208,6 +244,16 @@ no_replace_actions = {
     "MegaFistBack",
     "PotemkinBuster",
     "FDB",
+    
+    # Johnny
+    "MistFiner_Stance",
+    "AirMistFiner_Stance",
+    "MistFiner_Cancel",
+    "AirMistFiner_Cancel",
+    "Ensenga",
+    
+    # Leo
+    "Turbulenz",
 }
 
 # Load the JSON data from the specified file path
