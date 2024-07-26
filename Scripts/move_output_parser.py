@@ -48,6 +48,10 @@ action_mappings = {
     
     "CmnActKirimomiUpper": "Hitstunned",
     
+    "CmnActUkemi": "Recovering",
+    "CmnActCrouchTurn": "Crouching turn",
+    "CmnActStandTurn": "Standing turn",
+    
     "CmnActHighGuardLoop": "Standing blockstunned",
     "CmnActCrouchGuardLoop": "Crouching blockstunned",
     "CmnActCrouchGuardEnd": "Crouching blockstunned ending",
@@ -62,6 +66,8 @@ action_mappings = {
     "CmnActKorogari": "Tumbling Lock",
     
     "CmnActExDamage": "Hit for extra",
+    
+    "CmnActFloatDamage": "Falling",
     
     "CmnActBDownUpper": "Falling",
     "CmnActBDownBound": "Falling",
@@ -93,8 +99,11 @@ action_mappings = {
     
     "CmnActWallHaritsuki": "Wallstick",
     "WSB_Master_Wait": "Sent opponent through wall",
+    "WorldSideBreak_Master_DF": "Sent opponent through wall",
     "WSB_Master_Down": "Sent opponent through wall",
+    
     "WSB_Slave_Down": "Sent through wall",
+    "WorldSideBreak_Slave_DF": "Sent through wall",
     
     # Generic Attacks
     "NmlAtk2A": "2P",
@@ -121,6 +130,7 @@ action_mappings = {
     "ThrowExe": "Throwing",
     
     "CmnActRomanCancel": "Roman Cancel",
+    "HomingJumpLoop": "Homing Jump Landing",
     
     # Slayer
     "sly_SP_01": "P Mappa Hunch",
@@ -141,11 +151,22 @@ action_mappings = {
     # Potemkin
     "HeatKnucle": "HeatKnuckle",
     "PotemkinBusterExe": "Potemkin Buster Animation",
+    
+    # Giovanna
+    "Special1": "Sepultura",  # sus names
+    "Special2_land": "Grounded Sol Poente", 
+    "Special2_air": "Aerial Sol Poente",  
+    "Special3": "Sol Nascente",  
+    "Special4": "Trovão", 
+    "Shervi": "Chave", 
+    "LandUltimate": "Ventania", 
+    "AirUltimate": "Tempestade", 
 }
 
 no_replace_actions = {
     # Generic
     "WildAssault",
+    "HomingJump",
 
     # Potemkin
     "HammerFall",
