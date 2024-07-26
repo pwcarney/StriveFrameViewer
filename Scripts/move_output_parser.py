@@ -256,6 +256,16 @@ action_mappings = {
     "AirStunEdge2": "Air Stun Edge H",
     "Diaekura": "Dire Eclat",
     "FadulArc": "Foudre Arc",
+    
+    # May
+    "NmlAtk3B": "3K",
+    "NmlAtkAir2D": "j.2H",
+    "IrukasanYokoC": "S Dolphin Horiz",
+    "IrukasanTateC": "S Dolphin Vert",
+    "IrukasanYokoD": "H Dolphin Horiz",
+    "IrukasanTateD": "H Dolphin Vert",
+    "IrukasanJump": "Split Jump Off Dolphin",
+    "OverHeadKissExe": "Overhead Kiss Animation",
 }
 
 # Some actions are basically the same as the human-readable version so
@@ -309,6 +319,13 @@ no_replace_actions = {
     "RideTheLightning",
     "SacredEdge",
     "DragonInstall",
+    
+    # May
+    "OverHeadKiss",
+    "Arisugawa",
+    "Goshogawara",
+    "AirGoshogawara",
+    "Yamada",
 }
 
 # Load the JSON data from the specified file path
