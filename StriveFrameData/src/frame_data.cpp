@@ -9,7 +9,6 @@
 
 using json = nlohmann::json;
 
-static std::unordered_set<std::string> uniqueActions;
 static uintptr_t universalBaseAddress;
 static int frameCount = 0;
 static int identicalFrameCount = 0;
@@ -327,21 +326,6 @@ void initOutputFile() {
   logEvent(battleEvent);
 }
 
-void outputUniqueActions() {
-  auto actionDescriptions = initializeActionDescriptions();
-  json j;
-  for (const auto &action : uniqueActions) {
-    std::string description = "MISSING ACTION DESCRIPTION";
-    auto it = actionDescriptions.find(action);
-    if (it != actionDescriptions.end()) {
-      description = it->second;
-    }
-    j[action] = description;
-  }
-  uniqueActions.clear();
-  OutputFile::getInstance().write(j);
-}
-
 void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerState &s1, const PlayerState &s2) {
   static int prevTensionPlayer1 = -1;
   static int prevBurstPlayer1 = -1;
@@ -361,10 +345,6 @@ void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerSta
 
   PlayerFrameData player1 = getPlayerFrameData(p1, s1);
   PlayerFrameData player2 = getPlayerFrameData(p2, s2);
-
-  // Log unique actions
-  uniqueActions.insert(player1.currentAction);
-  uniqueActions.insert(player2.currentAction);
 
   // Get tension and burst values using consistent memory reading
   std::vector<uintptr_t> tbStateOffsets = {0x130, 0xBB0, 0x0};

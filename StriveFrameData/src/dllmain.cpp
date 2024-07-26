@@ -134,8 +134,7 @@ public:
         logRoundStart();
       };
       if (e_type == BOM_EVENT_WIN_ACTION) {
-        // Output key for json 
-        outputUniqueActions();
+        // Currently unused, but this is where we find the end of a match
 	  }
     }
   }
