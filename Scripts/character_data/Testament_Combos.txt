@@ -1,0 +1,451 @@
+Combo Notation Guide	Character Name Abbreviations
+7 7	8 8	9 9
+4 4	5 5	6 6
+1 1	2 2	3 3
+Numbers represent direction on a keyboard numpad. For example, 236+P becomes 236P.
+> = Proceed from the previous move to the following move.
+▷/land = Indicate that the player must land at that point in the sequence.
+, = Link the previous move into the following move.
+->/~ = Cancel the previous special into a follow-up special.
+dl./delay = Delay the following move.
+whiff/(whiff) = The move must whiff (not hit).
+c. = Close
+f. = Far
+j. = Jumping/Aerial
+hj./sj. = High Jump/Super Jump
+jc = Jump Cancel
+hjc/sjc = High Jump Cancel/Super Jump Cancel
+dc/adc = Dash Cancel/Air Dash Cancel
+CH = Counter Hit
+AA = Anti-Air
+IAS = Instant Air Special
+[X] = Hold input.
+]X[ = Release input.
+(move) = Move is optional.
+[X] or [Y] = Perform sequence X or Y.
+[sequence] xN = Repeat sequence N amount of times.
+(N) = Hit N of a move or move must deal N amount of hits.
+IAD = Instant Air Dash
+BRC = Blue Roman Cancel
+RRC = Red Roman Cancel
+PRC = Purple Roman Cancel
+YRC = Yellow Roman Cancel
+YYXRC = Dash Input X Roman Cancel in Y direction i.e: 22PRC
+XRC~Q = Cancel the X Roman Cancel into Q i.e: RRC~5K
+WS = Wall Stick/Wall Splat
+AB = A.B.A
+AN = Anji Mito
+AS = Asuka R♯
+AX = Axl Low
+BA = Baiken
+BE = Bedman?
+BR = Bridget
+CH = Chipp Zanuff
+EL = Elphelt
+FA = Faust
+GI = Giovanna
+GO = Goldlewis
+HA = Happy Chaos
+IN = I-No
+JC = Jack-O'
+JO = Johnny
+KY = Ky Kiske
+LE = Leo Whitefang
+MA = May
+MI = Millia Rage
+NA = Nagoriyuki
+PO = Potemkin
+RA = Ramlethal
+SI = Sin Kiske
+SL = Slayer
+SO = Sol Badguy
+TE = Testament
+ZA = Zato-1
+Stain
+When starting a combo in Stain State, the combo should begin with "Stained" before anything else.
+
+If Testament would complete multiple attacks before the stain explosion (i.e. 2PP followed by stain) then you may notate the Stain explosion as (Stain) if you deem it appropriate. For example;
+
+... 214P > 2PP Stain > 236[H] > etc...
+Else, you may assume that after applying Stain mid-combo, that the next attack will always activate the stain explosion.
+
+Grave Reaper
+As Grave Reaper has 3 separate levels of charge. The following notation will be used to denote each level of charge;
+
+236S / 236H = Level 1 / No charge
+236{S} / 236{H} = Level 2 / Half charge
+236[S] / 236[H] = Level 3 / Full charge
+General Structure
+Testament's main combos generally follow a similar structure, with various elements being adjusted depending on the situation. But, for the most part the majority of the combos you will be doing follow this format:
+
+Starter > 6H > 236[H] > Extension > Ender
+
+Let's break down each of these sections to understand how to put together a combo in a similar way.
+
+For Starters, c.S is the main button needed to convert into high damage combos. It should be noted that c.S combos are hard punishes and are not applicable in many interactions. Because c.S needs to either aerial hit or be a counter hit to gatling into 6H, those are the most common starters that you'll need to route into the above combo. So, a list of the starters that you need to go into the general structure are:
+
+c.S CH...
+c.S Anti Air, c.S...
+5K Anti Air...
+Up-close 2S CH...
+2D CH... (skip 6H)
+6H into 236[H] is the main way you'll be launching the opponent. Minus some exceptions noted further down, you will basically always have this in some form in all of your combos. This is slightly spacing dependent, and at certain ranges the second hit of 236[H] might whiff, so there may be times where you will have to bite the bullet and instead end your combo early with a 236[S] instead.
+
+A notable exception to this is in the corner, in which you can link 2K > 6P > 236H from a 2H point-blank.
+
+Extensions refers to the routing done to, well you guessed it, extend the combo. They are pretty short and also follow a similar pattern:
+
+...66 5K > 6H...
+...66 c.S > 6H/2H...
+...66 c.S > 214[P] > 5K > Stain Pop...
+These are sorted by consistency, as spacing is also needed for all of these to combo properly. 5K > 6H is the most stable and easiest, but if you are close enough you can get a run up c.S. To get a juggle with 214[P] you need to have run under them high enough to have the 5K connect. After, you can continue the combo but only with one of the other two extensions above. When converting off of awkward Stain pops, you may need to skip straight to these instead of going into 236[H], especially midscreen.
+
+When selecting an Ender for your combo, there are a variety of things to keep in mind. These range from screen position and wall damage to character matchups. The most important ones are listed below:
+
+...214H
+
+This is your most basic ender, netting a small bit of damage in return giving up a strong okizeme situation. The soft knockdown from the Arbiter Sign and the far range you will most likely be at when you finish your combo essentially resets back to neutral. This can be a good or bad thing depending on both the character you are fighting as well your comfort navigating neutral. These are things you should try and keep in mind when ending this way.
+...236[S]
+
+A soft reset that allows for great okizeme. The Grave Reaper hits meaty enough to catch options like backdash and jump and leaves you far enough away to have DPs whiff and able to FD cancel your dash to block reversal supers. This also allows for an easy setup to apply Stain State safely, as long as they don't have a lunging move fast enough to interrupt it.
+...(WS) 236236P, 214H/6H
+
+Metered ender. This should also be the only way you spend meter to break the wall. Although Calamity One technically does more damage, its poor scaling and the immense utility of having both hard knockdown and Stain State after wallbreak leads to Nostrovia being the much better pick. 6H is an easier alternative to using 214H for added damage. You can just mash the button during the recovery of the super if you don't feel confident about timing the Arbiter Sign right and losing a negligible amount of damage.
+...WS 214[P]
+
+The strongest meterless wall-break option. Although big damage buttons and moves like 6H and 214H do more damage, unless you are 100% positive it will kill opting to use Crow instead leads to a much more favorable situation post wall-break. This can be game-winning, or at the very least makes your opponent respect your options much more when you return to round start position.
+Stain State
+Converting off of Stain is key to Testament's gameplan, and there are a variety of ways to do so:
+
+Stain Pop > 66 5K > 6H > Ender
+
+The basic way to confirm long range Stain pops. Although seemingly meager, you will almost always be able to convert into this, even at the tip of f.S.
+Stain Pop > 66 c.S > 214[P] > 5K Stain Pop > 66 c.S > 6H/2H > Ender
+
+A similar route is listed above under Extensions, but this is also a very consistent combo off of up-close Stain pops. The extra hitstun from counter hits also allow for enough time to run-up c.S into it. Although it does not do that much damage, it has excellent corner carry and meter gain. This can be especially helpful for converting stray Stain pops in neutral to corner pressure and your win condition.
+Stain Pop > 66 236[S]
+
+Setup into meaty Grave Reaper from far range Stain pops. Off of pokes like Arbiter Sign you often won't be able to run up fast enough to confirm, but if you fully charge S Reaper you can get a really strong okizeme situation instead, similar to the one listed in Enders.
+Stain Pop (Heavy CH) > 66 dl c.S...
+
+Because of how high Heavy Counter Hit lifts your opponent, you have enough time to run under and c.S into combos following the theory listed above.
+Stain Pop (Heavy CH) > dl 214[P], 214S/f.S...
+
+Routing into non-Stain Heavy Counter Hit combos. Delay on the held Crow depends on space between you and the opponent, but otherwise is the same theory as listed below under Heavy Counter Hit.
+Regular Hit
+On regular hit (no counter or Stain), Testament is at their weakest in terms of combo ability. This is two-fold midscreen. You are able to go into the normal theory above by replacing the 6H with 2D and not charging the H Reaper. The starters for this are c.S, 5K, and 2K, but the microdash timings are much tighter and require you to be basically point-blank so both hits of the H Reaper connect. It is again very important to keep in mind whether or not it is worth it to go for a full conversion or instead just take the knockdown and go for a much stronger okizeme setup with an OTG 236[S].
+
+However, due to the semi-launch property of c.S, a c.S > 2S Gatling to launch is possible. Off of this, Testament can 2H to continue the combo - - this allows for them to land solid okizeme off of a meaty c.S.
+
+With your pokes f.S and 2S, you also often have to work pretty hard to convert into anything more than just 236S. If you're willing to spend meter, you can just use a drift RRC to extend the hit. For routes like this, its often more stable to omit the c.S and 6H and just go straight into the 236[H]. Even on counter-hit, the most you will get off of far hits is an Arbiter Sign. There is a way to get more off of pokes like 5K though, utilizing:
+
+Kara Reaper
+With the dash cancels from 5K and c.S, Testament can use a Kara Cancelled 236H as a great tool for both pressure and combos. You execute this by buffering a dash during the 236H motion, either with a 66 input or the dash macro.
+
+On regular hit, you can get 5K > 6H > Ender, but on counter hit you can run up c.S instead. On block it is at least +2, and the pushback allows for a very strong frame-trap with the huge disjoint of 5H. This makes Kara Reaper overall a very strong technique, both on hit and on block.
+
+Heavy Counter Hit
+Because of the extreme vertical blowback H normals cause, you to get access conversions you would otherwise not be able to. The key to this different routing is 214[P]. You can combo directly into this, then link into 214S or f.S to pop Stain. Midscreen, that is about the most you can get, which is actually very strong considering the hard knockdown that gives you a lot of freedom for pressure and okizeme setups. In the corner, you can actually follow up after the 214S into even more damage.
+
+5H CH > 214[P], 214S > (66 5K) 6H Ender
+
+This is VERY strong, as not only does it do lots of damage and build a lot of meter, but it also is very difficult to burst due to the fact that for most of the combo you aren't extending your hurtbox at all.
+
+6H and 2H have other more niche routes that are listed in the Heavy Slash Starter section of the Combo List. Apart from that, this is a stable and very powerful combo to learn, especially when using buttons like 5H and 2H to frame-trap.
+
+Side Switch Routes
+c.S Hitbox
+It is actually possible for Testament to side-switch out of the corner when doing certain combos. Because of the large vertical hitbox of c.S, it can actually hit the opponent's falling hurtbox behind you. Because the hitbox of the Crow when doing 214[P] starts behind Testament's head, you can then combo into that for a full conversion. Be careful, because even though the opponent switches sides, you technically haven't yet, so input the 214[P] on the same side you initially comboed from, then switch your inputs for the other side. Examples:
+
+c.S CH > 6H > 236[H] > 66 (cross under) c.S > 214[P] > (now side switched) 5K > 6H WS 214[P]
+
+Stain Pop > 66 (cross under) c.S> 214[P] > (now side switched) 5K > 6H WS 214[P]
+
+Getting the side switch after 236[H] is considerably more difficult than off of Stain, but what normal you use to pop Stain can also make that route's timings harder. You also need to not run too far ahead, or else the 214[P] input will be read as 6P because you actually switched sides. Try to get the dash as soon as you can out of the buffer, or else you won't be able to run far enough to hit the opponent just right from behind. Practice the Stain starter with low recovery moves like 2P or 5K to start to get the feel if you are having difficulty.
+
+All damage values are tested on Ky at full health with the R.I.S.C Level at 0 unless the combo cannot work on him, in which case the character with the closest defense modifier is used.
+This list is meant for actual combos, not for frame traps, blockstrings, or mixups. If the combo itself allows to set them up afterwards, it is mentioned in the "Notes" field).
+The list is focused on most practical examples, not every single option that exists.
+The difficulty is ranked on a scale of 1 to 5 (Very Easy, Easy, Medium, Hard and Very Hard) based on various factors (cancel leniency, link timings, special techniques, range consistency, etc).
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+2K > 2D > 236S	Anywhere	77	Everyone	[1] Very Easy	A simple combo using Grave Reaper 236S that sets Testament up for their zoning gameplan.	Video		1.34
+2K > (2D) (Optional) > 236H > ...	Anywhere	77	Everyone	[2] Easy	A simple launching combo using Grave Reaper 236H for multiple choices of followup. Showcases Testament's common manual timed safejump and their precise use of microdash to continue a combo.	Video		1.34
+c.S > f.S > 5H > 214S	Anywhere	140	Everyone	[1] Very Easy	Testament's basic gatling combo showing off 5H's tumble effect and how it can be used to extend a combo, such as special canceling into Arbiter Sign 214S/H.	Video		1.34
+c.S or 2K/5K > (2D) > 236H > 66 (Dash) 5K > 6H > ...	Anywhere	146	Everyone	[2] Easy	A common way that Testament launches opponents into the air is through 236H and to continue with a microdash 5K afterwards. 6H is an essential combo tool, being extensively used as the final hit to start okizeme because of its hard knockdown effect and its ability to bounce opponents into Nostrovia 236236P to continue a combo.	Video	173094
+(PC)	1.34
+c.S > 2S > 2H > 236H > 66 5K > 6H > ...	Anywhere	163	Everyone	[2] Easy	Testament's BNB combo off of a c.S. Showcases c.S floating crumple and how opponents are sent airborne after a quick followup attack.	Video	166514
+(PC)	1.34
+
+f.S > 236D > 2D > 236H > 66 5K > 6H > 214S/H WS (Wall Splat) > 214S/H	Midscreen	138	Everyone	[2] Easy	BNB roundstart to wallbreak using Wild Assault 236D. f.S is typically unable to convert into combos at range, instead relying on Stain State and Wild Assault.	Video	173136
+(PC)	1.34
+CH (Counter Hit) f.S > 236[D] (Hold) > 6H > 236[H] > 66 c.S > 6H WS > 214[P]	Midscreen	181	Everyone	[2] Easy	Roundstart Counter Hit f.S to wallbreak using Wild Assault. If you're closer than roundstart/Mid Range from your opponent, delay the 6H out of 236[D] to prevent a whiff or route into 2H. Showcases Testament's use of 236[H] to extend and launch combos and their most common meterless wallbreak option Unholy Diver 214P to apply Stain State.	Video	174183
+(PC)	1.34
+Stained f.S > 66 > 2S > 2H > 236{H} (Partial Charge) > 66 5K > 6H > ...	Anywhere	138	Everyone	[3] Medium	Works at any range including tip f.S, ends in 6H hard knockdown with a succubus on the field allowing for multiple followup options. Showcases Stain State's ability to confirm into combos even at range.	Video	225959
+(PC)	1.34
+CH 2S > 2H > 5K > 6H > 236[D] > 6H > 236[H] > dl. (Delay) 5H WS > 214[P]	Midscreen	207	Everyone	[2] Easy	Roundstart extended hurtbox Counter Hit into wallbreak.	Video	225985
+(PC)	1.34
+CH c.S/2S/f.S > 2H > 236{H} > 66 5K > 6H > 236236P	Midscreen	~200	Everyone	[3] Medium	Combo off of any Counter Hit S when within range of 2H.	Video	174285
+(PC)	1.34
+CH c.S > 6H > 236236P > 66 > 2H > c.S > 6H WS > 214[P]	Midscreen	268	Everyone	[3] Medium	Testament's BNB combo off of a midscreen Counter Hit c.S with 50 Tension meter.	Video	173100
+(PC)	1.34
+CH c.S > 6H > 236[H] > 66 > c.S > 6H > 236236P > 6H or 214H	Midscreen	247	Everyone	[3] Medium	Testament's BNB combo off of a midscreen Counter Hit c.S with 25 Tension meter, not enough to immediately go into 236236P. Wallbreaking with 236236P applies both Stain State and hard knockdown.	Video	173105
+(PC)	1.34
+Stained 2K/5K > 66 c.S > 214[P] > 5K > dc (Dash Cancel) c.S > 236H > 5K > 6H > ...	Anywhere	104	Everyone	[3] Medium	BNB off Stain State. The technique of using 214P to extend a combo builds a decent amount of Tension meter and carries the opponent horizontally in exchange for heavily scaling combo damage. To Dash Cancel, quickly tap 66 or your dash macro immediately after landing a hit with c.S or 5K.	Video	207179
+(PC)	1.34
+CH c.S > 6H > 236[H] > 66 > c.S > 214[P] > 5K/2K > dc/66 c.S > (6H > ...) or 236H > 5K WS > 214[P]	Farther than Midscreen	228	Everyone	[4] Hard	A culmination of fundamental combos. Meterless Counter Hit c.S beyond midscreen distance but not fullscreen, ends on a Stain State wallbreak. Utilizes 214[P] to extend the combo beyond normal. If c.S hits high after 236[H] route into 5K, if c.S hits lower then route into 2K. May route into 6H to successfully carry into 236236P.	Video	174178
+(PC)	1.34
+Punch Starters
+5P/2P
+
+No Stain
+Stain
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+5PPP/2PPP > 6P > ...	Anywhere	~60	Everyone	[1] Very Easy	Works on all characters both standing and crouching, including Faust. Run momentum is required if you wish to land the 3rd P. 2P has less knockback than 5P, but also less damage, so if you're not point-blank you might wish to do 3 2Ps instead of 2 5Ps for more total damage.	Video		1.33
+AA 5P/2P > (66) (5K) > 6H > ...	Anywhere	~75	Everyone	[1] Very Easy	Basic anti-air into 6H hard knockdown. Useful starter for metered combos. 5K is optional in high anti-air hits since 5P/2P gatling into 6H but 5K does make it easier to hit confirm 5P/2P into a combo.			1.34
+AA 5P/2P > (66) 5K > 6H > 236236P > 66 > 5K > 66 c.S > 5K > 6H > 214S WS > 214S	Back to Corner	192	Everyone	[3] Medium	Metered wall to wall ending on Arbiter Sign.	Video		1.34
+AA 5P/2P > (66) 5K > 6H > 236236P > 66 > 5K > 66 c.S > 214[P] > 5K WS > dc 214[P]	Back to Corner	186	Everyone	[3] Medium	Metered wall to wall ending on crow.	Video		1.34
+AA CH 5P/2P > 66 c.S > 66 5K > 6H > 236[D] > 6H > 236[H] > 66 5K > 6H > 214S WS > 214S	Back to Corner	168	Everyone	[4] Hard	Wall to wall with Wild Assault. Counter Hit not strictly required for 5P. Microdash the c.S and 5K at the start of the combo or it will be less consistent to end with a wall stick. Alternate but relatively harder routes that end in Nostrovia in video.	Video		1.34
+AA 5P > 5K > dc 5K > 236H > 66 5K > 6H > 214S WS > 214S	Midscreen	154	Everyone	[3] Medium	Dash kara 236H recommended but not required to wallsplat from midscreen.	Video		1.34
+AA 5P > 5K > dc 5K > 6H > 236[H] > 6H WS > 214[P]	Midscreen	163	Everyone	[3] Medium		Video		1.34
+CH 5P/2P > 236H > 66 5K > 6H > 236[D] > 6H > 236[H] > 66 5K > 6H > 214S WS > 214S	Back to Corner	155	Everyone	[4] Hard	Wall to wall with Wild Assault. Counter Hit or opponent must be crouching when hit in order to true combo into 236H.	Video		1.34
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+6P
+
+No Stain
+Stain
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+6P > 236S	Anywhere	81	Everyone	[1] Very Easy	Only works at point-blank range, or with dash momentum. Varies by character. Damage assumes both hits of 236S connect. Only works with dash momentum on HA, AN, BA.	Video		1.33
+CH 6P > 236[D] > 6H > 236[H] > 66 5K > 6H WS > 236[D]	Midscreen	180	Everyone	[3] Medium	Easier roundstart Counter Hit 6P using Wild Assault			1.33
+CH 6P > 236[D] > 6H > 236[H] > 6H > 214S WS > 236[D]	Midscreen	187	Everyone	[4] Hard	Roundstart Counter Hit 6P using Wild Assault			1.33
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+Stained AA 6P > 66 5K > 6H > 214S/H	Anywhere	129	Everyone	[2] Easy		Video		1.33
+Stained AA 6P > 66 c.S > 5[D] > 66PRC > c.S > c.S > 236S/H WS > 214P	Midscreen	184	Everyone	[2] Easy		Video		1.33
+Kick Starters
+5K/2K
+
+No Stain
+Stain
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+2K/5K > 2D > 236S/H	Anywhere	77/95	Everyone	[1] Very Easy	K starter with lots of carry. H version sets up a manual timed IAD safejump.	Video	36407
+(PC)	1.33
+5K > 2D > 236H > 214S	Anywhere	119	Everyone	[3] Medium	Long range 5K starter. Does not land off 2K. 214S Whiffs if done from point blank, and 214H's projectile whiffs if done from too far.	Video		1.33
+5K > 2D > 236H > 66 5K > 6H > 214S/214H	Anywhere	139	Everyone	[3] Medium	Must be near point blank for midscreen 2K.	Video	36409
+(PC)	1.33
+5K > 66236H > 66 5K > dc 2K > 6P > 236H WS > 214[P]	Midscreen (Close)	159	Everyone	[4] Hard	Midscreen to wallbreak 5K starter. Tight 5K dash kara 236H timing. Alternative route after dc 2K may look like 236H > 2K > 236H WS but with slightly less consistency for slightly more damage.	Video		1.34
+2K > 2D > 236H > 66 5K > 6H > 236S WS > 214P	Near Corner	145	Everyone	[3] Medium	Dependent on distance from wall. Too close and the strike of 236S will wallsplat and the projectile will wallbreak, whereas too far and the projectile of 236S will not wallsplat or simply whiff.	Video		1.33
+2K > 2D > 236D > c.S > 2H > 236H > dl. 2S > dl. 214K ...	Anywhere	85	Everyone	[3] Medium	2K starter that leads into left/right safejump okizeme. To cross up, hold forward and delay j.K while falling.	Video		1.34
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+Stained 2K/5K > 66 c.S > 236H > c.S > 6H > 214H > 214[P]	Corner	155/180	Everyone	[2] Easy		Video		1.34
+Stained 2K/5K > 66 c.S > 214[P] > 5K dc > c.S > 6H WS > 214[P]	Midscreen	140/162	Everyone	[3] Medium	BNB midscreen wallbreak confirm off Stain State. Commonly referred to as "crow carry".	Video	174174
+(PC)	1.33
+Stained 2K/5K > 66 c.S > 214[P] > 5K dc > c.S > 236H > 5K > 6H > ...	Anywhere	104	Everyone	[3] Medium	BNB crow carry useful for anywhere. Leaves option for manual or teleport safe jump mix, continue into Nostrovia, or continue into Wild Assault.	Video		1.33
+Stained 2K/5K > 66 c.S > 214[P] > 5K dc > c.S > 6H > 236236P > 66 Stained c.S > 66 c.S > 6P > WS > 214[P]	Back to Corner	161/182	Everyone	[4] Hard	Corner to corner wallbreak for 50 meter, with the option for a second super if you build enough meter to get one off, and ends with the opponent in stain state after wallbreak.	Video		1.33
+Stained 2K/5K > 66 c.S > 6H > 236236P > 66 Stained c.S > 66 c.S > 6H > 236S > WS > 214P	Back to Corner	176/208	Everyone	[3] Medium	Corner to corner wallbreak ending in stain state. 2K starter is much less consistent due to blowback changes.	Video		1.33
+Slash Starters
+c.S
+
+No Stain
+Stain
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+c.S > 2S > 2H > 236H > 66 5K > 6H > ...	Anywhere	163	Everyone	[2] Easy	Testament's go-to combo off of a normal hit c.S.	Video	166514
+(PC)	1.33
+c.S > (2D) > 236H > 66 5K > 6H > ...	Anywhere	146	Everyone	[2] Easy	Go-to combo if the 2K/5K version doesn't work.	Video	173094
+(PC)	1.33
+c.S > 5H > 236{H} > 66 5K > 6H > 214S WS > 236236P > 214H	Corner	234	Everyone	[2] Easy	50 tension meter corner combo with Nostrovia wall break.	Video		1.34
+c.S > 5H > 214S > 66RRC~6H > 236[H] > dl. 6H WS > 214H	Corner	254	Everyone	[3] Medium	50 tension meter corner combo. Space yourself so that Arbiter Sign does not whiff after wall splat. Can wall break with 236[D] for hard knockdown and 3 less damage.	Video		1.34
+CH c.S > 6H > 236236P > 66 > 2H > c.S > 6H WS > 214[P]	Midscreen	268	Everyone	[3] Medium	Midscreen c.S Counter Hit with 50 Tension meter. Can do 5[D] after 2H for more damage but less consistency.	Video	173100
+(PC)	1.33
+CH c.S > 6H > 214[K] > 5K > 6H > 236236P > 66 > 214S > 214S WS > 214[P]	Midscreen	275	Everyone	[3] Medium	High damage Midscreen Counter Hit c.S with 50 Tension meter.	Video		1.33
+CH c.S > 6H > 236[H] > 66 > c.S > 6H > 236236P > 6H	Midscreen	247	Everyone	[3] Medium	Testament's BNB combo off of a midscreen c.S Counter Hit with 25 Tension meter, not enough to immediately go into 236236P.	Video	173105
+(PC)	1.33
+CH c.S > 6H > 236[H] > 66 > c.S > 2H > 236H > 5K > 6H WS > 214[P]	Midscreen	234	Everyone	[3] Medium	Meterless CH c.S confirm midscreen, gives a stain state wallbreak. Distance from wall dependent. If closer to the wall than midscreen 5K may cause a wallsplat before 6H connects. If farther than midscreen to wall see next combo.	Video	183507
+(PC)	1.33
+CH c.S > 6H > 236[H] > 66 > c.S > 214[P] > 5K/2K > dc/66 c.S > (6H > ...) or 236H > 5K WS > 214[P]	Farther than Midscreen	228/227	Everyone	[4] Hard	Meterless CH c.S confirm beyond midscreen distance but not fullscreen, gives a stain state wallbreak. If c.S hits high after 236[H] you can route into 5K, if it hits lower then route into 2K. Optionally after dc/66 c.S one may route into 5K > 236S WS > 214P for 1 less damage.	Video	174178
+(PC)	1.33
+CH 66 c.S > 6H > 214[K] > 5K > 6H > 236236P > 66 > 5K > 66 c.S > 6H > 214S WS > 214P	Back to Corner	268	Everyone	[3] Medium	High damage and wall to wall carry with 50 tension meter, this combo is made to punish DP but also works as a general CH c.S starter. Utilizes 214[K] to recover faster from 6H, allowing 5K to connect. Can swap out the second 5K for c.S for slightly more damage but slightly less wall carry. Tested on all characters that have a DP. Very small microdash or walk forward required at start if blocking a DP so 236236P does not drop, except Sin. Delay c.S starter or 6H for Sin.	Video	172457
+(PC)	1.33
+AA CH 66 c.S > 5[D] > 66 c.S > 2H > 236H > (66) c.S > 6H > 214S/H WS > 236236P > 214H	Corner	266	Everyone	[3] Medium	High damage corner airborne Counter Hit c.S starter, made to punish DP. Consistent as a DP punish on all characters except Chipp and Sin. Chipp consistently gets hit by the strike of 236H and is hard to pickup with c.S mid combo, and Sin can be hard to combo into 5[D] with how high his DP brings him, which can be mitigated by delaying 5[D].	Video		1.34
+CH c.S > 6H > 236236P > 66 > 214S/H > 6H > 214S/H WS > 214S/H	Midscreen	289	Everyone	[2] Easy	Midscreen optimal with meter at low R.I.S.C.	Video		1.34
+CH c.S > 6H > 214[K] > 5K > 6H > 236236P > 66 > 214S/H > dl. 6H > 214S WS > 214S/H	Midscreen	282	Everyone	[3] Medium	Midscreen optimal with meter at medium to high R.I.S.C. as long as 6H is manually timed to not wall splat by hitting the corner.	Video		1.34
+c.S > 66236H > 66 5K > dc 5K > 66236H > 5K WS > 214[P]	Midscreen	180	Everyone	[4] Hard	Meterless midscreen to wallbreak c.S starter	Video		1.34
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+Stained c.S > 66 c.S > 6H > 236[H] > 66 5K > 6H > 214S WS > 214S	Midscreen	213	Everyone	[3] Medium		Video		1.34
+Stained c.S > 236[H] > 66 c.S > 6H > 236[H] > 66 5K > 6H > 214S WS > 214S	Midscreen	214	Everyone	[3] Medium		Video		1.34
+Stained CH c.S > dc/66 5[D] > 66 c.S > 6H > 236[H] > 66 5K > 6H WS > 214[P]	Midscreen	222	Everyone	[3] Medium	Precise microdash required after 5[D].	Video		1.34
+f.S
+
+No Stain
+Stain
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+f.S > 5H > 214S	Anywhere (Close~Mid)	111	Everyone	[1] Very Easy	Basic f.S combo when in range for a 5H followup	Video		1.34
+f.S > 236D > 2D > 236H > 66 5K > 6H > 214S/H WS > 214S/H	Midscreen	138	Everyone	[2] Easy	BNB roundstart f.S to wallbreak.	Video	173136
+(PC)	1.33
+f.S > 236D > 2K > 2D > 236H > IAD ...	Anywhere	89	Everyone	[2] Easy	Autotimed safejump off f.S > 236D. j.H hits meaty late in its active frames and is plus enough to true string into c.S. Slightly delay IAD for j.D followup option.	Video		1.33
+CH f.S > 2H > 236{H} > 66 5K > 6H > ...	Anywhere	150	Everyone	[2] Easy	Basic CH f.S if in range for a 2H followup.	Video		1.34
+CH f.S > 214S > 66RRC > 66 5K > 66236{H} > 66 5K > 6H > ...	Anywhere	150 ~ 215	Everyone	[3] Medium	Tip CH f.S confirm into 6H ender. Can change the first 5K for c.S, 2S, etc. Can change the 6H for 66236{S} if 6H is going to whiff due to a late 5K or if you want 214[P] wall break. From midscreen, a c.S > dl. 2S > 236H > 66 5K > 6H will wall stick, allowing a crow wall break as well.	Video		1.34
+CH f.S > 236D > 6H > 236[H] > (66 5K) > 6H > ...	Midscreen, Anywhere	152, 114	Everyone	[2] Easy	Does not charge 236D greatly reducing opponent launch height and not allowing 6H to accidentally cross up. Sets up teleport IAD 4 way mix oki.	Video		1.34
+CH f.S > 236[D] > 6H > 236[H] > 66 c.S > 6H WS > 214[P]	Midscreen to Corner	181	Everyone	[2] Easy	Roundstart counterhit f.S to wallbreak. If you're closer than roundstart/Mid Range from your opponent, delay the 6H out of 236[D] to prevent a whiff or route into 2H.	Video	174183
+(PC)	1.33
+CH f.S > 236[D] > jc > j.S > j.H > jc > j.S > j.H > j.P > j.P > land > 5K > 6H > [236236P] or [214S/H WS > 214S/H]	Back to Corner	183/168	Everyone	[4] Hard	Counterhit f.S to wallbreak from nearly corner to corner. Don't delay any of the inputs. Will not wall stick if your back is less than ~1.5 character widths from the wall. Combo is usable anywhere but will be cut short by wall stick after second j.P at midscreen distances.	Video		1.33
+CH f.S > 236[D] > dl. 6H > 236[H] > 66 > c.S > 214[P] > 5K > dc > 5K > 6H WS > 214[P]	Back to Corner	180	AB, AN, AS, BA, BR, EL, FA, GI, HA, IN, KY, MA, NA, PO, RA	[5] Very Hard	Character-specific counterhit f.S to wallbreak from true corner to corner. Delay 6H if performed from closer than tipper f.S distance. Hugely varies in difficulty between characters - may be possible on more characters than listed.			1.33
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+Stained f.S > 66 > 2S > 2H > 236{H} > 66 5K > 6H > ...	Anywhere	138	Everyone	[2] Easy	Works at any range including tip f.S, ends in 6H hard knockdown with a succubus on the field allowing for multiple followup options.	Video	225959
+(PC)	1.34
+2S
+
+No Stain
+Stain
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+2S > 5H > 214S	Anywhere (Close)	108	Everyone	[1] Very Easy	Basic 2S combo when in range for a 5H followup	Video		1.34
+2S > 236H > 66 5K > 6H > ...	Anywhere (Close)	116	Everyone	[2] Easy	Tight microdash 5K beyond point blank	Video		1.34
+2S > 5H > 236D > 5K > 6H > 236[H] > 66 5K > 6H WS > 214[P]	Midscreen (Close)	161	Everyone	[2] Easy		Video		1.34
+2S > 236D > 2D > 236H > 5K > 6H > 214S WS > 214S	Midscreen	135	Everyone	[2] Easy	Round Start extended hurtbox whiff punish to wall break. Same as f.S version.	Video		1.34
+CH 2S > 2H > 5K > 6H > 236[D] > 6H > 236[H] > dl. 5H WS > 214[P]	Midscreen	207	Everyone	[2] Easy	Roundstart extended hurtbox CH into wallbreak.	Video	225985
+(PC)	1.34
+CH 2S > 2H > 236{H} > 66 5K > 6H > ...	Anywhere	147	Everyone	[2] Easy		Video		1.34
+CH 2S > 5H > 236H > 66 5K > 6H > ...	Anywhere (Close)	140	Everyone	[2] Easy		Video		1.34
+CH 2S > 236[D] > 2H > 236{H} > 5K > 6H WS > 214[P]	Midscreen to Corner	168	Everyone	[2] Easy	Roundstart Counter Hit 2S to wallbreak. Works on extended hurtboxes into 2S or non-extended hits from near roundstart range. 236H must be held for a short duration vs most characters, though not necessarily to half charge. Not reaching half charge will make the combo lose between 3 and 5 damage depending on the character.	Video		1.33
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+j.S
+
+No Stain
+Stain
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+j.S > j.H > jc > j.S > j.H > j.D	Anywhere	115	Everyone	[1] Very Easy	Air-to-air conversion from rising j.S.			1.33
+j.S > j.66 > j.S > j.H > c.S > 6H > ...	Anywhere	119	Everyone	[2] Easy	Air-to-air conversion from rising j.S. Finicky and dependent on distance from opponent and ground.			1.33
+j.S > j.D > j.66 > j.S > j.H > c.S > 6H > ...	Anywhere	137	Everyone	[3] Medium	Air-to-air conversion from rising j.S. Finicky and dependent on distance from opponent and ground.			1.33
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+Heavy Slash Starters
+5H
+
+No Stain
+Stain
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+5H > 236H/S > 66 5K > 236H/S WS > 214P	Corner	~170	Everyone	[1] Very Easy	Corner combo that builds a lot of wall damage and wall sticks easily. If the strike of either Grave Reaper whiffs try routing into 66 5K > 6H after the second Grave Reaper. Partial charging reapers optional.			1.34
+5H > 236{H} > 66 c.S > 5K > 6H > 214S WS > 214[P]	Corner	201	Everyone	[2] Easy	Replace c.S with 5K if too far away. Can choose to wall splat with 236S instead of 214S in cases of distance making crow wall break impossible.	Video		1.34
+5H > 236H > 66 5K > 6H > ...	Anywhere (Close)	132	Everyone	[1] Very Easy		Video		1.34
+5H > 236H > 66 2S > 5H > 214S	Anywhere (Close)	145	Everyone	[2] Easy		Video		1.34
+5H > 214S > 66RRC > 66 6H > 236[H] > 66 c.S > 6H > 214H/S WS > 214[P]	Midscreen (Close)	241	Everyone	[3] Medium		Video		1.34
+5H > 236H > 66 5K > dc 2K > 236H > 5K WS > 214[P]	Midscreen (Close)	173	Everyone	[4] Hard	Meterless midscreen close range to wallbreak	Video		1.34
+5H > 236D > 5K > 6H > 236[H] > 6H WS > 214[P]	Midscreen	160	Everyone	[2] Easy	Round start to wall break with Wild Assault.	Video		1.34
+5H > 236D > 5K > 6H > 236[H] > 66 6H > 214S WS > 236236P > 214H	Midscreen	178	Everyone	[3] Medium	Midscreen to wall break with Wild Assault utilizing ground bounce of 6H to avoid wall splat.	Video		1.34
+5H > 66RRC > 66 6H > 236[H] > 66 5[D] > 5K > 6H > 214S WS > 214S	Midscreen	234	Everyone	[3] Medium	Red Roman Cancel hit confirm combo. Shockwave must hit.	Video		1.34
+CH 5H > 214[P] > 214S or 66 f.S > 66 > 5K > 66236H > f.S WS > 214[P]	Midscreen	196/178	Everyone	[3] Medium	Chance to wall splat early. May swap out 5K for 2S and f.S WS for 5H WS.	Video		1.34
+CH 5H > 236236P > 66 > 2H > 5[D] > 5K > 6H > 214S WS > 214S	Midscreen	260	Everyone	[3] Medium	Counter Hit 5H immediately into Nostrovia.	Video		1.34
+CH 5H > 236[S] > 66 5K > 6H > 214P > f.S WS > 236236P > 214H	Corner	220	Everyone	[3] Medium	Counter Hit 5H corner combo.	Video		1.34
+CH 5H > 214[P] > 214S > 66 6H > 214S WS > 236236P > 214H	Corner	231	Everyone	[3] Medium	Counter Hit 5H corner combo using crow. Spacing dependent, 6H must hit with you close to the wall. If not, use 5K before 6H.	Video		1.34
+CH 5H > 6H > 236[H] > 66 6H > 214S/H WS > 214[P]	Corner (Close)	225	Everyone	[3] Medium	Counter Hit 5H corner combo linking into 6H. Spacing dependent, the strike of 236[H] must hit.	Video		1.34
+CH 5H > 6H > 236[S] > 6H > 214[P] WS > 236S	Corner (Close)	216	Everyone	[3] Medium	236[S] variant. Counter Hit 5H corner combo linking into 6H. Spacing dependent, the strike of 236[S] must hit.	Video		1.34
+CH 5H > 6H > 214[P] > 66 f.S > 66 6H WS > 214[P]	Corner (Mid)	202	Everyone	[3] Medium	Counter Hit 5H corner combo linking into 6H. Use if Grave Reaper would whiff.	Video		1.34
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+Stained 5H > 66 6H > 236[H] > 66 5K > 6H > 214S WS > 214S	Midscreen	205	Everyone	[4] Hard	Precise microdash 6H.	Video		1.34
+Stained 5H > 66 5K > 6H > 236[H] > 66 5K > 6H WS > 214[P]	Midscreen	195	Everyone	[3] Medium		Video		1.34
+Stained 5H > 66 5K > 66236H > 66 5K > 6H > 214S WS > 214S	Midscreen	183	Everyone	[3] Medium		Video		1.34
+Stained 5H > 66 5K > dc 5K > 236H > 5K WS > 214[P]	Midscreen	168	Everyone	[3] Medium		Video		1.34
+Stained 5H > 66 c.S/5K > 6H > 236[H] > 66 5K > 6H > 214S WS > 214S	Midscreen (Close)	204/202	Everyone	[2] Easy		Video		1.34
+Stained 5H > 66 c.S/5K > 6H > 214[P] > f.S > 214S WS > 214S	Midscreen (Close)	197/192	Everyone	[3] Medium	High hitting c.S/5K required.	Video		1.34
+Stained CH 5H > 66 c.S > 6H > 236[H] > 66 2S > 236H/S WS > 214P	Midscreen	202	Everyone	[3] Medium		Video		1.34
+Stained CH 5H > 66 6H > 236[H] > 66 5K > 6H > 214S WS > 214S	Midscreen	209	Everyone	[3] Medium		Video		1.34
+Stained CH 5H > 66 214[P] > 66 f.S > 66 5K > 6H WS > 214[P]	Midscreen	175	Everyone	[3] Medium		Video		1.34
+2H
+
+No Stain
+Stain
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+2H > 236{H} > 66 5K > 6H > ...	Anywhere	142	Everyone	[1] Very Easy	Common and simple combo choice for non CH 2H that leads to 6H okizeme.	Video	172206
+(PC)	1.33
+2H > 236H > 66 5K > dc 5K > (66)236H > 5K > 6H > 214S WS > 214S	Midscreen	195	KY, MI, NA, TE, AS, JN, SL	[3] Medium	Character specific, else both strike and projectile of 236H hit	Video		1.34
+2H > 236H > 66 5K > dc 5K > 6H > 236[H] > 6H WS > 214[P]	Midscreen	205	KY, MI, NA, TE, AS, JN, SL	[3] Medium	Character specific, else both strike and projectile of 236H hit	Video		1.34
+2H > 236{H} > 66 c.S/5K > 6H > 236[H] > 5K > 6H > 214S WS > 214S	Midscreen (Close)	~207	Everyone	[2] Easy		Video		1.34
+CH 2H > 6H > 236[H] > 6H > 236[H] > 66 5K > 6H > ...	Anywhere	~200	Everyone	[2] Easy	Distance dependent, 236[H] will whiff beyond Mid Range. Following CH 2H with 6H leads to some of the highest damage combos.	Video		1.34
+CH 2H > 214[P] > 66 5K > 66 c.S > 236H > 66 5K > 6H > 214S WS > 214S	Back to Wall	195	Everyone	[2] Easy	Side switch route with crow.	Video		1.34
+CH 2H > 236[H] > 66 > c.S > 236H > c.S or 5K > 6H > ...	Anywhere	~170	Everyone	[2] Easy	Side switch route that can also stay same side and turn into ambiguous left-right teleport mix.	Video		1.34
+CH 2H > 236[H] > 66 > c.S > 214[P] > 5K > dc c.S > 66236H > 5K > 6H > ...	Anywhere	165	Everyone	[3] Medium	Crow carry route that can end in left-right teleport mix, projectile oki, Nostrovia or Wild Assault, etc.	Video		1.34
+CH 2H > 66 c.S > 2H > 236H > c.S > 6H > 214S WS > 214[P]	Corner/Anywhere	224	Everyone	[3] Medium	Whiff strike of 236H or it'll wall splat early. 236H has a chance to completely whiff if combo isn't done against a wall, partial charge or omit for consistency.	Video		1.34
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+Stained 2H > 236[H] > 66 c.S > 6H > 236[H] > 66 5K > 6H > 214S WS > 214S	Midscreen	209	Everyone	[2] Easy		Video		1.34
+Stained 2H > 66 6H > 236[H] > 66 5K > dc 2K > 236H > 2K WS > 214[P]	Midscreen	199	Everyone	[3] Medium		Video		1.34
+6H
+
+No Stain
+Stain
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+6H > 236[H] > 66 > c.S > 5K > 6H WS > 214[P]	Corner	207	Everyone	[2] Easy	Basic corner combo that ends in crow wallbreak.	Video	174788
+(PC)	1.33
+6H > 214[P] > 66 f.S > 66 > 5K > 66236H > f.S WS > 214[P]	Midscreen	188	Everyone	[3] Medium	Roundstart 6H into wallbreak. Kara cancel 236H not required but does help.	Video	174783
+(PC)	1.34
+CH 6H > 214[P] > 214S > 66 6H > 214S WS > 236236P > 214H	Corner	243	Everyone	[3] Medium		Video		1.34
+AA CH 6H > 214[K] > (66) 6H > 236[D] > 6H > 214[P] > 5H > ...	Anywhere	189	Everyone	[3] Medium	Swap out 5H for something with less recovery if not near the wall.	Video		1.34
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+Stained 6H > 214[K] > 66 6H > 236236P > 66 > 214S > dl. 6H > 214S WS > 214S	Midscreen	249	Everyone	[3] Medium	214[K] to reduce recovery of 6H. Aim to delay last 6H to hit the corner or it will wallsplat immediately. Negligable damage loss.	Video		1.34
+Stained 6H > 214[K] > 66 > 5K > 66236H > 66 5K > 6H > 214S WS > 214S	Midscreen	196	Everyone	[3] Medium	214[K] to reduce recovery of 6H.	Video		1.34
+Stained CH 6H > 214[K] > 66 > c.S > 6H > 236[H] > 66 5K > 6H > 214S WS > 214S	Midscreen	225	Everyone	[3] Medium	214[K] to reduce recovery of 6H.	Video		1.34
+Stained CH 6H > 214[K] > 66 6H > 214[P] > f.S > 66 6H > 214S WS > 214S	Midscreen	217	Everyone	[3] Medium	214[K] to reduce recovery of 6H. Aim to delay last 6H to hit the corner or it will wallsplat immediately. Negligable damage loss.	Video		1.34
+j.H
+
+No Stain
+Stain
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+j.H > j.D > j.236H > 66 5K > 6H > ...	Anywhere	135	Everyone	[2] Easy	Testament's basic jump-in starter combo	Video		1.34
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+Dust Starters
+5D/2D
+
+No Stain
+Stain
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+5D > RRC > c.S > 5[D] > 5K > 6H > 236S > WS > 214P	Corner	159	All	[2] Easy	Simple RRC combo off 5D that ends in 214P wallbreak	Video	172224
+(PC)	1.33
+CH 2D > 236[H] (2) > 66 > c.S > 2H > 236H (2) WS > 214P	Near corner	188	All	[2] Easy	Point blank 2D CH combo. Works on everyone, but heavies need to be closer to the wall, and the timing is much more lenient against lightweights. End with 6H instead if the opponent splats low to the ground, as 214P can whiff at times.	Video	46932
+(PC)	??
+5D > 66 c.S > 2H > c.S > 6H > 214H > WS > 236236P > 214H	Corner	340	All	[3] Medium	Max RISC corner combo optimized for damage. Microdash c.S necessary after 5D from Close Range or further due to pushback. Strict timing on 236236P in order for your opponent to not tech off the wall.	Video	166333
+(PC)	1.33
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+Stained 5D > c.S > 5[D] > 66 5K > 6H> WS > 214P/214S/super	Corner	147(214P)
+152(214S)
+171(236236K)
+162(236236P)	All except GO, LE, NA, PO	[3] Medium	Wont work from a far 5D. 5K whiffs on heavy characters.	Video		??
+Stained 5D > 66 > c.S > 5K > 6H > 214P	Corner	138	All	[2] Easy	The 66 microdash can be omitted however it makes the combo much more consistent.	Video	36433
+(PC)	??
+Charged Dust Combos
+5[D]
+
+No Stain
+Stain
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+5[D]8 > j.H > j.S > 9jc > j.H > j.S > j.D > j.SS	Anywhere	203	Everyone	[1] Very Easy	Simple and optimized BnB for all characters, but the timing is faster if done in the corner.	Video	36428
+(PC)	1.33
+5[D]8 > j.H > j.D > 9jc > j.H > j.S > j.D > j.SS	Anywhere	~213	MA, AX, PO, FA, MI, ZA, RA, LE, NA, GO	[2] Easy	On half of the cast, you can swap a j.S for a j.D and get away with it. There's no logic for these characters it works on, it just does.	Video	36429
+(PC)	1.33
+5[D]8 > j.H > j.D > 9jc > j.S > j.H > j.D > j.SS	Anywhere	~212	SO, GI, IN	[2] Easy	Sol, Giovanna & I-No Specific Route, swapping the j.S and j.H to make the previous combo work on their wonkier hurtboxes.	Video	36430
+(PC)	1.33
+5[D]8 > j.D > j.S > 9jc > j.S > j.H > j.S > j.DD	Anywhere	208	KY, CH, AN, JC, HC, BA, TE	[2] Easy	The rest of the cast needs a different route to squeeze in more j.D's. Starting with j.D makes the scaling a lot better than the basic BNB, but the rest of the route is vastly different in order to adjust for the pushback.	Video	36431
+(PC)	1.33
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+Throw Starters
+4D/6D
+
+No Stain
+Stain
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+6D/4D > 236S	Corner	91	All	[1] Very Easy	Best OTG option for damage and oki. After 236S projectile hits the opponent you are +23			??
+6D/4D > 66RRC > 66 5[D] > 66 5K > 6H > 214S	Anywhere	137	All	[2] Easy				??
+6D/4D > 66RRC > 236[H] > 66 5K > 6H > 236S WS > [214S] or [214P]	Midscreen to Corner	157 / 154	KY	[3] Medium	Don't delay 236[H] after Red Roman Cancel Explosion. End with 214P to enter neutral with the opponent in Stain State.	Video	36438
+(PC)	??
+6D/4D > 66RRC~c.S > 6H > 236{S} WS > 214P	Corner	164	All	[3] Medium				1.34
+6D/4D > 66RRC~6H > 236[S] > 66 5H WS > [214S] or [214P]	Corner	171 / 166	All	[3] Medium				1.33
+6D/4D > 66RRC~6H > 236[S] > 6H > 214S WS > 214S	Corner	177	All	[4] Hard	This combo works fine without Fast RC if you're finding the timing a little tight. The 2nd 6H timing is tight, but can be achieved through mashing if needed.			1.33
+6D/4D > RRC > 66 6H > 236[H] > 66 5K > 6H > 214S	Anywhere	137	All	[4] Hard	Likely the most damage you can get midscreen with 50% tension, but comes with a very tight juggle after the H Grave Reaper			??
+6D/4D > 66RRC~6H > 236[H] > 6H WS > 214[P]	Corner	168	All	[3] Medium	Quick and simple wall splat combo.	Video		1.34
+6D/4D > 66RRC~6H > 236[H] > dl.6H > 214S WS > 214S	Corner	177	All	[4] Hard	6H is manually delayed to hit the same frame the opponent's collision box touches the ground, preventing a wall splat.	Video		1.34
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+Special Move Starters
+Special Move Starters
+
+No Stain
+Stain
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+214S/214H > 66RRC > 6H > 236[S] > 6H > 214P WS > 214S/214H WB	Corner	202	All	[2] Easy	High/low mixup conversion for 50% meter. Does require a little spacing to not make Arbiter Sign whiff.	Video	36440
+(PC)	??
+236[D] > c.S > 6H > 236[H] > 66 c.S > 6H > 214S/H or 236236P	Anywhere	184-224	Everyone	[2] Easy	Charged Wild Assault starter. Cancel into c.S as fast as possible, or you'll sometimes get f.S instead. 236236P ender will wallbreak. At max 236[D] range omit the first c.S, as it will drop.			1.29
+236D > 2D > 236H > 66 5K > 6H > 214S/H		101	Everyone	[4] Hard	Uncharged Wild Assault starter. Strict microdash timing before the 5K. If 5K passes through them you dashed too long, if they're too far away for 6H you dashed too short.			1.29

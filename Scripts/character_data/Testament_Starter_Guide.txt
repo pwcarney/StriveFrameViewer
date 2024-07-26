@@ -1,0 +1,114 @@
+Key Moves
+Some of Testament's best moves to include in your gameplay:
+
+2P
+2P
+ 
+6P
+6P
+ 
+5K
+5K
+ 
+2K
+2K
+ 
+f.S
+f.S
+ 
+6H
+6H
+ 
+j.S
+j.S
+ 
+j.H
+j.H
+ 
+Grave Reaper (236S/H)
+Grave Reaper (236S/H)
+ 
+Arbiter Sign (214S/H)
+Arbiter Sign (214S/H)
+2P is your fastest button, best used in abare and as a pressure tool with Stain State. On normal hit it can gatling into 6P for a knockdown, however, using multiple 2Ps prior can push you out of range.
+6P is considered one of Testament's character defining moves. This move truly shines as one of the strongest anti-air and counter-poke tools in their arsenal. Allowing you to low-profile, clash, or even beat out some of the most powerful neutral tools in the game, this move is integral to Testament’s neutral gameplan.
+5K is a low risk poke with moderate reward. It's very important combo filler as 5K combos into 6H on air hit, forming a core element of Testament’s combo theory. It's faster than c.S and with more range and less combo potential. Optimal usage of 5K requires knowledge of dash kara cancel and microdashing.
+2K is another valuable neutral tool that serves many purposes. With 6 frames of startup, it's useful for abare in less safe strings, low-profiles many strikes and projectiles, and can be useful for mix-ups, especially after j.H. Combos into 2D on hit for a hard knockdown or combo extension.
+f.S is Testament’s best mid-range poke. It controls a large amount of space and has a fairly generous disjoint, though it is a bit on the slower side. At the mid-range, it combos into 5H on regular hit and 2H on counterhit. At the attack's tip range your best option is to cancel into Wild Assault (236D), which can allow for a full combo on counterhit.
+6H is a massive button, outranging even f.S. It's incredibly useful as combo filler and a preemptive anti-air. However, it is heavily punishable on whiff or block so it should not be used much in neutral. Combos into H Grave Reaper at mid-range for combo extensions and can confirm into Arbiter Sign and Nostrovia (236236P). Causes hard knockdown on hit, giving Testament access to incredible okizeme follow-ups.
+j.S is a moderately fast and long ranged air-to-air. It's useful as a retreating option and can be cancelled into j.H, j.D, and Air Grave Reaper for aerial combos.
+j.H is Testament’s best jump-in button. After an Instant Air Dash, Testament can use it as a combo starter or to enforce mix on the opponent. Throw, 2K, and j.D are all usable immediately after j.H, creating a three way mix-up. This is also Testament’s best tool for safejumps.
+Grave Reaper (236S/H) is the core of Testament’s gameplan. A versatile projectile with 12 total versions depending on the button and charge amount. It's useful as a zoning tool by covering a large amount of space both on the ground and in the air as well as being a potent combo starter, filler, and ender.
+Arbiter Sign (214S/H) is a committal and tracking attack that covers ¾ of the screen. The S version is a low and the H version is an overhead. Best used as a combo ender, anti-zoning tool, and hard callout. Testament’s highest damage wall break option without resources.
+
+Stain State & The Succubus
+Testament's unique mechanic is Stain State. It’s a status which Testament can inflict using Unholy Diver (214P) and Nostrovia (236236P). When Testament attacks the opponent with a strike attack, Stain State will cause a Stain explosion on both hit and on block. This mechanic allows Testament the opportunity to either start a combo or continue their pressure. Much of Testament’s gameplan and special moves revolve around applying Stain State and using it to their advantage.
+
+Grave Reaper (236S/H) is Testament’s main projectile attack that will place a Succubus at the location where the projectile vanishes. When a Succubus is on screen, using Unholy Diver will cause the crow to fly towards the Succubus. This means that while this attack may go over some characters' hurtbox when used regularly, placing the Succubus beforehand can allow Testament to aim lower to the ground and hit an opponent even if they’re getting up from a knockdown or crouching. Additionally, Possession (214K) will teleport to an active Succubus, allowing Testament to quickly close gaps, make distance from, or even cross up their opponent.
+
+Testament's specials grant them a very notable presence in neutral, three of which with their own tricky secondary effects enabled by holding the corresponding button. By holding S or H during Grave Reaper, Testament can create a stronger projectile with a longer travel time. By holding P during Unholy Diver, Testament can force the crow to ignore an active Succubus and instead fly horizontally forward as if no Succubus were placed. Immediately using this version again will cause the crow to attack from a lower position than usual. By holding K during Possession, the move can be held in order to fake a teleport and potentially bait an opponent into whiffing a punish. All these options make Testament a dynamic character with an approachable playstyle that allows for tricky mix-ups through situational awareness.
+
+Combos
+Basic Combo Structure
+
+Testament's combo theory is both easy to understand and relatively easy to execute, with basic Bread and Butter combos following a general pattern of Starter > 236H to launch > 5K or c.S > Ender.
+
+
+Starting Combos
+
+Testament's unique Stain State mechanic allows for any strike to launch the opponent, allowing for good conversions off of small hits which can be picked up with 5K or c.S. On the flip side, Testament relies on anti-airs, counterhits, punishes, and use of their H normals to get good damage without Stain. Smaller hits may be best cancelled into an avaliable gatling or directly into 236S to set up the Succubus.
+
+Some of Testament's most notable combo starters are:
+
+5K is a quick button that can gatling into 2D on hit for a short conversion or offer high reward while the opponent is in Stain State.
+c.S can gatling into 2S > 2H on regular hit and directly into 6H or 2H on anti-air or Counter Hit.
+6H and 2H are slower buttons with great potential as some of the most damaging starters, each offering multiple combo routes depending on the situation.
+
+Extending Combos
+
+Testament often prefers to route into 236H as it can then be picked up by dashing forward and using a button like 5K or c.S to catch the opponent as they fall. Testament can then gatling into 6H, which sets up for a combo ender of your choice.
+
+Buttons that launch on Counter Hit such as 6H also route into 214P, which can make for long-range combo extensions.
+
+
+Ending Combos
+
+Testament typically uses the following combo enders:
+
+236S allows Testament to continue pressuring the opponent in the corner or set-up the Succubus from afar.
+214S/H is a great way to end a combo with additional damage, especially when used to close out rounds.
+236236P is a metered option with great corner carry to deal significant damage with a wall break as well as applying Stain State and hard knockdown.
+Testament may opt to end a combo with 6H instead of going for a combo ender as it gives them access to hard knockdown okizeme. Testament's best knockdown follow-ups consist of:
+
+c.S is the best option to hit meaty after running up on the opponent's wake up.
+236[S] being cancelled out of 6H allows for the projectile to hit OTG and 214P to hit meaty for consistent Stain State set-ups.
+Check out the Okizeme guide for a more detailed explanation on Testament's knockdown options.
+
+In scenarios where the opponent is in wall stick and you have no Tension, there are three options to choose from:
+
+214S/H is the best option as a general damage ender.
+214P doesn't deal as much damage but will apply Stain State on wall break.
+236D will cost 50% Burst but will apply hard knockdown on wall break.
+
+Examples
+c.S > 2S > 2H > 236H > Dash 5K > 6H > 236236P > 214S/H
+This is a very typical route that begins with a c.S > 2S gatling to set up for a launch with 2H > 236H that allows for a 5K > 6H gatling that can be cancelled into an ender for more damage.
+
+Stained f.S > Dash > 2S > 236H > Dash 5K > 6H
+A route that uses Stain State to extend a combo when usually impossible. Showcases ways that dashes can be used to continue a combo and ends with 6H for a hard knockdown.
+
+These two routes do a good job of demonstrating the basics of Testament's combo routing. Check out the Combo Page for an extensive list of routes for different situations.
+
+Using Your Resources
+Knowing when and how to use Tension as Testament can allow for an advanced offense and defense. They have two Overdrive attacks, those being Nostrovia and Calamity One.
+
+Nostrovia (236236P) is an Overdrive that summons two Succubi to strike forward and apply Stain State. It’s best used in combos for extensions or as an ender. It has great corner carry meaning Testament can keep the opponent locked down after the attack's duration. When used to wall break it not only applies Stain State but also puts the opponent into hard knockdown. This means that Testament can immediately take the advantage and receive huge reward for opening up the opponent.
+Calamity One (236236K) is an invincible reversal Overdrive that summons a massive projectile to counter the opponent's offense. It’s best used within gaps between the opponent’s pressure or to preemptively shut down an upcoming attack. It does have notably slow startup meaning that many moves will recover before the hitbox is active. However, its slow startup makes it very good for invincible Purple Roman Cancels. This is a technique where PRCing the move's startup allows Testament to receive the full startup invulnerability for only 50% Tension. This is a great means to whiff punish various attacks, easily check for mix-ups, or check if the opponent is blocking out of caution.
+Testament can also use Tension to perform Roman Cancels which can enhance Testament’s combos or provide safety when otherwise impossible.
+
+Red Roman Cancel can be used to extend Testament’s combos, even off of the furthest pokes. It may also be used as a good way to callout the opponent’s Burst with ample time to punish.
+Purple Roman Cancel can be used to cancel the recovery frames of an attack. This mechanic is especially useful for Testament as many of their attacks have long recovery time and using a PRC can help avoid an opponent’s punish.
+Testament can make good use of their Burst meter as well when managed properly. Oftentimes it may be best used to Burst out of the opponent’s combo as Testament works best from further ranges and doesn’t have incredible defensive options. However, half of the Burst meter can also be used to perform Wild Assault and Deflect Shield.
+
+Wild Assault (236D) is a fast and advancing swipe that can be used within combos and pressure. Similarly to Red Roman Cancel it can also help extend combos off of pokes. It also drains the opponent’s Burst gauge meaning that the combo is then Burst safe. On wall break it will put the opponent into hard knockdown meaning that Testament can continue their offense.
+Deflect Shield (214D) is a defensive tool that will deflect mid, low, and overhead attacks and push the opponent a distance away. This can help escape the opponent’s pressure and possibly cause them to whiff their next attack. If they whiff, use this to your advantage and punish swiftly with one of Testament’s strong callouts such as f.S.

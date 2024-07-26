@@ -1,0 +1,633 @@
+Boasting long range, crafty tricks and elegance in spades, Testament, the reawakened Gear, finally returns! Equipped with a massive crimson scythe, Testament controls the battlefield like no other.
+
+Armed with impressive hitboxes on many moves, Testament is a strong contender in the midrange. f.S and 5H are particularly strong for grounded space control, with 5H adding a disjoint at the cost of safety. 6H is a bit slow, but reaches far both horizontally and vertically. For air control, j.S and j.D excel at contesting foes. Spicing up Testament’s space control is the Grave Reaper projectile. Both the grounded and aerial versions can be angled straight or diagonally with the S or H variants. It can also be powered up by partially or fully charging it, resulting in twelve different versions total.
+
+After Grave Reaper has travelled its full distance, the projectile transforms into a Succubus that stays in place for a few seconds. The Succubus can be teleported to with Possession for a unique movement option. Unholy Diver fires Testament’s crow like a projectile, which tracks to the position of the Succubus. Nostrovia is a unique Overdrive that locks the opponent down under a barrage of attacks, allowing Testament to close the gap and enforce mix-ups. If Unholy Diver or Nostrovia make contact, the opponent is inflicted with Stain State. This opens up some new mix-ups and combo routes, such as converting off of uncharged 5D. You’ll need a good understanding of both the Succubus and Stain State to make the most of Testament’s unorthodox offense.
+
+While Testament’s range is excellent, the same cannot be said for their frame data. Many moves are sluggish to start up or have long recovery. As such, wild swinging renders Testament vulnerable to Counter Hits and punishment. To mitigate this danger, remain calm and calculated. Wait for the right moment to strike.
+
+If you’re looking for a character with excellent range and tricky mix-ups, then this glamorous Grim Reaper is a perfect match.
+Testament
+
+Damage Received Mod
+×1.05
+Guts Rating
+1
+Prejump
+4F
+Backdash
+18F Duration
+1-5F Invuln
+1-15F Airborne
+Unique Movement Options
+Possession
+Fastest Attack
+2P (5F)
+Reversals
+Calamity One (15F)
+Testament is a midrange zoner, capable of controlling the pace of a match with their succubi and various projectiles.
+Pick if you like	Avoid if you dislike
+Huge attacks and full-screen projectiles covering large swaths of the screen at a time.
+A fundamentals-principled design, with strong pokes, projectiles, and anti-airs, doing the basics expertly.
+Creating situational utilities in neutral to alter the behaviour of moves and reward awareness.
+Slow movement without much alternative for traversal.
+A read-based offense reliant on stagger pressure needs you to make predictions to keep pressure.
+Many manual timings and microdashes in combos and offense.
+
+Unique Mechanic: Stain State
+Testament's Unholy Diver projectile and Nostrovia Overdrive put the opponent into Stain State on contact. Stain State lasts for up to 300 frames at maximum, and ends when either triggered by Testament or when Testament gets hit. Hitting an opponent in Stain State with any of Testament's normals, Arbiter Sign, or the scythe slash of Grave Reaper causes an automatic follow-up Stain attack that can be used to extend combos on hit or maintain pressure on block. A full list of Stain State frame data is available to read here.
+
+Stain effect
+Stain effect
+ 
+Stain activation
+Stain activation
+
+Startup Frames
+Active Frames
+Inactive Frames
+Recovery Frames
+Special Recovery Frames
+Projectile Active
+Cancel Window
+5P
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+24	All	6	3	9	-2	
+Total:
+17
+Testament's jab is better than 2P against airborne opponents, but is otherwise outclassed by its crouching cousin.
+
+Fast, tall anti-air button.
+Whiffs on crouching opponents.
+Links into 5K and 2K on Counter Hit.
+Gatling Options: 5P, 2P, 6P, 6H
+
+5K
+Images
+Hitboxes
+
+Abusable
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+28	All	7	4	11	-3	
+Total:
+21
+Useful in neutral where f.S would be too slow and in combos when you cannot do c.S. Get used to this normal as Testament relies on it a lot against characters that can contest them at f.S range. At waist height and above, 5K will combo into 6H on airborne opponents which adds good damage to combos. Deceptively strong button at round start, its large hitbox paired with its speed can stop a lot of pokes.
+
+Good range, fast, and safe on block.
+Only a true blockstring into 6P, otherwise leaving a throwable gap.
+Links into 2K on Counter Hit.
+Gatling Options: 6P, 6H, 5D, 2D
+
+c.S
+Images
+Hitboxes
+
+Hits higher than you think it does
+
+Told you
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+39	All	8	6	10	+1	
+Total:
+23
+An important combo and pressure starter in Testament's kit, this move is vital to their game plan. While it is slower than many other c.S's, its long active frames and varied gatling options (the most out of Testament's kit) lead to strong pressure if blocked and combos if hit. Without dash momentum, blocked c.S will leave Testament just outside throw range but just close enough to still be in c.S's activation range for a potent, automatic throw bait.
+
+Causes floating crumple on ground hit, allowing a 2S > 2H followup.
+Combos into 6H/2H on Counter Hit or against airborne opponents.
+Gatling Options: 6P, f.S, 2S, 5H, 2H, 6H, 5D, 2D
+
+f.S
+Images
+Hitboxes
+
+Roundstart at your own peril
+
+Vulnerable to 6P
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+33	All	12	3	18	-7	
+Total:
+32
+Very long range, great for checking the opponent's position. Use with care, however, as this move is a bit slower than most other character's f.S normals which is made up for by added range and disjoint.
+
+Combos into 2H and Arbiter Sign on Counter Hit.
+Excellent normal to hit confirm into Wild Assault on normal or Counter Hit since at long range Testament's gatling options and special cancels can whiff and be punished.
+Gatling Options: 5H, 2H
+
+5H
+Images
+Hitboxes
+
+f.S's disjointed cousin
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+46	All	13	2	25	-8	
+Total:
+39
+Primarily used in blockstrings or to challenge buttons at ranges where f.S may lose or trade. This is a good blockstring option with its ability to cancel into Grave Reaper, but at certain spacings its high pushback will cause Grave Reaper to whiff, leaving a punishable gap.
+
+Launches and tumbles on hit, combos into S Arbiter Sign, Grave Reaper, or low to the ground Unholy Diver. Counter Hit combos into standard height Unholy Diver.
+Less reach than f.S.
+Fairly disjointed but often in range to still get hit or clash with an opponent's 6P.
+Hits low enough to beat some low profile moves such as all low profile 2K and Jack-O's 2D but whiffs even lower moves such as 6P and Ky's Stun Dipper.
+5D
+Images
+Hitboxes
+
+
+Version	Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+Dust Attack	45	High	20	3	26	-15	
+Charged Dust Attack	56	High	28	3	26	-10	
+Total:
+48
+Total:
+56
+Universal overhead attack. Tapping D gives a fast but weak overhead, while holding down D will give a much slower but much more powerful strike.
+
+Uncharged Dust Attack
+As this is Testaments fastest grounded overhead, 5D is needed to threaten the opponent with grounded high/low mix-ups. Roman Cancels allow this attack to continue into further pressure or convert into a combo without charging it. Unique to Testament, Stain State also gives them a combo from uncharged 5D and leaves them +5 on block, allowing safe resets and powerful frametrap followups. Can gatling from 5K, 2K, or c.S for a mix-up.
+
+Causes floating crumple on ground hit.
+Launches opponent on air hit.
+80% proration.
+Charged Dust Attack
+On-hit, holding 8 will activate Homing Jump for a large combo opportunity.
+
+Significantly slower than an uncharged 5D, making it easier to react to. If it hits the opponent raw, it can lead into a very high damaging Homing Jump combo.
+
+Launches opponent on hit if combo'd into.
+2P
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+22	All	5	3	10	-3	
+Total:
+17
+Useful almost exclusively as a way to challenge pressure. It's fast enough to challenge and establish tick throws, but connecting more than two 2Ps launches opponents too far for 6P to combo.
+
+Testament's fastest abare button.
+Susceptible to low profile attacks such as 6Ps and Giovanna's Sol Nascente.
+Links into 2K on Counter Hit.
+Gatling Options: 5P, 2P, 6P, 6H
+
+2K
+Images
+Hitboxes
+
+Great on Stain State, too
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+25	Low	6	2	13	-3	Below Crouch 4-5
+Low Profile 6-20
+Total:
+20
+Only true blockstrings into 6P, otherwise leaving a throwable gap. This is not an issue outside of absolute point-blank range, as 2K > 2D will catch even 3f buttons.
+
+Beware characters with invincible reversals or reversal Overdrives, they can punish the 2K > 2D gap.
+
+Testament's fastest low.
+Excellent low profile.
+Links into itself on Counter Hit.
+Gatling Options: 6P, 6H, 5D, 2D
+
+2S
+Images
+Hitboxes
+
+Way shorter than f.S, but also way safer
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+30	Low	10	3	18	-7	
+Total:
+30
+Rewarding tool when fishing for Counter Hits. Beats a lot of the things that can go under f.S and shares the same gatling options. Like the caption suggests, this move is faster overall than f.S at the cost of reach.
+
+Testament's main low poke.
+Combos into 2H on Counter Hit.
+A powerful roundstart option.
+Gatling Options: 5H, 2H
+
+2H
+Images
+Hitboxes
+
+Not a low
+
+Catches more than you might think
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+49	All	21	9	12	-2	
+Total:
+41
+2H fills an interesting niche in Testament's moveset. Its primary use cases are to reset pressure and confirm off of Counter Hits such as c.S or mid-range f.S.
+
+It launches on hit and has great scaling, at the cost of having high startup. The vacuum effect can be used to ensure that both hits of H Grave Reaper connect, leaving Testament slightly plus.
+
+2H is best suited towards the beginning of combos or after Wild Assault, as its launch height is heavily affected by gravity scaling. 6H is often a better alternative that also deals more damage later in scaled combos.
+
+Launches on hit.
+Vacuum effect on hit or grounded block.
+Combos from c.S on air hit.
+Combos from c.S, f.S, and 2S on Counter Hit.
+c.S > 2H trades favorably with 5 frame mashes.
+2D
+Images
+Hitboxes
+
+Hope they won't notice the gap
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+32	Low	14	3	22	-8	
+Total:
+38
+Testament's sweep makes for a great combo starter, as 2D > H Grave Reaper allows for links after. It's also a great low in pressure. Its only downfall is its speed, as it does not true blockstring from Testament's 5K or 2K and is too slow to effectively poke with.
+
+2K > 2D has a tendency to whiff at close to max 2K range.
+Gatlings from 5K and 2K have a throwable gap.
+6P
+Images
+Hitboxes
+
+Content Warning: Hitbox
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+31	All	11	6	15	-7	1-3 Upper Body
+4-17 Above Knees
+Total:
+31
+Upper-body invulnerable, blanket anti-air for almost any situation.
+Excellent and rewarding counter-poke, especially with Stain State applied.
+Testament's only true blockstring from their 5K and 2K.
+Frame traps from 5P and 2P.
+Hard knockdown on Counter Hit.
+The infamous. Everything you would want from a 6P and much, much more. With its massive hitbox, this button will anti-air many air approaches that normally bait or otherwise naturally beat 6P, and at 15 frames of recovery it is exceedingly difficult to whiff punish considering its effective range. These 2 things combined with the universal upper-body invulnerability of a 6P mean that this is an excellent normal to flail with, and many characters will have to drastically alter their neutral game in order to not run into its hitbox.
+
+6H
+Images
+Hitboxes
+
+Take a precious moment to embrace how much this move covers
+ 
+
+
+Active frames 1-3
+ 
+
+Active frames 4-6
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+61	All	23	6	32	-19	
+Total:
+60
+Testament swings their scythe over their head. Slow, but covers a decently large space. Mostly useful to add damage, to end combos and start okizeme from its hard knockdown effect, and to extend a combo into Nostrovia, but can also catch people trying to jump out of the corner.
+
+Has a large, Counter Hit hurtbox that extends before the hitbox.
+Ground bounces on hit, allowing a combo into charged H Grave Reaper.
+Hard knockdown on hit which serves as the foundation for Testament's oki after combos.
+j.P
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+19	High	6	4	10	+1 (IAD j.PP)	
+Total:
+19
+Testament's fastest air normal. Good for quickly intercepting aerial opponents and forcing them back to the ground while building some R.I.S.C. on block, but otherwise lacks range.
+
+Gatling Options: j.P
+
+j.K
+Images
+Hitboxes
+
+Best used cross-up
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+25	High	8	2	12	-3 (IAD)	
+Total:
+21
+A niche air-to-air and pressure button, j.K has very specific uses. It is suited to combating air-to-air buttons, especially ones that come from beneath Testament. When combined with Stain State, usually after triggering Stain with 5K, it can lead into frame traps with aerial H Grave Reaper, as well as niche Safe Jump setups with Possession.
+
+The move's small vertical range and poor frontal hitbox relegate it to these very specific use cases, with j.S and j.D more useful as general purpose air-to-airs.
+
+Testament's only crossup normal, as none of their other jumping buttons have a hitbox behind them.
+Confirms into 5K > 2D for a combo.
+Gatling Options: j.D
+
+j.S
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+31	High	9	3	19	0 (IAD)	
+Total:
+30
+A scythe slash well suited for air-to-air usage, with a mixture of good speed and horizontal range. It has faster startup and more downward range than j.D, but without the disjointed hitbox. Also great as a runaway tool when canceled into Air Grave Reaper to start Testament's space control game.
+
+Gatling Options: j.H, j.D
+
+j.H
+Images
+Hitboxes
+
+
+Not disjointed, use carefully
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+40	High	13	5	16	+5 (IAD)	
+Total:
+33
+Main jump-in and air combo filler. In an air-to-air situation, this should not be your go-to button given its longer startup than j.S and likelihood to whiff if the opponent is at the attack's blind spot, causing you to drop a confirm. Of note, the actual hitbox on the end of the scythe is not disjointed, so be mindful of an anti-air if you telegraph this.
+
+Has a blind spot right at the hilt of the scythe.
+Testament's ideal Safe Jump button.
+Gatling Options: j.D
+
+j.D
+Images
+Hitboxes
+
+
+Active frames 1-2
+ 
+
+Active frames 3-6
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+46	High	12	6	22		
+Total:
+39
+Mainly used after j.H to extend air combos or push for a wall stick in the corner. It can be also used as a retreating or air-to-air button, though keep in mind its vertical range is short. You can air dash after the move ends and it is special cancelable, allowing you to continue pressure with H Grave Reaper, though this can be a bit finicky.
+
+Pauses Testament's air momentum and pushes them slightly backwards.
+Cannot hit crouching opponents.
+Ground Throw
+6D or 4D
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+80	Ground Throw	2	3	38		
+Total:
+42
+Synergizes well with the rest of Testament's moveset. Testament is free to set up an S Grave Reaper afterwards anywhere on the screen, and microdash S Grave Reaper in the corner will hit meaty enough to true blockstring into c.S to continue pressure.
+
+Air Throw
+j.6D or j.4D
+
+Images
+Hitboxes
+
+Visions of dolls past
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+80	Air Throw	2	3	38 or Until Landing+10		
+Total:
+42
+Total:
+14
+Though Testament can usually cover jump-in attacks with 6P or H Grave Reaper, their air throw still makes for a reliable anti-air when there isn't enough time to apply a better option, scoring a knockdown and an opportunity to apply okizeme. In the corner, it can be used to keep opponents from escaping or trading with slower moves like j.H that won't come out fast enough to cleanly intercept.
+
+Wild Assault
+236D with 50% Burst (Hold OK)
+
+Images
+Hitboxes
+
+
+Version	Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+236D	30	All	16~28	3	20	-4	
+236[D]	50	All	29	3	20	-4	
+Wild Assault
+Total:
+38
+Fully Charged Wild Assault
+Total:
+51
+Orange Wild Assault: Fast startup with extremely high momentum when canceled. See here for more info on Wild Assault types.
+
+A fast, advancing swipe used for combos and pressure extension at the cost of 50% Burst. The fully charged version can allow for full combos off of Counter Hit pokes such as f.S and 6H. Useful after wall stick as an alternative to Unholy Diver to cause HKD on wall break against characters that Testament can Safe Jump against.
+
+Normal, special, jump, and backdash cancelable.
+Drains 7.14% of the opponent's Burst Gauge on hit or block.
+Applies Hard Knockdown when launching or when used to Wall Break.
+Stain
+
+Go take a bath...
+ 
+
+Stain hit effect
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+40	All	24	3	0	+1~+31	
+Total:
+26
+An automatic follow-up attack that triggers when hitting an opponent in Stain State with any of Testament's normals, Arbiter Sign, or the scythe slash of Grave Reaper. The explosion it causes can be used to extend combos on hit or maintain pressure on block.
+
+See Testament's Stain Frame Data table for more specific information on their frame advantage when triggered after particular moves.
+
+Testament's Unholy Diver projectile and Nostrovia Overdrive put the opponent into Stain State on contact.
+Stain State lasts for up to 300 frames at maximum, and ends when either triggered by Testament or when Testament gets hit.
+Startup ignores hitstop, meaning Testament's frame advantage improves with moves that have lower hitstop.
+Grave Reaper
+236S/H (Air OK)
+
+Images
+Hitboxes
+
+ 
+
+
+S version Scythe hit
+ 
+
+First active frame S of projectile
+ 
+
+Max range of S uncharged projectile
+ 
+
+j.S Scythe hit
+ 
+
+First active frame of j.S projectile
+ 
+
+H version Scythe hit
+ 
+
+First active frame H of projectile
+ 
+
+Max range of H uncharged projectile
+ 
+
+j.H Scythe hit
+ 
+
+First active frame of j.H projectile
+Version	Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+236S	43, 31	All	16~22	4, (5), 30	27	-4	
+236H	43, 31	All	13~19	4, (5), 30	21	+2	
+236{S}	48, 36	All	23~29	4, (5), 70	22	+3	
+236{H}	48, 36	All	20~26	4, (5), 70	16	+9	
+236[S]	53, 41	All	30~36	4, (5), 110	19	+10	
+236[H]	53, 41	All	27~33	4, (5), 110	13	+16	
+(S and H inputs in the table above represent uncharged version, {S} and {H} inputs correspond to partial charge, and [S] and [H] to full charge)
+
+One of the most important tools in Testament's kit, Grave Reaper is incredibly versatile, being a key zoning tool, okizeme tool, and pressure ender. Proper use of Grave Reaper is a necessity, as it places a Succubus on screen for use with Possession and Unholy Diver.
+
+With four versions and three levels of charge, there is a Grave Reaper for nearly every situation. Providing good control over timing, somewhat ambiguous animations, and air momentum changes, Grave Reaper can cover both ground and air as an effective zoning tool. Once the projectile is launched, the move can immediately be used again, while also giving Unholy Diver much more accuracy for even more zoning potential. Take care when performing the air version as it puts Testament into Counter Hit recovery, and it is in recovery until landing.
+
+As a pressure ender, Grave Reaper leaves Testament plus with any charge and has huge pushback on block while setting up a Succubus, allowing Testament to threaten approaches with Unholy Diver, switch sides with with Possession, or approach with Possession.
+
+The projectile can be used to hit meaty after combos even at long range, leaving Testament extremely plus if it can be charged while setting up a Succubus. OTG Grave Reaper is also useful after many knockdowns. This forms the foundation of Testament's okizeme which can be detailed here.
+
+The S version projectile travels horizontally forwards. The H version projectile travels diagonally (upwards for 236H and downwards for j.236H).
+Places the Succubus slightly past wherever the projectile finishes. Replaces the Succubus' location if it was already placed.
+All versions can be held to charge the attack, improving damage and advantage, and allowing the projectile to travel for longer.
+The scythe slash triggers Stain on contact, but the projectile does not.
+Heavily stalls air momentum. Stalls for longer the more it is charged.
+Unholy Diver
+214P (Hold OK)
+
+Images
+Hitboxes
+
+Not much damage for wallbreaking, but you'll need the Stain
+
+ 
+ 
+
+Transformation when bird meets succubus
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+23	All	21		Total 39	+1	
+Total:
+39
+(Note)
+A projectile that's vital for setting up safe pressure, and a powerful zoning tool after Grave Reaper.
+
+Testament's only method for applying Stain State without spending Tension on Nostrovia, you should aim to hit opponents with it as often as possible to make use of Stain for Testament's most powerful pressure and combos. It is commonly used during pressure after S Grave Reaper, acting as a ground-targeting projectile that is very plus on block, it enables completely safe pressure options and tricky mix-ups to take advantage of Stain. It is also a good combo ender, despite its low damage, as it usually sets up for powerful okizeme that utilizes Stain.
+
+A situational anti-air from long range, its long active frames and fullscreen range are excellent at covering air dashes and it covers an angle that cannot be easily covered by Grave Reaper.
+
+If whiffed, the crow will return at a lower height briefly, allowing it to hit most grounded opponents, which gives the move more viable use in neutral. After a short period, the crow will return to its normal position above and behind Testament.
+
+Applies Stain State to the opponent on contact. If the wall breaks, the opponent will have Stain State active after the wall break.
+When used raw, the projectile will travel in a straight path from the crow's starting position, but if an active Succubus is present it will fly towards that instead. Holding P will force the crow to always fly straight.
+Cannot hit most opponents on the ground at its default height, except for Faust and Potemkin when standing.
+When targeting a Succubus, the hitbox of Unholy Diver and Succubus meeting is active for 12 frames with Unholy Diver in recovery for 66 frames after.
+The Crow
+This projectile is unique in that its starting position is variable. In neutral, Testament is followed by a crow that normally idles above and behind Testament. Depending on its start and end points, it may hit on different timings and travel at different angles. Some situations can move the crow, especially when its trying to return to Testament after Unholy Diver, Grave Reaper, Nostrovia, or when Testament moves. These situations cause the crow to have a lower idle position for a small window of time. This allows Unholy Diver to hit standing opponents to continue pressure by applying Stain State.
+
+Possession
+214K (Air OK) (Hold OK)
+
+Images
+Hitboxes
+
+
+Startup (left) and recovery (right)
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+16		Total 32		16-25F Full
+Total:
+32
+A potent mobility tool, mix-up tool, and neutral tool. Due to Testament's poor movement speed, this is Testament's most effective way to close the gap without being easily reacted to, becoming essential for throw mix-ups and some pressure resets. Drifting to the left or the right after teleporting with (214K(4) or 214K(6)) makes these mixups even more potent. Possession in neutral can be used to force large grounded approaches to whiff or bait an anti-air while approaching from the ground. With a placed Succubus, it can also be used to side switch, particularly for escaping the corner. If the distance between Testament and the Succubus is very large, opponents cannot cover both areas at once, giving Testament more ways to contest their coverage of neutral.
+
+One of the biggest weaknesses of Possession is the slow startup. Despite its late telegraph it is reactable and unsafe, especially if Testament needs to move anywhere before beginning an attack. Using 214[K] to remain in place can circumvent this and can cause the opponent to whiff their punish or throw tech. When used unpredictably, this turns it into a mix-up which even on reaction can be a 50/50. However, some situations may be unsafe regardless if one input can challenge both outcomes. This weakness can be mitigated in large part due to the ability to drift forwards and backwards with Possession.
+
+Without a placed Succubus, this move loses most of its utility. It remains useful for stalling Testament's movement very suddenly, and can be used as a last-resort bet for avoiding anti-airs after double jumping or air dashing. However, this is extremely risky as Testament becomes exposed to an air Counter Hit combo if the opponent does not fall for the bait.
+
+Teleports Testament to the location of an active Succubus. An active Grave Reaper will also end early, causing Testament to teleport to its position.
+If no Succubus is present, Testament will disappear and reappear on the spot. Holding K will cause Testament to always stay in place.
+Inputting 4 or 6 during Possession will cause Testament to drift backwards or forwards upon teleportation.
+Completely halts air momentum for duration of move.
+Counter Hit state on both startup and recovery.
+Arbiter Sign
+214S/H
+
+Images
+Hitboxes
+
+Oh, you're blocking high?
+ 
+
+Oh, you're blocking low?
+
+ 
+
+Version	Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+214S	63	Low	24	3	26	-12	
+214H	63	High	28	3	26	-12	
+S Arbiter Sign (Low)
+Total:
+52
+H Arbiter Sign (High)
+Total:
+56
+Despite its ambiguous animation, the overhead is still reactable. Additionally, due to the 4 frame gap between both hits, more savvy opponents will be able to Fuzzy Guard both versions. Combined with weak combo potential, and leaving a large gap in pressure, this makes it an objectively bad mix-up tool. Fortunately, it is able to function safely against meterless invincible attacks, giving the H version some utility in the corner with Stain State, though still a weak option overall.
+
+The S version is a good anti-zoning tool, due to its massive tracking range that does not interact with projectiles. However, it is poor as a poke in neutral as it has a tendency to whiff moving opponents, and the H version—despite appearance—is unable to hit jumps. It can still be used as a risky option in neutral against low-health opponents to close out rounds.
+
+It can also be used as a high-damage combo ender by sacrificing all other okizeme opportunities from Grave Reaper or Unholy Diver, primarily for ending a round. It can also be paired with the active projectiles from charged Grave Reaper or Nostrovia to enforce a basic mix-up on a blocking opponent, but this hinges on the opponent not jumping either projectile, after which Arbiter Sign will whiff and likely be punished by.
+
+On a close range hit, the launch provides Testament with enough frame advantage to be able to safely jump in, something Testament can struggle with in neutral. The increased launch height also allows for combos into charged H Grave Reaper under certain situations, which can allow for good extensions. However, these options are quite niche, and as such players should not be fish for them in neutral.
+
+S version is a low and H version is an overhead.
+Not a projectile, despite appearance. Can be parried, Red Roman Canceled, and applies hitstop to Testament.
+Both versions share an identical animation for frames 1~4. Sigil appears on frame 5 S or 8 H, and stops tracking on frame 14 S or 18 H.
+Attack targets the opponent's location at a minimum distance of 35% of the screen.
+Triggers Stain on contact, becoming +11 on block.
+Nostrovia
+236236P
+
+Images
+Hitboxes
+
+It's all fun and games...
+ 
+
+...till they jump
+
+ 
+
+ 
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+20×2, 57	All	11+19	6, (20), 6, (24), 4	Total 53	+63	
+Nostrovia
+Total:
+89
+Testament during Nostrovia
+Total:
+53
+(Note)
+A fantastic combo extender and ender, due to its huge corner carry and applying Stain State on wall break. With its hard knockdown and Stain State applied, Testament's follow-up okizeme becomes extremely strong. In combos, you can always input one last 6H or Arbiter Sign before Nostrovia wall breaks to optimize damage without losing the Stain State or knockdown on wall break.
+
+Nostrovia excels as a corner pressure reset while the opponent is in Stain State. When cancelling or linking from a normal, opponents are unable to jump out even from substantial range due to the Stain explosion. This forces easy frametraps or mix-ups and resets into more Stain State pressure. In the corner, using 5D or 2K during Nostrovia results in a fast High-Low mix-up that immediately wall breaks on hit, remains advantageous on the low, and reapplies Stain State on block, allowing you continue pressure for even longer.
+
+However, this move is very flawed in neutral. At mid range it can be punished on reaction with any Instant Air Dash jump-in. From farther out it is safer as Testament can either block in time or 6P attempts to get over Nostrovia's second hit that can anti-air with its larger hitbox. Unfortunately, at this range Testament is unable to reach the opponent in time to force a mix-up before Nostrovia is finished. While Testament is still at advantage afterwards, using an attack that can reach from that range expends Stain State. Because of its nature as a projectile, Nostrovia will destroy all other projectiles it passes through, giving it a niche usage for breaking through troublesome setups.
+
+Last hit applies Stain State to the opponent on contact. If the wall breaks, the opponent will have Stain State active after the wall break.
+Projectile will remain active even if Testament gets hit.
+Unholy Diver cannot be used while Nostrovia is active.
+Will not incur a Tension gain penalty if it is canceled before the super freeze.
+Calamity One
+236236K
+
+Images
+Hitboxes
+
+Self-defense
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+123	All	11+4	5	67	-38	1-19F Full
+Total:
+86
+(Note)
+Testament's only invincible reversal. Due to its comparatively slow startup, fast attacks like P normals can safely recover by the time Calamity One becomes active, making it a weak reversal and especially susceptible to Safe Jumps. It also suffers from only targeting forwards and not very high, making it prone to cross-ups and some airborne attacks with large vertical range.
+
+As compensation, its slow startup makes it very good for invincible Purple Roman Cancels, in which by PRCing the move's startup Testament spends only 50% Tension to receive its full startup invulnerability, allowing them to whiff punish many moves, even very active ones, and easily check for mix-ups or if the opponent is blocking out of caution. This is not flawless and tends to be weaker against projectile okizeme and delayed/highly active meaty options, making it important to consider both uses. As RC startup is not invulnerable, Testament can also get hit out of PRC if done too early. However, because neither Calamity One nor PRC had time to complete, no Tension will be lost in that situation.
+
+It also works as an alternative to Nostrovia but still does less damage than Nostrovia + any other move and doesn't apply Stain State after the wall break. An otherwise inferior option in the majority of combos.

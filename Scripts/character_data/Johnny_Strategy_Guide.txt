@@ -1,0 +1,432 @@
+Johnny is a character with a strong focus on controlling neutral with his Mist Finer specials. Given the "Zoner" designation by the game, Johnny's ideal playstyle is to train the opponent down with his long pokes. Once he's established himself, Johnny can move into a more reactive style of play by using Mist Finer to punch opponent approaches back. If opponents choose to respect Mist Finer, Johnny can then approach and begin his own excellent pressure.
+
+The biggest problem with Johnny's gameplan is his need for precision and strong decision making. Johnny has few moves that pull double-duty for anything, and a large number of his moves are highly committal. For example, P Mist Finer covers a very specific angle despite the speed and range, allowing opponents to sneak under if it they make a read. While you can easily succeed if you're good at making the right call, Johnny can certainly overbet on his options if you play too deliberately.
+
+Move Notation
+As Mist Finer stance is used in a number of unique ways in combos and pressure sequences, there are a number of shorthand notations used for different actions revolving around actions in stance.
+
+Notation	Full name	Meaning
+PMF	P Mist Finer	Mist Finer : Upwards
+KMF	K Mist Finer	Mist Finer : Horizontal
+SMF	S Mist Finer	Mist Finer : Downwards
+6XMF	Forwards Mist Finer	The notated Mist Finer includes a forwards Mist Finer Dash before releasing the button.
+4XMF	Backwards Mist Finer	The notated Mist Finer includes a backwards Mist Finer Dash before releasing the button.
+MFC	Mist Finer Cancel	Indicates that Johnny enters Mist Finer stance and immediately leaves it as a type of cancel.
+MS	Mist Step	Johnny enters Mist Finer stance, dashes forwards, and exits the stance.
+DJk	Dash-Jump Kara Cancel	Johnny kara cancels the startup of a dash-jump into a special or Overdrive.
+MFk	Mist Finer Kara Cancel	Johnny kara cancels Mist Finer Cancel into an Overdrive.
+Pokes
+Johnny excels in the midrange, utilizing fast pokes with long range to keep the opponent out. It should be noted, however, that many of Johnny's pokes sport long recoveries, making them risky in situations where they are likely to whiff.
+
+Neutral Pokes
+f.S A lightning fast, large poke for checking spacing.
+f.S
+A lightning fast, large poke for checking spacing.
+ 
+5H Poke that trades speed for even more range. Terrible on whiff but safe on block with a MFC.
+5H
+Poke that trades speed for even more range. Terrible on whiff but safe on block with a MFC.
+ 
+2S Long range and a low hitbox for checking low profile options.
+2S
+Long range and a low hitbox for checking low profile options.
+ 
+5K Fastest and safest poke to throw out, with low crushing capabilities.
+5K
+Fastest and safest poke to throw out, with low crushing capabilities.
+ 
+Mist Finer Long, disjointed punish option.
+K Mist Finer
+Long, disjointed punish option.
+Johnny's pokes are the building blocks of his neutral gameplan, offering great space control and the ability to reliably whiff punish opponents from a long range.
+
+f.S is fast and has enough range to pose a serious threat to opponents with poor spacing. Being able to hitconfirm into a hard knockdown with S Mist Finer to set up card okizeme is very important. It's also equally important to recognize the ranges in which f.S > SMF will whiff, which means you'll have to confirm into KMF instead.
+
+5H plays a similar role to f.S, though it has longer range, better damage on hit, and is significantly safer on block at the cost of much longer startup and recovery. This is the button you use to punish whiffed DPs and YRCs, if you're not able to get a c.S punish in time.
+
+2S fills a similar role to f.S, although it can catch low profile moves like Sol's Night Raid Vortex. When the opponent gets too close, 5K is a useful check thanks to its low crush properties and fast frame data. It (alongside 2K) gatlings into 2D, giving it a fantastic risk to reward ratio in the form of okizeme.
+
+K Mist Finer has incredible range and a quick startup, allowing it to whiff punish options that f.S or 5H cannot reach. It's disjointed nature also makes it less vulnerable to reversals or 6Ps. Unfortunately, Johnny gets less reward than with his normal pokes, and can find himself in trouble as this move is -15 on block.
+Anti-Airs
+Most of Johnny's grounded pokes are easy to punish on read with a jump-in, making representing anti-air options a core part of Johnny's neutral gameplan.
+
+Anti-Airs
+6P A low reward anti-air with upper-body invulnerability.
+6P
+A low reward anti-air with upper-body invulnerability.
+ 
+5P Fastest air check, with higher risk and reward than 6P.
+5P
+Fastest air check, with higher risk and reward than 6P.
+ 
+c.S Giant anti-air with highest damage potential.
+c.S
+Giant anti-air with highest damage potential.
+ 
+Ensenga Niche anti-air that can reliably call out specific tools.
+Ensenga
+Niche anti-air that can reliably call out specific tools.
+ 
+6K Advancing AA used to snipe backwards air movement. Somewhat unreliable.
+6K
+Advancing AA used to snipe backwards air movement. Somewhat unreliable.
+As Johnny's grounded pokes have long recoveries, he is particularly susceptible to jump-ins in neutral. With good reactions, both 6P and 5P can reliably anti-air most approach options. While 6P gives middling reward on normal hit, scoring a counter hit can net significantly more damage and corner carry. In general, 5P offers higher reward on hit than 6P, as it very consistently juggles into c.S for better damage and corner carry. However, a lack of any disjoint or hurtbox retraction means it's risker to use, relying on pure speed to check jump-ins. A general rule of thumb is that for any air normal that beats Johnny's 6P, such as Testament's IAD jH, Johnny's 5P will win instead. And for any air normal that beats Johnny's 5P, such as a high hitting jump-ins like Baiken's IAD jS, Johnny's 6P will win instead.
+
+c.S is Johnny's preferred anti-air tool, as it gives massive reward on both normal and counter hit. However due to its proximity requirements, it can't be used all the time, such as when the opponent is too far away. In general, you won't be able to use it to stop IAD approaches, but it can act as a sunroof to shield you from any approaches on top of your head.
+
+Ensenga and 6K both have their share of niche uses with exceptional CH reward, with Ensenga being better for punishing forwards advancing neutral tools like Potemkin's Megafist. 6K is mainly used in situations where the opponent goes airborne while retreating, such as Faust's Love.
+
+While P Mist Finer may look like a great anti-air, it's not. With longer than average startup for an anti-air, lack of hurtbox retraction, unreliable and generally low reward on hit, using P Mist Finer will more often than not hurt you rather than help you.
+Jump-Ins
+Though Johnny is at his strongest on the ground, he can jump in using IAD or his excellent dash-jump to mix things up.
+
+Jump-Ins
+j.H Standard jump-in and safejump tool.
+j.H
+Standard jump-in and safejump tool.
+ 
+j.S Great normal with long but narrow reach, good for defending space.
+j.S
+Great normal with long but narrow reach, good for defending space.
+ 
+j.K Jack of all trades air normal with cross-up potential.
+j.K
+Jack of all trades air normal with cross-up potential.
+ 
+Aerial Mist Finer Niche anti-anti air option.
+Aerial S Mist Finer
+Niche anti-anti air option.
+j.H is Johnny's best air normal to use after an IAD. Due to it's slower than average startup, you will be able to hit 6P's if the opponent reacts too slowly. After a super wallbreak, IAD j.H will safejump reversals 10F startup or slower, but will lose to 3F mash options, as well as trade with 4F mash options.
+
+j.S is an interesting jump-in as it whiffs on the entire roster standing after an IAD except for Faust and Potemkin, potentially allowing for whiff setups into throws against opponents expecting j.H. The most common use case for this normal is after a backwards IAD, where you can safely poke at the enemy and defend the space infront of you without much risk. It's narrow hitbox means this move can whiff against most low profiles.
+
+j.K is notable for its long downwards reach and overall great frame data. It also hits behind Johnny, allowing for it to be used as a cross-up tool. IAD FDC j.K can snipe the startup of 6Ps if the opponent reacted too late, as well as naturally combo into c.S. While it's not recommended to use j.K after an IAD, it can be followed up with Aerial Deal to land and allow for a mixup opportunity. Be careful though, as this can be thrown both during and after the Aerial Deal, as you are not plus enough to jail a c.S.
+
+It should be noted that all of Johnny's aerials feature a gatling into j.D, allowing for double overhead setups or the ability to make jump-ins safer on block. Unfortunately, j.D's use cases are fairly limited outside of that, as it has massive blowback on hit and will whiff on crouching opponents.
+
+Aerial S Mist Finer is an interesting tool in Johnny's air game, as it can out-range many traditional anti-air options. This, paired with the slight air stall Mist Finer Stance provides, can give it niche usage as an anti-anti air. However, this option is very unsafe on block, and should only be used as a mixup to more conventional air options.
+Approaches
+c.S starts pressure, 2K is a low and 6K moves forward. Mist finer dash can result in long-range pressure. Mist finer dash into anti-approach PMF is strong. j.P, j.S and j.H control airspace.
+
+Fullscreen Zoning
+Heavy conditioning Keep opponents afraid of Mist Finer and use Deal up wherever you can sneak it in. P Deal for approaches, K Deal for your own approach. j.236H~H with 50 meter is extremely threatening.
+
+Resource Use
+Johnny loves Wild Assault and can easily convert off of it. 50 meter as usual is super good for confirms. 236236S absolutely wrecks zoners and anyone attempting to poke Johnny down.
+
+Deal Up
+Deal up is Johnny’s goal in pressure as it is a strong guard crush. plus frames and mixup conditioner supreme He can get it off of grabs (P Deal), combos (usually K deal) or in the corner (throw > deal, combo ender > deal)
+
+Okizeme and Pressure
+Without card, use c.S and 5K to strike throw people.
+
+2K > 2D > SMF works and leads to card, throw gets either a safejump with 44 > IAD j.H or a card.
+With MF cancelling, 5H can work as a okizeme tool, as can 6H.
+Ensenga ends pressure safely and throw baits for full combo
+Goal is generally to set a card somehow and at worst, Deal > RC can work to get one out.
+With a card, your goal is to set up a 50/50.
+
+Johnny’s easiest one is card > c.S >2147S/214S for a high/low which converts with Deal.
+Opponents who are scared of card may be vulnerable to MF dash > throw or even card > stepdash > throw.
+Alternatively, card can be used to pressure reset by cashing it out.
+Card can scare people into forgetting about 2S, which can result in 2S > 5H > KMF.
+Card basically makes all spacing traps real and lead to full combos, such as ensenga > 214S.
+Wild assault allows Johnny to convert at max range if necessary.
+Pressure
+Johnny is a character that wants to get in and stay in after winning interactions in neutral with his pokes. As a result, he can be extremely meter and Burst hungry due to a reliance on Orange Wild Assault and Roman Cancels.
+
+Johnny's pressure sequences usually begin with a hard knockdown. Depending on if he has time to place a card with Deal before the opponent wakes up, he can either utilize Tension to perform a mixup, use a placed card to build RISC with resets, use a placed card to perform a high/low mixup, or perform a simple blockstring off of a c.S starter.
+
+Mist Finer Cancel (MFC)
+More than just the center piece.
+More than just the center piece.
+One of the most important components of Johnny's pressure game is the Mist Finer Cancel (or MFCs), as they allow his H normals to be only -4 on block as opposed to being somewhere in the double digits! To MFC:
+
+Do a move that is special cancelable.
+Special cancel in to a Mist Finer.
+Hold button to stay in Mist Stance.
+While holding button, press H to Stance Cancel.
+   Example: 5H > 214[P/K/S]~H
+Optionally, off of H or D normals, you can simply hold the button used to execute the attack and then input Mist Finer. As an example with 5H:
+
+   Example: 5[H] > 214P/K/S  ( ]H[ after MFC occurs )
+The version of Mist Finer you choose to use for Mist Cancelling can be P, K, or S, but you should ideally choose the version you hold based on hitconfirm situations. For example, mist cancelling ground strings with K is very important, since it is the only mist finer that will combo on hit from many of Johnny's long pokes. Near the corner, using P in order to go into a delayed Mist Finer High after blocking is also very viable.
+
+Below is a chart detailing the frame advantage for moves of each attack level.
+
+Attack Level	Normals	On-Block	MFC On-Block	
+Level 2
+
+f.S, 2S, 2D
+
+-11, -10, -15
+
+-9
+
+Level 4
+
+2H, 5H, 6H
+
+-14, -15, -19
+
+-4
+
+The fastest recovery of Mist Finer Cancel is 7+15=22.
+Hits are assumed to hit at the first active frame.
+MFC has applications for pressure, mixups, resets, and more! Be sure to practice ending strings in MFC to make yourself safer, otherwise you open yourself up to some nasty punishes if the opponent ever IBs or Johnny is too close at the end of a string.
+Blockstrings
+Johnny's pressure once he has gotten in on the opponent generally involves a blockstring followed by a reset. He has a number of options for either, allowing him to vary his pressure based on the situation or opponent.
+
+Core Blockstrings
+When Johnny lands a c.S on block and lacks the resources or Card placement to perform a mix-up, it's generally a good idea to perform one of two core blockstrings to build RISC, Tension, and reset to a safe position in neutral.
+
+All of Johnny's main strings end in MFC, leaving him at -4 and able to perform a limited RPS afterwards. There are other ways to end strings utilizing special cancels, which will be detailed later under Resets.
+
+
+c.S > 2S > 5H > MFCYour primary blockstring and pressure sequence.
+This blockstring is the best route for quickly accumulating RISC on the opponent, which can turn even small combo opportunities into devastating ones. It should be noted that this is also a true blockstring, and cannot be interrupted with reversals or 6P.
+
+Notably, as 2S is a low, this string can condition opponents into blocking low after c.S, increasing the effectiveness of metered IAS S Mist Finer when he has resources.
+
+Accumulates 5625 RISC.
+Individual hits can be delayed to allow for frame traps.
+
+
+c.S > 2H > MFCAn alternative blockstring with some useful properties.
+Though it does not offer as much RISC or Tension as the other blockstring, there are some useful aspects of this string. Namely, c.S > 2H is a 2F frame trap that leads to extremely high reward, and this route does not push Johnny as far away from his opponent. Johnny can also use MFC after the first hit of 2H, allowing for some interesting reset opportunities.
+
+Note that the opponent can IB the c.S and throw Johnny on read if he is close enough.
+Accumulates 4400 RISC.
+
+Johnny's options after a full blockstring are largely dependent on the opponent's defensive choices. If the string was FDed, Johnny is likely too far away to easily continue pressure without exhausting resources. If the opponent IBed any hits of the string, Johnny may be too close to comfortably reset due to being -4 after MFC.
+
+Recognizing spacing and responding accordingly is a critical aspect of Johnny's gameplan, and will require constant adaptation if you want to make the most of your offensive sequences.
+Blockstrings eventually have to come to an end, in which case Johnny can either disengage or reset to get back in for another blockstring or a mixup. Generally, whether you reset or disengage is dependent on whether or not you have a card down or if you have the resources to keep pressure rolling. Though MFC is the ideal way to end pressure sequences, it is not the only option.
+
+Ending Blockstrings
+MFC End pressure at a respectable -4 from H normals.
+MFC
+End pressure at a respectable -4 from H normals.
+ 
+Ensenga An alternate way to end strings up close, also -4.
+Ensenga
+An alternate way to end strings up close, also -4.
+ 
+(Delayed) Mist Finer Use with caution! -15 on block.
+(Delayed) Mist Finer
+Use with caution! -15 on block.
+MFC is the preferred string ender for Johnny, as it will function at all ranges and lets him disengage from afar without being punished.
+
+Ensenga is Johnny's answer to opponents IBing his blockstrings, allowing him to disengage up close with the same -4 disadvantage as MFC though additionally generating some extra RISC and Tension. If Ensenga itself is IBed, Johnny is open to a throw punish. Only represent this option if you are not close enough for it to be a risk.
+
+Delayed Mist Finer is the final (and riskiest) way to disengage, and has a number of caveats. As Mist Finer is -15 on block, it can be punished severely if the opponent is patient. On the other hand, entering Mist Finer stance can also signal that Johnny is going for a Mist Step reset. As a result, ending strings with a Mist Finer frame trap can call out mashes, with S Mist Finer granting a hard knockdown and K Mist Finer offering a safejump in the corner in situations where S would not reach.
+Resets
+TODO
+
+Mixups
+Metered Mixups
+With resources, Johnny can opt to perform a mixup off of blocked c.S or in lieu of a traditional reset, cashing out the RISC he has accumulated. It should be noted that Fast Roman Cancels (FRCs) are favored wherever possible, as they allow Johnny to refund the meter spent on mixups in many cases. This results in an overall stronger gameplan, and lets Johnny keep his offense rolling without having to tap into his Burst for Wild Assault.
+
+Metered TK SMF
+Ensenga FRC
+Metered TK SMF
+Off of a blocked c.S, Johnny has enough time to jump cancel and perform an aerial SMF as a true blockstring. With meter, this can become a safe and potent mixup tool.
+
+
+TK SMF FRCThose 2S strings are starting to pay off.
+c.S jc j.SMF 66FRC j.H > c.S
+
+Johnny performs an instant overhead TK SMF and cancels into j.H > c.S. On hit, Johnny can convert into a full combo with 2H, and on block he can instead perform a standard blockstring.
+
+It should be noted that Johnny does not have a frame to spare in this mixup - c.S has 16F of blockstun and IAS SMF comes out in exactly 16F at the earliest!
+
+
+Dl. SMF FRCLess useful, but worth representing after attempting TK SMF.
+c.S dl. SMF 66FRC 2H
+
+Though it may seem counter-intuitive to delay SMF, failing to do so will make Johnny vulnerable to fuzzy guard. Unlike the overhead option, Johnny has to FRC into 2H, leading to a slightly worse situation on block.
+
+Ideally, SMF is delayed ~4 frames to make fuzzy blocking impossible against this mixup.
+This option should only be represented when the opponent is aware of the threat of TK SMF, or if you identify that they are fuzzy blocking during your blockstrings (i.e., you delay 2S and it consistently catches)
+Ensenga FRC
+Ensenga is a surprisingly useful tool in Johnny's pressure, as it commonly frame traps from many normals (making it a good answer to IBs) and is relatively safe on block. However, by utilizing a 66FRC on block, Johnny can represent a number of mixup options that are largely in his favor.
+
+
+Ensenga FRC Double OverheadTwo times for good measure.
+214H 66FRC j.P > j.PMF
+
+This option allows Johnny to represent a double overhead. Though the j.PMF leaves Johnny slightly plus, there is a gap between it and j.P where Johnny can be 6Ped by a knowledgeable opponent.
+
+
+
+Ensenga FRC LowNaturally.
+214H 66FRC j.Hw > 2D
+
+This option allows Johnny to represent a low, which can give him okizeme to loop his offense. If the opponent attempts to 6P expecting the double overhead, Johnny can earn a full CH punish that breaks the wall.
+
+
+
+Ensenga FRC ThrowA sneaky way to reset your pressure.
+214H 66FRC j.P > j.MFC lc 6D
+
+This option acts as a throw that looks like the overhead option. The MFC can be omitted entirely, though the throw will be more telegraphed.
+
+This is the riskiest option, and gives similar reward to the low. It should only be used against players that reliably fuzzy guard the other options.
+
+
+Ensenga FRC Frame TrapContinue your pressure and set up a future mixup.
+214H 66FRC j.236H lc c.S / 2P
+
+This option places a card and leaves Johnny +3 on block by using Aerial Deal as a blockstring tool. Following this, Johnny can use c.S to frame trap against 5F mash or 2P to frame trap against 3/4F mash. If the trap is blocked, Johnny gets a free mixup or reset using the card placed by Aerial Deal.
+
+Depending on whether the opponent FDs your blockstring or the distance the initial Ensenga was blocked at, it may be possible for the opponent to throw Johnny on wake up.
+Notable Knockdowns
+2K > 2D
+
+Throw
+
+KMF tumble
+
+SMF HKD
+
+Resource Use
+Wild Assault converts everything. 236H~H is a pressure reset with 50 meter. Card > PRC is expensive, but it helps stabilize corner pressure. opponents jumping out? j.S > RC or j.S > j.KMF > RC > c.S > combo
+
+
+Safejumps
+Super Wallbreak: IAD j.H
+Nope, still my turn.
+Nope, still my turn.
+Johnny is able to perform an IAD j.H safejump after a super wallbreak via his Overdrives to bait out some reversals and mash options, while still being able to cover backdashes or other defensive options. Notably, IAD j.H loses to 9F reversals and trades with 4F mash options (it will outright lose to 3F mash). The table below outlines which characters can pose a threat to this safejump.
+
+IAD j.H is Safe	4F Mash	9F Reversals	Both 4F Mash and 9F Reversal	
+Axl Potemkin Faust Zato Goldlewis Jack-O' Chaos Testament Bedman? Asuka Johnny Slayer
+
+May Elphelt A.B.A
+
+Ky1 Leo Nagoriyuki1 Ramlethal1 I-No1 Anji1 Bridget Sin
+
+Sol2 Chipp2 Millia1 Giovanna1 Baiken1
+
+Key:
+(1) 9F reversal costs 50% Tension
+(2) character has 3F mash
+In situations post hard knockdown wallbreak where Johnny cannot safely perform a safejump, it is advisable to instead utilize Deal to allow for limited setplay.
+
+Using j.S instead of j.H will cause it to whiff on most characters, allowing for a gimmicky throw mix-up against opponents that are playing defensively and not fuzzy delay teching.
+As j.S uniquely hits Potemkin and Faust when they stand block after Johnny uses IAD, j.S > j.D can be used to perform a double overhead safejump if they stand block expecting j.H.
+Baiken additionally posesses Hiiragi, a unique F1 parry. By kara cancelling the startup of Hiiragi into Tsurane Sanzu-watashi on wakeup, she is capable of OSing safejumps almost universally. Take caution when performing safejumps against Baiken!
+Abare
+Johnny's defensive toolkit is seemingly small at first glance, though he does have some tools to take back his turn or check attempted resets.
+
+Abare
+2P The real mash option
+2P
+The real mash option
+ 
+2K Reliable tool to check low-profiles up close
+2K
+Reliable tool to check low-profiles up close
+ 
+5K A low crush with fast frame data
+5K
+A low crush with fast frame data
+ 
+j.K A useful abare tool, even against grounded opponents.
+j.K
+A useful abare tool, even against grounded opponents.
+ 
+5P The not-so-real mash option
+5P
+The not-so-real mash option
+Johnny's abare tools are somewhat interesting. Up close, 2P is his mandatory 5F mash, and does it's job fairly well. On normal hit, 2P > 2P > SMF is a functional knockdown, and on counter hit he can get 2P > c.S > 2H > 6SMF.
+
+2K trades 2P's fast startup for a bit more range and lower reach, allowing Johnny to check tools like Sol's Night Raid Vortex or I-No's Stroke the Big Tree that normally can go under 2P. On hit, Johnny earns a 2D for hard knockdown.
+
+5K is a versatile poke that can function well in hectic situations, though like 2P it is vulnerable to low profile moves. It has a bit more range than 2K and can catch options that might high crush it, like A.B.A's normal mode Intertwine and Tilt.
+
+j.K is an interesting tool, as its low hitbox and relatively fast startup can make it useful is scrambles where Johnny has a bit more time to throw out a button. Considering prejump frames, this move as a 12F startup from the ground and can intercept options that might go over 5K, like the startup of Millia's Artemis.
+
+Like Goldlewis, Johnny's 5P has a slower than average startup at 6F and whiffs on crouchers (and even some characters standing). As a result, it is primarilly used as a mash option against airborne opponents, offering better reward and a less commital recovery period than 6P.
+Resource Use
+Joker Trick
+A literal card up your sleeve.
+A literal card up your sleeve.
+Joker Trick is a core part of Johnny's defensive toolkit, allowing him to snipe zoning attempts and get back to a neutral state. This tool is used primarily to punish options on reaction, though there are some important considerations to take when using this move.
+
+Axl's Sickle Flash can be punished on reaction with Joker Trick as it invalidates the projectile, effectively stealing back neutral in one interaction. Otherwise, avoid using Joker Trick in situations where Axl can represent Winter Mantis, as it will punish Johnny if Joker Trick was attempted on reaction to its startup at full screen.
+Faust is particularly vulnerable to Joker Trick as Johnny can react to and punish item toss with the move, though in other situations Faust is capable of using Crawl to low profile the card.
+Happy Chaos is not as vulnerable to Joker Trick as you might expect. During Steady Aim, Chaos can quickly cancel into Roll and low profile the card on reaction to super flash if he is far enough away.
+Asuka is a match up where Joker Trick is an important neutral tool to prevent snowballing situations, as it is possible for Johnny to punch through Submicron Particle Sphere with the card and land a devastating resource swap punish. Other situations where Joker Trick can be particularly effective are when Asuka is casting  Metron Arpeggio or  Bit Shift Metron on the ground, though it may be possible for Asuka to escape if he has  Aquila Metron to invuln through the card or  Go To Marker to reposition during recovery and avoid the punish.
+Kara Cancels
+Johnny has two special types of kara cancel that are unique to him. The first of these is the Dash-Jump Kara (or DJk), which allows him to cancel the startup of his dash-jump into specials and Overdrives. The second is the Mist Finer Dash Kara (or MFk), which allows him to cancel Mist Finer Cancel into Overdrives.
+
+Dash-Jump Kara
+Mist Finer Dash Kara
+Dash-Jump Kara Cancel
+Though all of Johnny's specials and Overdrives can utilize the Dash-Jump Kara, few are actually practical. This Kara is inputted by buffering 214 or 236, dashing, and then inputting 7, 8, or 9 and the attack button corresponding to the desired special simultaneously. This input can be simplified considerably by using a dash macro.
+
+
+DJk P DealSpacing at the cost of execution.
+P Deal is a common setplay tool for Johnny's okizeme, though oftentimes the opponent is knocked too far away for the card to be placed in an optimal position. To solve this, Johnny can use DJk to position himself closer to the opponent without sacrificing too many frames.
+
+Delaying the DJk can allow Johnny to slide further, making this a useful way to fine tune card placement.
+This is by far the most practical use case for DJk.
+
+
+DJk S Mist FinerA niche punish tool with some neutral applications.
+Johnny can use DJk to give S Mist Finer a bit more range. SMF is a useful hard knockdown tool, and is a preferable whiff punish to KMF where applicable. DJk can give this move a bit more range to help it compete with similar pokes like 2S, though the situation on block still leaves this move lacking in neutral.
+
+A better use case for DJk SMF is as an okizeme tool, since it allows Johnny to represent SMF from further away. This is especially useful if a card is already on the ground, but slightly out of reach.
+
+
+
+DJk EnsengaExceptionally niche option for very specific situations.
+DJk Ensenga is uniquely able to reach opponents at round start distance without requiring an extended hurtbox, though delaying the move further into the dash itself can give it some niche usage for catching distant airborne opponents.
+
+This option is a lot worse than it probably appears.
+Using this at round start is unlikely to win any interactions that regular Ensenga would not.
+Mist Finer Dash Kara
+Mist Finer Dash Kara is a surprisingly useful input technique both for neutral and combo applications. This Kara can be inputted by either inputting 632146H or 236236SH while in Mist Finer stance or by inputting 632146H/236236S while exiting a Mist Finer dash.
+
+
+MFk That's My NameViable combo ender and risky RPS tool.
+MFk That's My Name is a useful tool for Johnny's combo structure, as That's My Name does more damage than Joker Trick and Johnny often sticks opponents to the wall just out of range for That's My Name to normally land.
+
+MFk That's My Name also has uses in neutral, where it can act as a hard call out for opponents conditioned to mash against Mist Step resets in neutral.
+
+
+
+MFk Joker TrickMetered alternative to 4KMF.
+It is not uncommon for opponents to attempt to punish Johnny for entering Mist Finer stance. Due to Joker Trick's fast startup and high projectile priority, it is possible for Johnny to cancel Mist Finer stance into Joker Trick on read to projectiles like Asuka's High Compression Submicron Particle Sphere that would otherwise catch him out of all other options.
+
+Johnny can also pair Joker Trick with a backwards Mist Finer dash, acting as a damaging alternative to 4KMF that gives better okizeme on hit.
+
+Knockdown Frame Advantage
+Johnny's common knockdown options (namely 2D and SMF) are highly prone to gravity scaling. As a result, it can be difficult to identify exact frame advantage. The below table lists the frame advantage that Johnny gets off of common situations, both in neutral and within a short combo. The advantage value in brackets indicates the frame advantage if the knockdown has a Deal followup for okizeme.
+
+Knockdown	Advantage [w/ Deal]	Notes
+(5K/c.S) > 2D	+42 [+38]	Maximum frame advantage for 2D knockdown.
+(5K/c.S) > 2D(1)	[+35]	Cancelling 2D into Deal early for single hit only loses 3F of advantage.
+2K > 2D	+41 [+37]	2K imposes slight gravity scaling, even as a grounded starter.
+2K > 2D(1)	[+34]	Similarly, 2D(1) > Deal loses a single frame of advantage due to 2K's imposed gravity scaling.
+(5K/c.S) > 2D > SMF	+50 [+18]	SMF's lack of a special cancel makes it an unfavorable option in situations where 2D > Deal is possible, such as stray K button hits in neutral.
+2K > 2D > SMF	+46 [+14]	See above. The additional gravity scaling of 2D makes this a particularly poor knockdown option.
+(5K/c.S/f.S/5H/6H) > SMF	+52 [+20]	Many of Johnny's attacks do not impose gravity scaling as a starter, so they do not affect frame advantage. The exception here is mash options or lows as a general rule. SMF has a base frame advantage of +52 for grounded knockdowns.
+(5K/c.S/f.S/5H/6H) > KMF	+41 [+9]	See above. The same rules regarding gravity scaling apply to KMF as SMF, though KMF has a base frame advantage of +41 for grounded knockdowns.
+c.S > 2S > 5H > SMF	+48 [+16]	Grounded SMF will lose about 2F of advantage per hit after gravity scaling has first been applied for grounded strings (in this case, by 2S). Longer strings will eventually force gravity scaling, even if not using lows or mash buttons.
+c.S > 2S > 5H > KMF	+37 [+5]	KMF knockdowns follow the same rules as above.
+6P	+24 [+14]	If not hitconfirmed, 6P can give +24 advantage on its own for normal hit and allow for a card to be safely placed after the special cancel window has already passed.
+6P > SMF	+45 [+13]	Normal hit 6P can give slightly better oki via SMF. Hitconfirming the SMF can be difficult and lead to very different frame advantage (as low as +40 [+8] if done late, which would actually be worse than confirming raw 6P > Deal).
+[5P/2P]xN > SMF	+46-50 [+14-18]	5P / 2P both force gravity scaling. You will lose 2F of advantage per additional 5P / 2P with only a single press being +50.
+j.K > j.D lc dl. f.S > Vault	~ +111	This option allows Johnny to secure meaty c.S oki off of an IAD j.K backdash catch while also moving the opponent to the corner.
+Ensenga	+39 [+7]	In situations where Johnny cannot combo from Ensenga, setting a card will still leave him plus enough to threaten TK SMF relatively safely. In corner, Johnny can always combo normal hit Ensenga into f.S > SMF to instead be +47 (+15 with Deal)
+Additional Notes:
+
+KMF and SMF do not change their frame advantage on counterhit
+Routes starting in P, K, or S normals do not have altered frame advantage on knockdown for counterhit with an exception for CH c.S and 6P cancelled immediately into SMF or 2D.
+All single hit knockdowns are assumed to be their normal hit variant.
+
+1 Height dependent
+
+In routing, it is generally advised to end all airborne routes in either Vault > Deal or SMF if a wallbreak is not possible. Unfortunately, the frame advantage Johnny gets in these situations is highly dependent on the height of the opponent, gravity scaling, combo length, opponent hurtbox, and more. For this reason, there is no easy rule to calculating frame advantage in these situations. Despite not knowing the exact value, Johnny is generally always able to perform Deal after SMF and stay plus enough to at least perform meaty c.S (at least +39 without Deal, +7 with it). Similarly, Vault > Deal enders will always leave Johnny at least +10 while placing a card provided the attack hits.

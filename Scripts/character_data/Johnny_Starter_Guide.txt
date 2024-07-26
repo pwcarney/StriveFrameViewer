@@ -1,0 +1,235 @@
+Introduction
+
+Johnny is a mid-range zoner, possessing long-ranged pokes and a unique step dash that alters the way that he approaches neutral. Like most other characters, Johnny is capable of running strong offensive pressure after securing a knockdown, and has a number of ways to open up his opponents with resources or smart setplay.
+
+This page acts as a character overview aimed towards new players who are somewhat familiar with Guilty Gear Strive's mechanics. Johnny's basic neutral tools, character-specific quirks, and some basic setups will be covered. However, if you desire a more complete character guide with more advanced tech, refer to the Strategy Guide.
+
+Though this page will cover several of Johnny's moves in passing, it may not have all of the information you want. Please refer to the Overview if you are unsure of any moves' uses or functionality, as Johnny's kit is quite diverse and has some awkward tools that may require practice to use effectively.
+
+For more information about the character or to ask questions, refer to the Resources page, where you can find the Johnny Discord Server and Twitter hashtag. For a video rundown of Johnny as a character, see Uwabami's Johnny beginner guide above.
+Johnny
+
+Damage Received Mod
+×0.98
+Guts Rating
+3
+Prejump
+4F
+Backdash
+18F Duration
+1-5F Invuln
+1-16F Airborne
+Unique Movement Options
+Step-Dash (15F), Mist Finer Dash, Vault
+Fastest Attack
+2P (5F)
+Reversals
+That's My Name (11F)
+This guide assumes you are somewhat familiar with Strive, but it should be noted that there will frequently be references to numberpad notation. Learning notation is essential to understanding not only the information on Dustloop, but also for communicating with other players and asking questions when you get stuck. Don't worry, it's not hard! Below is an explanation of combo/numpad notation.
+
+Combo Notation Guide	Character Name Abbreviations
+7 7	8 8	9 9
+4 4	5 5	6 6
+1 1	2 2	3 3
+Numbers represent direction on a keyboard numpad. For example, 236+P becomes 236P.
+> = Proceed from the previous move to the following move.
+▷/land = Indicate that the player must land at that point in the sequence.
+, = Link the previous move into the following move.
+->/~ = Cancel the previous special into a follow-up special.
+dl./delay = Delay the following move.
+whiff/(whiff) = The move must whiff (not hit).
+c. = Close
+f. = Far
+j. = Jumping/Aerial
+hj./sj. = High Jump/Super Jump
+jc = Jump Cancel
+hjc/sjc = High Jump Cancel/Super Jump Cancel
+dc/adc = Dash Cancel/Air Dash Cancel
+CH = Counter Hit
+AA = Anti-Air
+IAS = Instant Air Special
+[X] = Hold input.
+]X[ = Release input.
+(move) = Move is optional.
+[X] or [Y] = Perform sequence X or Y.
+[sequence] xN = Repeat sequence N amount of times.
+(N) = Hit N of a move or move must deal N amount of hits.
+IAD = Instant Air Dash
+BRC = Blue Roman Cancel
+RRC = Red Roman Cancel
+PRC = Purple Roman Cancel
+YRC = Yellow Roman Cancel
+YYXRC = Dash Input X Roman Cancel in Y direction i.e: 22PRC
+XRC~Q = Cancel the X Roman Cancel into Q i.e: RRC~5K
+WS = Wall Stick/Wall Splat
+AB = A.B.A
+AN = Anji Mito
+AS = Asuka R♯
+AX = Axl Low
+BA = Baiken
+BE = Bedman?
+BR = Bridget
+CH = Chipp Zanuff
+EL = Elphelt
+FA = Faust
+GI = Giovanna
+GO = Goldlewis
+HA = Happy Chaos
+IN = I-No
+JC = Jack-O'
+JO = Johnny
+KY = Ky Kiske
+LE = Leo Whitefang
+MA = May
+MI = Millia Rage
+NA = Nagoriyuki
+PO = Potemkin
+RA = Ramlethal
+SI = Sin Kiske
+SL = Slayer
+SO = Sol Badguy
+TE = Testament
+ZA = Zato-1
+Additionally, Mist Finer Stance is quite unique and can be used in a number of ways. Below is a table of some common notations for actions using Mist Finer stance that will be used in this starter guide (as well as the Strategy Guide). Note that there is no defined way to notate across the entire community, so other guides or resources may not stick to the terminology laid out here.
+
+Notation	Full name	Meaning
+PMF	P Mist Finer	Mist Finer : Upwards
+KMF	K Mist Finer	Mist Finer : Horizontal
+SMF	S Mist Finer	Mist Finer : Downwards
+6XMF	Forwards Mist Finer	The notated Mist Finer includes a forwards Mist Finer Dash before releasing the button.
+4XMF	Backwards Mist Finer	The notated Mist Finer includes a backwards Mist Finer Dash before releasing the button.
+MFC	Mist Finer Cancel	Indicates that Johnny enters Mist Finer stance and immediately leaves it as a type of cancel.
+MS	Mist Step	Johnny enters Mist Finer stance, dashes forwards, and exits the stance.
+
+Neutral
+
+Johnny has a lot of aspects that can make his neutral gameplan fairly unique among Strive's roster. The first of these is his unconventional stepdash.
+
+Stepdash
+Stepdash Not your usual 66.
+Stepdash
+Not your usual 66.
+Johnny cannot run - he has a stepdash, somewhat like Giovanna or Leo. Unlike those two, Johnny cannot cancel his dash into attacks or blocking; once he starts dashing, he can't stop. Johnny has just two options to end stepdash early - he can either Gold Burst or perform a unique dashjump.
+
+Johnny's dashjump allows him to apply his dashing momentum to his jump, sending him flying through the air towards his opponent. Once airborne, Johnny can immediately block or perform aerials with no delay, giving his dashjump a slight advantage over a traditional airdash.
+Because Johnny's stepdash cannot be cancelled in neutral, he has to rely on his pokes and normals to keep his opponent at bay (rather than forcing his way in,). He is classified as a zoner, as his neutral gameplan requires him to play more passively until he can secure a hard knockdown. For this reason, understanding the specific role that each of his main normals plays in his neutral gameplan is critical.
+Core Normals and Pokes
+f.S A lightning fast, large poke for checking spacing.
+f.S
+A lightning fast, large poke for checking spacing.
+ 
+2S Poke that trades speed for lower reach.
+2S
+Poke that trades speed for lower reach.
+ 
+5K Fastest and safest poke to throw out, with low crushing capabilities.
+5K
+Fastest and safest poke to throw out, with low crushing capabilities.
+ 
+6P Universal anti-air with upper body invincibility.
+6P
+Universal anti-air with upper body invincibility.
+ 
+c.S Core pressure normal and blockstring starter.
+c.S
+Core pressure normal and blockstring starter.
+ 
+2P Fastest mash option for escaping pressure.
+2P
+Fastest mash option for escaping pressure.
+ 
+j.H Best jump-in option in most cases.
+j.H
+Best jump-in option in most cases.
+ 
+Mist Finer Incredibly disjointed poke that is equally unsafe on block.
+Mist Finer
+Incredibly disjointed poke that is equally unsafe on block.
+Johnny has a lot of normals that perform very specific functions - rarely does a button serve more than a handful of purposes, which makes identifying your core neutral options important.
+
+f.S is Johnny's primary neutral tool, offering long reach and an incredibly fast startup at just 9F (this is tied for the fastest f.S in the game!). It's your main way to stop approaches, whiff punish opponents, or check options directly in front of you. Some characters are able to go under f.S via low profile moves.
+
+2S is Johnny's low poke, offering the same range and a slightly slower startup than f.S, but now able to hit low profile options. This move is a great option to stop opponents from checking your pokes with 6P or to catch certain options like Sol's Night Raid Vortex that could otherwise go under f.S.
+
+5K has significantly less range than f.S or 2S, but makes up for it with a much faster recovery time. Some characters like Giovanna or Chipp are able to reliably whiff punish your other pokes due to their long recoveries, so 5K can offer a safer alternative. 5K also has a slightly faster startup than Johnny's other pokes, and has a low crush property that makes it strong against some low pokes.
+
+6P is your primary anti-air option, as it has upper body invincibility. It can combo into S Mist Finer, making it a viable way to start your pressure on normal hit. On counter hit, Johnny can even start a short combo.
+
+c.S is Johnny's core pressure normal, allowing Johnny to perform blockstrings or powerful mixups on block.
+
+2P is Johnny's fastest mash option, allowing him to call out gaps in pressure or challenge throws on wakeup. It combos into c.S on counterhit for a full conversion.
+
+j.H is Johnny's most reliable jump-in button, reaching low enough to catch late 6Ps after a low airdash and offering high reward when landed.
+
+Finally, K Mist Finer is a powerful whiff punish and frame trap tool, allowing Johnny to somewhat safely poke from a long distance due to its large disjoint. However, all variants of Mist Finer are a staggering -15 on block and highly punishable on whiff, making them uniquely unsafe compared to Johnny's other pokes (which can be Mist Finer Cancelled). Generally, you should only use Mist Finer as a whiff punish or as a confirm off of other pokes.
+
+Okizeme
+
+Johnny's goal in neutral is to secure a hard knockdown and use Deal to set up a future mixup or pressure reset. He has many different tools to do so, but the most common and important ones are listed below. Frame advantage inside of the brackets is the number of frames you have to act after using Deal post-knockdown.
+
+Knockdown	Advantage [w/ Deal]	Notes
+(5K) > 2D	+42 [+38]	Your preferred knockdown option. Strangely, Johnny gets one frame less from this knockdown if he uses 2K as a starter.
+(5K) > 2D > SMF	+50 [+18]	SMF's lack of a special cancel makes it an unfavorable option in situations where 2D > Deal is possible, such as stray K button hits in neutral. Using SMF after 2D is a bad habit, so try to avoid doing it early on!
+(f.S/2S/5H/6H) > SMF	+50-52 [+18-20]	Almost everything can confirm into SMF on hit, and its respectable +18-20 frame advantage makes it worth going for over combo extensions like RC or Wild Assault in most cases. Using 2S as a starter will give slightly worse oki, but its hard to notice.
+(f.S/2S/5H/6H) > KMF	+39-41 [+7-9]	If SMF won't reach for a knockdown off of a poke, KMF can oftentimes be a viable alternative. As a rule, KMF also gives Johnny an IAD j.H safejump in the corner!
+6P	+24 [+14]	If not hitconfirmed, 6P can give +24 advantage on its own for normal hit and allow for a card to be safely placed after the special cancel window has already passed (leaving Johnny +2). 6P launches opponents quite far, which can make oki quite difficult without an SMF knockdown.
+6P > SMF	+45 [+13]	Normal hit 6P can give slightly better oki via SMF. Hitconfirming the SMF can be difficult and lead to very different frame advantage (as low as +40 [+8] if done late, which would actually be worse than confirming raw 6P > Deal using a special cancel).
+[5P/2P]xN > SMF	+46-50 [+14-18]	You will lose 2F of advantage per additional 5P / 2P with only a single press being +50. Generally, its worth doing 2-3 presses to make hitconfirming into SMF much easier when mashing.
+Additional Notes:
+
+All frame advantage values shown here are for normal hit, not counterhit.
+More so than many characters, the strength of Johnny's okizeme depends a lot on spacing; not only does Johnny have to be close enough to initiate pressure, but the card he places down has to be close enough for Turn Up to be effective.
+
+Pressure
+
+Johnny's pressure game once he has secured a knockdown is fairly simple. His primary goal is to get the opponent to block c.S, and then he is allowed to begin a pressure sequence consisting of either a blockstring or a mixup. If the opponent does not get hit, he can then perform a reset to establish pressure. Before learning Johnny's blockstrings, its important to understand Mist Finer Cancel.
+
+Mist Finer Cancel (MFC)
+More than just the center piece.
+More than just the center piece.
+One of the most important components of Johnny's pressure game is the Mist Finer Cancel (or MFCs), as they allow his H normals to be only -4 on block as opposed to being somewhere in the double digits! To MFC:
+
+Do a move that is special cancelable.
+Special cancel in to a Mist Finer.
+Hold button to stay in Mist Stance.
+While holding button, press H to Stance Cancel.
+   Example: 5H > 214[P/K/S]~H
+Optionally, off of H or D normals, you can simply hold the button used to execute the attack and then input Mist Finer. As an example with 5H:
+
+   Example: 5[H] > 214P/K/S  ( ]H[ after MFC occurs )
+Mist Finer Cancel is the single most important technique to learn as a Johnny player, allowing you to use your pokes far more aggressively without fear of being punished due to their poor frame data on block. Be careful however - Mist Finer Cancels are only possible on block! Attempting to MFC on whiff will do nothing, and likely lead to Johnny being punished.
+
+Blockstrings
+When Johnny lands a c.S on block and lacks the resources or Card placement to perform a mix-up, it's generally a good idea to perform one of two core blockstrings to build RISC, Tension, and reset to a safe position in neutral.
+
+All of Johnny's main strings end in MFC by default, leaving him at -4 and able to perform a limited RPS afterwards. There are other ways to end strings utilizing special cancels, which will be detailed later under Resets.
+
+
+c.S > 2S > 5H > MFCYour primary blockstring and pressure sequence.
+This blockstring is the best route for quickly accumulating RISC on the opponent, which can turn even small combo opportunities into devastating ones. It should be noted that this is also a true blockstring, and cannot be interrupted with reversals or 6P.
+
+Notably, as 2S is a low, this string can condition opponents into blocking low after c.S, increasing the effectiveness of metered IAS S Mist Finer when he has resources.
+
+Accumulates 5625 RISC.
+Individual hits can be delayed to allow for frame traps.
+
+Johnny's options after a full blockstring are largely dependent on the opponent's defensive choices. If the string was FDed, Johnny is likely too far away to easily continue pressure without exhausting resources. Johnny does have alternative blockstrings, which can be found in the Strategy Guide, though they are generally not as useful as the main c.S > 2S > 5H > MFC string outside of a few uses.
+
+Recognizing spacing and responding accordingly is a critical aspect of Johnny's gameplan, and will require constant adaptation if you want to make the most of your offensive sequences. Johnny additionally has multiple options to disengage and end blockstrings.
+
+MFC End pressure at a respectable -4 from H normals.
+MFC
+End pressure at a respectable -4 from H normals.
+ 
+Ensenga An alternate way to end strings up close, also -4.
+Ensenga
+An alternate way to end strings up close, also -4.
+ 
+(Delayed) Mist Finer Use with caution! -15 on block.
+(Delayed) Mist Finer
+Use with caution! -15 on block.
+MFC is the preferred string ender for Johnny, as it will function at all ranges and lets him disengage from afar without being punished.
+
+Ensenga is Johnny's answer to opponents IBing his blockstrings, allowing him to disengage up close with the same -4 disadvantage as MFC though additionally generating some extra RISC and Tension. If Ensenga itself is IBed, Johnny is open to a throw punish. Only represent this option if you are not close enough for it to be a risk.
+
+Delayed Mist Finer is the final (and riskiest) way to disengage, and has a number of caveats. As Mist Finer is -15 on block, it can be punished severely if the opponent is patient. On the other hand, entering Mist Finer stance can also signal that Johnny is going for a Mist Step reset. As a result, ending strings with a Mist Finer frame trap can call out mashes, with SMF granting a hard knockdown and KMF offering a safejump in the corner in situations where SMF would not reach.

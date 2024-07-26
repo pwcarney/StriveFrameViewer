@@ -1,0 +1,474 @@
+Combo Notation Guide	Character Name Abbreviations
+7 7	8 8	9 9
+4 4	5 5	6 6
+1 1	2 2	3 3
+Numbers represent direction on a keyboard numpad. For example, 236+P becomes 236P.
+> = Proceed from the previous move to the following move.
+▷/land = Indicate that the player must land at that point in the sequence.
+, = Link the previous move into the following move.
+->/~ = Cancel the previous special into a follow-up special.
+dl./delay = Delay the following move.
+whiff/(whiff) = The move must whiff (not hit).
+c. = Close
+f. = Far
+j. = Jumping/Aerial
+hj./sj. = High Jump/Super Jump
+jc = Jump Cancel
+hjc/sjc = High Jump Cancel/Super Jump Cancel
+dc/adc = Dash Cancel/Air Dash Cancel
+CH = Counter Hit
+AA = Anti-Air
+IAS = Instant Air Special
+[X] = Hold input.
+]X[ = Release input.
+(move) = Move is optional.
+[X] or [Y] = Perform sequence X or Y.
+[sequence] xN = Repeat sequence N amount of times.
+(N) = Hit N of a move or move must deal N amount of hits.
+IAD = Instant Air Dash
+BRC = Blue Roman Cancel
+RRC = Red Roman Cancel
+PRC = Purple Roman Cancel
+YRC = Yellow Roman Cancel
+YYXRC = Dash Input X Roman Cancel in Y direction i.e: 22PRC
+XRC~Q = Cancel the X Roman Cancel into Q i.e: RRC~5K
+WS = Wall Stick/Wall Splat
+AB = A.B.A
+AN = Anji Mito
+AS = Asuka R♯
+AX = Axl Low
+BA = Baiken
+BE = Bedman?
+BR = Bridget
+CH = Chipp Zanuff
+EL = Elphelt
+FA = Faust
+GI = Giovanna
+GO = Goldlewis
+HA = Happy Chaos
+IN = I-No
+JC = Jack-O'
+JO = Johnny
+KY = Ky Kiske
+LE = Leo Whitefang
+MA = May
+MI = Millia Rage
+NA = Nagoriyuki
+PO = Potemkin
+RA = Ramlethal
+SI = Sin Kiske
+SL = Slayer
+SO = Sol Badguy
+TE = Testament
+ZA = Zato-1
+Notation	Full name	Alternatives	Meaning
+ns.2P	Near Servant	2-P	Pick Up Servant
+hs.	Held Servant	sh., ws.	Moves performed during the Held Servant stance, e.g. hs.K for Attack Command.
+j.hs.	jumping Held Servant	j.sh., j.ws.	Moves performed while holding a servant in the air.
+hs.6X	hs.6P/K/S/H/D	6X	Throw Servant. Can be performed using any attack button.
+Servant notation
+*	Added to a move when it hits a servant, but not the opponent, e.g 5K*.
+&	Added to a move when it hits both a servant and the opponent, e.g 5K&.
+~&	Added to a move when it hits a servant after having already hit the opponent, not at the same time, e.g. 5[D]~&
+(hit) and (whiff)	Indicates if a struck servant collides with or whiffs the opponent, e.g. c.S&(Whiff), using c.S& but the servant whiffs.
+(Servant hit)	When a servant launched by an attack earlier in the string hits, e.g. 2S& > 236K > (Servant Hit)
+(Detonation)	When a servant exploding from Countdown explodes and hits the opponent e.g. 214H > delay > (Detonation)
+
+Beginner Combos and Theory
+
+One of the biggest weaknesses Jack-O' has is a lack of combo potential without first setting up or being in the corner. So your first step, and one of the best things that can be done, is a very simple knockdown to summon a servant. Among most basic confirms, these end in Summon Servant (Hold) (notated as 236[P]), and it is central to Jack-O's strategy.
+
+
+
+Throw Servant okizemeIt's as good as you're going to get for now.
+Easy
+f.S > 5H > 236[P] > Wait > hs.6X
+Off any knockdown that sends the opponent far, you may cancel into Summon Servant (Hold) and throw it at the opponent as they get up.
+
+There's two versions of this, if you throw the servant early, it will not hit the opponent, but places a servant behind the opponent for a very favourable "sandwich". If thrown a bit later, it will hit them as they stand up, you don't get a sandwich but it prevents them moving or doing anything without being hit. Both are good outcomes, so it's not too important to worry which you get, but the timing does differ a little based on the combo you did.
+
+With that in mind, any confirms are generally just leading towards a basic knockdown with this, and it is crucial as Jack-O' to get servants set up as a general habit, even if you are not yet confident in using servants.
+
+Basic Knockdowns
+
+Jack-O' has several basic strings leading to a knockdown, that also have practical utility as pressure against an opponent.
+
+c.S > f.S > 5H	Basic blockstring, f.S and 5H also make good attacks in neutral.
+(5K or 2K) > 2D	Fast pokes leading to a strong knockdown. 2K is especially good at close-range.
+(5P or 2P) > 6P	Very fast attacks. 6P is the go-to anti-air while 2P is the go-to abare.
+(IAD j.S or j.H) > 2K > 2D	Jump-in attack. Additionally, IAD j.H frametraps with 2K for good pressure.
+236K	Servant Shoot is a good frametrap for ending pressure, if it hits the opponent is launched very far.
+Each of these knockdowns cancels into Summon Servant for okizeme, as mentioned previously. Note that knocking down with a 2D allows you time to throw the servant behind the opponent and instead okizeme with c.S
+
+Counter Hits
+
+c.S > f.S > 5H	Basic blockstring, f.S and 5H also make good attacks in neutral.
+(5K or 2K) > 2D	Fast pokes leading to a strong knockdown. 2K is especially good at close-range.
+(5P or 2P) > 6P	Very fast attacks. 6P is the go-to anti-air while 2P is the go-to abare.
+(IAD j.S or j.H) > 2K > 2D	Jump-in attack. Additionally, IAD j.H frametraps with 2K for good pressure.
+236K	Servant Shoot is a good frametrap for ending pressure, if it hits the opponent is launched very far.
+Each of these knockdowns cancels into Summon Servant for okizeme, as mentioned previously. Note that knocking down with a 2D allows you time to throw the servant behind the opponent and instead okizeme with c.S
+Jack-O' generally doesn't change much with Counter Hits, except for specifically 2D and 5H, which can lead into enormous combos from anywhere. These routes can be quite involved, being the primary midscreen combos Jack-O' has.
+
+Combo	Description	Recipe
+5H CH, 5K > 6H > 236[P]	Basic confirm.	25562
+2D CH, 236P > 2K > 2D > 214K > Dash c.S > 5H > 236[P]	A short version of the 2D BnB route.	89227
+While the 2D route looks intimidating at first, it is relatively lenient, you simply need to Dash after Attack Command, and is the core to 2D combos. Furthermore, this is not indicative of usual 5H routes, however the routing available differs based on which hit connects for the Counter Hit, this is one of your only easy options that will work regardless of it.
+Jack-O's Forever Elysion Driver (FED) deals enormous damage early into a combo. In fact, an optimal combo with meter is rarely getting substantially higher damage, but instead is more for Tension gain and corner carry. This will be your main use of Tension for combos, and not Roman Cancels. As a super, it's very easy to simply end any combo into it. It's more important to learn when you cannot use FED. Far-launching attacks such as 236K, 6P, and the second hit of 6H are likely to cause whiffs, completely wasting your meter.
+
+Combo	Description	Recipe
+5H CH > 5H > 632146P	Uses Tension. Can still work from second hit of 5H	25564
+If a servant is already on the field, Jack-O' can combo anything into Attack Command (214K) for an easy combo starter. Combos using Attack Command are extremely lenient, but can be fairly lengthy.
+
+Combo	Description	Recipe
+hs.6X > 214K > 214K > 214K	Attack Command loop, can be used any time you hit an opponent with a servant.	89222
+214K > Delay > c.S > 2H > 214K > Delay > c.S > 5H > 236[P]	Sandwich combo, this works if a servant was behind the opponent	25570
+214K > Dash > c.S > 2H > 236K > 214K > WS > 6H	Corner combo, extremely lenient routing.	25571
+One of the main advantages to Attack Command is its enormous launch means you can usually fit any 2 attacks between Attack Command uses to keep a combo going. However, this wastes Servant Gauge, and usually is not very high damage compared to more optimal routes. In addition, when hitting an opponent with an Attack Command loop from afar, you will wish to only use Attack Command once or twice, to conserve your Servant Gauge.
+
+Meter
+
+Jack-O's Forever Elysion Driver (FED) deals enormous damage early into a combo. In fact, an optimal combo with meter is rarely getting substantially higher damage, but instead is more for Tension gain and corner carry. This will be your main use of Tension for combos, and not Roman Cancels. As a super, it's very easy to simply end any combo into it. It's more important to learn when you cannot use FED. Far-launching attacks such as 236K, 6P, and the second hit of 6H are likely to cause whiffs, completely wasting your meter.
+
+Combo	Description	Recipe
+5H CH > 5H > 632146P	Uses Tension. Can still work from second hit of 5H	25564
+
+
+Servant Combos
+
+ Tension gain and corner carry. This will be your main use of Tension for combos, and not Roman Cancels. As a super, it's very easy to simply end any combo into it. It's more important to learn when you cannot use FED. Far-launching attacks such as 236K, 6P, and the second hit of 6H are likely to cause whiffs, completely wasting your meter.
+
+Combo	Description	Recipe
+5H CH > 5H > 632146P	Uses Tension. Can still work from second hit of 5H	25564
+If a servant is already on the field, Jack-O' can combo anything into Attack Command (214K) for an easy combo starter. Combos using Attack Command are extremely lenient, but can be fairly lengthy.
+
+Combo	Description	Recipe
+hs.6X > 214K > 214K > 214K	Attack Command loop, can be used any time you hit an opponent with a servant.	89222
+214K > Delay > c.S > 2H > 214K > Delay > c.S > 5H > 236[P]	Sandwich combo, this works if a servant was behind the opponent	25570
+214K > Dash > c.S > 2H > 236K > 214K > WS > 6H	Corner combo, extremely lenient routing.	25571
+One of the main advantages to Attack Command is its enormous launch means you can usually fit any 2 attacks between Attack Command uses to keep a combo going. However, this wastes Servant Gauge, and usually is not very high damage compared to more optimal routes. In addition, when hitting an opponent with an Attack Command loop from afar, you will wish to only use Attack Command once or twice, to conserve your Servant Gauge.
+
+Sandwich Combos
+
+When a servant is behind the opponent, Jack-O' has a range of versatile 'sandwich' combos allowing her to fully combo off any hit, offering great value for hits that normally cannot combo.
+
+To begin a sandwich combo, simply hit Attack Command with a servant behind the opponent. This can be done from 2D, f.S, 5H, even 6P.
+
+If Jack-O' is too close and the opponent is falling behind, simply backdash after using Attack Command. You will have enough time to keep the combo going as normal.
+
+Main Combos
+
+This list is meant for actual combos, not for frame traps, blockstrings, or mixups. If the combo itself allows to set them up afterwards, it is mentioned in the "Notes" field).
+The list is focused on most practical examples, not every single option that exists.
+All damage values are damage dealt to Ky unless the combo cannot work on him, in which case the character with the closest defense modifier is used.
+The difficulty is ranked on a scale of 1 to 5 (Very Easy, Easy, Medium, Hard and Very Hard) based on various factors (cancel leniency, link timings, special techniques, range consistency, etc).
+Anywhere it says [2D > ...] you can go into most anything besides grab super.
+Please be aware that there is a bug in training mode that causes hits not to prorate if you pause mid-combo. If you are testing values please do so without pausing the game. (Video - https://twitter.com/shadowd63/status/1433399624690192388)
+
+Round Start
+Round Start has a fixed position, meaning many of your combos can be carefully prepared, however due to the large distance you will usually only be able to combo off particularly strong hits. Interestingly, Jack-O' from her best confirms is able to wall break, but usually should avoid a wall break as the value of the corner is extremely high.
+
+Simple
+Advanced
+Optimal
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+f.S CH > 5H > 236[P], hs.6X	Anywhere	53	All	[1] Very Easy	Tension Gain: 12%
+f.S Counter Hit and servant setup. Servant will not hit, but will set up behind the opponent and leave Jack-O' +11.		42553
+(PC)	??
+5H CH > 5K > 6H > 236[P], hs.6X	Anywhere	78	All	[1] Very Easy	Tension Gain: 12%
+5H Counter Hit and servant okizeme. Servant will hit on wakeup		42562
+(PC)	??
+2D CH > 236P > 2K > 2D > 214K > Dash > c.S > 5H	Anywhere	124	All	[2] Easy	Tension Gain: 27%
+2D Counter Hit and okizeme. You have time to hit a meaty c.S, among other things.		42565
+(PC)	??
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+f.S CH > 5H > 236[P] > dl hs.6X	Anywhere	53	All	[2] Easy	Tension Gain: 12%
+f.S Counter Hit and servant okizeme. Slightly delayed servant to hit the opponent and be +17~26. It is impossible to hit with the servant landing behind the opponent.		42554
+(PC)	??
+5H(2) CH > Dash > c.S > f.S > 5H > 236[P], hs.6X	Anywhere	97~136	All	[2] Easy	Tension Gain: 16~23%
+Optimised 5H(2) Counter Hit and servant okizeme. Damage and Tension depend on how many hits of each 5H land, which changes based on how close the opponent was and the precision of the microdash.		42563
+(PC)	??
+2D CH > 236P > 2K > 2D > 214K > Dash > c.S > dl 5H&(1) > 236K& > Dash > 5K > 2D WS! > 236P, 236K	Anywhere	172	All except Heavy	[4] Hard	Tension Gain: 38%
+2D Wallbreak. A wallbreak off round start, being the absolute highest damage conversion Jack-O' can receive.		42567
+(PC)	??
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+f.S CH > 5H > 236[P] > High Jump IAD > j.hs.D > (j.P or j.K)	Anywhere	53	All except Light, AX, TE	[3] Medium	Tension Gain: 12%
+f.S Counter Hit and safejump. Safejump meaty, while setting up a servant in close proximity.
+Requires a micro delay before the IAD. Axl and Testament can be hit by j.K but it will whiff wakeup 2K.		42558
+(PC)	??
+5H(1) CH > 5H(2), 5K > 236[P] > Jump > dl AD > hs.D > (j.P or j.K)	Anywhere	70	???	[3] Medium	Tension Gain: 13%
+5H(1) Counter Hit safejump okizeme. Safejump meaty, while setting up a servant in close proximity.			??
+5H(2) CH > Dash > c.S > 6H(1) > 236[P] > Jump > dl AD > hs.D > (j.P or j.K)	Anywhere	70~93	???	[4] Hard	Tension Gain: 15%
+5H(2) Counter Hit with mixup safejump okizeme. Establishes much stronger okizeme and an extremely good pressure position. High Jump and delay airdash further to crossup (non-safejump).			??
+2D CH > 236P > 2K > 2D > 214K > Dash > c.S > dl 5H&(1) > 236K& > Dash > 5K > 2D WS! > 236[P], hs.D, ns.2P, 236K	Anywhere	172	All except Heavy	[5] Very Hard	Tension Gain: 41%
+Optimised 2D Wallbreak. Releasing and picking up servant for an extra 3% Tension, but a much more strict timing on the wallbreak.		42578
+(PC)	??
+Corner Servantless
+While corner pressure almost invariably requires servants, most strong hits can be converted from without servants already set, sometimes for especially high damage. These can also be dropped early to retain corner okizeme, while wallbreaking is usually preferable for ending the round.
+
+Simple
+Advanced
+Optimal
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+... > 2H > 236K > 236[P], dl hs.6X	Corner, Point-Blank	96	All	[1] Very Easy	Tension Gain: 20%
+2H combo and servant okizeme. Confirms from c.S, f.S, and 2H (values assume c.S).
+If you throw the servant very fast it will hit, giving slightly more damage but weaker okizeme.		42724
+(PC)	??
+... > 2D > 236P > c.S& OTG > 236K&	Corner, Near	97	All	[1] Very Easy	Tension Gain: 20%
+2D OTG combo. Confirms from 5K, 2K, and 2D (values assume 2D).
+Difficult to confirm without first hitting 2K or 5K.		42734
+(PC)	??
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+f.S > 2H, 5K > 6H > 236[P], hs.6X	Corner, Point-Blank	104	All	[2] Easy	Tension Gain: 17%
+Non-Counter Hit f.S combo and servant okizeme.
+More strict timing for slightly more damage.		42729
+(PC)	??
+... > 2H > 236[P], hs.K, hs.6X, 5K > 6H WS, 6H	Corner, Point-Blank	197	All	[2] Easy	Tension Gain: 28%
+2H wallbreak. Confirms from c.S, Counter Hit f.S, and 2H (values assume c.S).
+Requires no delays or microdashes.		42727
+(PC)	??
+... > 2D > 236P > c.S& OTG > 236K& > 214K, 5K&	Corner, Near	121	All	[2] Easy	Tension Gain: 24%
+Extended 2D OTG combo. Confirms from 5K, 2K, and 2D (values assume 2D).
+Spends 1 bar of Command Gauge for better damage and Tension.		42735
+(PC)	??
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+f.S > 2H > 236K > hs.K, hs.D, (f.S& > 5H WS > 236[P] > hs.D or dl 5H > 214K) > Dash 5D	Corner, Point-Blank	184	All	[3] Medium	Tension Gain: 36%
+Non-Counter Hit f.S wallbreak. Requires dash momentum. Very difficult to confirm, as it cannot be confirmed off hitting c.S.
+Attack Command route deals +5 damage at the loss of Tension and Servant Gauge.		42732
+(PC)	??
+... > 2H > 236[P], 236K > hs.D, f.S& > 2H > 236K* > ns.2P(Whiff) > Dash > c.S& > 6H WS > (236[P] > hs.D) > Dash 5[D]	Corner, Point-Blank	219	All	[4] Hard	Tension Gain: 45%
+Optimal 2H wallbreak. Confirms from c.S, Counter Hit f.S, and 2H (values assume c.S).
+Very fast, especially cancels from servants.		42728
+(PC)	??
+... > 2D > 236P > Dash > c.S& OTG > 236K& > 214K, 5K& or c.S& > 236K& > 214K > (5P or 2P)	Corner, Point-Blank	130	All	[3] Medium	Maximum 2D OTG combo. Confirms from 5K, 2K, and 2D (values assume 2D).
+Spends 2 bar of Command Gauge for maximum damage and Tension. 2P requires being close to the enemy.		42737
+(PC)	??
+Air Attacks
+Simple
+Advanced
+Optimal
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+(j.S or j.H) > (j.236K or 2K > 2D) > 66.RRC, 236P, 2D > 214K > Dash c.S > 5H& > 236K& WS > 6H	Near-corner	148	All	[2] Easy	Tension Gain: -39%
+Confirm RC wallbreak Crouch-only combo from IAD j.S. Requires 1.5 bars of Servant Gauge. Values assume j.S > j.236K
+Must be at most Round Start distance from the Corner or closer. The highest execution requirement is 66.RRC, 236P, 2D, try to buffer the summon during the end of the Roman Cancel.			??
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+(j.S or j.H) > 236K > 66.RRC > Land > 236P > Dash c.S > 2D > 214K > Dash c.S > dl 5H&(1) > 236K& > (236[P] > hs.D) > Dash > (Wall Bounce) > 5K& > 6H WS > Dash 2H	Midscreen	155	All	[3] Medium	Tension Gain: -39%
+j.236K confirm RC wallbreak. Requires 1.5 bars of Servant Gauge.
+Can replace 5K with c.S on Medium and Light weights with good timing for fractionally more Tension.
+Will wallbreak at first wall bounce if combo begins at round start distance from corner or closer.			??
+(j.S or j.H) > Land > 2K > 2D > 236K > 66.RRC, 236P > c.S& > 6H(1) > 236K& > 236[P] (Wall Bounce) > 236K* > hs.D > Dash > 6H WS > Dash 5[D]	Midscreen	157	All except Heavy	[3] Medium	Tension Gain: -33%
+2K confirm RC wallbreak at distance. Crouch-only combo from IAD j.S. Requires 1.5 bars of Servant Gauge.
+Works from even centre of the arena, and is the most economical for Tension, but the lowest damage. Not possible on Heavy characers as 236K > 66.RRC will OTG.			??
+(j.S or j.H) > Land > c.S > 5H(2) > 66.RRC, 236P > c.S& > 6H(1) > 236K& > 236[P] (Wall Bounce) > 236K* > hs.D > Dash > 6H WS > Dash 5[D]	Midscreen	171	All	[3] Medium	Tension Gain: -36%
+c.S confirm RC wallbreak at distance. Crouch-only combo from IAD j.S. Requires 1.5 bars of Servant Gauge.
+Works from even centre of the arena.			??
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+(j.S or j.H) > Land > 2K > 2D > 66.RRC, 236P, 2H& > 236K& > 236[P] (Wall Bounce) > 236K* > hs.D > Dash > 6H WS > Dash 5[D]	Near-corner	160	All	[3] Medium	Tension Gain: -38%
+2K confirm RC wallbreak near corner. Crouch-only combo from IAD j.S. Requires 1.5 bars of Servant Gauge.
+Must be at most Round Start distance from the Corner or closer. Generates less Tension for higher damage, and is the best option for Heavy characters.			??
+(j.S or j.H) > Land > c.S > 5H(2) > 66.RRC, 236P, 2H& > 236K& > 236[P] (Wall Bounce) > 236K* > hs.D > Dash > 6H WS > Dash 5[D]	Near-corner	175	All	[3] Medium	Tension Gain: -35%
+c.S confirm RC wallbreak near corner. Crouch-only combo from IAD j.S. Requires 1.5 bars of Servant Gauge.
+Must be at most Round Start distance from the Corner or closer. Generates less Tension for higher damage.			??
+Dust
+Alongside Charged Dust, Jack-O' also has several ways to convert off Uncharged Dust hits in a variety of situations. While the damage is normally not very high for its requirements, it greatly enhances access to mixups especially for ending rounds.
+
+Simple
+Advanced
+Optimal
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+5[D] 8, j.H(2) > j.K > Finshing Blow	Anywhere	148	All	[1] Very Easy	Tension Gain: 15%
+Charged Dust. Requires no jump cancels, and will guarantee a Hard Knockdown.			??
+5D > 66.RRC, 236P, 2D > 214K > Dash c.S > 6H > 236[P], hs.6X	Anywhere	91	All	[2] Easy	Tension Gain: -43%
+Midscreen RC and servant okizeme. Requires 1 bar of Servant Gauge
+The best conversion off 5D using Tension without some more precision, though extremely weak.			??
+5D CH, 632146P	Anywhere	138	All	[2] Easy	Tension Gain: -47%
+Counter Hit confirm. Must link into FED and cannot be buffered early like other Counter Hits.			??
+5D RISC-CH > 2H > 236K, 5K > 6H& WS > 6H	Corner	255	All	[1] Very Easy	Tension Gain: 35%
+100% RISC combo Requires pre-set servant.
+Specifically for use with Cheer Servant On H pressure that can set up for this.			??
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+5[D] 8, j.H(2) > j.K > 9 jc > j.S > j.K > j.S > j.K > Finshing Blow	Anywhere	181	All	[2] Easy	Tension Gain: 20%
+Universal Charged Dust.
+Optimised for any character in any position. No delays required. Most damage on AX, GI, MA, NA, PO, RA			??
+5D > 66.RRC, 236P > Dash c.S > 2S > 214K > Dash > c.S > 6H WS > 236P > 6H	Midscreen	135	All	[3] Medium	Tension Gain: -43%
+Midscreen RC wallbreak. Requires 1 bar of Servant Gauge
+A more difficult extension for much higher reward, a valuable conversion tool off Sandwich Pressure.			??
+5D CH, 632146P	Anywhere	138	All	[2] Easy	Tension Gain: -47%
+Counter Hit confirm. Must link into FED and cannot be buffered early like other Counter Hits.			??
+5D RISC-CH > Dash c.S > 2H > 236K&, c.S& > 5[D], 2K WS > 6H(2)	Corner	283	All	[2] Easy	Tension Gain: 40%
+Optimised 100% RISC combo Requires pre-set servant.
+Prolongs the combo heavily for much higher reward.			??
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+5[D] 8, j.H(2) > j.K > 9 jc > j.H(2) > j.P > j.K > j.P > Finshing Blow	Anywhere but corner	182	CH, FA, JC, KY, LE, Mi, HA, BA, TE	[3] Medium	Tension Gain: 19%
+Damaged optimised Charged Dust 1. Only works at midscreen.
+More specific requirements for fractional damage increase and Tension decrease.			??
+5[D] 8, j.H(2) > 9 jc > j.H(2) > j.S > j.H(2) > Finshing Blow	Anywhere	182	SO, FA, ZT, AN, IN, GO	[3] Medium	Tension Gain: 18%
+Damage optimised Charged Dust 2.
+More specific requirements for fractional damage increase and Tension decrease.			??
+5D > 66.PRC > c.S > 6H(1) > 236P, 2K > 2D > 214K > Dash c.S > dl 5H&(1) > 236K& > Dash 5K > 6H WS > (236[P] > hs.D) > Dash > 2H	Midscreen	148	Light only	[4] Hard	Tension Gain: -30%
+Light Optimised Midscreen RC.
+Tighter dash timing, and character-specific routing, for better overall conversion. PRC link is difficult, but this variant allows a Fast RRC which is considerably easier.			??
+5D > 66.PRC > 2H > 236P, 2K > 2D > 214K > Dash 5H&(1) > 236K& > Dash 5K > 6H WS > (236[P] > hs.D) > Dash > 2H	Midscreen	149	Medium only	[4] Hard	Tension Gain: -??%
+Medium Optimised Midscreen RC.
+More difficult PRC link, tighter dash timing, and character-specific routing, for better overall conversion.			??
+5D > (66.PRC or Fast 66.RRC) > 6H(1) > 236P, 2K > 2D > 214K > Dash c.S > dl 5H&(1) > 236K& > Dash 5K > 6H WS > (236[P] > hs.D) > Dash > 2H	Midscreen	140	Heavy only	[4] Hard	Tension Gain: -??%
+Heavy Optimised Midscreen RC.
+More difficult PRC link, tighter dash timing, and character-specific routing, for better overall conversion.			??
+5D CH, 632146P	Anywhere	138	All	[2] Easy	Tension Gain: -47%
+Counter Hit confirm. Must link into FED and cannot be buffered early like other Counter Hits.			??
+5D RISC-CH > Dash c.S > 2H > 236K& > 214H, c.S& > 5[D], 6H& WS > IAD > (Detonation) > j.S > Land > 5[D]	Corner	328	All	[3] Medium	Tension Gain: 48%
+100% RISC Countdown combo Requires pre-set servant and 1 bar of Servant Gauge.
+Burn all Servant Gauge for round-ending damage.			??
+5P/2P/5K/2K Starters
+5P/2P/5K/2K Starters
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+5P > 5P > 6H(2)	Anywhere	67	All	[1] Very Easy	Basic confirm & your fastest punish. Pushes the opponent very far away. Whiffs on crouchers.			??
+5P > (6H(1)) > 632146P	Anywhere	138 (132)		[2] Easy	Tension Gain: -47% (-45%)
+50% Tension 5P Punish Combo from Anywhere. Your best 5P damage if you can't break the wall from where you are. Only works for punishing moves that leave the opponent point blank and at least -6f, such as Potemkin's Forward Mega First. You can use the first hit of 6H to confirm if you successfully punished if you don't feel secure cancelling directly from 5P.			??
+5P > 6H(2) > 66RRC, 66 236P, c.S > 214K, 66 c.S > 236K WS [~214K] or [6H(2nd)]	Midscreen	158/157		[3] Medium	50% Tension 5P Punish Combo from midscreen. Only works for punishing moves that leave the opponent point blank and at least -6f, such as Potemkin's Forward Mega First.			??
+5P > 6H(2) > 66PRC, (66) c.S > dl.6H(1st) > 236P, 5K > 236K, c.S > 2H > 214K, c.S > 5H WS, 5[D]	Near Corner	170		[3] Medium	Tension Gain: -39%
+50% Tension 5P Punish Combo from Corner. Only works for punishing moves that leave the opponent point blank and at least -6f, such as Potemkin's Forward Mega First. Delay the 6H to increase the height of the opponent, giving you more time to land the 5K.			??
+5P > 6H(2) > 88RRC, dl.j.66, 6H(1) 236P, 5K > 236K&~214K WS, 6H(2nd)	Back Corner	151		[3] Medium	50% Tension 5P Side-swap Punish Combo. Only works for punishing moves that leave the opponent point blank and at least -6f, such as Potemkin's Forward Mega First.			??
+5P > 6H(2) > 66PRC, (66) c.S > dl.6H(1st) > 236P, 5K > 236K&~214H, dl.c.S& > 2H > 214K, dl.c.S > 5H WS, 9 (Detonation) j.S WS, [5[D]] or [632146P]	Corner	173 / 203		[4] Hard	Tension Gain: -38% / -89%
+50% 5P Punish Combo from Corner using the Detonation Route (see Combo Theory).			??
+5P > 6H(2) > 66PRC, (66) c.S > dl.6H(1st) > 236P, 5K > 236K&~214H, dl.c.S& > 2H > 214K, dl.c.S > 2H > 236K& WS, 4(4) (Detonation) 2D WS, [5[D]] or [632146P]	Corner	174 / 203		[5] Very Hard	Tension Gain: -37% / -89%
+Optimised Version of the Detonation combo using route B.			??
+2K > 2D > 236K	Anywhere	57	All	[1] Very Easy	Tension Gain: ~14%
+Basic confirm that pushes the opponent away. Can set up a meaty Throw Servant with 236[P], ws.6X. Max range 2K > 2D will not combo against CH, PO, FA, MI, LE, NA, GI, GO.			??
+2K > 2D > 236P, (5K* > 214K)	Anywhere	41 (70)	All	[2] Easy	Basic confirm into Servant Summon. 5K OTG works at all ranges. Other OTG options for setups include 5P, 2K, 2D, 236K and 214K. (5P does the same damage as 5K in this combo, however 5K is jump-cancellable. Therefore it is useful for keeping your Oki intentions ambiguous, even if you do not wish to jump cancel.)			??
+2K > 2D > 236P, 66 c.S > 236K~214K, 5K > [2D > ...] or [214K]	Anywhere	98 or 100	All	[3] Medium	Damage ender for 2D. 66 is a microdash. Doesn't work at max range. Substitute 5K for c.S in the corner. 2nd ender requires 2 Servant Gauge and sacrifices Oki for more damage. If doing the first ender, using ns.2P, ws.6X will whiff on crouchers without moving backwards first.	Video		??
+2K > 2D > 236P, 66 [c.S > 236K~214K]x2, 5P	Corner	103	All	[4] Hard	Corner Damage Ender for 2D. Doesn't work at max range. Requires 2 Servant Gauge.			??
+2K > 2D > 236K > 236[P], hs.236K, hs.5D > 236K&, 2H* > 236K& WS, 66 [5[D]] or [632146P] or [236D]	Near Corner	max 181		[4] Hard	Requires 1 Summon Gauge. Hold P while buffering 236K during 236P. Spaceing can be finnicky and can result in minor differences (like 2H sometimes not hitting the servant), to prevent not getting Wallbreak due to this after WS I would reccomend not wallbreaking with 5[D].		225488
+(PC)	1.37
+c.S/f.S/2S Starters
+
+c.S/f.S/2S Starters
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+c.S > f.S > 5H	Anywhere	100	All	[1] Very Easy	Basic combo that pushes the opponent away while giving you time to setup a servant.			??
+66 c.S > f.S > 2H > 236K	Anywhere	115	All	[1] Very Easy	Basic c.S combo that pushes the opponent very far away. Requires dash momentum to work on the whole cast			??
+c.S > 2H > 236P > 5P > (dl.)236K*(hit)~(214K)xN WS, 66 6H(2nd)	Midscreen	195-197 (156-161 Anywhere)	All* (See Combo Theory)	[4] Hard	Must be very close. Before WS, this combo can be done anywhere. If done in the Corner, 1st 214K will WS.			??
+c.S > 2D > 236P > 66 c.S > 236K > 214K, 5K > [2D > ...] or [214K]	Anywhere	146 or 148	All	[3] Medium	Converting from a low 2D after c.S. See 5P version of this combo for more info.	https://gfycat.com/definitivewelldocumentedfrigatebird		??
+c.S > 2H > 236[P], ws.K, ws.6X, 5K > 236K, c.S > 5H > WS > 66 5[D]	Corner	205		[3] Medium	does not work at all ranges nor all characters and have to be point blank	https://gfycat.com/competentpointeddevilfish		??
+c.S > 2H > 236P > 5P& > 236K& > c.S > 5H > WS > 5[D]	Corner	201		[3] Medium	Have to be close to combo	https://gfycat.com/esteemedheavyalbino		??
+c.S > 2H > 236P > 5P& > 236K&~214H, dl.c.S& > 2H > 214K, dl.c.S > 5H WS, 9 (Detonation) j.S WS, [5[D]] or [632146P]	Corner	205 / 235		[4] Hard	Tension Gain: +45% / -6%
+Must start close to combo. Delay the c.S after each wall bounce to create enough space for the minion to not push the opponent back into the wall. Uses Detonation to re-splat. If the servant doesn't end near the wall for Detonation, you need to delay the c.S more.	https://gfycat.com/belatedfirsthandafricangroundhornbill		??
+c.S > 2H > 236P > 5P& > 236K&~214H, dl.c.S& > 2H > 214K, dl.c.S > 2H > 236K& WS, 44 (Detonation) 2D WS, [5[D]] or [632146P]	Corner	206 / 236		[5] Very Hard	Tension Gain: +45% / -6%
+Optimised Version of the Detonation combo. In return for perfectly maximised delays and risking the combo ending early if you don't delay enough, you can squeeze an extra 1 damage with this route.			??
+66 c.S > 2H > 236[P], ws.5D, 5P, 66 5K > 6H(1)	Midscreen	134		[4] Hard	Needs dash momentum to connect. Corner carry combo that leaves an active servant.			??
+c.S > 2H > 236P, 5P& > 214K > 66f.S > 236K&(hit)~(214K) WS, 6H(2nd)	Midscreen	195	All	[5] Very Hard	Midscreen combo off c.s leads to wallbreak and allows you to dash up super/WS for hkd. On counter hit, use 5K& instead of 5P& else the opponent will be too high/far for the 66f.S.	https://www.youtube.com/watch?v=qZwdoOwxFlk	225459
+(PC)	1.37
+c.S > 2H > 236P, 5P& > 214K > 66f.S > 236K&, 665K > dl.2D WS, 6H(2nd)	Midscreen	194	All	[5] Very Hard	Version of the optimal combo that only needs 1 Servant Gauge, but is also much harder. On counter hit, use 5K& instead of 5P& else the opponent will be too high/far for the 66f.S.	https://twitter.com/Sometimes_Fendo/status/1431226037870993414		??
+c.S > 2H > 236[P], ws.5D, 5P > 2H > 236K, 5K > 6H(1) > WS > 6H(1)	Corner	197		[4] Hard				??
+5H/2H/6H Combos
+
+5H/2H/6H Combos
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+CH 5H > 66 c.S > 2D /2H 236P	Anywhere	104		[2] Easy	gives you oki			??
+CH 5H > 6H(1) > 214P > 5K 66 > 2K > 6H(1) > 236P > 5P > 236K > 214K > (WS 5[D])	midscreen	185(ky WS) 135(pot no WS)	Heavy & normal	[3] Medium	5P will drop on medium weight characters unless close to the corner			??
+CH 5H > c.S > j.K > air dash > j.S > j.H > c.S > 2H or 5H	Anywhere	133(last 5H hit)
+155	all but Pot, Goldlewis, Nago, and Leo	[2] Easy	if you land both hits of 5H the 2H will wiff on lights unless close to the corner	https://gfycat.com/inbornplayfulbluewhale		??
+CH 5H> 5K 66 > 2K > 6H(1) > 236P > c.S > 6H(1) > 236K >2P pickup (whiff)> c.S > 6H > WS > 5[D]	Midscreen	178(last 5H hit)
+199	2nd hit:all
+5H(2): light and medium	[4] Hard	Semi-universal mid to corner confirm	https://gfycat.com/snivelingquaintfurseal		??
+CH 2H > 236[P], 66 [5K]x3, 6P WS, 2P(servant), 6P	Corner	190		[2] Easy	Simple Hold Servant Attack Command loop in corner. Leaves Servant Gauge very low, even after wallbreak.			??
+CH 2H > 236[P] 66 5K, 5D , 2S > 2H > 236K	Midscreen	151		[3] Medium	236K will wallbounce if the opponent is near the corner.			??
+CH 2H > 236[P] 66 5K, 5D , 2H > 236K , c.S > 5H WS, 5[D]	Near Corner	212		[4] Hard	May require dash momentum. Wall break variant of the above combo.			??
+CH 2H > 236P 66 c.S > 2H, 236K , c.S > 6H(2) WS, 66 5[D]	Corner	224		[3] Medium	High damage meterless wallbreak combo that leaves ~1.8 Servant Gauge after wallbreak.			??
+CH 2H > 236P > 5H > 632146P	Corner	252	All	[2] Easy	Tension Gain: -50%
+236P is still done just because it can be hard to confirm off 2H CH			??
+CH 2H > 236K~236[P], ws.236K~ws.D, 2S > 2H > 236K~214H, [c.S > dl.214K]x2, 6H, Detonation, 2D > WS > 5[D]	Corner	221 (249 With Super)	All	[4] Hard	Tension Gain: ~55%
+Requires a small walk after dropping the Servant depending on your initial spacing and the opponent's character. Can end with super for hard knockdown and more damage.	https://twitter.com/optosi/status/1432362502713643011 (Uses 5K, 5K to wallstick instead of 6H)		??
+CH 2H > 236P > 236K, 2S > 236K > 214H, 2S > 236K, c.S > 6H , Detonation~j.S > WS > 5D	Corner	234 (262 With Super)		[5] Very Hard	Utilizes Countdown inside of a shoot loop. Can end with super for hard knockdown and more damage	https://www.youtube.com/watch?v=B0kyEN5gDqo		??
+66 CH 6H(1) > 236P, c.S > 5H > 214K, c.S > 5H > 214K, c.S > 6H > (236P)...	Midscreen	173	All	[3] Medium	Tension Gain: ~44%
+CH Punish combo. Can only be done at point blank range. Dashing between juggles may be required if back is to the wall.	https://twitter.com/shadowd63/status/1432075495320039426		??
+Anti-air Combos
+Anti-Air Combos
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+5K AA > 9j.K > air dash > j.S > j.H > 5S	Anywhere	86	All	[2] Easy	Decent anti air combo works at most heights unless very low.			??
+5K AA > 9j.S > air dash > j.S > j.H > 5S > 5H	Anywhere	112	All (Except Leo)	[2] Easy	Decent anti air combo works at most heights unless very low.			??
+CH 2S, c.S > 6H	Anywhere	102	All	[1] Very Easy	Simple Counterhit 2S anti air confirm.			??
+CH 2S, 66 c.S > 2S > 2H	Anywhere	106	All	[2] Easy	Counterhit 2S anti air confirm that allows you to go into oki. You get more 1 more damage if you do f.S instead of 2S but that will make the combo much harder to perform			??
+CH 2S, 66 c.S > 2H > 632146P	Anywhere	190	All	[2] Easy	Will fail if the CH 2S is too low and requires a dash to ensure you get the super.			??
+CH 2S > 236P > 66 c.S > 214K > 66 c.S > 2H	Anywhere	137	All	[3] Medium	allows you to go into 2H oki			??
+2H AA > 236P > 5K > 236K > 214K > 214K WS > 6H	Near Corner	199-202	All	[3] Medium	Tension Gain: 25%
+Depending on the distance from the corner the servant projectile will hit the opponent a different number of times, causing the (199-202) damage discrepancy.			??
+Air-to-air Combos
+Air-to-air Combos
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+[j.K] or [j.S] or [j.H] > 236K	Anywhere	44 / 49 / 41	All	[1] Very Easy	Tension Gain: 7% / 8 / 7%
+A fairly universal extension off air hits. Will always send opponents full-screen with enough time to prepare a summon with 236[P] or 236P. May need to slightly delay the 236K based on initial height and attack used.			??
+[j.K] or [j.S] > 66 > dl.j.S > j.H > land > c.S > 2H	Midscreen	89 / 94	All	[2] Easy	Tension Gain: ~14%
+Fast air-to-air with good corner carry. j.S starter is slower and more height-dependent and allows you to go into 2H oki. Can be extended into a 632146P near the corner to get a wallbreak, but loses the potential corner pressure.
+Can be linked into a safejump with 236[P], j > dl.66 > D > dl.j.P.
+
+??
+Jump-in Starters
+Jump-in Starters
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+j.S > 2K > 2D > (236K)	Anywhere	61 (76)	All?	[2] Easy	Tension Gain: 15% (25%)
+Should be done at close range, and j.S needs to connect really late in the jump for this to combo, making this combo primarily useful for crossup oki.			??
+Dust Combos
+Dust Combos
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+5[D] 8, j.H(2) > j.K > jc > j.S > j.K > j.S > j.KK	Anywhere	181	All	[2] Easy	Optimised BnB that works on all characters. No delays required.			??
+5[D] 8, j.H(2) > 9jc > j.H(2) > j.S > j.H(2)H	Anywhere	182*	SO, FA, ZA, AN, IN, GO	[3] Medium	Character Specific route that does slightly more damage than the other BnB routes.
+SO - 177, FA - 185, ZA - 198, AN - 191, IN - 194, GO - 174.
+
+??
+5D 66RRC > 236P > 66 c.S > 5H > 214K > 66 c.S > 5H /2H(oki)	Anywhere but corner	94 / 93(oki)		[3] Medium	Not supposed to hit the servant with c.S and you can sometimes swap sides after first 5H which will get you more damage. Can end with Forever Elysion Driver for 129 damage or use 2H to get 2H oki			??
+5D 66RRC > 236P > 66 c.S > 2S > 214K >66 c.S > 6H(2) WS, > 6H	Midscreen	135	All	[2] Easy	https://streamable.com/27kxoj			??
+5D 66RRC > 236P > 2H > 236K > 214K > 66 2D	Anywhere but corner	98		[4] Hard	2D allows you do set a servant which can be better for okizeme.			??
+5D RRC > 236P > 2H > dl 236K > c.S > 214K > c.S > 5H	corner(no servant)	104		[3] Medium	Gets throw off by a servant and can wall splat earlier fairly easily due to wall mechanics			??
+CH 2D > 236P > 2K > 2D > 214K > 66 c.S > 5H/2H	Anywhere	124	All	[2] Easy	Can go into 2H oki			??
+5D 66RRC~2H >236K> 236[P] > ws 5K > ws 5D>c.S > 6H(2) WS> 66 5[D]	Corner	154	All	[2] Easy	https://streamable.com/k6rbvn			??
+Ground Throw Starter
+Ground Throw Starter
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+[4D or 6D] > 2H	Anywhere	94	Everyone	[1] Very Easy	Tension Gain: 14%
+Other OTG options include c.S, 5H(2) (which surprisingly hits twice), 5[D] (and by extension 5D), 6H(1), 2P, 2K, 2S (Corner only), 2D, 216K, and 236K. For some of these options you may have to dash.			??
+[4D or 6D] > 2H > 66RRC > c.S > ...	Anywhere	99	Everyone	[2] Easy	Tension Gain: -35%
+For when you don't have enough tension to RC the throw itself, but just enough to RC after the OTG, AND you want to kill. This sweet spot is between 36% and 39% tension. c.S leaves room for further pressure by jump cancelling or cancelling into 236P/236[P]			??
+[4D or 6D] > PRC, 236P, 5K > (214K)xN	Anywhere	119	Everyone	[3] Medium	Tension Gain: -39~%
+Burst-safe route. Places the opponent higher in the air to aid in the burst punish. In the corner, use 44PRC for burst safety. WS after the 3rd 214K. If you accidentally get RRC, use 6H*(1) > (214K)xN ender instead.			??
+[4D or 6D] > PRC, 236P, c.S > 2H > 236K~236P, [dl.c.S > 2H > 216K]x2, 6H WS, 5[D]	Corner	173		[4] Hard	Tension Gain: -37% WB
+Corner combo that uses the PRC and wall bounce to summon 2 servants mid-combo.			??
+Special Move Starter
+Special Move Starter
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+CH 236K > 5P > 6H > 236P (setup)	Corner				2D > 236K is a natural frame trap and can be converted into a combo in the corner. Keep in mind that 236K is unsafe without using Servant gauge.	
+
+Combo Theory
+
+214K Loops
+When converting from 236K*(hit) > (214K)xN - Every character has a route that allows them to do up to three iterations of the (214K)xN loop. Choosing how many loops depends on the distance from the corner, and the amount of Servant Gauge you are willing to spend;
+
+If you are in the corner, one iteration will cause WS. From here you can break the wall with another iteration of 214K just like midscreen, but you could always also do 632146P or 44 6H(2nd) if you wish to save your Servant Gauge.
+At midscreen, if you wish to cause WS, you will need to do at least 2 iterations. From this position you can choose do a 3rd iteration if you have the Servant Gauge, trading bonus damage for returning to neutral post wall-break without the ability to Summon Servants immediately.
+In terms of actually landing the combo, routes are character specific. Characters fall into three groups;
+
+(SO, KY, CH, ZA, RA, LE, NA, GI, AN, IN, GO, JC) - Most of the cast is either lightweight or has a smaller falling hurtbox, meaning that 236K will never hit them, allowing the combo to go off cleanly. This is the easiest group.
+(MA, AX, FA, MI) - Some character's forward hurtbox while falling is too big, causing the 236K*(hit) to occur too early or in extreme cases cause 236K& to occur. For these characters you will only land one 214K unless you delay the 236K.
+(PO) - The only exception to this group is Potemkin, who no matter how much you delay 236K, will always be hit by 236K, forcing 236K& and only one 214K. Instead, you must slightly delay the normal that comes before 236K* (usually 5P). This changes the trajectory of the servant from 236K& just enough to allow you to do multiple loops of (214K)xN, and only Potemkin is wide enough while falling to allow this route.
+Backwards 214K Wall Combos
+Keeping the opponent away from the wall until the very last moment is essential to maximizing damage output when extending combos in the corner. Jack-O' is capable of doing just that with a specific servant positioning mid-combo. When comboing after the wall-bounce from 236K&, if you delay the c.S& appropriately so that the opponent is currently just passing over your servant, you will push the servant to the wall without the projectile ever hitting your opponent. You can then use 2H > 214K and the minion will be in the correct position to knock the opponent away from the wall, allowing another c.S string before the WS. As long as the combo starts at the correct distance from the wall, this route becomes very consistent with practice when you know what you're looking for. If everything goes correctly, the Servant will be near the floor, and will hit the opponent's feet as a projectile before performing Attack Command. If you ever find the servant in the incorrect position for the combo once you've already committed to 2H, you can use 236K& to recover the combo. Luckily enough, even if you mess this route up you will still get a WS from all of the incorrect routes except for one (c.S > 2H(hit) [No Servant Gauge to 214K]), so as long as you watch how much Servant Gauge you have you will still get your Positive Bonus.
+
+Detonation Combo Enders
+By using 214H during the dead time during 236K you can construct a route that uses two Wall Sticks and will usually deal more damage than a combo that does not incorporate Countdown. The advantages of more damage are obvious, however there is a drawback to these routes. When the explosion of Countdown begins, you deplete all of your Servant Gauge. You will be able to recover roughly 2/3rds of one servant during the end of the combo, but that still means that you will not be able to summon a minion immediately upon returning to neutral after the wall break. This means that if you intend to continue you pressure after the wall break, you may want to perform a route that does not include 214H. Conversely, if you are reaching for damage and intend to kill the opponent from this position, then of course this route is most likely to grant you the most damage. A general positive of these combos is that while it will return your Servant Gauge to 0, it may not necessarily cost 3 Servant Gauge to perform, making them very possible in a real game.
+
+These combos end with two routes;
+
+Route A; ... dl.c.S > 5H WS, 9 (Detonation) j.S WS, [5[D]] or [632146P]
+This is by far the easiest of the routes. It's so consistent that the hardest concept to grasp in this combo is actually the Backwards 214K. Plus, the [5[D]] is also incredibly easy to time due to landing after the j.S.
+Route B; ... dl.c.S > 2H > 236K& WS, 4(4) (Detonation) 2D WS, [5[D]] or [632146P]
+This is the harder version of the same idea. When compared to the other route, this has a lot of possible drop points. Firstly, the 236K& WS can sometimes break the wall if you don't delay all the dl.c.S as late as possible, meaning that you will not be able to finish the combo with [632146P] and potentially lose out on the kill. Secondly, the opponent must WS at a decent height before the Detonation, otherwise they will fall to the ground before you can reach them.The last problem that arises from this route is that the starter dramatically changes the position of the servant at the end of the combo. This causes a disparity that sometimes requires you to Backdash (44) to dodge the explosion, and other times being far enough to simply hold 4 and freely walk out. The 2D timing can be much tighter for the same reason.
+Ultimately, since this combo has a 1-2 damage discrepancy from the other safer route it is not recommended to do unless you are confident that this combo will kill where the other won't. With Guts and Defense Ratings in factor, the fact that this can be very hard to determine in the moment makes this a very rare, but possibly valuable option. The good news is that if you are experienced with this combo, you can decide if you delayed your dl.c.S's mid-combo to determine if this route is even possible, then switch to the easier route if you are worried about a drop.
+Wallbreak Enders
+Jack-O' has several optimal ways to end a combo:
+
+5[D] for most damage at close-range.
+2H for most damage at mid-range, or most tension at close-range.
+6H(2) for most damage at long-range.
+214K for most damage from mid to long range at the cost of Servant Gauge.
+Prior to any wallbreak, it is always worth using Summon Servant (236P or 236[P]) where possible, as the servant will be recovered free of cost on the wallbreak, providing an additional half a bar of Command Gauge (while breaking even on Summon Gauge), restoring resources to assist in the post-wallbreak situation.
+
+At the cost of minimal damage, Jack-O' is uniquely good at generating Tension on a Wall Stick by cancelling into 236[P] > hs.D > ns.2P > (236K or 632146P), which is fast enough to be used on any wallbreak if within range. You can still optimise for meterless damage using 236[P] > hs.D > (5[D] or 2H or 6H)

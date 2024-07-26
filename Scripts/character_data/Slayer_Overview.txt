@@ -1,0 +1,625 @@
+Overview
+Slayer is a sophisticated vampire who dominates neutral with his dandyism. While his kit is unconventional, he has a number of unique tools for mixing up or whiff punishing the opponent to keep them on their toes.
+
+Slayer's neutral revolves around his signature Dandy Step as well as his unique teleport dash. His normal attacks such as f.S and 5H have relatively low range, requiring him to utilize his movement options to get in and enforce pressure. Dandy Step's many followups allow Slayer to threaten overheads, lows, and pressure resets in addition to his infamous Pilebunker for devastating whiff punishes.
+
+While Slayer's combos are relatively short, his exceptional damage potential and number of ways to open up the opponent make him a serious threat when he is in range to pressure the opponent. Alternating between the low Bump Ahead followup and the overhead It's Late followup can allow Slayer to easily convert either with meter or via his UNIVERSE mechanic, and Bloodsucking Universe acts as a powerful command grab option to reinforce his neutral game and gain access to better combo starters.
+
+With an assortment of dandy strikes and his lovely wife cheering him on, this formidable ex-assassin hasn't lost his killing touch.
+Slayer
+
+Damage Received Mod
+×0.97
+Guts Rating
+3
+Prejump
+4F
+Backdash
+28F Duration
+1-6F Invuln
+Airborne
+Unique Movement Options
+Teleport Dash (no Run)
+Dandy Step
+Fastest Attack
+5P (5F)
+2P (5F)
+Reversals
+Super Mappa Hunch (15F)
+Slayer is a high damage brawler, dominating neutral with his unique movement options and massive reward on hit.
+Pick if you like	Avoid if you dislike
+Exceptionally high damage, potentially doing over 75% life with a single attack.
+Tricky movement options and several cross-ups, allowing for unconventional ways to open up the opponent.
+A neutral game that revolves around whiff punishes and short but powerful combos.
+Sticking the opponent to the wall with a single hit!
+Unconventional neutral tools that may require conditioning or hard reads to fully utilize.
+A lack of a traditional dash, making movement difficult to master.
+Few long-range pokes, requiring you to reset often to keep your pressure rolling.
+
+Unique Mechanic: UNIVERSE!
+
+Upon successfully landing Bloodsucking Universe, Slayer temporarily gains a cool aura. Landing any strike attack will force a Large counter hit, allowing Slayer to perform devastating combos off of light starters. The buff lasts for 360F, and will go away if Slayer is hit. The counter effect even occurs mid combo if you Roman Cancel to combo off Bloodsucking Universe, and does +30% damage instead of the typical +10% on a usual counterhit.
+
+Displays "UNIVERSE!" instead of "COUNTER!" text
+
+Unique Mechanic: Teleport Dash
+Slayer has a unique teleport dash instead of a traditional run. It functions similarly to a stepdash, but can pass through the opponent. This is mainly useful for mixups, as well as in certain setups on okizeme which allow Slayer to safely pressure the opponent by teleporting behind them, avoiding things like invincible reversals or throws in the process.
+
+The first few frames of forward dash can be jump cancelled, which will cause a purple effect to appear. The jump startup can then be cancelled into a special move, giving Slayer extra forward movement for his special.
+Startup Frames
+Active Frames
+Inactive Frames
+Recovery Frames
+Special Recovery Frames
+Projectile Active
+Cancel Window
+5P
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+29	All	5	5	9	-4	
+Total:
+18
+Quick punch that has trouble hitting characters low to the ground, but works very well as an anti air due to its speed. Despite its low commitment, it can give Slayer either good pressure if they airblock or a full (if scaled) combo if they get hit, so it acts as an median between c.S's reward and 6P's safety.
+
+Whiffs against crouchers.
+Gatling Options: 5P, 2P, 6P, 6K, 6H
+
+5K
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+34	All	7	3	14	-5	
+Total:
+23
+Has an excellent combination of speed and range, as well as reliable confirms by cancelling into Mappa. A key poke and a mainstay in neutral, allowing Slayer to harass with relative safety and opening opponents up to whiff punishes with bigger moves once they start trying to work around 5K.
+
+Jump and dash cancelable.
+Gatling Options: 6P, 6K, 6H, 5D, 2D
+
+c.S
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+44	All	7	6	10	+3	
+Total:
+22
+Terrifying c.S with massive range both horizontally and vertically, as well as generous plus frames. It cranks RISC significantly on block and is death on hit, making it very intimidating to challenge if you can keep your pressure unpredictable. Its numerous gatling options also make it one of Slayer's most important combo tools, so make sure to get well acquainted with this move.
+
+Jump and dash cancelable.
+Gatling Options: 6P, 6K, f.S, 2S, 5H, 2H, 6H, 5D, 2D
+
+f.S
+Images
+Hitboxes
+
+We got links!
+
+ 
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+10,25	All	11	3, 2	13	+4	
+Total:
+28
+A two-hit punch with many properties; it's easier to list what it doesn't do. It's advancing, it has two hits, it staggers, it anti-airs and does your taxes. It's quite oppressive in pressure, allowing him to link back into f.S or c.S depending on range. On hit, it allows him to combo into Bloodsucking Universe, Mappa Hunch or Wild Assault.
+
+f.S's gatlings and links are no joke either. 5H and 2H can be delay gatling'd for a frametrap, and 2S can be linked into for vacuum strike/throw. Its weaknesses are its high pushback and poor hitbox, which is high up and makes it very easy to low profile, though its low total duration makes it easy to throw out whenever during neutral regardless.
+
+First hit staggers and forces stand.
+If close enough, it's plus enough to link into c.S on hit, otherwise links into 5K/2K when further out.
+Gatling Options: 5H, 2H
+
+5H
+Images
+Hitboxes
+
+Punch the ground
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+54	All	13	4	18	-3	
+Total:
+34
+Big, disjointed haymaker with enormous counterhit reward. As a poke, it complements 2H very well, with this button being better for crushing things like 6Ps. Potent delay cancel option to either frame trap or beat abare and 6P attempts during f.S's looping pressure. Has a high effective range due to slayer stepping forward during startup, being able to hit from round start distance.
+
+On counter hit, it gives Slayer access to Pilebunker loops when canceling into P Dandy Step.
+
+Ground Bounces on counterhit.
+5D
+Images
+Hitboxes
+
+
+Version	Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+Dust Attack	50	High	20	3	26	-15	
+Charged Dust Attack	62	High	28	3	26	-10	
+Total:
+48
+Total:
+56
+Uncharged Dust
+Universal overhead attack that's pretty fast. Has excellent range for a 5D, and is particularly notable for Slayer, as landing Bloodsucking Universe allows him to combo off the uncharged version, giving him another overhead option, which is his fastest while grounded.
+
+Charged Dust
+Holding any upwards direction during the hitstop of Charged Dust will perform a Homing Jump:
+Performing a Homing Jump puts the opponent into a unique high damaging air combo state and will cause an Area Shift afterwards, resetting character positions to neutral at slightly farther than round start distance.
+Pressing any attack twice in a row without jump/dash canceling will perform a unique Finishing Blow attack, causing a hard knockdown afterwards.
+Similar to uncharged Dust but is slow enough for opponents to reliably react to. On raw hit, it results in a high damage Homing Jump combo. In combos, it can be used after c.S on a juggled opponent to squeeze out more damage while retaining the juggle state, although this is highly dependent on the combo starter.
+
+Slayer advances forward significantly during startup.
+2P
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+23	All	5	4	8	-2	
+Total:
+16
+Slayer's mash button. Has notably good range and combos into P Mappa consistently, giving a bit of damage and leaving you plus on hit. On counterhit, 2P will give more damaging combos that actually knock down, so being able to confirm it in the moment is important.
+
+Gatling Options: 5P, 2P, 6P, 6K, 6H
+
+2K
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+29	Low	6	4	10	-2	
+Total:
+19
+A quick low poke with good range. Useful for checking the opponent's movement and going into 2D, and is overall pretty safe to throw out.
+
+Gatling Options: 6P, 6K, 6H, 5D, 2D
+
+2S
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+34	All	10	4	21	-11	
+Total:
+34
+A unique normal that vacuums the opponent, keeping them closer to Slayer. This makes it great in combos, where it can be used to set up better knockdowns or even powerful extensions with the right timing. In pressure, it can be used to set up a mixup, namely between Bloodsucking Universe to beat blocking or a delay cancel to beat mashing, though take care to at least cancel it, as it's very unsafe.
+
+Vacuums on hit or grounded block.
+Gatling Options: 5H, 2H
+
+2H
+Images
+Hitboxes
+
+
+Oh, so you want to look at the hitbox. You like what you are seeing?
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+52	Low	13	2	29	-12	Low Crush 5-15
+Total:
+43
+A slow poke that hits a considerable distance away. As Slayer hops during the startup, this move can go over low attacks and punish them, making it very useful against people attempting to stuff his approach, and can also be used to catch them walking back due to hitting low. Its main weakness comes from its speed, as it's very unsafe on whiff and puts Slayer at an awkward range to threaten with a special cancel if the opponent blocks it, especially at the crest of its range.
+
+Although Slayer leaves the ground during startup, he is not considered airborne and can still be thrown.
+Launches on hit and combos into Pilebunker consistently.
+2D
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+27	Low	10	6	16	-8	
+Total:
+31
+Famous slide that covers a good distance and hits low. Slayer moves quickly, making this button an extremely consistent confirm from 5K or 2K that gives a good knockdown, which can also be special cancelled into K Mappa for further corner carry. Its high amount of active frames makes it a great poke from further out, as it becomes very difficult to punish when used this way; however, this also makes it easier to see 2D coming.
+
+6P
+Images
+Hitboxes
+
+
+ 
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+36	All	9	6	19	-8	1-3 Upper Body 4-15 Above Knees
+Total:
+33
+Slayer's emergency anti-air when 5P or c.S won't cut it. Can also be used against mid pokes to go under them and potentially score a knockdown, letting you make your way in in matchups where your movement is more restricted. Difficult to use in combos as it has incredibly short horizontal range; from 2P, mashing that button into P Mappa Hunch is more reliable.
+
+Upper body invulnerable.
+Launches on hit, hard knockdown on counterhit.
+6K
+(Hold OK)
+
+Images
+Hitboxes
+
+ 
+
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+Built-in taunt button
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+35	High	28	3	12 [Total 41]	+2	Airborne 4-29
+6K
+Very slow overhead with a telegraphed animation. While not likely to hit against experienced players as a mixup (especially considering Slayer's other overhead options), 6K has a lot of range and is plus on block, allowing you to keep your turn. Notably, it is also airborne, allowing it to crush lows and throws, making it a lower-risk option against those moves.
+
+Becomes a lot more appealing to use for these purposes with Universe or when landed meaty, as this allows it to link to c.S on hit.
+
+Get a much faster overhead by FRCing it during startup with a fast air normal like j.S.
+
+6[K] (Feint)
+Slayer does the animation for 6K, but takes a bow instead of doing the heel drop. Can be used to fake out an opponent trying to block the overhead and throw them instead, though the feint itself is also pretty slow.
+
+Humorously, it still maintains the airborne frames, letting you hop over lows with this.
+
+Counterhit recovery during the landing flourish animation.
+6H
+Images
+Hitboxes
+
+ 
+
+
+ 
+
+ 
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+58	All	19	6	16	-3	
+Total:
+40
+An advancing heel drop with a lot of vertical and horizontal range. Can be used to move forward while putting out a giant hitbox to smack the opponent with, and is surprisingly completely safe unless Instant Blocked. Staple in Slayer's combos as it deals very high damage and combos to whatever you could want. c.S > 6H is a massively preferred link as a combo-ender in longer combos, thanks to the high damage-to-risk-loss ratio and consistent connection even at high gravity scaling.
+
+Hits crouchers on frame 22, making the move +0 instead of -3. Experienced players can use this to attempt an immediate strike/throw between 5K or Kara Cancel Bloodsucking Universe with appropriate spacing, or an especially greedy read with a 2S to catch backdash.
+
+First three active frames whiff on crouching opponents.
+Forces crouching on hit.
+[] is for crouching opponents.
+j.P
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+25	High	5	3	10		
+Total:
+17
+Fairly standard j.P with good horizontal range. Can be used as an air to air.
+
+Gatling Options: j.P
+
+j.K
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+31	High	6	3	20		
+Total:
+28
+Has the longest range of Slayer's air normals and quick recovery, so it's good as a general all-purpose button when you're in the air. Can hit crossup as well.
+
+Jump and Dash cancellable.
+Gatling Options: j.D
+
+j.S
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+13,13,13	High	9	3(2)3(2)3	20	+2 (IAD)	
+Total:
+41
+Fast startup and multiple hits make it good for stabilising combos or when jumping in. Causes a slight float when used, which changes Slayer's air trajectory, though it's somewhat difficult if not impossible to use for unusual air movement because it has a lot of recovery.
+
+Jump and Dash cancellable.
+Gatling Options: j.H, j.D
+
+j.H
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+49	High	14	5	18	+6 (IAD)	
+Total:
+36
+Slayer's big jump-in and preferred safejump button. A forward jump IAD back j.H from point blank can hit the entire cast crouching, becoming a massively damaging instant overhead with Roman Cancel.
+
+Jump and Dash cancellable.
+Gatling Options: j.D
+
+j.D
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+42	All	9	3	17	+3 (IAD)	
+Total:
+28
+Good combo filler in airdash confirms, but not great as a jump-in as it has to hit incredibly low to be able to hit crouching opponents.
+
+Jump and Dash cancellable.
+Ground Throw
+6D or 4D
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+80	Ground Throw	2	3	38		
+Total:
+42
+Useful as it gives a better knockdown than Bloodsucking Universe, allowing Slayer to safejump by simply holding up-forward and pressing j.H. In the corner, c.S can be used to OTG and lead into a mixup after by cancelling directly into f.S, which recovers fast enough to get a meaty in time.
+
+Can throw the opponent either forward or backwards, based on the direction input.
+Air Throw
+j.6D or j.4D
+
+Images
+Hitboxes
+
+File:GGST SlayerAir Throw Hitbox.png
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+80	Air Throw	2	3	38 or Until Landing+10		
+Total:
+42
+Total:
+14
+Universal air throw. Bounces Slayer back slightly on hit, which weakens the knockdown somewhat, but still good against characters that can hang in the air for a long time.
+
+Can throw the opponent either forward or backwards, based on the direction input.
+Wild Assault
+236D with 50% Burst (Hold OK)
+
+Images
+Hitboxes
+
+
+Version	Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+236D	30	All (Guard Crush)	20~31	3	20	+13	
+236[D]	50	All	32	3	20	+17	
+Wild Assault
+Total:
+42
+Fully Charged Wild Assault
+Total:
+54
+Blue Wild Assault: Causes Guard Crush on block, and Stagger on uncharged hit. See here for more info on Wild Assault types.
+
+Forward-moving charge that results in a potent RPS situation on block, and converts into other moves on hit. It's fast enough to link after Pilebunker if it wallsticks, giving Slayer consistent knockdowns from breaking the wall.
+
+Niche tool that allows Slayer to convert off of various normals (such as f.S or a 5K counterhit) into Bloodsucking Universe at any range, or set up a dangerous guessing game when blocked with the threat of throw or Dandy Step's various follow-ups. Due to Slayer's high effective HP, he generally gets more burst meter than other characters would, so it's advisable to use Wild Assault fairly liberally to force opponents into dangerous situations.
+
+Normal, special, jump, and backdash cancelable.
+Drains 7.14% of the opponent's Burst Gauge on hit or block.
+Applies Hard Knockdown when launching or when used to Wall Break.
+Mappa Hunch
+236P or 236K
+
+Images
+Hitboxes
+
+I'm in the corner already?
+
+Version	Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+236P	33	All	11	3	15	-1	
+236K	44	All	14	6	15	-2	
+Total:
+28
+Total:
+34
+A lunging punch with fast startup, allowing it to easily combo from normal moves. A good way for Slayer to move around the screen and bully his opponent, staying just out of the range of their normals while using Mappa to close in.
+
+P Version
+Goes a shorter distance, but is faster overall than the K version. It combos from lights easily, giving Slayer decent reward for mashing, and is generally very safe to throw out even in neutral due to how quickly it recovers. It keeps the opponent standing on hit, so you usually have to hit a button after it to get the opponent to sit still.
+
+K Version
+Slower and goes significantly further. Compared to P Mappa, it's punishable if misspaced, but works better as a hitconfirm or combo ender as it will knock down with significant corner carry. Additionally, because it has a longer travel distance, it's possible to use it from further out and gain additional safety; spacing this move properly will make it either impossible to punish or even plus on block. Similarly, it's high number of active frames make it useful as a meaty. Timing it to connect on its later active frames can grant plus frames on knockdowns Slayer can't otherwise chase, such as after landing K Mappa itself or It's Late. On Counter Hit, Slayer can link into 5K anywhere.
+
+Keep in mind that at most ranges where Slayer can use K Mappa, the opponent can low profile the move and punish Slayer, so don't overuse it.
+
+Can be used with a kara cancel to reach even further distances.
+Dandy Step
+214P or 214K
+
+Images
+Hitboxes
+
+ 
+
+
+ 
+
+ 
+
+Version	Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+214P					Total 34		Pass-through 5-9
+214K					Total 40		Pass-through 3-9
+Dandy Step P (Note)
+Total:
+34
+Dandy Step K (Note)
+Total:
+40
+A character-defining command movement option with a number of followups. Dandy Step is the key to every facet of Slayer's gameplan, giving him access to confusing and intimidating mixups in order to overwhelm his opponents as well as whiff punish them like few other characters can.
+
+P Version
+Faster, travels forward, and can cross up the opponent when close. Its exceptional speed makes it a viable combo tool off of launchers like 2H, or in counterhit confirms to close the distance before picking up with a normal. This version is suited more to combos and mixups, as the forward movement renders it vulnerable to being stuffed if it's used carelessly. It's typically very weak in blockstrings, since it always leaves a gap where it can be thrown at close range regardless of the chosen followup.
+
+K Version
+Slayer slides backwards, then slides forwards past his original position. This move can be used to evade attacks and score a devastating whiff punish. During pressure, it can be used to avoid the opponent's mashing and punish them, though its backwards movement also limits the amount of possible mixups available to Slayer if they don't take the bait.
+
+Pilebunker
+P during Dandy Step
+
+Images
+Hitboxes
+
+We got loops!
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+80	All	17+5	3	36	-14	
+Total:
+43
+The reason you play Slayer; a highly damaging and fast punch capable of instantly sticking the opponent to the wall. Pilebunker is one of the hardest hitting attacks in Slayer's arsenal, and fulfills multiple roles in his overall kit, from punishing unsafe attacks in neutral to ending combos or even extending them. Its immediate wallstick makes it easy for Slayer to control whether or not he wants to break the wall, allowing him to either maintain momentum or deal incredible damage depending on the situation.
+
+While Pilebunker is Slayer's fastest followup out of Dandy Step, it's also the most unsafe; though it might be tempting, using it recklessly is hardly befitting a Dandy. Sometimes, the fear of Pilebunker can be more powerful than even Pilebunker itself; it's a move the opponent has to respect, even more so when Slayer has meter on hand to make it safe.
+
+Guard Crushes the opponent on block.
+Blows back into a tumble on hit. This tumble is extended on counterhit, enough to combo into Super Mappa Hunch or another Pilebunker if you're close enough.
+Even though it can hit behind Slayer, Pilebunker will always launch in the direction Slayer is facing; because of this, in certain combo routes, it's possible to land Pilebunker in such a way that the opponent is launched into Slayer, allowing him to pick up the tumble with c.S into a full combo extension!
+Bump Ahead
+K during Dandy Step
+
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+40	Low	17+13	3	16	-2	
+Total:
+31
+A sweeping low attack out of Dandy Step. Bump Ahead is safe on block and can combo into c.S on counterhit, making it a viable pressure ender in addition to its use as a mixup tool. A simple but effective strategy early on in a match is to end a blockstring with Bump Ahead, then immediately go into K Dandy Step; the sway will avoid the opponent's attempt to take their turn, allowing Slayer to mix them up again or outright punish depending on what they pressed.
+
+Take care not to get too predictable with it, as it basically doesn't hit any higher up than the floor itself, making it very easy to jump away from.
+
+Hard knockdown on hit.
+It's Late
+S during Dandy Step
+
+Images
+Hitboxes
+
+No jumping!
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+50	High (Guard Crush)	17+13	3	35	-2	
+Total:
+50
+A downwards swing that hits as an overhead attack. It's Late is an alternative option to Bump Ahead, allowing Slayer to threaten both overheads and lows out of Dandy Step. It has significant vertical range, making it the closest thing to an anti-air Slayer has access to if you've already committed to Dandy Step; it's quite useful for this purpose, as its hitbox is massive and the reward on a counterhit is significant.
+
+It's important to note that It's Late pushes the opponent further away from Slayer compared to the other Dandy Step followups; while this is good on block, allowing it to be safe, it has a weak knockdown on hit that makes it difficult to get good follow-up pressure afterward. As such, It's Late is best used if Slayer has the corner, or in neutral situations if you just need a giant hitbox for them to deal with.
+
+Counterhit causes a huge ground bounce that can even link into high damage combos.
+Master's Hammer
+H during Dandy Step
+
+Images
+Hitboxes
+
+ 
+
+
+ 
+
+ 
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+60	All (Guard Crush)	17+25	3	16	+26	Airborne 4-23
+Total:
+43
+A leaping strike that is ridiculously plus on block. Unlike the other Dandy Step followups, Master's Hammer primarily shines as a pressure reset and cross-up tool; if used at point-blank range, the forwards momentum of the leap can cause Slayer to cross up the opponent. Combining this with the cross-up property of P Dandy Step can lead to extremely confusing mixups. The guard crush effect and significant frame advantage give Slayer time to do all sorts of shenanigans, like going for another cross-up or just using Bloodsucking Universe once blockstun is over.
+
+This followup's main weakness is its slow startup, as it's possible to mash out of it if the opponent recognises the situation or simply doesn't respect Slayer. Additionally, Slayer can be thrown on landing before the hitbox actually appears, so this move should mainly see use as a surprise option, to punish the opponent's throw tech, or during okizeme.
+
+Guard Crushes on block.
+Can be used in combos from large counterhits, as it can link into c.S if the opponent is higher than ground level.
+Bloodsucking Universe
+63214H
+
+Images
+Hitboxes
+
+
+ 
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+80	Ground Throw	7	2	48		Throw 1-8
+Total:
+56
+A command grab with a number of useful properties. It's throw invulnerable and has longer range than a regular throw, making it good to use from fast buttons such as 2K if you're close enough. Since Slayer can cancel into it, he can also delay a special cancel and grab overly defensive opponents with Bloodsucking Universe, such as after 2S.
+
+On hit, Slayer is healed a small amount of health and gains his unique Universe hit effect on the next attack he lands. Universe essentially acts as a large counterhit for any attack; the effect is treated similar to an opponent hit with a full RISC gauge, causing a zoom-in and slowdown effect, even if the attack was something like 5P or 6K. As a result, Slayer gains access to new combos available to no other character under most circumstances, such as comboing after an uncharged 5D meterlessly. This effect even applies in combos; if Slayer RCs Bloodsucking Universe (so long as he bites the opponent beforehand), he can combo into a Universe counterhit without issue.
+
+As powerful as this buff is, Slayer still has to use his normal throw to open opponents up occasionally, as BSU has a poor knockdown with little time for followup pressure after. As such, it's best to treat it as a tool to supplement his offense rather than focusing on it alone.
+
+Universe buff goes away if Slayer is hit.
+20% of the damage dealt is restored to your HP.
+Unlike standard counters which deal 10% more damage or RISC counter's 20% buff, Universe counters deal a whopping 30% more damage!
+Very good when combined with kara cancels, which allows Slayer to circumvent the move's short range. It can be input various ways; an example method would be 63214669H.
+Hand of Doom
+6S during Backdash
+
+Images
+Hitboxes
+
+
+The hands are for show
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+53	All	12	3	18	-7	
+Total:
+32
+A strange replacement for a DP.
+
+By using the invulnerability of his backdash, Slayer is able to evade attacks before quickly punishing with Hand of Doom. Similar to other invulnerable reversals, this is low reward and punishable on block. It leads to a small meterless combo on counterhit via 5K > 2D > 236K. It's somewhat unreliable as a reversal, due to slow startup, a very short invulnerability time, and being minus on hit. There is also tradeoff between using it earlier for faster startup, or slightly later for more invulnerability time.
+
+It does, strangely, see use in corner combos, as it leads to a very high wallbounce and deals high damage.
+
+Slayer can use Hand of Doom at any point during his backdash.
+Wallbounces in the corner.
+Can kara cancel into Overdrives (effectively letting you Overdrive during a backdash).
+Super Mappa Hunch
+632146S
+
+Images
+Hitboxes
+
+ 
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+100 [100×2]	All	14+1	2, 2	50	-33	Full 1-19
+Total:
+68
+An invulnerable lunging punch with a full screen horizontal range. Slayer can use Super Mappa Hunch as a combo ender, allowing him to pick up opponents from afar, such as from a counterhit Pilebunker.
+
+Due to its comparatively slow startup, fast attacks like P normals can safely recover by the time Super Mappa Hunch becomes active, making it a weak reversal and especially susceptible to safejumps. This slow startup does however work in his favor for the purpose of Purple Roman Cancelling it to avoid meaties, a tactic further enhanced by his abilty to cancel his backdash into this super.
+
+Has a sweet spot that hits twice when used at a specific distance to the opponent, where they are first hit by Slayer himself, and then the swarm of bats following him. (This is slightly further than roundstart/the very edge of 2H range). The sweet spot can only be accessed midscreen - if an opponent is too close to the wall, the first hit of the super will wallbreak before the second can connect. A number of strings put the opponent at the correct distance to sweet spot, such as [c.S > f.S] x2 > 5H > 632146S. The second hit of the sweetspot, in addition to dealing more damage, also knocks an opponent back further and can, in some situations, allow for super wallbreaks where the single hit version of Super Mappa Hunch would not.
+
+Its full screen range allows you to threaten opponents with projectiles from anywhere on the screen, and its near instant coverage prevents PRC reactions to the super flash, forcing preemptive ones as bait or more conservative play altogether.
+
+Last Horizon
+236236H with 100% Tension
+
+Images
+Hitboxes
+
+ 
+
+ 
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+10,270,20	All	9+2	11	40	-10, always	
+Total:
+61
+A combo Overdrive that deals a massive chunk of damage to close out a round without giving Slayer's opponent the chance to burst. Although its lack of invulnerability or special properties make it ill-suited to anything outside of ending combos, it shines in that role. It deals absurd damage off of very simple sequences, and will connect off of all of Slayer's normals, with the exceptions of normal hit 6P midscreen, spaced 2P/5P, and max-range 5K.
+
+Due to 236236H's excellent speed and range, it's fairly easy to combo into this Overdrive, although it might be rare for Slayer to have 100 meter to spend. When he does, however, the threat of Last Horizon should put the fear of God into his opponent.
+
+This move is always -10 on block, regardless of when it connects.

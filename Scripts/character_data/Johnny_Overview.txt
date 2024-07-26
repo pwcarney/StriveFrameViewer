@@ -1,0 +1,646 @@
+Johnny is a stylish swordsman who excels around the midrange with his signature Hirofumi sword style. What he lacks in defensive options, he makes up for with his ranged and often disjointed pokes that allow him to play a safe neutral game and keep opponents at a distance.
+
+Johnny’s neutral revolves around his pokes. His f.S is remarkably fast and his 2S has enough range to challenge many options while keeping Johnny at a safe distance. Due to having a step dash, approaches are committal and getting close to the opponent is generally discouraged without a knockdown. Mist Finer’s many variants are capable of punishing neutral approach options, while its forwards dash grants the range necessary to check zoners. Johnny is able to convert many of his long-range pokes into knockdowns, using Deal to set up powerful okizeme options from far away. His lackluster defensive options mean that maintaining control of the neutral game to keep the opponent out is key to success.
+
+Once the opponent has been knocked down with a card nearby, Johnny’s powerful offense can begin. His unique Turn Up mechanic allows Mist Finer to beat mashes, reversals, backdashes, and more from afar while otherwise leaving him plus on block. Johnny is capable of using this fact to his advantage in mix-ups, allowing him to use IAS S Mist Finer to form oppressive high/low mix-ups with rewarding conversions on hit.
+
+With a wide variety of neutral tools and a few card tricks up his sleeve, this outlaw can offer unique answers to whatever your opponent throws your way.
+Johnny
+
+Damage Received Mod
+×0.98
+Guts Rating
+3
+Prejump
+4F
+Backdash
+18F Duration
+1-5F Invuln
+1-16F Airborne
+Unique Movement Options
+Step-Dash (15F), Mist Finer Dash, Vault
+Fastest Attack
+2P (5F)
+Reversals
+That's My Name (11F)
+Johnny is a midrange zoner, capable of controlling the pace of a match with his long normals and Mist Finer stance.
+Pick if you like	Avoid if you dislike
+Long-range pokes that leave you in a relatively safe situation after being blocked.
+Exceptional confirms from any range with a diverse set of mixups after knockdowns.
+Versatile setplay tools with multiple ways to place or use them in neutral.
+Pressure based around frame traps and punishes in the mid-range.
+Lackluster defensive options, requiring strong neutral play to avoid a disadvantage state.
+Technical and often character-specific routing in combos.
+Advanced input techniques and spacing requirements for mixups and okizeme.
+Committal movement options that make fine tuning spacing in neutral difficult.
+
+Unique Mechanic: Step Dash
+Unlike Giovanna or Leo, Johnny's step dash behaves irregularly. It is unable to be cancelled into a block or Faultless Defense, and does not apply momentum to moves used afterwards. To make up for this, Johnny has a unique dash-jump cancel that grants him improved aerial momentum (akin to an airdash).
+
+Step dash can be cancelled at any time into Gold Burst
+Dash-jump startup can be kara cancelled into specials or supers
+Johnny's step dash and dash-jump have significant impact on how he is played. The momentum provided by dash-jump can be exceptionally useful as an approach option when dealing with projectiles or certain zoning options. It's important to refrain from dashing in neutral if the opponent is likely to poke with f.S or 2S, as you will be locked in the animation and unable to avoid or block the attack. Instead, utilize the range offered by Johnny's pokes, dash-jump, or Vault to close the gap.
+
+Image
+Hurtbox
+
+
+
+Turn Up
+
+Striking a card placed with Deal using any version of Mist Finer will cause the card to explode, dealing damage and allowing for unique combo, pressure, and mixup opportunities.
+
+The followup hit caused by Turn Up will cause guard crush, leaving Johnny plus on block.
+Turn Up allows for IAS S Mist Finer to be plus on block, allowing for pressure to continue after landing.
+Turn Up activates 16F after the initial Mist Finer strike, allowing opponents to evade if the Mist Finer whiffs.
+Startup Frames
+Active Frames
+Inactive Frames
+Recovery Frames
+Special Recovery Frames
+Projectile Active
+Cancel Window
+5P
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+23	All	6	4	8	-2	
+Total:
+17
+Low-commitment anti-air and not much else, but it leads to excellent reward when used for that purpose.
+
+Whiffs on crouching.
+Gatling Options: 5P, 2P, 6P, 6K, 6H
+
+5K
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+29	All	7	5	9	-2	
+Total:
+20
+Johnny's main low-commitment poke. Because his leg lifts up high, it can be used to poke against low hits such as 2Ks, earning a knockdown and starting his oppressive pressure. Also frequently used in combos, especially Mist Finer Cancel routes, thanks to its speed, range and 6H gatling. An excellent all-rounder button to throw out.
+
+Jump and dash cancellable.
+Always leaves a gap in the blockstring from 5K when doing a TK Air S Mist Finer.
+Can be used to start strike/throw game by dash cancelling.
+Gatling Options: 6P, 6K, 6H, 5D, 2D
+
+c.S
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+41	All	7	6	10	+1	
+Total:
+22
+An excellent c.S, with massive horizontal and vertical range. Its higher attack level than 5K means that if done perfectly, IAS S Mist Finer will hit as a gapless blockstring, creating a true 50/50 mixup between it and the grounded version. This mixup only becomes stronger with a card set, allowing for meterless extensions on hit. Mixing this 50/50 in between standard strike/throw, staggers, and frametraps from c.S's expansive gatling table and Johnny's special moves will make blocking c.S even more intimidating for the opponent.
+
+It's also common combo fodder, since it naturally combos into 2H.
+
+Jump and dash cancellable.
+Can be used to start strike/throw game by dash cancelling.
+Can be used to anti-air directly above Johnny, with massive reward on hit.
+Gatling Options: 6P, 6K, f.S, 2S, 5H, 2H, 6H, 5D, 2D
+
+f.S
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+32	All	9	3	22	-11	
+Total:
+33
+An amazing poke that combines range and speed while being slightly disjointed at the tip. 5H will almost always combo from it unless it hits at the absolute tip of its range, where you should use K Mist Finer instead. On counterhit, it can lead to 2H for a bigger conversion from roundstart distance. Outside of that spacing, it combos into Vault-Deal for a full combo extension.
+
+Its main weakness comes from its susceptibility to low profile, though this can be mitigated by mixing up between it and 2S.
+
+Gatling Options: 5H, 2H
+
+5H
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+43	All	13	4	30	-15	
+Total:
+46
+Massive normal with equally massive recovery. While not as disjointed as it initially appears, the strangely high hitbox lends it some use in checking retreating air movement. It can be used to end blockstrings, though make sure to Mist Finer Cancel it, as it's very unsafe.
+
+As a level 4 move, it can combo into a dashing Mist Finer on crouching opponents, giving Johnny better okizeme and corner combos if you can confirm the situation correctly. Doesn't see much use in combos besides short conversions in neutral otherwise, as 2H is largely preferable for its launch.
+
+Spikes into a groundbounce on air hit.
+5D
+Images
+Hitboxes
+
+
+Version	Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+Dust Attack	45	High	20	3	26	-15	none
+Charged Dust Attack	56	High	28	3	26	-10	none
+Total:
+48
+Total:
+56
+Universal overhead, and the only overhead Johnny has access to on the ground. Johnny will often forgo using this attack due to the faster and more rewarding option of TK S Mist Finer. Which relegates 5D to being an overhead mixup after a blocked 2K, as well as the damage-optimal meterless wallbreak.
+
+Even then, due to its significantly faster startup and much longer range, you will likely be using 6H to break the wall more often, especially considering it only does 3 less base damage.
+
+2P
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+20	All	5	3	9	-2	
+Total:
+16
+Johnny's legally mandated 5-frame mash. Johnny can combo up to three 2Ps and still combo into S Mist Finer, which gives an easy hitconfirm with solid reward.
+
+On counter-hit, can link into cS at most ranges, and 2K at all ranges, giving you a small conversion and time to set up a card.
+
+Gatling Options: 5P, 2P, 6P, 6K, 6H
+
+2K
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+24	Low	6	3	11	-2	
+Total:
+19
+Useful low check and complements 5K due to the rest of Johnny's normals being highly committal, and leads into good oki via its 2D gatling. Also likely the best button for tick throws on oki due to its short duration, hitting low and Johnny's lack of a run.
+
+Gatling Options: 6P, 6K, 6H, 5D, 2D
+
+2S
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+30	Low	11	3	21	-10	
+Total:
+34
+Has great range and stops low profile, making it a premier way to stop opponents attempting to go under f.S, such as by using 6P or sweeps. 2K should be used if you're not as confident in the situation, however, as this button is a little slow, though 2S will yield higher reward.
+
+Gatling Options: 5H, 2H
+
+2H
+Images
+Hitboxes
+
+
+ 
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+20, 25	All	18	3(10)3	30	-14	
+Total:
+63
+Great combo filler and pressure normal. It's cancellable throughout its entire duration as soon as the first hit connects, allowing Johnny to vary up the timing of his frame traps or sneak in cheeky resets, and launches on the second hit for a wealth of combo options, making it great to gatling into from counterhits or anti-airs. It's very important to confirm into it, though, as it's very slow to recover if it doesn't make contact, hence limiting its use in neutral.
+
+Requires counterhit to combo off of f.S and 2S, but combos naturally from c.S.
+Varying the timing of your Mist Cancels is important to keep the opponent on their toes.
+2D
+Images
+Hitboxes
+
+
+ 
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+22, 17	Low	10	3(3)3	26	-15	
+Total:
+44
+Has good range for a sweep and combos from 2K easily. Use it to go into Johnny's terrifying okizeme game. Since both hits are cancellable, mixing up which hit you Mist Finer Cancel with can lead to some good early layer pressure.
+
+6P
+Images
+Hitboxes
+
+
+ 
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+33	All	11	6	17	-9	1-3 Upper Body
+4-16 Above Knee
+Total:
+33
+A standard Strive 6P. While having short range, its hitbox is very good at stopping air approaches, giving Johnny another powerful anti-air among many.
+
+Launches away on hit.
+Hard knockdown on air Counter Hit.
+6K
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+31	All	15	4	18	-5	
+Total:
+36
+Due to Johnny stepping extremely far forward when using this move, it can be used as an alternative approach option to his dash when needing to put out a hitbox; hitting fairly high also makes it good at sniping opponents who are in the air. Options to threaten after it are somewhat limited, though it can be hard to punish if spaced. Since 6K is attack level 3, Ensenga naturally frame traps and combos from it, leading to combo opportunities even midscreen.
+
+Can combo from 5K or 2K on crouching opponents, counterhit, and air hit for a bit more damage and corner carry.
+6H
+Images
+Hitboxes
+
+Mist Cancelling 101
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+53	All	18	2	36	-19	
+Total:
+55
+Similarly high-hitting cousin of 5H with even longer range and higher damage. It's even worse to whiff than that normal, but Mist Finer Cancel can be used to make it nigh-unpunishable if it's blocked. A staple in Johnny's damage-optimal combo theory, due to being able to link after its wallbounce with a Mist Cancel.
+
+Wallbounces on Air hit.
+j.P
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+21	High	7	4	10		
+Total:
+20
+Johnny's fastest air normal, though with poor speed compared to most other j.Ps. It can be used for mixups in tandem with Air P Mist Finer for double overheads.
+
+Gatling Options: j.P
+
+j.K
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+23	High	8	4	10		
+Total:
+21
+Reaches pretty far down, however it is somewhat unreliable as a jump-in due to its only gatling option whiffing on crouching opponents. It is recommended to use an FDC j.K to hit late 6Ps and combo into cS on hit. On counterhit, combos into j.Deal for a small combo.
+
+Hits slightly behind Johnny, allowing it to be used for cross-ups.
+Can be used to F-Shiki a standing opponent.
+
+Gatling Options: j.D
+
+j.S
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+29	High	10	2	22		
+Total:
+33
+Great air-to-air with far reach and a slight disjoint. If used rising, it recovers fast enough to do something like an air backdash or another normal while falling.
+
+Gatling Options: j.H, j.D
+
+j.H
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+43	High	15	4	25		
+Total:
+43
+A basic jump-in and Johnny's most common safejump button. If used after a super jump IAD, there's enough time to cancel into air P mist finer for a double overhead.
+
+Can hit 6Ps if used after an IAD.
+
+Gatling Options: j.D
+
+j.D
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+46	High	8	7	25		
+Total:
+39
+Blows far back on hit, so it can be used to create distance or in corner combos to link to a ground normal after it.
+
+Whiffs on crouching.
+Ground Throw
+6D or 4D
+
+Images
+Hitboxes
+
+File:GGST Johnny Ground Throw Hitbox.png
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+80	Ground Throw	2	3	38		
+Total:
+42
+Good mixup option since Johnny can toss a card and get a meaty after it, or safejump by doing throw > backdash > IAD j.H. In the corner, this sets up some very threatening mixups which can even be extended meterlessly.
+
+Can throw the opponent either forward or backwards.
+75% forced proration before all damage is dealt, 50% forced proration after all damage is dealt.
+Johnny is in Counter Hit state during recovery.
+Air Throw
+j.6D or j.4D
+
+Images
+Hitboxes
+
+Throws in the direction you hold
+File:GGST Johnny Air Throw Hitbox.png
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+80	Air Throw	2	3	38 or Until Landing+10		
+Total:
+42
+Total:
+14
+Leaves the opponent pretty close to Johnny. Use it to beat chicken blocking or if the opponent isn't committing to their jumps enough to use one of Johnny's more rewarding anti-airs.
+
+Can throw the opponent either forward or backwards.
+Hard knockdown on hit.
+75% forced proration before all damage is dealt, 50% forced proration after all damage is dealt.
+Johnny is in Counter Hit state during recovery.
+Wild Assault
+236D with 50% Burst (Hold OK)
+
+Images
+Hitboxes
+
+
+Version	Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+236D	30	All	16~28	3	20	-4	
+236[D]	50	All	29	3	20	-4	
+Wild Assault
+Total:
+38
+Fully Charged Wild Assault
+Total:
+51
+Orange Wild Assault: Fast startup with extremely high momentum when canceled. See here for more info on Wild Assault types.
+
+A fast advancing strike at the cost of 50% Burst. One of Johnny's best ways to discourage mashing. When done immediately after any of Johnny's H normals, it will true blockstring. Delaying the cancel will let 236D hit any mash attempts, even low profiles such as 6Ps.
+
+Its ability to be jump-cancelled means 236D can be used to access Johnny's deadly high-low 50/50 with IAS S Mist Finer or a delayed 2D.
+
+Normal, special, jump, and backdash cancelable.
+Drains 7.14% of the opponent's Burst Gauge on hit or block.
+Applies Hard Knockdown when launching.
+Mist Finer Stance
+214[P/K/S] (Air OK)
+
+Images
+Hitboxes
+
+The centerpiece
+
+Version	Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+Mist Finer Stance			7				
+Mist Finer Cancel					15		
+Mist Finer Dash (Forward)					25		
+Mist Finer Dash (Backward)					25		
+Mist Finer Cancel
+Total:
+22
+Mist Finer Dash
+Total:
+32
+The bread and butter of Johnny's entire gameplan, a stance which can be used to unleash long-ranged attacks with different properties depending on the button used to initiate it. Johnny cannot block, jump or crouch during the stance; because of this, it is important to occasionally not commit by cancelling the stance by pressing H or D.
+
+This can also be used for Mist Finer Cancelling, a technique which replaces the remaining active frames and recovery of an attack with that of a Mist Finer Cancel, pulling Johnny's hurtbox back and giving them better advantage on block for high-recovery moves, an essential technique to learn for making his riskier normals safer. Mist Finer Cancels also allow Johnny to combo off his 2H by linking various normals after; compared to Vault-Deal and P Mist Finer, these routes are more difficult and position specific, but also lead to consistently higher damage.
+
+Gives a slight float if used in the air. If cancelled, it maintains air actions, allowing Johnny to mess with his jump arc.
+Dashing will also disengage the stance, though the attack can still be used mid-dash by releasing the button. This is important for combos.
+The stance dash consumes an air action, so it can't be used after an airdash or double jump, but it can be used after a superjump.
+There is no difference between which button you use to cancel the stance; it's entirely up to preference.
+Mist Finer : Upward
+214]P[ (Air OK)
+
+Images
+Hitboxes
+
+Ground
+ 
+
+Air
+
+ 
+
+Version	Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+Mist Finer (Upward)	36	All	7+5	2	30	-15	
+Air Mist Finer (Upward)	36	High	7+5	2	Until Landing+13		
+P Mist Finer
+Total:
+43
+P Mist Finer (dash)
+Total:
+53
+A large anti-air slash. Boasts a disjointed hitbox which will shut down anything high up and away from Johnny. However it is not well-suited to stopping airdash approaches. Instead, it's better to rely on the hurtbox retraction of Johnny's 6P, or 5P's speed. It's also the best Mist Finer to use in combos thanks to its huge launch, allowing for a variety of followups after as well as considerable corner carry.
+
+Launches, will soft knockdown when they hit the ground.
+Air version can be used for cheeky double overhead mixups.
+Mist Finer : Horizontal
+214]K[ (Air OK)
+
+Images
+Hitboxes
+
+Ground
+ 
+
+Air
+
+ 
+
+Version	Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+Mist Finer (Horizontal)	36	All	7+5	2	30	-15	
+Air Mist Finer (Horizontal)	36	High	7+5	2	Until Landing+13		
+K Mist Finer
+Total:
+43
+K Mist Finer (dash)
+Total:
+53
+The easiest Mist Finer to use in neutral, allowing Johnny to safely poke at opponents while putting himself at minimal risk, though to be used carefully due to its significant frame disadvantage and the fact that it can still be low-profiled by many moves such as 6Ps. Its sheer range and speed also give consistent confirms from his long-ranged buttons, allowing Johnny to chip away at opponents' health while using their fear of his attacks to his benefit.
+
+Conversely, it's usually the least rewarding to use in bigger combos, possessing no real advantage over the other two. However, in the corner, the tumble property it has on hit can allow combos into Joker Trick (236236S) at long distances, or full extensions with his normals if Johnny himself is close enough to the corner when it lands.
+
+Launches away into a techable tumble.
+Mist Finer : Downward
+214]S[ (Air OK)
+
+Images
+Hitboxes
+
+Ground
+ 
+
+Air
+
+ 
+
+Version	Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+Mist Finer (Downward)	36	Low	7+5	2	30	-15	
+Air Mist Finer (Downward)	36	High	7+5	2	Until Landing+13		
+S Mist Finer
+Total:
+43
+S Mist Finer (dash)
+Total:
+53
+IAS S Mist Finer
+Total:
+63
+Johnny's strongest mixup tool. The grounded version strikes as a low, while the air one hits crouching opponents as opposed to the other Air Mist Finers, allowing Johnny access to an instant overhead on the entire cast. While already powerful in itself, a card makes this 50/50 mixup safe (in the case of the overhead) or plus (in the case of the low) on block, and allows a conversion from both even midscreen, though followups are more powerful in the corner.
+
+Also commonly used as a combo ender, such as confirming 5H > dash S Mist Finer on crouching opponents and 2P abare.
+
+The ground version trips into a hard knockdown similarly to a sweep, but works even if it hits someone in the air. On hit, Johnny can set up a card and then get a meaty after if this hits high enough.
+Startup as an IAS is 16F.
+Deal
+236P/K/S
+
+Images
+Hitboxes
+
+ 
+
+
+Card has no hitbox
+ 
+
+Turn up hitbox
+Version	Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+236P/K/S					Total 32		
+Card hit by Mist Finer	33	All (Guard Crush)	16	6		+24 [+27~+32]	
+Deal (P/K/S) (Note)
+Total:
+32
+Card hit by Mist Finer (Note)
+Total:
+21
+Johnny throws a card, with its distance and trajectory depending on the button used. Throwing a card is fairly quick, allowing it to be used in neutral or okizeme to set up a favourable situation for Johnny; while the cards don't have a hitbox, striking them with any version of Mist Finer will activate Turn Up, adding a second hit that launches the opponent upwards on hit and guard crushes on block, giving significant frame advantage.
+
+This can be used to set up strike/throw, crank RISC, make high/low setups safe or plus, and extend combos, so knowing when to throw a card or setting them up on knockdown is key to getting started with Johnny.
+
+Data in [] refers to when Mist Finer whiffs and opponent only blocks Turn Up.
+Deal (Mid-Air)
+j.236H or H during Vault
+
+Images
+Hitboxes
+
+ 
+
+
+Initial hit (both versions)
+ 
+
+Initial projectile spawn
+ 
+
+Projectile travel
+ 
+
+Vault Deal projectile spawn
+ 
+
+Version	Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+Air Deal	32, 23	All	15	2, Until Card Lands+2	Until Landing+17		
+Vault Deal	32, 23	All	3	2, Until Card Lands+2	Until Landing+22		
+Johnny deals a card at a steep angle towards the ground. Unlike this move's grounded variant, this is an attack. It has an initial strike when Johnny throws the card and a second hit when the card makes contact with the opponent. The air version can be used to stall Johnny in the air briefly, and being a projectile makes it easier to beat various anti-airs with, though to be used with care as it has a long recovery time.
+
+Landing only the first hit will result in a hard knockdown tumble for both versions, though this is much easier to accomplish with the air version. Johnny can extend into a combo by hitting the opponent during the tumble.
+Vault
+236H
+
+Images
+Hitboxes
+
+
+First airborne frame
+ 
+
+Travel hurtbox
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+Total 31+7 Landing		
+Vault (Note)
+Total:
+38
+Vault Deal (earliest timing) (Note)
+Total:
+53
+Vault Deal (perfect timing) (Note)
+Total:
+53
+Johnny leaps forward, covering a significant distance, evading low attacks and some projectiles. Since it can be cancelled into, it can be confirmed from counterhits to get Johnny in while allowing him to set up a card, and even extend the combo in some cases.
+
+Using Deal from this move tosses the card at a more shallow diagonal angle; if using it from a launch, such as from 2H, delaying the card toss will allow Johnny to follow up after with 2K or c.S, giving significant corner carry or even allowing for a side switch from certain starters. It can also be used as a combo ender to set up an immediately threatening mixup situation while sacrificing damage.
+
+Roman Canceling after the Deal followup allows Johnny to set up extended pressure sequences or high/low mixups, making Vault a powerful option with Tension. Vault RC is also an important tool in neutral against opponents with long reaching attacks, allowing Johnny to move in quickly and start his offense.
+
+Deal followup can be executed at the earliest timing by holding H when inputting Vault.
+Delaying Deal can vary the frame advantage of the move, up to -1 and out of throw range if perfectly timed.
+Executing Deal during Vault increases the total duration of the move to 53 frames.
+Ensenga
+214H
+
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+45	All	18	3	20	-4	
+Total:
+40
+Interesting move which can be used to end blockstrings almost entirely safely unless the opponent Instant Blocks it. It only true blockstrings from level 4 normals or if used during Turn Up, and serves as an unthrowable 2f frametrap from 6K and c.S (the opponent can still reversal or low profile with 6p). Since Johnny jumps into the air, it can be used as a low crush (though misses against low profile moves) or to beat throws with great reward if it counterhits.
+
+Using it to wall splat is common due to its short recovery and being cancellable from Johnny's normals, allowing him to dash up to use That's My Name (632146H) if so desired.
+
+That's My Name
+632146H
+
+Images
+Hitboxes
+
+Has a unique cinematic depending on which side Johnny attacks from!
+ 
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+42, 100	All	9+2	3	60	-44	1-13F Full
+Total:
+73
+Johnny's exceptionally cool reversal and metered wall break of choice. The first hit has good range, and it can be used to wallbreak after a dash even after a max range K Mist Finer wallsplat. When used as a reversal, it leaves the opponent quite a ways away from Johnny (about halfscreen distance), which can be good or bad depending on the matchup, though Johnny can generally dash up after to get decent pressure regardless.
+
+Due to its longer-than-average startup, the Super PRC trick can also be used to make this reversal "safer".
+
+Some safejump setups that don't otherwise work will beat this super, as it's two frames slower than average.
+The move's range can also be increased with Kara Cancels to wallbreak from further away.
+Joker Trick
+236236S
+
+Images
+Hitboxes
+
+Doubles up as both a combo ender and fullscreen whiff punish
+ 
+
+
+ 
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+42, 90	All	6+1	Until Hit	Total 48	-16	
+Total:
+48
+(Note)
+Due to its incredibly fast startup and hitting very far away, this super is amazing as a hitconfirm from Johnny's normals, which will do a good amount of damage and also deny the opponent their burst. It is also surprisingly safe on block when spaced outside of the range of the opponent's normals.
+
+Has crazy projectile priority, it can punch clean through Ky's Sacred Edge and Asuka's Submicron Particle Sphere.

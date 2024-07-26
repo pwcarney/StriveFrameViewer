@@ -1,0 +1,353 @@
+Unique Mechanics
+Stain State
+Applying Stain State is Testament's main gameplan. The Stain follow-up attack alleviates their frame data issues by allowing them to run safe pressure and mix-ups. Testament wants to apply this affliction anytime that they’re close or can get close to the opponent to begin or extend their pressure. Managing Stain State is vital to playing Testament and serves as the basis of their entire strategy.
+
+The Succubus
+The Succubus is naturally set-up at the end point of the most recent Grave Reaper; it will often be placed while you space your opponents out. With good neutral control you should be able to keep the opponent at bay to use Unholy Diver and apply Stain State from a safe distance or after a quick approach. Otherwise, it's better to use the knockdown to your advantage with a meaty attack or by using Possession to teleport in. The Succubus is active for 6 seconds meaning that Testament has time to decide when and how to use their follow-ups. Mixing your Succubus choices will keep the opponent guessing on your positioning and zoning to force them to make a mistake you can capitalize on.
+
+Neutral
+
+Mid-Range / Footsies
+Testament is a strong contender in the mid-range due to possessing many long ranged poking normals. f.S is a great tool for checking the opponent’s position with longer range and a disjoint at the end. However, it’s a bit slower than most characters’ f.S normals meaning it may be susceptible to punish on whiff. Similar to f.S is Testament’s 5H, which trades less range for a more disjointed hitbox. It’s also slow to recover, so don’t swing too wildly with these buttons. For a more reserved poke, 2S is always a solid option. It’s a smaller hitbox and lower to the ground than the previous two, but it’s faster to start up and recover with a greater disjoint than f.S. Both f.S and 2S can gatling into 5H for a frametrap unless f.S hits at tip range in which 5H won’t reach. 5K has shorter range than Testament’s S and H, but it’s fast and relatively safe with decent reward on hit.
+
+f.S Hitbox
+f.S Hitbox
+ 
+5H Hitbox
+5H Hitbox
+ 
+2S Hitbox
+2S Hitbox
+ 
+5K Hitbox
+5K Hitbox
+A counter-strategy against Testament’s mid-ranged pokes is to position out of range to make them whiff before approaching for a whiff punish or contesting them with 6P. Testament’s f.S is quite vulnerable to both options while 5H is better against 6P due to its disjoint but easier to whiff punish. 2S hits low enough to contest 6P and is the safest overall, but you still need to exercise caution with normal use. If your opponent successfully plays around these moves, vary your timing, positioning and move choices more to throw them off.
+
+If you need even larger normals to contest space with, 6H is a slower button with great range both horizontally and vertically thanks to its circular arc. It’s best used preemptively if you expect an approach from the air or the ground. Keep in mind that it lacks a disjoint and suffers from long recovery, making it incredibly vulnerable to whiff punishment should you space it incorrectly. Use it against a cornered opponent and at tip range to stop them from moving backwards to evade it as you may even be able to catch them trying to jump out of the corner. You should use this move with extreme caution due it’s slow frame data and lack of disjoint, but a good read in neutral can lead to incredible reward.
+
+2H is another slow to start button with an incredible disjoint and faster recovery. It’s nowhere near as large as 6H but has similar reward due to the launch property that works even on regular hit. Testament’s 2D is a useful poke with a decent ranged hitbox that stays low to the ground. The speed is somewhat lacking, but it’s also quite rewarding as it combos into Grave Reaper on hit for longer combo extensions.
+
+6H Early hitbox
+6H Early hitbox
+ 
+6H Late hitbox
+6H Late hitbox
+ 
+2H Hitbox
+2H Hitbox
+ 
+2D Hitbox
+2D Hitbox
+Testament complements the mid-range pokes with the option to cancel into their premiere special move Grave Reaper (236S/H). The projectile is a good option to special cancel into to control swathes of the screen. The S and H versions send the projectile at different angles with both having partially charged and fully charged variants. Charging increases frame advantage but also makes them slower to start up, leaving Testament more vulnerable to Counter Hits. This risk of the charged versions means that they’re best used if you’re certain the opponent will play patiently. Arbiter Sign (214S/H) is a mid-ranged tracking mix-up option usable in neutral either raw or as a special cancel. The S version hits low while the H version is an overhead, and both versions will launch the opponent up on regular hit. However, Arbiter Sign is sluggish enough to be evaded during the start-up frames and unsafe enough to be punished if blocked. Using them predictably may lead the opponent to close the gap and land a deadly punish. Arbiter Sign can be used to great effect in neutral as a counter-zoning tool. Several other character’s mid-ranged tools leave the opponent standing still long enough for you to check them for a bit of damage and advantage. This forces them to be more aware of Arbiter Sign change their movement to play around it, giving you the chance to better push them closer to the corner and get them in the range of your other neutral tools. They may try avoiding Arbiter Sign with an air approach thus putting them in a position where they can be anti-aired. If you wish to go on the offense, Testament can close the gap with Possession (214K), granted that the Succubus from Grave Reaper has been properly placed on the screen. It has a decent bit of invulnerability but keep in mind that there’s a brief moment of recovery after Testament reappears.
+
+Grave Reaper (236S) Hitbox
+Grave Reaper (236S) Hitbox
+ 
+Grave Reaper (236H) Hitbox
+Grave Reaper (236H) Hitbox
+Arbiter Sign (214S) Hitbox
+Arbiter Sign (214S) Hitbox
+ 
+Arbiter Sign (214H) Hitbox
+Arbiter Sign (214H) Hitbox
+If you cycle Testament's mid-ranged tools well, then your opponent might try to play around them by approaching from the air. Should this happen, be prepared to use Testament’s anti-airs or air-to-airs to fend them off.
+
+Long-Range / Zoning
+Testament has always been a powerful zoning character in the Guilty Gear series, and their grand return is no different. The versatile Grave Reaper (236S/H) projectile allows Testament to threaten the opponent from long range across the screen. It has a lot of pushback on block, allowing Testament to maintain optimal spacing to continue zoning with pokes and projectiles. It can also be safely charged from fullscreen for plus frames and longer active frames making them incredibly effective at covering large amounts of the ground and air space in front of them with the S and H versions respectively. This move is excellent at limiting the opponent’s movement options, shutting down approaches, making them more predictable and easier to keep at bay. Grave Reaper is at its best when the player properly mixes the various versions with the Succubus follow-ups and their other strong zoning tools.
+
+Max range of uncharged Grave Reaper (236S)
+Max range of uncharged Grave Reaper (236S)
+ 
+Max range of uncharged Grave Reaper (236H)
+Max range of uncharged Grave Reaper (236H)
+The extra versatility provided by the aerial versions of Grave Reaper (j.236S) should not be underestimated. The S version covers the horizontal space in front of Testament and is useful for stopping an approach from the air, should the opponent try to jump over the grounded ones. The H version covers the diagonal space forward and below Testament that can be used after an air dash to fake out an aerial approach and punish an anti-air attempt from afar. It can also be used from a backward jump or air dash to intercept and avoid ground approaches or for strategic grounded Succubus placement.
+
+Aerial Grave Reaper (236S) hitbox
+Aerial Grave Reaper (236S) hitbox
+ 
+Aerial Grave Reaper (236H) hitbox
+Aerial Grave Reaper (236H) hitbox
+With the Succubus left by Grave Reaper out on the field, Unholy Diver (214P) becomes an excellent choice for zoning. Testament’s crow familiar travels quickly towards the position of the Succubus, is advantageous on block, and applies Stain State on contact making it effective at setting up extended pressure sequences. When the Succubus isn’t on screen or you hold the P button, 214P sends the crow to travel directly forward horizontally at a high altitude, meaning it can be used to catch air approaches from afar if you have the right read.
+
+Unholy Diver (214P) hitbox
+Unholy Diver (214P) hitbox
+Even at long range you shouldn’t form predictable attack patterns as this will allow a sharp opponent to easily play around them. Study your opponents habits to figure out the best way to intercept their approach. Use Grave Reaper to lock down sections of the screen in addition to using your mid-ranged tools to intercept the opponent if they start to close the gap. Testament has plenty of strong counter-pokes and anti-airs, make sure you're ready to use them to hold your ground. Don’t forget you can surprise an opponent playing around your zoning with the occasional aggressive Possession (214K). If you still have a Succubus out from a Grave Reaper usage, then teleporting in can throw your opponent for a loop and open them up to a sudden mix-up, especially if you warp behind them. Mixing this option in with Testament’s zoning will add to the mental stack of the opponent, increasing the likelihood they’ll make mistakes even when you go back to just playing from range.
+
+Close-Range / Brawling
+Testament is by no means a close range specialist, as their moveset caters towards mid-range and fullscreen combat. If you find yourself in this range without being in an advantageous state such as your own pressure string or okizeme, then you’ve likely made some mistakes and have the goal of finding a way back out to optimal spacing. Testament’s best abare tools include 2P and 2K. They’re similar in application as quick short-ranged moves with 2P being the fastest at 5 frames while 2K offers more reward and brings Testament to the ground for a strong low-profile against many moves. If you’re able to successfully press one of your close range buttons, then try to gatling it into a knockdown on hit or push the opponent back on block. Grave Reaper (236S) has a fair amount of pushback even uncharged, making it a useful blockstring ender.
+
+2P hitbox
+2P hitbox
+ 
+2K hitbox
+2K hitbox
+If you’re on the offense in a position to pressure the opponent, then some great options are c.S and 5K. Versatility is the name of the game for c.S, as it can gatling into S buttons, H buttons, D buttons and command normals. It’s one of the best pressure starters for Testament, however you do need to be fairly close as it’s a proximity normal without too much range. If c.S won’t reach, then 5K is a good alternative with more limited gatling options and unsafeness on block. It’s one frame faster and still rewarding enough for decent conversion on hit. It's a good idea to stagger fast buttons and mix in throws for a strike/throw mix-up when pressure the opponent up close. 5[D] is a risky but very rewarding mix-up option if you’re feeling bold. It is reactable, but if you condition your opponent to fear other options 5[D] can catch them by surprise for a damaging combo and Positive Bonus.
+
+While these tools are all decent by themselves, Testament ideally pressures with Stain State active as these close ranged tools only become stronger when paired with Stain State. They become much more advantageous on block and offer new combo routes such as converting off of uncharged 5D. This means that mix-up options that otherwise would have been relatively unrewarding and/or risky become much stronger and safer meaning you should be sure to utilize Stain State well especially at close range offense.
+
+c.S Hitbox
+c.S Hitbox
+ 
+5K Hitbox
+5K Hitbox
+ 
+5D Hitbox
+5D Hitbox
+When up close, you should acknowledge any discrepancy in durability between Testament and the opponent's character. If you’re up against a durable, highly damaging character, then pressuring from close range might not be worth the risk even if you hold the advantage in neutral as the opponent can throw out a reversal Overdrive and knock you down into their own offense. Consider your options and the opponents during your advantage state, and if necessary retreat to the mid-range and pressuring with safer tools, especially against characters that struggle to close the gap.
+
+Defensive Aerials
+Testament possesses several useful aerial attacks that can be divided into two broad categories being air-to-air attacks and air-to-ground attacks. Both of these options can be used either defensively to retreat or for aggressive purposes. This section will cover both defensive air-to-air and defensive air-to-ground as they function similarly. The same options and moves can work for both purposes, but may require different timing and positioning.
+
+IADB > j.S or j.236S/H are both useful for contesting grounded foes as the backwards movement of an instant air backdash combined with the range of these moves makes them great preventive options. If the opponent likes to close space when Testament is in their minus frames, such as after an uncharged 236S is blocked, then this option can stop them and force them to either play more patiently or to attack more preemptively. j.236S/H is a slower options than j.S, but it allows for strategic Succubus placement.
+
+j.S hitbox
+j.S hitbox
+ 
+Aerial Grave Reaper (236S) hitbox
+Aerial Grave Reaper (236S) hitbox
+ 
+Aerial Grave Reaper (236H) hitbox
+Aerial Grave Reaper (236H) hitbox
+j.D is useful from a neutral jump or a backward jump against aerial foes. It has long horizontal range and is disjointed. Keep in mind that its hitbox is rather high, making it best suited for intercepting air approaches. It also briefly pauses Testament’s air momentum and pushes them backwards, making it easy to stay at a safe distance when using this move. Just make sure not to push yourself into a corner.
+
+j.D hitbox
+j.D hitbox
+Air-to-Air
+j.P is Testament's fastest aerial attack. Its ability to gatling into itself makes it a safe air-to-air and allows it to force an opponent down to the ground. Useful when you need a quick option, but it doesn’t offer too much reward on hit.
+
+j.S combines a large hitbox with good start-up speed for its size, however it has less disjoint than j.D. It’s excellent for contesting opponents and becomes rather rewarding when canceled into moves such as j.H, j.D, or Air Grave Reaper.
+
+j.D has excellent range and a notable disjoint. It also briefly pauses Testament’s air momentum and pushes them backwards making it a relatively non-committal option. It consistently combos into Grave Reaper and if it hits an opponent high up, then you can air dash afterwards for an extended air combo.
+
+j.P Hitbox
+j.P Hitbox
+ 
+j.S Hitbox
+j.S Hitbox
+ 
+j.D Hitbox
+j.D Hitbox
+
+Defense
+
+System Mechanics
+Faultless Defense (FD), Psych Burst, Yellow Roman Cancel (YRC), and Deflect Shield are the cornerstones of defense in Guilty Gear, as they are quite handy for breaking out of pressure. Utilizing them well is essential for mastering any character, especially Testament who often relies on them. They each cost either your Tension or Burst resource though, so consider your timing when using them.
+
+GGST/Mechanics#Faultless Defense
+GGST/Mechanics#Psych Burst
+GGST/Mechanics#Yellow Roman Cancel
+GGST/Mechanics#Deflect Shield
+Counter-Pokes
+Counter-poking is the act of attacking preemptively for the purpose of interrupting the opponent’s actions by placing hitboxes in front of your character and forcing the opponent to run the risk of being hit out of their forward movement or being Counter Hit out of their attacks. Counter-pokes are key for playing a preemptive playstyle to shut down aggressive opponents. The best counter-pokes are typically long-ranged, highly active, quick to recover, protected by invulnerability of some kind, or a combination of these traits.
+
+6P is a great counter poke againt attacks tht hit above the waist. See here for more information.
+
+f.S works well for interrupting an opponent’s forward movement thanks to its long range. It also has good cancel options, Grave Reaper (236S) in particular pushes the opponent far, even on block.
+
+5H is an excellent mid-ranged counter-poke. Compared to f.S, it’s a bit shorter and slower to recover, but it has a larger disjoint. Use it from ranges where 6P won't reach.
+
+6P hitbox
+6P hitbox
+ 
+f.S hitbox
+f.S hitbox
+ 
+5H hitbox
+5H hitbox
+Anti-Airs
+Anti-airs, as the name suggests, are moves that are useful at stopping the approaches of aerial opponents. They are typically either fast, high-reaching, protected by invulnerability of some kind, or a combination of these traits. Testament has five notably effective anti-air choices: 6P, 5P, 6H, Grave Reaper (236H), and Air Throws.
+
+6P is a safe and reliable option due to its upper body invulnerability and massive hitbox. It can combo into Grave Reaper (236S/H) for a knockdown and Succubus placement and it leads to especially powerful combos during Stain State with conversions that allow Stain State to be reapplied.
+
+5P is faster than 6P but lacks upper body invulnerability. It can catch opponents trying to jump during close ranged brawling.
+
+6H is not useful as a reactive tool due to being very slow to start and lacking invulnerability or disjoint, but it’s strong when used preemptively against a cornered opponent to prevent them from jumping out of the corner.
+
+6P hitbox
+6P hitbox
+ 
+5P hitbox
+5P hitbox
+ 
+6H Early hitbox
+6H Early hitbox
+ 
+6H Late hitbox
+6H Late hitbox
+Grave Reaper (236H) isn’t an anti-air in the conventional sense, but it is excellent for controlling the air. When charged the hitbox stays active for a very long time, allowing it to cover the air space in front of Testament. This limits the opponent’s movement options, making them more predictable. It doesn’t actually have to hit the opponent to be effective, though they might make a mistake and jump into it for a catch into a conversion. Air Throw is a useful anti-air for all characters, especially against opponents that like to jump into block.
+
+Max range of uncharged Grave Reaper (236H)
+Max range of uncharged Grave Reaper (236H)
+ 
+Air Throw (j.6D) or (j.4D)
+Air Throw (j.6D) or (j.4D)
+Abare
+Abare means to attack during an opponent’s frame advantage with the intention of interrupting their pressure so naturally fast moves work best for this task.
+
+2P has 5 frames of start-up meaning this is Testament's fastest abare option. The hitbox is rather high, making it vulnerable to certain low-profile moves such as 6P and it isn’t very rewarding on hit either, as it can’t combo into a knockdown unless you spend Tension.
+
+2K is slightly slower than the former at 6 frames of start-up, but it has low-profile properties and has a lower hitbox. It’s also more rewarding, as it can lead to okizeme setups due to its ability to gatling into 2D.
+
+2P Hitbox
+2P Hitbox
+ 
+2K Hitbox
+2K Hitbox
+Testament's metered reversal can also be used for abare due to its start-up invulnerability. Keep in mind that this option has risks of its own.
+
+Reversals
+Invincible Reversals are moves that are used on the defense to steal your turn back by force. They can be used during holes in an opponent's blockstrings or during your wake-up to punish sloppy okizeme. Testament only has one reversal, being their Overdrive Calamity One (236236K).
+
+Calamity One (236236K) is an Overdrive with frame 1 invulnerability against both strikes and throws. It’s a tad slow for an Overdrive reversal, making it susceptible to being beaten by safe-jump set-ups, fast jabs, and the like.
+
+On the other hand, its long start-up makes it especially useful for the invincible PRC technique. This is done by inputting the move and then canceling it with PRC during its start-up. This will make the user benefit from the invincibility of the Overdrive until it is canceled without having to spend Tension on the Overdrive itself, as it will be canceled before it burns Tension. As a result, you’re effectively using 100% Tension at the cost of only 50% Tension. Thanks to the slowdown of the PRC, it’s easy to confirm a whiff from the opponent and punish them, should they attack into your invincibility. If they don’t, you’ll stay safe. The drawback is that this can make you more vulnerable to options such as projectile okizeme set-ups and delayed frametraps. Video Example
+
+If you want more information on the technique, check out rooflemonger’s video tutorial on the topic here.
+
+Calamity One (236236K) hitbox
+Calamity One (236236K) hitbox
+
+Pressure
+
+Testament’s pressure is quite unique, as it’s beneficially modified by Stain State and the Succubus. You’ll need understanding of when to use Grave Reaper (236S/H) and Unholy Diver (214P) to ensure that these modifiers are often in play. However, both of the aforementioned special moves can be interrupted if you use them carelessly. Compared to other characters, Testament benefits from keeping a bit more of a safe distance to the opponent when pressuring them. Close space and dish out pain when the modifiers are active or when in an otherwise advantageous situation.
+
+Pressure Resets
+Testament has plenty of options for pressure resets, but the way they do it is somewhat unorthodox. They rely on a variety of unique tactics and tools, such as Grave Reaper mind games and Stain State.
+
+Conditioning with partially charged or fully charged Grave Reaper (236{S}/[S]) are good options for resetting pressure due to their long range and plus frames. If the opponent plays passively, use charged Grave Reapers to enforce plus frames. They’re a bit slower to start up though, making them vulnerable to Counter Hits. If the opponent has a habit of pressing on the defense, launch a Grave Reaper early to score a Counter Hit yourself. Conditioning with Grave Reaper forms the basis for much of Testament’s pressure and getting a feeling for it is essential for pressuring opponents effectively.
+
+Stain State is an excellent tool for resetting pressure, as it will make Testament’s normals much more safe and often plus on block thanks to the Stain explosion follow-up. For example, try going for a 2K. If it hits, the Stain State explosion will allow you to confirm into a combo. If it’s blocked, you get plus frames to work with and continue your blockstring.
+
+Succubus and Stain State Mix-Ups
+The Succubus and Stain State are both useful on their own, but especially so if they are used in tandem as it will allow for a variety of tricky mix-ups. For example, if the Succubus is near the opponent, then you can try going for a space control move such as f.S or 5H into 214K. If the initial move connects, then the Stain explosion will activate and Testament will warp into position for a combo. On block, the plus frames of the Stain explosion provide Testament with a safe teleport into a strike/throw mix-up. A left/right cross-up is possible as well if the position of the Succubus is close enough to the opponent to make it unclear which side Testament will warp to. Another option is to go for 214K immediately when the opponent doesn’t expect it and use a sudden normal from there, which will provide Testament with the usual Stain State benefits.
+
+Sample Blockstrings
+The following are some basic, useful blockstrings. If you're new to Testament, these will help you get your gameplan started.
+
+f.S (dl) (5H) > 236S
+f.S is a great poke, and it can frametrap into 5H if delayed. If f.S connects at its tip range, then 5H won’t reach, so instead cancel directly into 236S for the usual Succubus set-up. Do note that 5H will also whiff if instead 2S hits at tip range. In this situation you also want to skip the 5H and go straight for special cancels.
+
+c.S (dl) f.S (dl) 5H > (Special)
+A basic blockstring that works well from close range. The second and third hits are gapless if done as quickly as possible and can also be delayed instead for frametraps. c.S can be staggered for resets. Due to the combined pushback of the three attacks, 236S is a safe way to end the string and place a Succubus. If you notice that the opponent tends to sit still, you can mix in 214S or214H ender for a cheeky high/low mix-up.
+
+2P > 6P > 236S
+This blockstring starts from Testament's fastest start-up move, making it useful during scramble situations. An uncharged 236S will Counter Hit all options except reversals and 3 frame buttons. 2P can also be staggered for a tick throw.
+
+5K / 2K > 2D > 236S
+Starts from some of Testament’s quicker pokes, with the 2K route being their only double low sequence. 2D is too slow for K buttons to gatling into gapless, making Testament vulnerable to reversals. If the normals connect on block, then you can confirm into 236S/H for Succubus placement. K buttons also work well for tick throws.
+
+5K / 2K > 6P > 236S
+A gapless variation of the previous string as 6P hits fast enough to gatling with a gap after Testament’s K buttons, making it useful when you want to safely build space. It also allows for the usual Grave Reaper ender for Succubus placement.
+
+Corner Pressure
+Testament has solid corner pressure with a few caveats. c.S and 236H give you solid access to advantage frames, so proper use of these moves to set up tick throw vs frametrap mix is the most reliable way for you to open up your opponent.
+
+However, against an opponent properly using Faultless Defense it becomes hard to close in to get a throw, severely hampering your ability to get anything on a patient blocker. 214S/H is the only long range mix-up tool that Testament has, and it’s a poor one at that due to it being the immediate end of your pressure if blocked.
+
+Sample Corner Blockstrings
+The following is a list of blockstrings that are useful specifically in the corner. Testament is by no means restricted to these in the corner, as all blockstrings shown in the previous section will also work.
+
+c.S > 236H, 2K > 236H
+This is a fundamental pressure string for Testament, offering frametraps between 236H, 2K and 2K > 236H while also ending on plus frames. A third frametrap between c.S > 236H is possible by manually delaying the cancel between the two moves.
+
+Because this string is impossible to mash on, it heavily discourages the opponents attempts to beat throw. This string is however weak to backdash between 236H, 2K as well as invincible reversals such Sol's Volcanic Viper.
+
+2S > 2H > 236H, 2K
+Similarly to the string above, this blockstring allows for access to plus frames off of 236H, but from a longer range due to the vacuuming effect of 2H. This vacuum effect combined with 2H leaving you at -2 if not canceled, which allows you to mash throw to perfectly tick throw your opponent, however this option will lose to their throw or if they’re mashing. You can in turn frametrap between 2H > 236H by delaying the cancel.
+
+However, Faultless Defense will effectively negate the vacuum and cause 236H to whiff at longer ranges. The gap between 2S > 2H is 10 frames, also making this string significantly vulnerable to mashing and reversals.
+
+fS > 236S, f.S > 214P
+This is a longer range blockstring that can form the core of your gameplan against an opponent using Faultless Defense. While 236S is minus on block at point blank, at longer ranges it becomes neutral or plus, allowing you to use it to try and lock your opponent into the corner. Ending the string with 214P to gain plus frames and apply Stain State also allows you to threaten closing in on an opponent who might be wary of pressing buttons while in Stain State and at a frame disadvantage.
+
+This string, like most of Testament's longer ranged pressure, is especially vulnerable to jumping out on our special cancels, and you need to watch your opponents and try and read when they want to jump out of your pressure, it may be wise to use options such as 6P, 214[P], and 6H to call out their attempted escape.
+
+Okizeme
+
+Universal Options
+6H is one of Testament’s most consistent combo enders, and it gives Testament access to a whole world of okizeme choices due to putting the opponent into the hard knockdown state on hit. Being on-hit HKD +56 means that Testament is best suited to end combos with this move or situationally opt for more damage by ending with a cancel into Arbiter Sign (214S/214H).
+
+236[S] as a cancel off of 6H allows for a meaty Unholy Diver (214P) if the move connects OTG. This sets Testament up to continue their dangerous Stain State enabled offense from a safe distance but loses opportunities for more damaging starters.
+
+c.S has long active frames and can easily be used to meaty on the opponent’s wake-up after running up to the on a 6H hit. c.S can allow for some safe pressure extensions on block and good reward on hit, only losing to opponents that may use wake-up reversals.
+
+From connecting a Throw, delayed IAD > j.H hits meaty and safejumps with a built-in mix-up based on your follow-up choice. When not delayed, IAD j.H will cause Testament to land before the opponent becomes vulnerable again. From a blocked IAD j.H, you can choose the following options:
+
+j.H > j.D > j.236H
+Double overhead option that sets up for Meaty 214P/214H. On block you can frame trap into 2K/c.S > 214P to set stain and continue pressure.
+
+j.H > 2K > 236S
+Low option that allows you to set-up for a meaty 214P. Also beats people intentonally blocking j.H low in order to make j.D whiff.
+
+j.H > j.D > j.236[H] Throw
+Holding charged reaper in this string makes you land before it comes out, allowing you to fake your opponent out for a throw. From here, you can loop your oki situation.
+
+A meaty 236[S] can be set up semi-reliably off of a 2D knockdown, hitting meaty, otg into meaty, or not at all depending on starting distance. On any sort of hit from 236[S] you can then run up and continue pressure with 5H > 214P or an IAD as described above. In the case that 236[S] fully whiffs, simply throwing your opponent will often work.
+
+Corner Options
+From either a throw, 6H or 2D knockdown, Testament gets access to some of their stronger okizeme setups.
+
+Immediately using 236S will OTG on the first hit, hit meaty on the second, and push Testament back to a safe distance to set up for Stain State.
+
+236[S] will hit meaty and true string into 5H if timed correctly.
+
+Dash up 236S hits meaty on the second hit and can be followed up with 5H. Another 236S or 236H after are both true blockstrings that are either unpunishable or very positive, allowing you to continue offense.
+
+214P after has a 3 frame gap, but also sets up for a very strong pressure situation as you are able to K into more pressure after. This is generally the baseline for how you convert okizeme into your corner pressure.
+
+If you happen to throw a stained opponent in the corner, 5D becomes an incredibly strong meaty option. As a relatively fast standing overhead your opponent must react or take a combo from the stain pop. If they do react and block, you are left at +5 and can frame trap with 2K to catch any mash, or use c.S to frame trap any frame 4 or slower button for much higher reward on hit or block.
+
+When comboing in the corner, rather than ending with 6H you can instead choose to end with 214P. This sets up a meaty 5D as described above.
+
+Wall Break
+Without spending any resources, Testament’s best wall break options are Arbiter Sign for the most meterless damage output to end out rounds and Unholy Diver to apply Stain State. If the opponent is already in Stain State, then a well spaced wall break with the projectile of Grave Reaper will not cause the Stain follow-up to occur and force the opponent to stay in Stain State. Performing a wall break by using an Overdrive or Wild Assault will put the opponent into hard knockdown state after the Area Shift, and Testament often prefers to use resources for a wall break this way as a means to continue their offense.
+
+Nostrovia is an especially great tool for breaking the wall as it applies Stain State alongside hard knockdown, enhancing the reward given if Testament opens up the opponent after the stage’s transition. Run forward into c.S or Throw are basic choices that can offer more offense or okizeme if they work. Arbiter Sign can be timed to hit meaty and possibly mix-up an unexpecting opponent. The hard knockdown from a wall break can even allow for a safejump with IAD j.H, but note that it’s a “safe”jump because it can be beaten out by reversals with 9 frame start-up or faster.
+
+Testament may opt to microdash 2H to clash against regular DPs, but this will lose out to Overdrive attacks. It’s possible to bait the opponent’s DP against a character who has a fast enough reversal by IADing into an FD brake. If the reversal is successfully baited out, then you can choose to punish the dp attempt, throw the opponent, or go low. A very resource intensive alternative would be to follow a hard knockdown wall break with meaty Nostrovia to continue pressure. You have the opportunity to dash block behind the attack and it will catch DPs due to it’s great active frames. If they hold it you can attempt to true string into 5D.
+
+Reversals Testament Can Safejump
+236H Safejumps
+Testament gets access to two very strong okizeme setups when ending your combo with 236H. These only work at up close ranges, so that both hits of 236H connect. However, when possible it is preffered to extend combos until 6H for more damage and equal or better okizeme.
+
+From any string into 2D > 236H, you link 214K then delay a falling j.H. Because of the invincible startup of DPs or reversal supers, the j.H doesn't connect and you are able to cancel the landing into a block and punish. Make sure to hold back, or buffer and FD input so that you don't end up getting hit. The amount of delay depends on what gatling you used to go into 2D, with 2K having the least amount, and c.S having the most. This setup is also possible from 5K, but it’s also much more inconsistent and there are other alternatives that will be described further.
+
+This set-up also makes the j.H hit meaty, beating wake-up buttons and catching jump squat allowing for a easy gatling into j.D. On block, you can instead do a high/low mix-up by using 2K instead. This has a small gap, but not enough to be punished by anything except moves with invincible start-up. Opting to use j.D results in a true blockstring. The counter-play is wake-up backdash, but if you want to hard call out you can instead use j.236H to catch it.
+
+As strong as this setup is, it can be a bit inconsistent, as you need to be either point blank or having dash momentum to be sure that you will be able to execute it right. 2K is easily the most stable starter, and using this setup instead of an OTG 236S has its tradeoffs that you should consider depending on the situation.
+
+From a Kara Cancelled 236H, you get access to a much more consistent similar setup off of 5K and c.S. Instead of delaying the j.H, do it instantly out of the 214K. This beats everything stated above, but because of how deep it hits, you are plus enough to lead into a true blockstring with c.S. You are about +3 after the j.H, so you can frametrap with options like 2S.
+
+Anti DP Safe Crow
+The general idea of these setups is to abuse the active frames on the succubus explosion after 214P to setup a lingering hitbox while Testament has already recovered. However, this typically means you will need the opponent in a HKD state and have a succubus setup. The tradeoff is being extremely advantaged relative to other means and immediately gives access to Stain State. "Combo"s in the below table can refer to on block and mid combo setups.
+
+Safe Crow Setups
+Combo	Position	On-Block	On-Hit	Video	Recipe	Tested Version	Notes
+j.236H [blocked] > 6D > dl. 214P	Corner	+7~+18	+11~+25	Link	-	1.33	Toggle Details
+j.236H [blocked] > 6D > 2K/2S/66 c.S [OTG] > 214P	Corner	+15~+17	+18~+20	Link	-	1.33	Toggle Details
+Stain Pop > c.S > 214P > c.S/5K/2K > 9 (> j.66) > dl. j.236H(2) [OTG] > 214P	Midscreen to Corner	+11~+17	+16~+20	Link	-	1.33	Toggle Details
+Anti DP / Parry Safejump
+Though it requires strict timing, you can set up a safejump that beats both DPs and parries. If given enough time after a knockdown you can IAD at an opponent and time an FD properly to setup a j.236H with such little recovery as to hit with a meaty projectile that will beat parries while also being able to block DPs. See an example clip of it beating DPs and parries. Do note that midscreen at max 5K range, where 6H would whiff due to range, there is counterplay in that the opponent can backdash the projectile since Testament will be too far away. However, if they hold the meaty instead of backdashing then it can still work.
+
+236H > 5K > 6H Safejumps
+After a combo ending in 236H > 5K > 6H, you can almost always set up a safejump using a forward drifting teleport, 214K6.
+
+Canceling out of 6H into 214K6 > 214K > j.H is a reliable auto timed setup, and at certain spacings can allow for ambiguous crossups depending on whether or not you drift forward on the second teleport. Be sure to let the first drift finish completely. If j.H is whiffing on blocking opponents, try adding a small delay between the two teleports, though the 6 input for drifing usually will cover that delay for you.
+
+Round Start
+
+Testament's round start options aren't especially strong when compared to many other characters, however they each hold a useful place in beginning rounds as Testament. Their best options include:
+
+6P is one of their strongest buttons that works as both an anti air and a poke. Can be buffered into either versions of Grave Reaper.
+f.S, though it’s a little slow compared to other characters’ round start options. A slight walk back > f.S is great for whiff punishing people from round start. You can Counter Hit them and immediately go into your offense.
+2K or 2S can both be decent options, but neither reach very far, nor do they reach from round start. You or the opponent would have to approach. These are okay options to call out moves where the opponent is susceptible to the low hitting hitboxes of these moves.
+IABD > j.236H is a good, safe option. It will typically whiff against most characters' round start options, but you’ll get the Succubus out and can start your main gameplan from there if you weren’t punished.
+You generally want to rotate between those options, as well as walking back, back dashing, and blocking. Again, Testament’s round start options aren’t the best compared to many other characters, so you don’t want to take too many risks. If you can make space from round start, you should be pretty happy unless you’re playing against a character who may outrange you.
+
+Win Conditions
+In every matchup, your goal is to fulfill your "win condition" by getting into a situation where most of your options win, and most of the opponent’s options lose. It is the end goal of your gameplan and your general strategy from round start. In most matchups, your win conditions as Testament will be the following:
+
+Suffocating your opponent to death in the corner with relentless pressure. Once cornered by Testament, many characters find themselves struggling to escape their offense without getting punished for solid damage output.
+Putting your opponent into Stain State, then making your offense very advantageous by extending combos on hit and mixing-up the opponent on block.
+Keeping your opponent far away from yourself: Thanks to Testament's strong offense from fullscreen and the mid-range, being able to keep some distance often means safety while running your gameplan outside of the opponent’s reach.
+Conditioning allows you to force your opponent to choose either very dangerous options to punish your frustrating offense or very safe options that may dissuade them from properly attacking you, thus enabling you the freedom to enter your other win conditions with more ease.

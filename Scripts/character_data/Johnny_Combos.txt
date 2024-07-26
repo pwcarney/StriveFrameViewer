@@ -1,0 +1,1223 @@
+Move Notation
+
+As Mist Finer stance is used in a number of unique ways in combos and pressure sequences, there are a number of shorthand notations used for different actions revolving around actions in stance.
+
+Notation	Full name	Meaning
+PMF	P Mist Finer	Mist Finer : Upwards
+KMF	K Mist Finer	Mist Finer : Horizontal
+SMF	S Mist Finer	Mist Finer : Downwards
+6XMF	Forwards Mist Finer	The notated Mist Finer includes a forwards Mist Finer Dash before releasing the button.
+4XMF	Backwards Mist Finer	The notated Mist Finer includes a backwards Mist Finer Dash before releasing the button.
+MFC	Mist Finer Cancel	Indicates that Johnny enters Mist Finer stance and immediately leaves it as a type of cancel.
+MS	Mist Step	Johnny enters Mist Finer stance, dashes forwards, and exits the stance.
+DJk	Dash-Jump Kara Cancel	Johnny kara cancels the startup of a dash-jump into a special or Overdrive.
+MFk	Mist Finer Kara Cancel	Johnny kara cancels Mist Finer Cancel into an Overdrive.
+
+All damage values are tested on Ky at full health with the R.I.S.C Level at 0 unless the combo cannot work on him, in which case the character with the closest defense modifier is used.
+This list is meant for actual combos, not for frame traps, blockstrings, or mixups. (If the combo itself allows to set them up afterwards, it is mentioned in the "Notes" field).
+The list is focused on most practical examples, not every single option that exists.
+The difficulty is ranked on a scale of 1 to 5 (Very Easy, Easy, Medium, Hard and Very Hard) based on various factors (cancel leniency, link timings, special techniques, range consistency, etc).
+Punch Starters
+5P / 2P
+
+Combo	Video/Name	Damage	Difficulty	Recipe	Notes
+5P / 2P > 6P > 214S	
+Basic abare confirm
+
+63 (60)	Very Easy	N / A	Toggle Details
+Quick HKD from abare. Skip the 6P if further away from the opponent. 6P can also be replaced with an extra 5P/2P for less damage in exchange for an easier confirm that also works from max 5P/2P range on counter hit.
+
+Tension
+12%
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+5P / 2P > 214S, TU! 66, c.S > 2H > 214[S]66]S[	
+Abare Turn Up confirm
+
+101 (98)	Easy	N / A	Toggle Details
+Jab confirm extended with Turn Up. Replace 214[S]66]S[ with 214H to wall stick when approaching the corner.
+
+Tension
+29%
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+5P / 2P > 214S > 66RRC, c.S > dc, c.S > 2H > 214[S]66]S[	
+Abare metered confirm
+
+113 (110)	Medium	N / A	Toggle Details
+Combo extension using 50% tension. Replace 214[S]66]S[ with 214[P]66]P[, c.S to wall stick when approaching the corner.
+
+Can also work for 2P on specifically crouching counter hit.
+
+Tension
+11% (-50%)
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+CH 5P / 2P > 6K > 214[S]66]S[	
+Consistent knockdown on spaced abare
+
+63 (60)	Very Easy	N / A	Toggle Details
+Counter hit combo that works even at max range.
+
+Tension
+16%
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+CH 5P / 2P, c.S > 2H > 214[P]66]P[, f.S > 214K	
+Close range CH abare confirm
+
+109 (106)	Easy	N / A	Toggle Details
+Close range counter hit combo. Will wall stick if the opponent reaches the corner.
+
+Tension
+27%
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+5P / 2P > 214K, f.S > 2H > 214[K]66]K[, WS! 5[D]	
+Advanced abare confirm (corner)
+
+134 (131)	Hard	N / A	Toggle Details
+Requires a bufferable 1-frame link between 214K and f.S. Fortunately more lenient on some characters. A perfectly executed alternate ender... 2H > MFC, f.S > 214K, WS! 214K[K]66]K[ will allow 2 additional damage at the cost of your sanity.
+
+Tension
+26%
+Position
+Corner
+Works On
+All
+Game Version
+3.05
+5P / 2P > 214S, TU! 66, c.S, c.S > 6H > 214H, WS! 5[D]	
+Extended corner Turn Up abare confirm
+
+154 (151)	Medium	N / A	Toggle Details
+Jab confirm extended with Turn Up.
+
+Tension
+33%
+Position
+Corner
+Works On
+All
+Game Version
+3.05
+5P / 2P > 214S > 66RRC, 5[D], c.S > 6H > MFC, 2K > 6K > 214K, WS! 5[D]	
+Metered corner abare confirm
+
+174 (171)	Medium	N / A	Toggle Details
+Corner combo extended with 50% tension.
+
+Tension
+12% (-50%)
+Position
+Corner
+Works On
+All
+Game Version
+3.05
+CH 5P / 2P > 6K > 214P, 5K > 6H > 214H, WS! 5[D]	
+Corner CH abare confirm
+
+144 (141)	Easy	N / A	Toggle Details
+Counter hit corner combo.
+
+Tension
+30%
+Position
+Corner
+Works On
+All
+Game Version
+3.05
+6P
+
+Combo	Video/Name	Damage	Difficulty	Recipe	Notes
+6P > 214S	
+Basic 6P knockdown
+
+61	Very Easy	N / A	Toggle Details
+Replace 214S with 214K if the combo started beyond 6P's normal range (like when counter-poking) or if it hit as an anti-air.
+
+Tension
+10%
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+6P > 236D > c.S > 2H > 236HH	
+6P Wild Assault confirm
+
+105	Easy	N / A	Toggle Details
+Combo extension using 50% Burst. Fully charge 236D on counter hit for better damage. Will wall stick if the opponent reaches the corner. Replace 236HH with 214H if the combo started in the corner for better damage.
+
+Tension
+22%
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+AA CH 6P > 214[P]66]P[, f.S > 214K	
+CH Anti-air 6P confirm
+
+98	Easy	N / A	Toggle Details
+Anti-air counter hit 6P combo.
+
+Tension
+20%
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+CH 6P > 214[P]66]P[, c.S > 6H > 214H, WS! 5[D]	
+CH 6P corner confirm
+
+175	Medium	N / A	Toggle Details
+Counter hit 6P corner combo.
+
+Tension
+27%
+Position
+Corner
+Works On
+All
+Game Version
+3.05
+Kick Starters
+5K / 2K
+
+Combo	Video/Name	Damage	Difficulty	Recipe	Notes
+5K / 2K > 2D > 214S	
+Basic normal hit kick confirm
+
+83 (65)	Very Easy	N / A	Toggle Details
+Basic combo that works even from max range. Deals extra damage in exchange for weaker oki than just cancelling into Deal, either point blank c.S oki or long range f.S card oki.
+
+Tension
+14%
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+5K / 2K > 214P, f.S > 214K	
+Close range kick confirm
+
+91 (72)	Easy	N / A	Toggle Details
+Close range 5K combo. 5K can be dash-kara canceled to extend the range at which this combo works.
+
+Tension
+19%
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+5K > 214S, TU! c.S > dc, c.S > 2H > 214[S]66]S[	
+Kick Turn Up confirm
+
+133	Medium	N / A	Toggle Details
+5K confirm extended with Turn Up. Replace 214[S]66]S[ with 214H to wall stick when approaching the corner.
+
+Can also work for 2P on specifically crouching counter hit.
+
+Tension
+35%
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+5K > 6K > 214[P]66]P[, 5K > 6K > 214S	
+Crouch / counter hit confirm
+
+112	Medium	N / A	Toggle Details
+5K crouch confirm and counter hit combo. The second 6K can be replaced with 6H > 214K to wall stick when approaching the corner.
+
+Tension
+27%
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+5K / 2K > 2D > 214S > 66RRC, c.S > dc, c.S > 2H > 214[S]66]S[	
+Confirm with metered extension
+
+150 (117)	Medium	N / A	Toggle Details
+Combo extended with 50% tension. Requires a delay before the first c.S if the combo started at point-blank range. Replace 214[S]66]S[ with 214H to wall stick when approaching the corner.
+
+Tension
+16% (-50%)
+Position
+Corner
+Works On
+All
+Game Version
+3.05
+5K > 214P, f.S > 2H > MFC, f.S > 5H > MFC, WS! 6H	
+Corner MFC loop
+
+168	Medium	N / A	Toggle Details
+Close range 5K corner combo. 5K can be dash-kara canceled to extend the range at which this combo works.
+
+Tension
+30%
+Position
+Corner
+Works On
+All
+Game Version
+3.05
+5K / 2K > 214S, TU! 66, c.S, c.S > 6H > 214H, WS! 5[D]	
+Corner Turn Up confirm
+
+180 (151)	Medium	N / A	Toggle Details
+5K/2K confirm extended with Turn Up.
+
+Tension
+36%
+Position
+Corner
+Works On
+All
+Game Version
+3.05
+5K / 2K > 2D > 214S > 66RRC, 5[D], c.S > dc, c.S > 6H > 214H, WS! 5[D]	
+Metered corner combo.
+
+211 (174)	Medium	N / A	Toggle Details
+Corner combo extended with 50% tension.
+
+Tension
+17% (-50%)
+Position
+Corner
+Works On
+All
+Game Version
+3.05
+6K
+
+Combo	Video/Name	Damage	Difficulty	Recipe	Notes
+6K > 214[P]66]P[, 5K > 6K > 214[S]66]S[	
+Max range 6K combo
+
+102	Easy	N / A	Toggle Details
+Max range 6K combo.
+
+Tension
+27%
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+6K > 214[P]66]P[, c.S > 2H > MFC, f.S > 5H, WS! 6H	
+Max range 6K corner combo.
+
+174	Medium	N / A	Toggle Details
+Max range 6K corner combo.
+
+Tension
+34%
+Position
+Corner
+Works On
+All
+Game Version
+3.05
+CH 6K, c.S > dc, c.S > 2H > 214[P]66]P[, 5K > 6K > 214S	
+Counter Hit 6K confirm
+
+153	Medium	N / A	Toggle Details
+Counter hit 6K combo. Will wall stick right before 214S when reaching the corner.
+
+Tension
+40%
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+CH 6K, c.S > dc, c.S > 2H > 214[P]66]P[, c.S > 6H > MFC, WS! 6H	
+Midscreen Counter Hit 6K confirm
+
+200	Medium	N / A	Toggle Details
+Works from roundstart and a little bit farther away from the wall. If closer to the wall, the opponent will wall stick right before the first 6H.
+
+Tension
+41%
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+CH 6K > 214S, c.S > 6H > MFC, 5K > 6H > 214H, WS! 5[D]	
+CH 6K Corner Combo
+
+203	Medium	N / A	Toggle Details
+Counter hit 6P corner combo.
+
+Tension
+42%
+Position
+Corner
+Works On
+All
+Game Version
+3.05
+CH 6K > MFC, c.S > 6H > MFC, c.S > 6H > 214H, WS! 5[D]	
+Optimal CH 6K corner combo.
+
+209	Hard	157818	Toggle Details
+Optimal meterless CH 6K corner combo. The first c.S should be hit just as the opponent starts to fall back down after 6K.
+
+Tension
+40%
+Position
+Corner
+Works On
+All
+Game Version
+3.05
+Slash Starters
+c.S
+
+Combo	Video/Name	Damage	Difficulty	Recipe	Notes
+c.S > f.S > 5H > 214K	
+Basic c.S gatling
+
+123	Very Easy	N / A	Toggle Details
+Beginner c.S combo. At point-blank range, 214K can be replaced with 214S for better oki.
+
+Tension
+21%
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+c.S > 2H > 214[P]66]P[, c.S > dc, c.S > 2H > 214[S]66]S[	
+Basic c.S BnB
+
+163	Medium	N / A	Toggle Details
+Bread and butter c.S combo. Replace the second 2H with 6H when reaching the corner for better damage.
+
+Tension
+36%
+Position
+Anywhere
+Works On
+All Except EL
+Game Version
+3.05
+c.S > 2H > 214[P]66]P[, c.S > dc, 5K > 6K > 214[S]	
+Universal BnB alternative
+
+154	Medium	N / A	Toggle Details
+Version of the combo above that works on Elphelt.
+
+Tension
+34%
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+c.S > 2H > 214[P]66]P[, c.S > dc, c.S > 2H > 236D > dl. c.S > 2H > 214[K]66]K[, WS! 5[D]	
+Tension-optimized c.S BnB
+
+201	Very Easy	N / A	Toggle Details
+High tension gain fullscreen wallbreak, will work anywhere but will wall stick sooner depending on starting position.
+
+Tension
+44%
+Position
+Anywhere
+Works On
+All Except EL
+Game Version
+3.05
+c.S > 2H > 214[P]66]P[, c.S > dc, c.S > 2H > 236HH > 66FRRC~j.214S, TU!, c.S > 2H > WS! 214[P]66, 5[D]	
+Metered wall-to-wall confirm
+
+205	Hard	N / A	Toggle Details
+High damage corner to corner that only costs 50 meter. Works anywhere, but you will wallstick early if starting closer to the wall.
+
+Tension
+?
+Position
+Anywhere
+Works On
+All Except EL
+Game Version
+3.05
+c.S > 2H > 214H, 5K > 6H > 214H, WS! 5[D]	
+Basic corner combo
+
+203	Easy	N / A	Toggle Details
+Basic corner combo.
+
+Tension
+34%
+Position
+Corner
+Works On
+All Except BA
+Game Version
+3.05
+c.S > 2H > MFC, 5K > 6H > MFC, 2K > 6K > 214S, WS! 5[D]	
+Basic MFC Loop
+
+214	Hard	N / A	Toggle Details
+Max damage corner combo. On counter hit, 214S must be replaced with 214K in order to wall stick.
+
+Tension
+37%
+Position
+Corner
+Works On
+All
+Game Version
+3.05
+CH c.S > 5[D], 5K > 6H > 214[P]66]P[, c.S > 6H > MFC, WS! 5[D]	
+Optimized corner combo
+
+231	Medium	N / A	Toggle Details
+Point-blank range counter hit c.S corner combo.
+
+Tension
+39%
+Position
+Corner
+Works On
+All
+Game Version
+3.05
+c.S > 2H > MFC, 5K > 6H > 236HH, c.S > 6H > MFC, WS! 5[D]	
+Midscreen MFC route
+
+223	Hard	N / A	Toggle Details
+Mid screen Mist Finer Cancel corner combo. Highly dependent on starting range.
+
+Tension
+39%
+Position
+Midscreen
+Works On
+All
+Game Version
+3.05
+c.S > 2H > MFC > 2S > 2H > 236[D] > jc > j.S > j.H j.236H > lc > C.s > 6H > 214H WS! 5[D]	
+Corner to Corner c.S combo
+
+200	Medium	N / A	Toggle Details
+Corner to Corner c.S combo (start with back against wall)
+
+Tension
+45%
+Position
+Back to Corner
+Works On
+All Except KY (inconsistent) and AS
+Game Version
+3.05
+f.S / 2S
+
+Combo	Video/Name	Damage	Difficulty	Recipe	Notes
+f.S / 2S > 5H > 214K	
+Basic poke confirm for okizeme
+
+89 (87)	Very Easy	N / A	Toggle Details
+Beginner combo. At close range, 214K can be replaced with 214S for better oki.
+
+Tension
+15%
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+f.S / 2S > 5H > 214[S]66]S[	
+Max range crouch confirm
+
+89 (87)	Easy	N / A	Toggle Details
+Max range crouch confirm and counter hit combo.
+
+Tension
+15%
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+f.S / 2S > 5H > 236D > 2H > 214[P]66]P[, 5K > 6K > 214S	
+Max range WA combo
+
+114 (112)	Medium	N / A	Toggle Details
+Max range combo extended with Wild Assault. Replace 5K with 2K when starting with 2S. 6K will wall splat when approaching the corner.
+
+Tension
+35%
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+f.S / 2S > 214K, f.S > 214K	
+Beginner corner combo
+
+94 (92)	Very Easy	N / A	Toggle Details
+Beginner corner combo. At very close range, 5H can be added before the last 214K for extra damage.
+
+Tension
+19%
+Position
+Corner
+Works On
+All
+Game Version
+3.05
+CH f.S > 2H > 214[P]66]P[, c.S > dc, c.S > 2H > 214[S]66]S[	
+Close range CH f.S combo
+
+145	Medium	N / A	Toggle Details
+Close range counter hit f.S combo. Replace the second 2H with 6H when reaching the corner for better damage.
+
+Tension
+36%
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+CH 2S > 2H > 214[P]66]P[, c.S > dc, 2K > 6K > 214S	
+Close range CH 2S combo
+
+135	Medium	N / A	Toggle Details
+Close range counter hit 2S combo. Will wall stick at either 6K or 214S when approaching the corner.
+
+Tension
+36%
+Position
+Anywhere
+Works On
+All Except EL
+Game Version
+3.05
+CH f.S / 2S > 2H > 214[P]66]P[, c.S > 6H > 214H, WS! 5[D]	
+Counterhit corner combo
+
+188 (186)	Medium	N / A	Toggle Details
+Counterhit corner combo
+
+Tension
+36%
+Position
+Corner
+Works On
+All
+Game Version
+3.05
+CH f.S / 2S > 2H > 214[P]66]P[, c.S > 6H > MFC, c.S > 5H > 214[P]66, WS! 5[D]	
+Counterhit corner combo
+
+195 (193)	Hard	N / A	Toggle Details
+Counter hit corner combo using Mist Finer cancels.
+
+Tension
+41%
+Position
+Corner
+Works On
+All
+Game Version
+3.05
+CH f.S / 2S > 236[D] > c.S > 5[D], c.S > 6H > 214H > WS! 5[D]	
+Max range counter hit corner combo.
+
+183 (182)	Medium	N / A	Toggle Details
+Max range counter hit corner combo.
+
+Tension
+38%
+Position
+Corner
+Works On
+All
+Game Version
+3.05
+CH 2S > 236[D] > jc > j.S > j.H > dl j.D, c.s > 6H > MFC, WS! 5[D]	
+Spacing independent CH 2S WA combo
+
+175	Easy	N / A	Toggle Details
+Works at any range
+
+Tension
+29%
+Position
+Midscreen
+Works On
+All
+Game Version
+3.05
+CH f.S > 236[D] > jc > j.S > j.H > j.D > djc > j.S > j.H > j.236H, c.S > 2H > 214H, WS! 5[D]	
+Corner-to-corner CH f.S combo
+
+175	Medium	N / A	Toggle Details
+Corner to corner counter hit f.S combo.
+
+Tension
+37%
+Position
+Corner
+Works On
+All
+Game Version
+3.05
+Heavy Slash Starters
+5H / 6H
+
+Combo	Video/Name	Damage	Difficulty	Recipe	Notes
+5H/6H > 214H, f.S > 214K	
+Basic H normal confirm.
+
+112 (122)	Very Easy	N / A	Toggle Details
+Close range combo.
+
+Tension
+23%
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+5H/6H > 214[P]66]P[, 5K > 6K > 214[S]66]S[	
+Crouch or CH confirm
+
+114 (124)	Medium	N / A	Toggle Details
+Close range crouch confirm and counter hit combo.
+
+Tension
+28%
+Position
+Anywhere
+Works On
+All Except EL
+Game Version
+3.05
+5H/6H > 214S, TU! c.S > dc, c.S > 2H > 214[S]66]S[	
+H Normal Turn Up confirm
+
+145 (155)	Easy	N / A	Toggle Details
+5H/6H confirm extended with Turn Up. Replace 214[S]66]S[ with 214H to wall stick when approaching the corner.
+
+Tension
+38%
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+CH 5H/6H > 214H, c.S > dc, c.S > 2H > 214[S]66]S[5[D]	
+Close range CH combo
+
+149 (159)	Medium	N / A	Toggle Details
+Close range counter hit combo. Replace 214[S]66]S[ with 214[K]66]K[ to wall stick when approaching the corner.
+
+Tension
+37%
+Position
+Anywhere
+Works On
+All Except EL
+Game Version
+3.05
+CH 5H/6H > 214[P/K/S]66, c.S > 2H > 214[P]66]P[, c.S > dc, 2K > 6K > 214S	
+Advanced close range CH confirm
+
+159 (170)	Hard	N / A	Toggle Details
+Advanced close range counter hit combo. Mist Finer Dash must be used immediately after the starting attack or else the combo will drop. Will wall stick before the 214S when approaching the corner.
+
+Tension
+43%
+Position
+Anywhere
+Works On
+All Except EL
+Game Version
+3.05
+CH 5H/6H > 236HH, c.S > 214S, (Turn-Up), 66c.S > 6K > 214S	
+Spaced CH confirm
+
+237 (147)	Medium	N / A	Toggle Details
+Mid to far range Counter hit combo. 236HH will whiff if the combo started at close range.
+
+Tension
+45%
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+5H/6H > 214H, 5K > 6K > 214P, f.S > MFC, WS! 5[D]	
+Close range corner combo
+
+171 (180)	Easy	N / A	Toggle Details
+Close range corner combo.
+
+Tension
+33%
+Position
+Corner
+Works On
+All
+Game Version
+3.05
+5H/6H > 214S, TU! 66, (c.S,) c.S > 6H > 214H, WS! 5[D]5[D]	
+Corner combo with Turn Up
+
+193 (198)	Medium	N / A	Toggle Details
+5H/6H confirm extended with Turn Up. Skip the first c.S when starting with 6H.
+
+Tension
+40%
+Position
+Corner
+Works On
+All
+Game Version
+3.05
+CH 5H/6H > 236HH, c.S > 6H > 214H, WS! 5[D]	
+CH corner combo
+
+180 (190)	Easy	N / A	Toggle Details
+Counter hit corner combo. Can replace c.S with 2K for easier execution.
+
+Tension
+37%
+Position
+Corner
+Works On
+All
+Game Version
+3.05
+CH 5H > 214H, c.S > dc, c.S > 6H > 214H, WS! 5[D]	
+Close range CH corner combo
+
+200	Easy	N / A	Toggle Details
+Close range counter hit 5H corner combo.
+
+Tension
+39%
+Position
+Corner
+Works On
+All
+Game Version
+3.05
+2H
+
+Combo	Video/Name	Damage	Difficulty	Recipe	Notes
+2H > 214[P]66]P[, c.S > dc, c.S > 2H > 214[S]66]S[	
+2H Sideswitch
+
+138	Medium	N / A	Toggle Details
+2H combo. Switches sides at close range. Replace 214[S]66]S[ with 214[K]66]K[ to wall stick when approaching the corner.
+
+Tension
+33%
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+CH 2H > 214[P/K/S]66, c.S > dc, c.S > 2H > 214[P]66]P[, c.S > 6K > 214S	
+CH 2H confirm
+
+165	Hard	N / A	Toggle Details
+Counter hit 2H combo. Switches sides twice at close range, once at long range.
+
+Tension
+42%
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+2H > 214H, 5K > 6H > 214H, WS! 5[D]	
+2H corner combo
+
+181	Easy	N / A	Toggle Details
+Basic 2H corner combo.
+
+Tension
+30%
+Position
+Corner
+Works On
+All
+Game Version
+3.05
+2H > MFC, 5K > 6H > MFC, 5K > 6H > 214H, WS! 5[D]	
+2H start MFC loop
+
+202	Medium	N / A	Toggle Details
+2H corner combo using Mist Finer cancels.
+
+Tension
+34%
+Position
+Corner
+Works On
+All
+Game Version
+3.05
+CH 2H > 214[P/K/S]66, c.S > 5[D], c.S > 6H > 214H, WS! 5[D]	
+CH 2H Corner Combo
+
+218	Medium	N / A	Toggle Details
+Counter hit 2H corner combo.
+
+Tension
+36%
+Position
+Corner
+Works On
+All
+Game Version
+3.05
+CH 2H > 214[P/K/S]66, c.S > 2H > 214[P]66]P[, c.S > 6H > MFC, WS! 5[D]	
+Cornered sideswap
+
+202	Medium	N / A	Toggle Details
+Meterless 2H combo that swaps sides to break the wall while your cornered.
+
+Tension
+?
+Position
+Cornered
+Works On
+All
+Game Version
+3.05
+Dust Starters
+5D / 5[D]
+
+Combo	Video/Name	Damage	Difficulty	Recipe	Notes
+5D > 66RRC, c.S > dc, c.S > 2H > 214[P]66]P[, 5K > 6K > 214[S]66]S[	
+5D metered confirm
+
+116	Medium	N / A	Toggle Details
+Uncharged 5D hit extended with 50% tension. Requires a delay before the first c.S if the combo started at point-blank range. Will wall stick at either 214[P]66]P[ or 5K when approaching the corner.
+
+Tension
+8% (-50%)
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+5D > 66RRC, 5[D], c.S > dc, c.S > 6H > 214H, WS! 5[D]	
+5D metered corner confirm
+
+167	Easy	N / A	Toggle Details
+Uncharged 5D hit extended with 50% tension in the corner.
+
+Tension
+8% (-50%)
+Position
+Corner
+Works On
+All
+Game Version
+3.05
+5D > 66RRC, 5[D], c.S > 6H > MFC, c.S > 6H > MFC, WS! 5[D]	
+Advanced 5D metered corner confirm
+
+172	Hard	N / A	Toggle Details
+5D > 66RRC, 5[D], c.S > 6H > MFC, c.S > 6H > MFC, WS! 5[D]
+
+Tension
+8% (-50%)
+Position
+Corner
+Works On
+All
+Game Version
+3.05
+5[D] > hjc > j.H > j.D > jc > j.D > j.P > j.D > j.HH	
+Universal charged dust combo
+
+218	Medium	N / A	Toggle Details
+Universal charged 5D combo.
+
+Tension
+22%
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+2D
+
+Combo	Video/Name	Damage	Difficulty	Recipe	Notes
+2D > 214P, f.S > 214K	
+Close range 2D combo
+
+99	Easy	N / A	Toggle Details
+Close range 2D combo.
+
+Tension
+19%
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+2D > 214S > 66RRC, c.S > dc, c.S > 2H > 214[S]66]S[	
+Metered 2D confirm
+
+150	Medium	N / A	Toggle Details
+2D combo extended with 50% tension. Requires a delay before the first c.S if the combo started at point-blank range. Replace 214[S]66]S[ with 214[P]66]P[, 5K to wall stick when approaching the corner.
+
+Tension
+13% (-50%_
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+2D > 214K, f.S > 2H > MFC, f.S > 214K, WS! 6H	
+Close range 2D corner combo
+
+169	Medium	N / A	Toggle Details
+Close range 2D corner combo.
+
+Tension
+29%
+Position
+Corner
+Works On
+All
+Game Version
+3.05
+CH 2D > 214[P]66]P[, 5K > 6K > 214S	
+Counter hit 2D combo
+
+110	Easy	N / A	Toggle Details
+Counter hit 2D combo.
+
+Tension
+24%
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+CH 2D > MFC, c.S > 2H > 214[P]66]P[, 5K > 6K > 214S	
+CH 2D MFC confirm
+
+146	Medium	N / A	Toggle Details
+Tension
+33%
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+CH 2D > 214[P]66]P[, c.S > 2H > 214H, WS! 5[D]	
+CH 2D corner combo
+
+174	Medium	N / A	Toggle Details
+Counter hit 2D corner combo.
+
+Tension
+29%
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+CH 2D > MFC, c.S > 2H > 214[P]66]P[, c.S > 6H > MFC, WS! 5[D]	
+CH 2D corner combo
+
+197	Medium	N / A	Toggle Details
+Close range Counter hit 2D corner combo.
+
+Tension
+35%
+Position
+Corner
+Works On
+All
+Game Version
+3.05
+Throw Starters
+4D / 6D
+
+Combo	Video/Name	Damage	Difficulty	Recipe	Notes
+4/6D > 66RRC~5[D], c.S > dc, > c.S > 6K > 214S	
+Basic throw combo
+
+130	Medium	N / A	Toggle Details
+Throw extended into a combo with 50% tension.
+
+Tension
+14% (-50%)
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+4/6D > 66RRC > 5[D], (c.S > dc,) c.S > 6H > 214H, WS! 5[D]	
+Advanced throw combo
+
+173	Medium	N / A	Toggle Details
+Throw extended into a corner combo with 50% tension. The dash canceled c.S only works if 5[D] connected at its max height, can be skipped for minimal damage loss but easier execution.
+
+Tension
+13% (-50%)
+Position
+Corner
+Works On
+All
+Game Version
+3.05
+j.4D / j.6D
+
+Combo	Video/Name	Damage	Difficulty	Recipe	Notes
+j.4/6D > 88RRC, c.S > dc, > c.S > 2H > 214[S]66]S[	
+Air throw combo
+
+121	Medium	N / A	Toggle Details
+Air throw extended into a combo with 50% tension. May need to walk forward after landing from the RC in order to use c.S. Will wall stick if the opponent reaches the corner.
+
+Tension
+13% (-50%)
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+Special Move Starters
+SMF
+
+Combo	Video/Name	Damage	Difficulty	Recipe	Notes
+214S > Turn Up > c.S > dc > c.S > 2H > 214[P]66]P[ > 2P WS > 5[D]	
+SMF Turn Up confirm
+
+172	Medium	N / A	Toggle Details
+Low 50/50 oki confirm that can wallbreak meterlessly. Can fit an extra 66 after the Turn Up if spaced to help land the confirm, but be careful about accidentally crossing up.
+
+Tension
+?
+Position
+Anywhere
+Works On
+All
+Game Version
+3.05
+Johnny's combos, though rather simple in concept, have a lot of different routes for optimization and setup. generally combos like to follow one of two routes depending on position.
+
+Starter/Launcher > 214[P]66]P[ > ender (midscreen)
+starter/launcher > 6H loops > wallbreak (corner)
+Overview
+Launchers
+
+Basic OverviewFor if you just want the fundamental principles.
+
+Johnny's combos generally involve getting his opponent into the air, then juggling them with a combination of P Mist Finer (214P), Turn Up (if a card is already present), Mist Finer Cancels (214[X]D) from 2H and 6H, and Vault~Deal (236H~H).
+
+Once the combo has been extended, S Mist Finer (214S) will provide a HKD to allow for close oki and K Mist Finer will provide an up-to-full-screen knockback effect for a more zoning-focused reward.
+
+
+LaunchersAnd how to route into them.
+
+The standard launchers to use near the beginning of your combos once you've landed the hit are 2H, 214K, j.D, and 6K > 214[P]66]P[.
+
+Example combo starters:
+
+c.S > 2H > MFC: Generally the starter for Johnny's hardest punishes since MFC adds no RISC and no combo decay, as opposed to specials like 214P that have 2000 RISC loss and therefore scale the combo heavily.
+CH 5P/2P/5K/2K > 6K > 214[P]66]P[: A way to confirm from any abare button into a launcher on CH. From 5K and 2K, you can connect to 6K on crouching opponents without CH. 66 Mist Finer gives a bit of extra height that allows for the combo to continue.
+Landing j.K > j.D: A corner-only launcher that adds minimal RISC and can lead into c.S.
+5P/2P/5K/2K/f.S/2S/5H/6H > 214K: Corner-only "launcher". K Mist Finer tumbles, allowing for 5K and f.S relaunches early into combos.
+5K > dc~214P: A midscreen launcher that doesn't quite work at max 5K range but works on non-CH standing hit.
+Starters
+johnny's starters are pretty limited but he usually finds a use for each of them
+
+c.S/5K > 2H. This is Johnny's best starter by a good margin due to its consistency. the launch from 2H is an amazing setup for both P finer juggles and for 6H loops.
+CH214H. A little less consistent than the above option, but functional nonetheless. In midscreen you will have to forgo the P Finer and just skip straight to 5K for the pickup. Much better starter in corner as it leads to the highest damage from 6H loops.
+AA/CH6P > 214[P]66]P[. A little weird and not often used, but functions as a starter nonetheless. You need the P finer even if you're in corner
+Extenders
+214[P]66]P[. Mainly used for midscreen combo extension. The pop up from the slash gives johnny enough time to catch them with a c.S or 5K to lead into your ender.
+6H loops. Johnny’s best corner extender. The actual loop itself is [Air hit c.S / 5K > 6H > MFC]xN. Usually you can get about 2 loops before wallsplat.
+Scaling Theory
+Johnny has some unusual RISC loss values on his specials, leading to optimal routes requiring the use of specific normals like 6H and 5[D] where possible. Below is a table of Johnny's attacks, and how they relate in regards to combo damage and scaling.
+
+Attack	Damage	RISC Loss	Damage / RISC (x1000)	Normalized (c.S)
+Enders
+Unlike his starters, Johnny has a lot of different ways to end his combos that leave him in some form of advantage.
+
+5K/c.S > 6K > 236K > (214[K]66]K[). Gives a lot of corner carry as the 6K launches them very far and the card from 236K keeps you safe to close in. if you do chose to use the K finer, you can usually get about two step-dashes in before they get up.
+5K/c.S > 6K > (214[S]66]S[) alternative ender to the above for a closer knockdown at the cost of corner carry. The HKD from S finer lets you set up a P card and catch them on block with a c.S to start mix.
+5K > 6K > 632146H > (236K). Metered ender that still gives you time to set a card and catch it with a K finer to start mix.
+Wallbreak
+5[D]: Highest damage meter less wallbreak option. Also Johnny's slowest startup normal with somewhat poor horizontal range, will not work in all routes even with MFC's.
+6H: Second highest damage normal, generally used in cases where 5[D] won't work. Depending on combo scaling and guts, may do the same damage as 5[D].
+214K: Longest range and fastest special attack. Does less damage than 6H but is much easier to use.
+236236S: Fast, full-screen super. Very easy to use but deals less damage than 632146H. Requires 50% Tension.
+632146H: Johnny’s most powerful super. Can almost always be used by Mist Finer dash-kara canceling into it. Requires 50% Tension.

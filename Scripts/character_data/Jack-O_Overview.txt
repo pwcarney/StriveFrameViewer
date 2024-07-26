@@ -1,0 +1,870 @@
+Overview
+Jack-O' is a momentum-based fighter summoning Servants that fight by her side, providing her a huge variety of options to enhance both her offensive and defensive capabilities.
+
+Jack-O' starts the round without any Servants, and must fight for an opportunity to summon them in. Her 5K, 2K, and f.S are basic pokes to create opportunities to summon, while her 2D and 5H provide long-range fast-moving strikes to threaten opponents away. She also comes with unique anti-airs like 6H and 2S, and her long-reaching j.H, which can create safe pressure and even works for cross-up. While certainly useful moves, Jack-O' cannot rely on only herself, as she is very weak without her servants.
+
+She can summon up to three Servants at once, but just one Servant is enough to change her from a risky, dysfunctional character to an infectiously happy party-starter with a vast array of options. Jack-O' can use Servant Shoot or her Normals to launch the Servants like projectiles with a multitude of angles. Issuing Attack Command will make all servants attack, empowering blockstrings and combos. Issuing Defend Command will make all servants raise shields to deflect oncoming attacks. She can also pick up servants to carry them while fighting. She can even hit servants to enhance her own attacks, though manipulation of game mechanics. Once set up with servants, Jack-O' is very dangerous.
+
+Jack-O's biggest flaw is her reliance on Servants to get going, which is made worse by Servants disappearing if Jack-O' so much as blocks a hit. Combined with Jack-O's generally weaker attacks, she can struggle under pressure, as she must work back her momentum, and a single mistake can be very punishing. However, these weaknesses can be overcome by making use of Jack-O's myriad of options and ensure she maintains her momentum, which requires creativity, plenty of lab time, and quick adaptation.
+
+Whether you're a thrill-seeking daredevil with a bag of tricks, or a calculating tactician with a sure route to victory in mind, Jack-O' and her Servants have your back.
+Jack-O'
+
+Damage Received Mod
+×1.12
+Guts Rating
+2
+Prejump
+4F
+Backdash
+18F Duration
+1-5F Invuln
+1-13F Airborne
+Fastest Attack
+5P (5F)
+2P (5F)
+Reversals
+Forever Elysion Driver (11F)
+Jack-O' is a technical character who dominates the battle with an assembly of Servants.
+Pick if you like	Avoid if you dislike
+Creative problem-solving using many unique and complex interactions and move quirks.
+Setplay-focused gameplan, with the setplay being long, complex, and a big part of how you win.
+Defensive zoning to set up from afar, and create a winning neutral with unique projectiles.
+A lot of room for optimisation and tech, refining even the smallest details in resource and servant management.
+Complex things just sometimes not working the way you want it.
+Very lab-heavy characters that require high knowledge of certain tech and character-specific interactions.
+Hard-to-gain momentum that can be lost easily.
+Low overall damage, even with harder and creative routes.
+
+Unique Mechanic: Servants
+Images
+Hitboxes
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+
+Jack-O' can summon Servants to fight alongside her. Jack-O' can both use servants directly by striking them to launch as projectiles, or issue them commands to perform, including attacking with a powerful strike, raising a large shield to parry incoming attacks, recalling servants to restore Servant Gauge, and setting them to explode after 3 seconds. When hitting servants, the angle and speed of their trajectory depends on what attack was used, providing Jack-O' numerous ways to zone and attack from afar. Combined, these allow servants to support Jack-O' greatly for zoning, pressure and neutral.
+
+Servants remain for up to 8 seconds. However, servants immediately disappear when Jack-O' is hit, blocks an attack, or the servant is attacked by the opponent. Additionally, when Jack-O' hits a servant they lose 3 seconds of their duration. If either Jack-O' or an opponent hit a servant, they can still perform their on-hit cancels. This allows them to be used for many complex and intricate options unique to Jack-O'.
+
+To use servants, Jack-O' must use her unique Servant Gauge resource. The gauge refills passively, but Jack-O' can recall servants or spend Tension to restore it faster. Each portion of the gauge represents one servant that she can summon or one command she can issue. The gauge, in reality, is actually two seperate resources:
+
+Summon gauge indicated by a glowing green bar. It is representative of the number of servants Jack-O' can currently summon.
+Command gauge indicated by a servant's face, with a grey bar separating it from the Summon Gauge. It is representative of the number of servant commands Jack-O' can currently issue. Additionally, the Summon Gauge is restricted to the Command Gauge, reducing her potential summons.
+Jack-O' starts each round with a full Servant Gauge. Servant Gauge does not carry over between rounds.
+
+
+Held Servant
+Images
+Hitboxes
+
+
+Jack-O' can lift and hold her servants, either by summoning them into her arms with Summon Servant (Hold) or using Pick Up Servant.
+
+During this, Jack-O' cannot block or backdash, but she gains a backwards run instead. She also cannot peform any Normal attack or Throw, but retains access to every Special move and Overdrive, while gaining access to Throw Servant and Release Servant. These Servant Commands and Release Servant also replace her normal inputs, no longer requiring any motion inputs except for Servant Shoot.
+
+Servants held by Jack-O' do not require any Command Servant Gauge to perform any of the commands, but it will still expend any remaining gauge that is available. Other non-held servants will not perform any action if there is not sufficient servant gauge.
+
+The held servant's timer is paused while held.
+Servant Gauge pause duration from Servant Commands is halved if only the held servant performs the command.
+It is still possible to tech throw in this stance.
+Startup Frames
+Active Frames
+Inactive Frames
+Recovery Frames
+Special Recovery Frames
+Projectile Active
+Cancel Window
+5P
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+23	All	5	4	8	-2	none
+Total:
+16
+Quick anti-air, but weak to air-to-ground attacks. Fastest way to launch a servant.
+
+Its 1F faster recovery than 2P makes it slightly better for launching servants, and hits immediately from Release Servant. The faster startup, recovery, and smaller hurtbox than 5K, but lack of jump and dash cancels, makes it better when using servants defensively from the ground.
+
+Generally outclassed as an abare by her 2P, unless the opponent is airborne.
+
+Launches Servants in a short arc.
+Whiffs against crouching opponents, except Nagoriyuki, Potemkin, Goldlewis, and Bedman?.
+Gatling Options: 5P, 2P, 6P, 6H
+
+5K
+Images
+Hitboxes
+
+The Swiss Army Knife of kicks
+
+Frame 9 ~ 12
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+27	All	7	6	10	-4	none
+Total:
+22
+With fast speed, great range, good reward, and difficult to challenge cancel options, this can be used in neutral, for pressure, and as an abare.
+
+Able to confirm into 2D for a hard knockdown even at max range. Doubles as a fast, long-range anti-air with high reward thanks to its high hitbox, unfortunately this makes it easily low-profiled.
+
+If used to launch servants, it can allow quickly following up the servant with an IAD jump-in or with a Dash Cancel, both frametrapping on block and comboing on hit for a light high-low mixup. However like 5P it launches a short range, while also extending her leg out, making it vulnerable to counterpokes.
+
+Launches Servants in a short arc.
+Jump and dash cancelable.
+Range slightly increases on Frame 9. Additional range whiffs against crouching opponents, except Nagoriyuki, Potemkin, Goldlewis, and Bedman?.
+Gatling Options: 6P, 6H, 5D, 2D
+
+c.S
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+39	All	7	6	10	+1	none
+Total:
+22
+Fast, safe, and high reward, like most c.S, but needs servants to reach its full potential.
+
+Unlike most c.S, on its own this move has fairly linear pressure. Therefore, it is more important to focus on getting servants set up, than landing c.S pressure on its own.
+
+Instead, c.S excels when used in tandem with servants, becoming the foundation of her best pressure routes. Using this move while hitting a servant is barely behind the oppoent allows incredibly powerful cancels and links, creating her sandwich pressure. In the corner with a servant, c.S can easily lead into Jack-O's powerful corner pressure, particularly with Attack Command allowing her to approach and re-use c.S safely.
+
+Launches Servants in a long arc.
+Jump and dash cancelable.
+Gatling Options: 6P, f.S, 2S, 5H, 2H, 6H, 5D, 2D
+
+f.S
+Images
+Hitboxes
+
+
+First active frame
+ 
+
+Max range
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+32	All	11	6	17	-9	none
+Total:
+33
+Jack-O's long-range poke, as the largest attack that is not extremely unsafe to whiff.
+
+While lacking in range and frame data compared to other far slashes, Jack-O's f.S has a very important place in her kit. Normals such as 5H and 2D are weak to low profile pokes such as 2K or 2S attacks, but f.S extends over these attacks and punishes opponents for preemptively using these buttons to stuff her higher reward neutral attacks.
+
+Unlike most of Jack-O's normals there's not much other utility to the move, making it primarily just a neutral poke and a common blockstring extension off c.S.
+
+Launches Servants in a long arc.
+Reaches maximum range on frame 15.
+Gatling Options: 5H, 2H
+
+5H
+Images
+Hitboxes
+
+
+First hit, frames 10-12
+ 
+
+Second hit, frames 16-17
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+24×2	All	10	3(3)2	23	-6	none
+Total:
+40
+One of Jack-O's most powerful mid-range options for its fast movement, fast startup, and combos on Counter Hit.
+
+Better still, this is one of Jack-O's safest moves on block, due to the large pushback and high blockstun making Summon Servant (Hold) safer, and the option to sneak in a frametrap with a delayed Servant Shoot. Opponents should naturally respect this move. Where it falters is its long recovery on whiff. Additionally the second, larger, hit is very high, easily losing to low pokes like 2S attacks, which Jack-O' struggles to contest from afar.
+
+For launching servants, 5H is the fastest and longest-range attack with a long servant bounce, making it a staple for zoning, especially as you can cancel off the servant to instantly cut Jack-O's movement. It can even hit servants behind Jack-O'.
+
+Bounces Servants in a long arc.
+Hits twice, launching on the 2nd hit.
+Hits behind as well as in front
+5D
+Images
+Hitboxes
+
+
+Version	Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+Dust Attack	45	High	20	3	26	-15	none
+Charged Dust Attack	56	High	28	3	26	-10	none
+Total:
+48
+Total:
+56
+Universal overhead attack. Tapping D gives a fast but weak overhead, while holding down D with give a much slower but much more powerful strike.
+
+Uncharged Dust Attack
+While a usually very weak overhead, Jack-O' can easily jail into it by cancelling off a servant. When backed up by 50% Tension for RRC, this becomes a practical mixup in setups and pressure as it can't be defeated by backdashes, jabs, or invincible reversals.
+
+In addition, Jack-O' can combo without further Tension if she has a servant, if the wall is badly damaged, or with very good spacing . Used correctly, these give Jack-O' access to a fast mixup for ending rounds when it would be otherwise impossible.
+
+Charged Dust Attack
+On-hit, holding 8 will activate Homing Jump for a large combo opportunity.
+
+Slow, unsafe, but rewarding overhead. Jack-O' can frametrap into it, but once opponents can react and punish this, it stops being practical.
+
+By cancelling from c.S within sandwich pressure, the Charged Dust becomes a tight frametrap, making it much harder to respond without properly reacting. Unfortunately it is still entirely unsafe on block and easily reacted to, making it impractical for her to use unless the opponent is unprepared. This is made worse as her Homing Jump combos are some of the lowest damage in the game.
+
+Launches Servants up in a high arc.
+2P
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+21	All	5	4	9	-3	none
+Total:
+17
+Jack-O's safest abare. Fairly standard jab.
+
+Hits crouchers and tied for her fastest attack, but very low reward on hit. Like most 5F jabs, it can be used to challenge Throws and delayed cancels. It can still be low-profiled by a select few attacks, but generally offers very strong coverage. On Counter Hit, links into 2K > 2D.
+
+Launches Servants in a short arc.
+Inputs 1P and 3P will perform this attack even when positioned near a servant.
+Gatling Options: 5P, 2P, 6P, 6H
+
+2K
+Images
+Hitboxes
+
+The queen of 2Ks
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+24	Low	6	3	12	-3	Low Profile 6-20
+Total:
+20
+One of the best close-range pokes in the game, hitting Low, with enormous range for its speed, while also low-profile, and setting up for okizeme on hit.
+
+Its low-profile and speed offers great coverage, as most characters lack faster moves to challenge it. On Counter Hit, it combos into itself, making it very useful for stagger pressure. And for only 1 frame slower than her 2P, this covers considerably more range, cannot be low-profiled, and is low-profile, making it a very strong abare. Even if it whiffs, such as to airborne attacks, its short recovery and active time can make it comparatively safe and difficult to punish.
+
+2K also plays a large role in Jack-O's pressure. It's low hit and 2D gatling make it essential to pressure without hitting her servants, while being resiliant to Faultless Defense. Its moderate on-block and fast recovery also make it usable as a Tick Throw, though frametrapping with 2D is extremely difficult.
+
+Launches Servants in a short arc.
+Whiffs on servants at their default height.
+Has identical range to F7~8 of 5K
+Gatling Options: 6P, 6H, 5D, 2D
+
+2S
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+31	All	9	7	22	-15	none
+Total:
+37
+Specialist to a fault, only for anti-airing attacks where 6P will fail.
+
+This move is either very potent for challenging highly specific options the opponent has, or the opponent doesn't have those options, rendering it mostly useless. Do not underestimate its value when it can be useful, however, as its coverage is quite unique and difficult to match.
+
+From the ground, it is used for its unique servant launch, going extremely high and full-screen. This is good as both a high-reaching anti-air, and to get a servant behind the opponent with no risk of it being hit on the way. For corner pressure, this doubles as a niche pressure tool for setting up a servant to come back after a delay. However due to 2S having less range than her Throw, it is trivially easy for c.S > 2S to whiff and leave an unsafe gap, especially if delaying for frametraps.
+
+Launches Servants up in an extremely tall arc.
+anti-air move for certain matchups.
+Gatling Options: 5H, 2H
+
+2H
+Images
+Hitboxes
+
+
+Frames 15 ~ 17
+ 
+
+Frames 18 ~ 20
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+41	All	15	6	18	-5	none
+Total:
+38
+Combo tool, used for its high damage and launch after c.S and f.S, but otherwise unremarkable.
+
+Due to its advancing movement, slow startup, short hitbox, mediocre recovery, and only hitting airborne or the ground for 3F each, this move is not very good for blockstrings or in neutral, and is generally outclassed by her 5H and 2D. It's primary value in blockstrings is its low pushback on block, usefully setting up for some of Jack-O's corner pressure while generating a lot of R.I.S.C.
+
+While it may not be notable used raw, 2H is instrumental in Jack-O's combo routes. Many of her best combos utilise it to get the intial launch and generally high damage. However, it is extremely sensitive to combo scaling, making it very difficult to extend from without servants.
+
+Launches Servants into a ground bounce.
+Ground bounces on hit.
+Moves forward during startup.
+2D
+Images
+Hitboxes
+
+This is riskier than you or your opponent will think it is.
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+29	Low	10	15	18	-19	Below Crouch 10-33
+Total:
+42
+The low-profile and slightly more rewarding sister to 5H, but much worse on block and even worse on whiff.
+
+With similar offensive benefits as 5H, Jack-O's sweep is fast-moving, has some of her best combos on Counter Hit, with identical startup. Combined with its low-profile this is one of Jack-O's most powerful and aggressive mid-range attacks and one of her best punish moves. Unfortunately, on whiff this move is also agonisingly slow to recover. On hit 2D gives some of Jack-O's best okizeme when cancelled into Summon Servant. This makes it a fantastic hitconfirm off 5K and 2K.
+
+In contrast to 5H, this is Jack-O's worst move on block. Its frametrap into Servant Shoot is backdashable, even throwable by some characters, and its poor blockstun and pushback leaves Jack-O' in an extremely unfavourable RPS, often enabling new options by the opponent. While Recover Servant can help, it still leaves her dangerously close and unsafe.
+
+Launches Servants in a long arc.
+Whiffs on servants at their default height.
+Moves forward during startup and active frames.
+6P
+Images
+Hitboxes
+
+Smile through the pain
+
+Frames 10-12
+ 
+
+Frames 13-15
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+28	All	10	6	20	-12	1-3 Upper Body
+4-12 Above Knees
+Total:
+35
+The anti-air attack, and a counter to pokes in neutral.
+
+Like most 6P, this has upper-body invulnerability, making it the best anti-air to easily defeat airborne attacks, unless they hit especially far down. But, it offers less reward than her other anti-airs. Its upper-body invulnerability can also blast through long-range pokes such as f.S attacks.
+
+6P is also the fastest way to bounce a held servant with a long-range arc due to hitting higher than 5H, which also sends them farther due to the added height, making it good for poking at long-range, while exposing less hurtbox to long-range pokes. This is a vital substitute to Servant Shoot based on the opponent's range.
+
+Upper body invulnerable, excellent anti-air for opponents in front of Jack-O.
+Launches Servants in a long arc.
+6H
+Images
+Hitboxes
+
+Get used to cancelling off this hit
+ 
+
+Nightmarish for Goldlewis in particular
+
+First hit, frames 8-9
+ 
+
+Second hit, lowest height.
+ 
+
+Second hit, maximum reach.
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+20, 40	All	8,19	2(9)11	14	-6	none
+Total:
+43
+Primarily used for launching servants in a unique arc, otherwise a fairly underwhelming anti-air despite its enormous range.
+
+Hitting a servant with the first hit allows it to be used as a pre-emptive anti-air while allowing Jack-O' to run underneath, giving it strong coverage for approaches in neutral. You can also carefully space the second hit to bounce a servant at a low angle, while the 6H hits a high angle, for large zoning coverage.
+
+As an anti-air, it is very prone to whiffing advancing jumps, and is extremely slow. Even on Counter Hit, it offers almost zero combo or okizeme potential without being in the corner and not taking advantage of the range it has. As a poke, it is very commital and risky, making it hardly worth using. At best, this can be used to check against both a dash-in with the first hit and a jump-in with the second hit, but this quite commital and likely to fail. However. for specifically Goldlewis, and to a lesser extent Faust, this is an extremely oppressive poke as its hits from a huge range, is massively disjointed, defeats most standing attacks, and instantly catches jumps.
+
+First hit launches Servants up in a high arc, while second hit launches in a long arc.
+Reaches maximum range and height on frame 27.
+First hit causes floating crumple on hit, second hit does not.
+j.P
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+19	High	6	4	6	+1 (IAD)	none
+Total:
+15
+Fastest air attack, and a mixup tool. Good for challenging Air Throws and as a fast jump-in.
+
+As it can self-gatling, it can be used repeatedly to make itself advantaged on block and combo on hit, improving its safety as a jump-in and air-to-air, but resulting in very low damge.
+
+Also used in mixups with an F-shiki set up by j.S or j.H, for use in okizeme and sandwich pressure.
+
+From the air with a Held Servant, it fulfills a similar role to j.K. While it lacks Air Dash and Jump cancels, its recovery is so short it can attack again before landing, making it safer against run-under threats.
+
+Launches Servants in a short arc.
+Gatling Options: j.P
+
+j.K
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+23	High	7	6	12		none
+Total:
+24
+For fast, rising air-to-air, with its quick startup, good active time, and high reach.
+
+Leads into a combo on air hit, while on block choosing to airdash can easily result in a crossup, while not airdashing remains sameside, presenting a light mixup even if you do not deal damage.
+
+From the air with a Held Servant, j.K is good for launching a servant a short distance in front of Jack-O', especially for its air dash and jump cancels, but lacks the safer landing opportunities of j.P.
+
+Launches Servants in a short arc.
+Jump and Dash cancellable.
+Gatling Options: j.D
+
+j.S
+Images
+Hitboxes
+
+Heads up, safe jump
+
+ 
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+28	High	11	5	21	+3 (IAD)	none
+Total:
+36
+The deeper-hitting sister to j.H. Strong jump-in for fast offense
+
+From an IAD, j.S can hit crouching opponents immediately, and is less forgiving to reactive 6P attacks. However, it lacks the same on-block threat j.H has due to only hitting once and can't be spaced as easily with a whiffed Air Servant Shoot. In some okizeme, j.S is generally preferred even on cross-up, for hitting deep and doing more damage.
+
+From the air with a Held Servant, j.S ground bounces the servant, making it hit at an extremely short range, but the lingering hitbox of the servant makes it very hard to challenge with a run-under unless done pre-emptively. This is most commonly paired with a backward jump for an extremely defensive maneuver; however it maintains the Air Dash Cancel to suddenly mount offense on unsuspecting opponents.
+
+Launches Servants into a ground bounce.
+Jump and Dash cancellable.
+Can hit on cross-up.
+Gatling Options: j.H, j.D
+
+j.H
+Images
+Hitboxes
+
+
+First hit, frames 11-13
+ 
+
+Second hit, frames 14-16
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+20, 15	High	11	3,3	32	+5 (IAD)	none
+Total:
+48
+The wide-hitting sister to j.S. Strong jump-in for prolonged offense.
+
+An alternative option for instant airdash offense, able to hit on cross-up immediately, but has considerable delay hitting a crouching opponent. Its much wider range makes it forgiving, even beyond the range of j.S. While slower as an overhead, it has enhanced on-block threat as it can 1F frametrap into 2K, or cancel the first hit into Air Servant Shoot to land early for much more pressure options.
+
+From the air with a Held Servant, j.H launches servants across the entire screen, making an airborne alternative to grounded Servant Shoot for long-distance zoning. While it does maintain Air Dash Cancels, the use of a 6P will anti-air both the servant and Jack-O'. However, by hitting at such a high angle, opponents may struggle to 5P the servants, effectively stalling them longer than otherwise.
+
+Launches Servants in a long arc.
+Jump and Dash cancellable.
+Can hit on cross-up.
+Gatling Options: j.D
+
+j.D
+Images
+Hitboxes
+
+Ever wondered how cancelling a projectile would work?
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+30	All	21		Total 44		none
+Total:
+44
+(Note)
+Stall for servant gauge. A cheeky way to end rounds.
+
+Can easily disrupt the opponent's movement while building space to allow summoning and stalling for resources. Difficult to challenge and covers a large amount of space. Unfortunately, extremely punishing when called out, and has absolutely zero reward on hit. Unless, that is, the opponent is one hit from defeat, where this becomes shockingly potent.
+
+When the projectile connects, Jack-O' can cancel her recovery for additional movement options, including jump cancel into another j.D, threaten an airdash jump-in, or air backdash to build even more space.
+
+From the air with a Held Servant, j.D shares its angle with j.K, but will keep Jack-O' above the servant, potentially crossing over 6Ps. However, this is much more telegraphed. This can also be used after bouncing a servant with j.K or j.S to create a defensive wall of projectiles while creating more distance.
+
+Launches Servants in a short arc.
+Slows down Jack-O's momentum, then pushes her slightly backwards.
+Jump, Dash, and Special cancelable after the projectle connects.
+Full Counter Hit recovery.
+Ground Throw
+6D or 4D
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+80	Ground Throw	2	3	38		none
+Total:
+42
+Universal throw, and the primary tool of Jack-O's gameplan.
+
+A powerful starter for mixups and pressure thanks to its extremely long knockdown and even restoring Servant Gauge during the animation. This pressure leads into many tick throw oppotunities, from anywhere on the screen, making it the best standard Throw for overall value on hit. Unfortunately, Jack-O' loses all servants on a Throw Clash, making it essential to prevent simple defense against Throws.
+
+Can throw the opponent either forward or backwards, based on the direction input.
+On Throw Clash, all servants will disappear similar to getting hit.
+Air Throw
+j.6D or j.4D
+
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+80	Air Throw	2	3	38 or Until Landing+10		none
+Total:
+42
+Total:
+14
+Universal air throw.
+
+Not commonly set up in Jack-O's pressure like the grounded version, but can be effective for punishing opponents jumping above her thrown and launched servants or using unsafe aerial approaches in neutral. Because Jack-O's air-to-air confirms are generally very weak, this can be frequently an optimal response in the air.
+
+Unfortunately, suffers substantially worse okizeme than the grounded version, but will ensure you can set up a servant.
+
+Can throw the opponent either forward or backwards, based on the direction input.
+On Throw Clash, all servants will disappear.
+Wild Assault
+236D with 50% Burst (Hold OK)
+
+Images
+Hitboxes
+
+Instant servant pressure, for a price.
+
+Version	Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+236D	30	All (Guard Crush)	20~31	3	20	+13	
+236[D]	50	All (Guard Crush)	32	3	20	+17	
+Wild Assault
+Total:
+42
+Fully Charged Wild Assault
+Total:
+54
+Blue Wild Assault: Causes Guard Crush on block, and Stagger on uncharged hit. See here for more info on Wild Assault types.
+
+Resets blockstrings into a guard crush with a servant for 50% Burst.
+
+The guard crush is long enough to allow 236D > 236P to be +9, for an autotimed 2D frametrap or Tick Throw enhanced by the lack of Throw Invulnerabity on Guard Crush. Combined with the recall for Servant Gauge, this allows you to reset a basic blockstring into a fresh servant and pressure even when a Roman Cancel could not. This is especially good from 5H. It can be thrown on callout, but this is extremely risky for the opponent.
+
+Quite weak for combos as it often does not give enough reach or launch to be practical. However, it can be used on a Wall Stick to ensure you secure a Super Wall Break.
+
+Immediately recalls all servants on Frame 1, refilling Servant Gauge for +0.5 bars of Command Gauge and +1.0 bar of Summon Gauge per servant.
+Normal, special, jump, and backdash cancelable.
+Drains 7.14% of the opponent's Burst Gauge on hit or block.
+Applies Hard Knockdown when launching or when used to Wall Break.
+Servant Shoot
+236K (Air OK)
+
+Images
+Hitboxes
+
+Good for kicking more than just servants
+ 
+
+
+Ground
+ 
+
+Air
+Version	Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+236K	31	All	15	4	25	-12	none
+j.236K	31	All	15	4	19	+5 (IAD)	none
+Launched Servant	45 [50]	All	6			-6	none
+Servant Shoot
+Total:
+43
+Air Servant Shoot
+Total:
+37
+Launched Servant
+Total:
+5
+Anti-zoning projectiles and the final move of any blockstring.
+
+As Jack-O's only non-servant special, every blockstring is able to cancel into this as a final frametrap, especially after 6P, 5H,and 2D. Unfortunately, it is a weak pressure ender and should not be rushed into. On block it locks Jack-O' into an unfavourable RPS where Jack-O' must cancel into Summon Servant (Hold) or Recover Servant. On hit, it has almost no reward besides corner carry, with the exception of Counter Hit in the corner. It can even be backdashed after 2D, giving many characters a safe punish. However, this is a vital threat to enforce pressure without servants.
+
+When used for launching servants, it is among the slowest options. However, it crushes most projectiles and travels full-screen, making it extremely good for combatting opponents attempting to zone Jack-O' (assuming their projectile has a lower Clash Level). In the air, it is very similar to Air Throw Servant, but briefly stalls for a deceptive startup, while sending the servant at a shallower angle to better air-to-air, while maintaining its height to cross up grounded opponents. If she delays the Air Servant Shoot, this can also make the released servant hit along the ground, giving adjustable launch heights from the jump.
+
+Launches servants straight forwards and slightly upward at high speed across the entire screen. Colliding into other servants will launch those servants too.
+Launched servants have higher Clash Level, breaking most other projectiles.
+Servant Shoot and servants launched by Servant Shoot Wall Bounce on air hit.
+Can be canceled into all other specials and Overdrives, but not itself or Wild Assault.
+Summon Servant
+236P (Hold OK)
+
+Images
+Hitboxes
+
+Yeah, we don't know where they come from either
+
+Does not extend hurtbox when servant is held. 
+ 
+
+Hurtbox extends forward when placing servant with 236P
+Version	Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+236P			10		Total 25		none
+236[P]					Total 14		none
+Summon Servant (Hold)
+Total:
+14
+Summon Servant (Place) (Note)
+Total:
+25
+Jack-O's character defining move. The held version is essential to every single part of her gameplan.
+
+Summon Servant (Hold)
+Hold P during the animation to hold the servant.
+
+This move is used in virtually every input string Jack-O' has. Get used to inputting this a lot.
+
+Thanks to its extremely short duration, summoning and holding servants plays an essential role in combos, okizeme, zoning, pressure, and even ending blockstrings. Servants are so critical that summoning can act as a reward for good interactions. Despite its short animation it is somewhat risky by placing her into Held Servant stance where she cannot block or use normal attacks until she releases or throws the servant. This lends itself to needing space, a knockdown, or some kind of pressure setup to allow her the opportunity to summon and use the servant without interruption.
+
+Thanks to utilising only the Summon part of the Servant Gauge (of which nothing else uses), this is cheap and can be used frequently. However, there is still a limit. It is important to not over-use servant commands, to maintain access to Summon Servant.
+
+Summon Servant (Place)
+Tap and release P to immediately place down the servant.
+
+A convenient substitute for summoning and releasing quickly. Though not any faster, it places the servant lower and more forward, which has practical use in some combos, okizeme, and zoning. However, there are advantages to holding the servant, as it allows more freedom to act mid-sequence, and there are advantages to having the servant fall from above Jack-O', such as for giving it more range when hit by a normal.
+
+This move can also be used as an extremely slow and risky pressure reset when followed with 2P or 2K. It is risky, but extremely rewarding for Jack-O's pressure, especially near the corner.
+
+Costs 1 bar of Summon Servant Gauge
+Full Counter Hit recovery.
+Pick Up Servant
+2P when near Servant
+
+Images
+Hitboxes
+
+Aw, how cute!
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+Total 14		none
+Total:
+14
+Picks up the nearest servant. Used as a bizarre way to fast-cancel servant launches.
+
+When you fail to pick up a servant Jack-O' has just launched or bounced away from herself, she can perform a 14 Frame fast cancel without locking herself into Held Servant. This is useful for zoning, combos, and some unique pressure routes. However, this is very spacing sensitive, making its application sometimes quite complex. Luckily, 236P perfectly spaces a servant to allow almost any attack to perform such a cancel, which is very useful for zoning.
+
+Ironically, it is rarely used to actually pick up servants, except to conserve resources in neutral, or when you already have 3 servants and cannot summon more, as it is usually stronger to summon a new servant instead.
+
+Servants can still be picked up even when launched.
+If the picked up servant is destroyed, disappears, or moves out of range before the move can pick up the servant, it will not pick up any servant.
+Throw Servant
+6P/K/S/H/D while holding Servant (Air OK)
+
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+30	All	12		Total 27	+5	none
+Total:
+27
+(Note)
+Easiest way to get a servant behind the opponent.
+
+Throwing servants in a very tall arc makes this one of the best ways of getting servants above an opponent, especially when done in the air. Unfortunately, this also makes it very easy for opponents to run under it. Once a servant is in position, the opponent will struggle to remove the servant, making it a persistent threat of Attack Command, and the Attack Command will now push them towards Jack-O' for easy sandwich pressure. However, opponents can quickly approach without the servant being fast enough to follow behind, making it strong offensively but defensively weaker.
+
+While a very easy method of zoning, it is very slow, making it notably easy to 5P thrown servants. However, it is extremely advantageous when successful, allowing Jack-O' to approach a substantial distance. It is also commonly used as part of okizeme, due to its high range and lower recovery. It can also work as a pressure reset in the corner that doubles as an anti-air.
+
+Jack-O throws the servant she is currently holding in a tall arc.
+Throw servants Wall Bounce on air hit.
+Thrown servants do not lose duration upon colliding with an opponent, nor do servants lose duration from being hit by a thrown servant.
+Thrown servants have higher Clash Level, breaking most other projectiles.
+Release Servant
+5D or [D] while holding Servant (Air OK)
+
+Images
+Hitboxes
+
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+Total 11		none
+Total:
+11
+Releases the servant in front of Jack-O. The fastest way to exit Held Servant stance, for neutral and pressure routes.
+
+This is used in many situations to position a servant favourably, such as to hit it with an attack as a zoning tool, or releasing a servant mid-air for okizeme. This can also often be used to bait pre-emptive measures while placing down servants, such as feinting a launch, only to drop it down and be set-up in neutral.
+
+Releasing a servant is slightly different to placing it with Summon Servant (Place), as the servant is closer to Jack-O', and momentarily higher, allowing longer-ranged bounces of the servant, or to have it land low and be used from the ground. This reduced distance even makes it easier to parry advancing attacks with Defend Command at the cost of having less downward coverage.
+
+When Jack-O' is already holding a servant, Release Servant becomes functionally the fastest way to cancel an attack. This is strictly limited to Servant Shoot, but can make her very advantaged to set up unique frametraps.
+
+Holding the D button will automatically buffer Release Servant to occur at the earliest time possible. If also holding a jump direction, Jack-O' will jump and release on the earliest timing possible.
+The servants fall slowly to the ground, allowing servants to be used from different heights.
+Recover Servant
+214P (Air OK) or P while holding Servant (Air OK)
+
+Images
+Hitboxes
+
+Ironically, best used without servants.
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+10		Total 19		none
+Total:
+19
+(Note)
+A servantless pressure reset, or to make blockstrings safe.
+
+Thanks to its extremely short duration, almost any blockstring can cancel into this as a pressure reset, particularly into 2K (25F). It is fast for a reset, but uniquely telegraphed by its sound, and unfortunately will usually result in fairly minimal pressure on block. It can also be used to simply make Jack-O' safe, even her risky 2D becomes almost safe on block (-6), and her 5H becomes a total neutral reset (-1 with huge pushback), but this always leaves Jack-O' disadvantageous.
+
+If you have spare servants not helping, usually due to their positioning, this also compensates Servant Gauge while removing servants that would slow down the recharge, making it functionally very cheap. However, despite its name this move is practically useless when you have servants active on the opponent, as it is almost impossible to not end up on a net negative with Servant Gauge, while also sacrificing otherwise incredible pressure.
+
+Costs 1 bar of Command Servant Gauge
+Recalls all servants, refilling Servant Gauge for +0.5 bars of Command Gauge and +1.0 bar of Summon Gauge per servant.
+Attack Command
+214K (Air OK) or K while holding Servant (Air OK)
+
+Images
+Hitboxes
+
+Slash! This is the entire reason you want servants.
+ 
+
+
+ 
+
+Version	Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+Attack Command	50	All	12	6	Total 23	+15	none
+Held Attack Command	50	All	12	6	Total 23	+3	none
+Total:
+23
+(Note)
+Setplay, zoning, poking, the sky is the limit.
+
+Causes all servants on screen to attack, moving forward in the process. This is one of the most powerful abilities in the game, but it is tied to both Servant Gauge and servants. Not only does this allow Jack-O' to easily reset any blockstring with a frametrap, by giving time to dash back for a c.S, it also allows virtually any hit to combo, move the opponent in blockstrings (especially back towards Jack-O'), and lock down opponents when a servant is nearby for fear of being hit at any moment. This is primarily why Jack-O' wants servants on the opponent.
+
+Even if Jack-O' is not nearby, Attack Command can loop into itself, playing a major role in zoning. The only real downside to this move is the Servant Gauge cost, costing 1 bar of Servant Gauge and pausing its recharge for 1 second. If she ever runs out of Servant Gauge, her pressure fundamentally breaks down for lack of servant commands or Summon Servant, and Servants become completely trivial as threats.
+
+Costs 1 bar of Command Servant Gauge, and pauses Servant Gauge recharge for 1 second.
+Launches vertically on hit.
+Interrupts a servant's movement mid-launch.
+Defend Command
+214S (Air OK) or S while holding Servant (Air OK)
+
+Images
+Hitboxes
+
+Shield! Cover yourself in neutral.
+ 
+
+You probably won't use this one much.
+
+ 
+
+Smaller shield for only the held servant. Fewer recovery frames when performing this.
+Version	Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+Defend Command	33		4	28	Total 30	+25	none
+Held Defend Command	33		4	28	Total 24	+31	none
+Defend Command shield
+Total:
+31
+Jack-O' recovery
+Total:
+30
+Jack-O' recovery when holding servant
+Total:
+24
+(Note)
+Servants raise a protective shield, parrying attacks and destroying projectiles. Good for safely checking opponent attacks.
+
+On successful parry, the servant will launch the opponent. Thanks to an extremely fast startup, low recovery, huge shield, and unreasonably lingering active time, Defend Command is an extremely low-risk option. This makes it oppressive in neutral where opponents are threatened off from attacking into Jack-O' or her servants. It is also a potent anti-air, being impossible to punish without avoiding the servant entirely, and netting combos on successful parries. Because Jack-O' recovers independently, it is significantly stronger on hit the later the opponent is parried.
+
+This is also useful in the corner to defeat fuzzy abare, thanks to its huge active time and easy combo potential, while setting up Throws and pressure resets similar to Attack Command.
+
+Costs 1 bar of Command Servant Gauge, and pauses Servant Gauge recharge for 1 second.
+Restores 1 bar of Command Servant Gauge upon successful parry.
+All Overdrives will be unaffected by Defend Command, and destroy the servant.
+Damage dealt by parry cannot be the final blow, and will reduce opponents HP to at least 1.
+Interrupts a servant's movement mid-launch.
+Countdown
+214H (Air OK) or H while holding Servant (Air OK)
+
+Images
+Hitboxes
+
+You've probably forgotten she had this move
+
+ 
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+80	All	3+180+25	19	Total 24		none
+Servant Detonation after 3 seconds
+Total:
+43
+Jack-O' during Countdown
+Total:
+24
+(Note)
+All servants begin a Countdown, at the end they will detonate into a large explosion, destroying the servants in the process. During the countdown, Servant Gauge cannot be regenerated, and the entire gauge empties when the detonation begins.
+
+Mid-sceen setplay with devastating reward, but needs resources to set up.
+
+This can often be set up after 2D. By using Countdown with a servant, all hits, including potentially Throw and 5D, lead into devastating combos for Jack-O's absolute highest damage output. When blocked, the explosion causes Guard Crush, giving barely enough time to delay into a new blockstring ending with 1 bar of Servant Gauge. This can be exploited with Cheer Servant On H and Wild Assault to create devastatingly long offense even after the opponent successfully defends.
+
+Some specific combo routes utilise Countdown, as a niche optimisation. This usually sets up for a poor offense, but the added damage can allow for a potential lethal in more situations.
+
+Costs 1 bar of Command Servant Gauge.
+The servant's duration timer is ignored when counting down.
+Explosion causes Guard Crush on block.
+The explosion can hit Jack-O, Jack-O's servants, and the opponent.
+Opponents stuck to the wall will not break through if hit by the explosion, instead launching back into the air.
+Forever Elysion Driver
+632146P
+
+Images
+Hitboxes
+
+This either did all of their health, or none of it.
+ 
+
+Grab some popcorn, we'll be here a while.
+
+Total effective range on last active frame (12F).
+ 
+
+Hurtbox on whiff.
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+149	All	10+1	2	58	-41	1-12F Full, 1-55F Throw
+Total:
+70
+A high-risk high-reward invulnverable reversal with unique combo utility.
+
+As a reversal, it is very threatening. It will always pull the opponent in for the full attack, no matter how far they attacked from. In addition it has the highest single-hit damage of any reversal, able to take out any character from at least 21% health. However, it is slightly slower than most invulnerable Overdrives, enabling unique safe meaties. It also has an extremely long recovery that leaves Jack-O' airborne, for even bigger punishes. Uniquely, it is also defeated by cross-ups, due to its very far-forward hit
+
+Also works as a vital combo ender. Its guaranteed oki, and recalling Servants to restore Servant Gauge is especially useful for ending combos to maintain momentum. Because Wall Break is weak for Jack-O', it is especially important to convert Wall Sticks with Forever Elysion Driver to maintain an advantage.
+
+Cinematic hitgrab, giving a forced animation if the attack connects.
+Immediately recalls all servants on Frame 1, refilling Servant Gauge for +0.5 bars of Command Gauge and +1.0 bar of Summon Gauge per servant.
+On Wall Break results in a Hard Knockdown for +36 frame advantage.
+Cheer Servant On S
+236236S
+
+
+Neutral is for people without meter
+ 
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+3	360	Total 15	See Notes	Jack-O: None
+Servants: 4-14F Full
+Total:
+16
+(Note)
+Strengthen servants for 6 seconds, to push opponents back extremely safely, but needs space to set up.
+
+Servants become almost invincible, making Jack-O's zoning win near-automatically. Once established, approaching is much safer, as it becomes very dangerous for them to do anything. Unfortunately this does very little in establishing any new pressure, as Jack-O' can still be harmed and her Servant Gauge remains limited, making its utility more for covering ground than forcing a powerful offense. This is best set up from as far away as possible, where Jack-O' cannot be punished but also allow her to cover as much ground as possible. This can even be quickly set up after a Burst to entirely reverse pressure at almost any time.
+
+Unfortunately, many characters are equipped with powerful counterplay. Projectile Overdrives can limit set-up after activation, some have powerful full-screen offense to threaten even its short recovery, and some can even stall out most of the buff by jumping into the air. This makes it heavily situational to the matchup and circumstances.
+
+Prevents Servents disappearing after Jack-O' blocks or is hit by an attack.
+Gives Servants infinite Guard Point, preventing them from disappearing when attacked, unless hit by an Overdrive or Psych Burst.
+Temporarily pauses Servants' duration, including allowing Jack-O' to hit them any number of times without disappearing or losing duration.
+Cheer Servant On H
+236236H
+
+
+Let the onslaught begin!
+ 
+
+Damage	Guard	Startup	Active	Recovery	On-Block	Invuln
+3	180	Total 15	See Notes	Jack-O: None
+Servants: 4-14F Full
+Total:
+16
+(Note)
+Pressure reset to fully refill the Servant Gauge and keep your servants going.
+
+Thanks to its numerous benefits, this move allows a strong pressure reset from an otherwise finished offense. Even with zero Servant Gauge, and a servant about to leave, you can quickly cancel into this super to reset all of it, with even more pressure left over from the enhanced recharge rate. This is best used from a fast cancel after hitting a servant for maximum advantage. This also sees use in Countdown set-ups to mitigate its Servant Gauge costs.
+
+The biggest drawback is the heavy Tension Penalty, making it more expensive than most supers. Opponents can often react to its activation with a hard to bait Burst or YRC, leaving Jack-O' with much worse Tension for her efforts. This makes it considerably better when Jack-O' has a Tension lead to work with and threaten the opponent into spending their own resources to combat it.
+
+Fully refills the Servant Gauge on activation.
+Overrides Servant Gauge recharge rate to a continuous 1.2 bars per seconds, for a total of 3 seconds.
+Temporarily pauses Servants' duration, including allowing Jack-O' to hit them any number of times without disappearing or losing duration.

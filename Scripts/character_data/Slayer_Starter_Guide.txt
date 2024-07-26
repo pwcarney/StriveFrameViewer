@@ -1,0 +1,64 @@
+Combos
+Everywhere:
+
+Anything except 5P/2P > 236K
+c.S > f.S > 2H > 236K/214P~P Use Pilebunker once you are confident with your starter
+(air hit) c.S > f.S > 5H > 236K
+(5K/2K >) 2D > 236K
+Wallbreak with 6H
+
+
+(Almost) universal combo pickupFun fact: almost all of the starters can be turned into pilebunker loops as well!
+Easy
+
+Certain starters > c.S > 6H > 214P~P/214K~P (WS, 6H WB)
+You usually use 214P~P, but some require the other one to not sideswap.
+
+Starters include:
+
+CH 6H (> 214P) > ...
+CH 5H (> 214P) > ...
+CH 2H (> 214P) > ...
+CH 2D > ...
+UNIVERSE 6K > ...
+(only grounded) c.S > f.S > ...
+(in corner) CH 236K > ...
+CH 214K/P~S > ...
+CH 214K/P~K > ...
+CH 214K/P~H > ...
+Anything > 66RRC > ... Very usefull!!
+... > Any H > 236D > ...
+j.S > ...
+j.H > ...
+
+Getting gud navigation
+Find your own way. You can use YouTube, the Slayer discord, friends or the other dustloop pages to find how to improve from here. All I will do is give you guidance on what to look for next
+
+1. Learn how to use 236K in neutral, especially the kara-cancelled one (It's very easy, don't worry)
+
+2. Learn how to do S combos (Look in the Combos page for more info)
+
+3. 4/6D safejump into j.H. Easiest one in the game.
+
+4. Learn simplified combos out of CH (It's the box up there) and also CH 236K > 5K > 236K
+
+5. (Blockstring)Pressure. What can you do out of 236K/236P? What is your mix out of f.S? How do you end your combos safely (Hint: 236K/236P)? What options do you have out of 2S? When and how can you use your Dandy-step followups in blockstrings?
+
+6. Oki pressure from 63214H.
+
+7. Figure out when you can wallbreak with 214P~P
+
+8. Pilebunker loops baby. Some excellent recources are:
+
+The Combo page
+Video guide video
+Setups (Especially the CH ones) video
+You can start off by always ending instantly after the first pilebunker with c.S > 2S > 214P~P, then slowly learn which starters can be extended, learn how to end loops optimally, and later also take a look into the sea of RC pilebunker setups.
+
+9. Pilebunker Safejumps
+
+10. Use OTG to create nasty mixups (Example starters: 4/6D, 2D, Dandy-Step follow-ups)
+
+11. Learn how to add 236D and RC into your pressure
+
+12. All the other niche combos. If you got to this step, you might wanna look for other places to improve. If you really want one last thing, check out kara-cancelled Bloodsucking Universe. You'll be busy for long enough for someone to find some more insane tech for you to play around.

@@ -1,0 +1,1307 @@
+Introduction
+
+
+
+Jack-O' is a technical Commander and Setplay character, well-known for her bombastic animations and complexity in play.
+
+This page provides a fully-comprehensive resource on Jack-O's mechanics, tech, and gameplan. This page is very long and occasionally provides advanced information. If you are new to the character and want a simple primer, please read the Starter Guide.
+
+For additional information, please also check out her Combos, Okizeme and Further Resources pages.
+
+This page assumes you are familiar with the basic mechanics of Jack-O's moveset. Please refer to the Overview if you are not sure how certain moves work.
+Jack-O
+
+Damage Received Mod
+×1.12
+Guts Rating
+2
+Prejump
+4F
+Backdash
+18F Duration
+1-5F Invuln
+1-13F Airborne
+Fastest Attack
+5P (5F)
+2P (5F)
+Reversals
+Forever Elysion Driver (11F)
+Move Notation
+Jack-O' has a complex moveset, with Held Servant stance, and the option to hit and cancel off servants. For this reason some unique notation is utilised. The below chart provides all notation that is used on the Dustloop site. For the rest of this page, move strings will rely on this notation.
+
+Notation	Full name	Meaning
+ns.2P	Near Servant	Pick Up Servant
+hs.	Held Servant	Moves performed during the Held Servant stance, e.g. hs.K for Attack Command.
+j.hs.	jumping Held Servant	Moves performed while holding a servant in the air.
+hs.6X	hs.6P/K/S/H/D	Throw Servant.
+*	Added to a move when it hits a servant, but not the opponent, e.g 5K*.
+&	Added to a move when it hits both a servant and the opponent, e.g 5K&.
+(hit) and (whiff)	Indicates if a struck servant collides with or whiffs the opponent, e.g. c.S&(Whiff)
+(Servant hit)	When a servant launched by an attack earlier in the string hits.
+(Detonation)	When a servant exploding from Countdown explodes and hits the opponent.
+Common Phrases
+Aside from notation, some verbiage is often used and associated with the character. Below is a simple list of commonly found terminology.
+
+Phrase	Meaning
+Cheer H	Short for Cheer Servant On H.
+Cheer S	Short for Cheer Servant On S.
+Command Gauge	The portion of the Servant Gauge used by Servant Commands.
+Detonate	An alternative name for Countdown.
+FED	Short for Forever Elysion Driver.
+Parry	When an opponent is Guard Crushed after striking Defend Command.
+Recall	An alternative name for Recover Servant.
+Shield	Alternative name for Defend Command.
+Summon Cancelling	To special cancel a move on into Summon Servant.
+Summon Gauge	The portion of the Servant Gauge used by Summon Servant.
+Combo Notation
+If you are unfamiliar with standard Strive Combo Notation, details are provided below.
+
+Combo Notation Guide	Character Name Abbreviations
+7 7	8 8	9 9
+4 4	5 5	6 6
+1 1	2 2	3 3
+Numbers represent direction on a keyboard numpad. For example, 236+P becomes 236P.
+> = Proceed from the previous move to the following move.
+▷/land = Indicate that the player must land at that point in the sequence.
+, = Link the previous move into the following move.
+->/~ = Cancel the previous special into a follow-up special.
+dl./delay = Delay the following move.
+whiff/(whiff) = The move must whiff (not hit).
+c. = Close
+f. = Far
+j. = Jumping/Aerial
+hj./sj. = High Jump/Super Jump
+jc = Jump Cancel
+hjc/sjc = High Jump Cancel/Super Jump Cancel
+dc/adc = Dash Cancel/Air Dash Cancel
+CH = Counter Hit
+AA = Anti-Air
+IAS = Instant Air Special
+[X] = Hold input.
+]X[ = Release input.
+(move) = Move is optional.
+[X] or [Y] = Perform sequence X or Y.
+[sequence] xN = Repeat sequence N amount of times.
+(N) = Hit N of a move or move must deal N amount of hits.
+IAD = Instant Air Dash
+BRC = Blue Roman Cancel
+RRC = Red Roman Cancel
+PRC = Purple Roman Cancel
+YRC = Yellow Roman Cancel
+YYXRC = Dash Input X Roman Cancel in Y direction i.e: 22PRC
+XRC~Q = Cancel the X Roman Cancel into Q i.e: RRC~5K
+WS = Wall Stick/Wall Splat
+AB = A.B.A
+AN = Anji Mito
+AS = Asuka R♯
+AX = Axl Low
+BA = Baiken
+BE = Bedman?
+BR = Bridget
+CH = Chipp Zanuff
+EL = Elphelt
+FA = Faust
+GI = Giovanna
+GO = Goldlewis
+HA = Happy Chaos
+IN = I-No
+JC = Jack-O'
+JO = Johnny
+KY = Ky Kiske
+LE = Leo Whitefang
+MA = May
+MI = Millia Rage
+NA = Nagoriyuki
+PO = Potemkin
+RA = Ramlethal
+SI = Sin Kiske
+SL = Slayer
+SO = Sol Badguy
+TE = Testament
+ZA = Zato-1
+
+Servant Mechanics
+
+The core of everything powerful and confusing about Jack-O'
+The core of Jack-O's entire gameplay, and perhaps the most complex single mechanic in the whole game. Once summoned, they can be used as projectiles with a limited timer and perform special commands. These are not all critical, but it can be helpful to understand exactly how servants work.
+
+Servants Leaving and Recalling
+Jack-O's servants are fickle, leaving just as soon as you summon them. It's important to maintain your servants as best as you can, and avoid losing them prematurely. However, servants will always eventually disappear, so make good use of them for the time you get.
+
+Servants Leaving
+Certain situations instantly remove all servants without regaining any resources.
+
+Jack-O' being hit Loses all servants immediately.
+Jack-O' being hit
+Loses all servants immediately.
+ 
+Servants being hit Opponents can attack servants to destroy them.
+Servants being hit
+Opponents can attack servants to destroy them.
+ 
+Throw Clashes Behaves similar to being hit.
+Throw Clashes
+Behaves similar to being hit.
+ 
+Running out of Duration When the servant's timer runs out, they leave automatically.
+Running out of Duration
+When the servant's timer runs out, they leave automatically.
+These are generally bad situations and should be avoided if possible. Taking damage at all is devastating to Jack-O' in neutral and on her offense, partly for the impact it has on her resources. It is impossible to prevent servants eventually running out of duration, however this also makes it important to not needlessly reduce servant duration by hitting them when it's not helpful.
+
+Using Cheer Servant S prevents servants leaving these ways (but can still be destroyed by Overdrives and Psych Burst), particularly to mitigate Yellow Roman Cancel.
+
+Recalling Servants
+Various situations will cause servants to Recall. Doing this removes them, similar to losing the servants when being hit, but will also return Servant Gauge to you, thereby allowing you to maintain your resources.
+
+All Recalls give +0.5 bars of Command Gauge and +1 bar of Summon Gauge per Servant recalled.
+Blocking
+Blocking
+ 
+Recover Servant
+Recover Servant
+ 
+Wild Assault
+Wild Assault
+ 
+Forever Elysion Driver
+Forever Elysion Driver
+ 
+Breaking the Wall
+Breaking the Wall
+At first glance this might seem equally bad to Jack-O', as you still lose servants. However the boost to Servant Gauge can make it easier to replace servants (such as after blocking projectiles), or gives you renewed value to restart your offense (such as ending a combo in Forever Elysion Driver). Because the Recall gives Command Gauge, which isn't spent on Summon Servant, you can generate a new positive Command Gauge through Recalls.
+
+Importantly, a servant can be Recalled even after its duration hits zero, thereby letting you retrieve resources from a servant that is already imminently leaving.
+
+Even so, avoid doing Recalls needlessly without some plan of action, not all uses of it will benefit you. In addition, Recall only gives Servant Gauge if you have servants to Recall in the first place. Some of these options particularly benefit you if you can first summon a servant to assist you.
+
+Servant Duration
+All servants begin with 8 seconds of duration, when it runs out it will leave automatically, with a distinctive "Bye Bye!"
+
+Several factors can affect the duration remaining on a servant.
+
+Servants begin with 8 seconds.
+Servants begin with 8 seconds.
+ 
+Hitting a servant removes 3 seconds. Including hitting with other servants.
+Hitting a servant removes 3 seconds. Including hitting with other servants.
+ 
+Throwing a servant does not affect duration.
+Throwing a servant does not affect duration.
+ 
+Holding a servant pauses their duration.
+Holding a servant pauses their duration.
+ 
+Cheer Servant On also pauses their duration.
+Cheer Servant On also pauses their duration.
+Every time a servant is hit by Jack-O' or another servant, they lose 3 seconds. This will usually give you time for only 2 hits, as their duration also counts down during these attacks. The only exception to the rule is Throw Servant; even if it hits an opponent, does not reduce their duration.
+
+The duration is paused when held by Jack-O', during Cheer Servant On, and during Countdown. This also means you may hit servants during Cheer Servant On without them losing any duration, even after the effect ends.
+
+Once a servant's duration hits zero, it will attempt to leave the next time it is allowed to idle.
+
+When duration hits 0, idle servants leave automatically.
+When duration hits 0, idle servants leave automatically.
+ 
+You may still hit them indefinitely so long as they do not stop.
+You may still hit them indefinitely so long as they do not stop.
+ 
+You can issue 1 final command, but the servant will always leave afterwards.
+You can issue 1 final command, but the servant will always leave afterwards.
+If a servant has been bounced/launched, it will not be able to leave until it recovers after hitting the ground. Until then, it can continue to be hit again to prevent it leaving. You can also issue it a command, however this will always allow it to leave immediately without a chance to interrupt it.
+
+Certain states will also prevent a servant leaving even after its duration runs out, including Cheer Servant On, Countdown, being picked up, and during any commands it's being issued.
+
+Servant Gauge
+Servant Gauge
+Command Gauge Used by Servant Commands.
+Command Gauge
+Used by Servant Commands.
+ 
+Summon Gauge Used by Summon Servant. Can only fill to as high as the Command Gauge.
+Summon Gauge
+Used by Summon Servant. Can only fill to as high as the Command Gauge.
+The Servant Gauge is actually two seperate resource at the same time, the Summon Gauge and Command Gauge. You restore your Servant Gauge over time, limiting both how many times you can summon and use servant commands in quick succession.
+
+The Summon Gauge is represented by the white area. This is used only for summoning servants. It is a lot easier to maintain and restore. However, it is much more essential to maintain at least 1 bar to provide nessecary access to Summon Servant.
+
+The Command Gauge is represented by the green area marked by a servant's face. It used by all servant commands, including Attack Command, Defend Command, Countdown, and Recover Servant. In addition to being more difficult to maintain, it acts as a limiter. The Summon Gauge can never exceed the Command Gauge's current level, and if it goes down then the Summon Gauge will also be lowered to match.
+Servant Gauge Recharge
+Servant Gauge Recharge
+Servant Gauge naturally recharges over time.
+Servant Gauge naturally recharges over time.
+ 
+The more gauge you have, the slower it recharges.
+The more gauge you have, the slower it recharges.
+ 
+If you have a servant active, the gauge will charge even slower.
+If you have a servant active, the gauge will charge even slower.
+ 
+Cheer Servant On H ignores all of this and recharges at a flat rate.
+Cheer Servant On H ignores all of this and recharges at a flat rate.
+ 
+Recalling servants refills a flat amount immediately.
+Recalling servants refills a flat amount immediately.
+The gauge recharges passively each frame. This amount is reduced for each gauge already filled, which is seperate between Command and Summon gauges.
+
+In short, the first bar restores quickly, but the final bar is quite slow, making it very easy to sustain 1 bar, but reaching 3 bars requires a great deal of patience. If you have no servants at all (i.e. currently on defense) you will restore it a little faster, but you want servants available regardless.
+
+Servant Gauge Recharge Rate
+State	Units Per Frame	Time to fill 1 bar (seconds)
+0 bars filled	10	1.67
+1 bar filled	8	2.08
+2 bars filled	6	2.78
+0 bars filled + servant	8	2.08
+1 bar filled + servant	6	2.78
+2 bars filled + servant	4	4.17
+Cheer Servant On H	20	0.83
+Note: 1 Bar = 1000 units.
+Seperately, any form of 'Recall' restores +1 Command Gauge and +0.5 Summon Gauge per servant. This includes Recover Servant, Forever Elysion Driver, breaking the Wall, and Blocking an attack (not to be confused with getting hit).
+Pausing the Servant Gauge
+Servant Commands Pause for 1 second (excl. 214P).
+Servant Commands
+Pause for 1 second
+(excl. 214P).
+ 
+Held Servant Commands Pause for only 0.5 seconds (excl. 214P).
+Held Servant Commands
+Pause for only 0.5 seconds
+(excl. 214P).
+ 
+Countdown Pauses for the entire Countdown.
+Countdown
+Pauses for the entire Countdown.
+ 
+Cheer Servant On H Prevents the gauge being paused by commands.
+Cheer Servant On H
+Prevents the gauge being paused by commands.
+Commands actually freeze the Servant Gauge regeneration momentarily. This also makes commands more expensive than they appear. Attack Command and Defend Command pause Servant Gauge for 1 second (60 frames), but this is halved if the only Servant to perform the command is held (30 frames). Similarly, recharge is paused during Countdown. Like most character systems, Servant Gauge does not restore during Hitstop frames.
+
+For reference, 1 second of pause is equialent to 0.24~0.48 bars of Servant Gauge.
+
+There is a major exception to this, during Cheer Servant On H all new sources of pausing the Servant Gauge will be disabled. However, you still need to wait out any pause from Attack Command and Defend Command made prior.
+Launching Servants
+Launching Servants
+Any time Jack-O's attacks connect with a servant they are launched as a projectile towards the enemy. This can even happen if a previously launched servant hits another servant, transfering the effect. If this is done using any normal or with another servant it may be said to "bounce" a servant, while Servant Shoot will "launch" a servant.
+
+Every move has a different launch angle.
+
+236P minion trajectory
+
+Angle	Moves	Common use
+A	2P, 5P, j.P, 5K, j.K, j.D, Servants	Good for defensive coverage, with fast recovery and good for catching pesky dashes or low profiles.
+B	6P, f.S, c.S, j.H, 5H	Far-reaching, good for zoning at a shallow angle, or simply hitting opponents faster than with Throw Servant.
+C	j.S, 2H	Pre-emptive anti-air, setting up a servant slowly enough to allow you to either set up or approach from the ground while the air is covered.
+D	2S, 5D, 6H(1)	Reactive anti-air, better for threatening airborne opponents. Also sees some niche usage in pressure for setting up servants mid-blockstring.
+Notes:
+2S launches extremely high, landing full-screen.
+2H goes slightly higher than j.S.
+236K goes in a straight horizontal line until it collides with the edge of the screen.
+Aside from simply the angles they hit at, some moves are especially useful specifically for their interaction with servants, such as 5K which allows the use of a jump cancel off the servant, while 6P can be used to threaten in neutral but cover yourself safely if you whiff. Learning to manipulate servants with your moveset is a major part of Jack-O'.
+Clash Levels
+Bounced servants have the standard clash level.
+Bounced servants have the standard clash level.
+ 
+Thrown and Launched servants have a Lv. 2 protective shield to help them break projectiles.
+Thrown and Launched servants have a Lv. 2 protective shield to help them break projectiles.
+All projectiles have a Clash Level, not to be confused with Attack Level. This determines which projectiles beat which other projectiles, or if they both disappear when they collide.
+
+Bounced servants have Clash Level 1, similar to the vast majority of projectiles in the game. If they collide, the projectile will be destroyed (multi-hit projectiles lose only 1 hit) and the servant will disappear wih it.
+
+If a servant is launched with Throw Servant or Servant Shoot, it will also have a Level 2 layer on top. This breaks through all hits of Level 1 projectiles (e.g. Gravierte Würde H), or a single hit of Level 2 projectile (e.g. Chemical Love), while leaving the servant intact. This allows Jack-O' to work against zoning much more effectively with these specials.
+Hitting Servants
+Hitting Servants
+5F hitstop is applied when hitting a servant.
+5F hitstop is applied when hitting a servant.
+ 
+Hitting a servant enables on-hit cancels, even RRC.
+Hitting a servant enables on-hit cancels, even RRC.
+ 
+Opponents hitting servants get the full hitstop of their attack.
+Opponents hitting servants get the full hitstop of their attack.
+Besides the launch a servant receives, Jack-O' is also affected by launching servants. Jack-O' receives 5F Hitstop, even if it also hit an opponent. In addition this provides on-hit cancels similar to hitting a opponent, including special cancels and even Red Roman Cancel.
+
+When an opponent hits a servant, similar to hitting Zato-1's Eddie or Chaos' Scapegoat, they receive the full hitstop of their attack. This means the active frames will be massively extended. This functionally gives enormous recovery on whiff, a hugely extended Counter Hit window, but maintains an attack Jack-O' may inadvertantly fall into.
+
+Similar to Jack-O', opponents can also perform on-hit cancels inc. So while an opponent is often locked into their attack for longer, they can quickly follow it up with a unique move to prevent whatever Jack-O' may be doing.
+Hitstop Cancels
+Hitstop Cancels
+
+Hitting a servant reduces your hitstop. That means faster recovery and cancels!
+Jack-O' frame-data largely improves if she hits a servant at the same time as the opponent, by replacing her attack's hitstop with the servant's 5F hitstop. This massively improves her advantage on hit and block, and speeds up cancels. It is strange conceptually, but simple in practise.
+
+For Attack Level 0~1, it is better if the servant is blocked. Conversely for Attack Level 3~4 it is better if the servant whiffs.
+
+This has many applications:
+
+YRC and Burst Baits Almost every normal recovers fast enough to safely block.
+YRC and Burst Baits
+Almost every normal recovers fast enough to safely block.
+ 
+Sandwich Pressure c.S&(Whiff) is +10 on block, among other things.
+Sandwich Pressure
+c.S&(Whiff) is +10 on block, among other things.
+ 
+Cheer Servant On H Cancelling off a blocked servant leaves you +6.
+Cheer Servant On H
+Cancelling off a blocked servant leaves you +6.
+ 
+Pressure Resets Smaller gaps when resetting pressure.
+Pressure Resets
+Smaller gaps when resetting pressure.
+ 
+Pichu Pressure Cancelling from 236K& gives a loopable offense.
+Pichu Pressure
+Cancelling from 236K& gives a loopable offense.
+Many other uses exist, is happens far more often than you might think, as it is an essential part of how Jack-O' works.
+
+If a move hits both the opponent and a servant at the same time it is notated with an &, such as 236K&. If this is ever listed it is a hitstop cancel. Some clatification may be made on if the servants hit or not, such as 236K&(Whiff).
+
+For a full list of all hitstop cancel Frame Data, please see the Frame Data Page.
+Neutral
+Footsies
+Jack-O' is generally outclassed in footsie play, due to overall low reward and mediocre frame-data. However, she still brings in unique quirks, and the very threat of footsies is what drives Jack-O's ability to summon and set up. An opponent that predicts Jack-O's aggression may be too hesitant to stop her summoning a servant, the true goal of neutral.
+
+Close Range
+Amazing 2K One of the best close-range pokes in the game.
+Amazing 2K
+One of the best close-range pokes in the game.
+ 
+Good 2P 5F, solid range, and good Counter Hit reward.
+Good 2P
+5F, solid range, and good Counter Hit reward.
+ 
+Strong Backdash Uniquely short recovery while maintaining 5F invuln.
+Strong Backdash
+Uniquely short recovery while maintaining 5F invuln.
+ 
+Bad Approach An otherwise amazing kit hindered by little threat to enable approaching.
+Bad Approach
+An otherwise amazing kit hindered by little threat to enable approaching.
+Surprisingly adept, at close ranges Jack-O's 2K is the largest fast 2K in the game, while being too fast, too low, too safe for opponents to reliably challenge without some uniquely good low options. Furthermore, Jack-O' also comes with a 5F 2P with good range. Both 2P and 2K confirm into a linked 2K on Counter Hit, for easy neutral pokes. Though her on-block situations is not particularly special, with both 2P and 2K being -3 on block, and both 6P and 2D are somewhat unsafe gatlings on block.
+
+Jack-O' is also tied for fastest recovering of 5F-invuln backdashes at 18F, making it safer for her to escape this range if she wishes to.
+
+Primarily, the difficulty of Jack-O' is not fighting at this range, but getting into it in the first place, as Jack-O' lacks reliable and threatening pokes that enable her to approach. Many of her best pokes like 5H are easily caught by low pokes, giving opponents little reason to not attack Jack-O' approaching besides avoiding her sluggish f.S. Combined with her poor movement speed means she can struggle to reach this range if opponents are forcefully covering with their own pokes. This can, however, work to your advantage.
+
+Mid Range
+Huge 5K Quick and easy poke, great for catching jumps.
+Huge 5K
+Quick and easy poke, great for catching jumps.
+ 
+Standard f.S Reliable poke and gets the job done.
+Standard f.S
+Reliable poke and gets the job done.
+ 
+Powerful 5H Far-reaching and safe on block.
+Powerful 5H
+Far-reaching and safe on block.
+ 
+Aggressive 2D Long-range and low-profile, but risky.
+Aggressive 2D
+Long-range and low-profile, but risky.
+ 
+Risky Summons Summoning at this range is very greedy, but rewarding.
+Risky Summons
+Summoning at this range is very greedy, but rewarding.
+This is where Jack-O' struggles mosts, from poor movement, to poor coverage, low reward on hits, and higher recovery on many options, she does not win from an honest mid-range neutral.
+
+The core goal for Jack-O' is to summon a servant. This opens new neutral tools, enables zoning, turn pokes into combos, and even begin pressure. However, summoning is not safe, an approaching opponent can easily catch her off-guard. To make this possible, you must either create a threat to stop the opponent attacking, or land an attack yourself. Jack-O' can also try to approach to hold onto her the favourable 2K range, depending on matchup.
+
+If an opponent is simply dashing in to attack, you can poke their approach. f.S is her largest poke that is mostly safe to whiff. However opponents may stagger their approach. Varying pokes with with 5K for its speed and low recovery, dashing in with 2K for its low profile, or using her long-reaching 5H can cover opponents' movement and attacks. The strongest counterpokes an opponent has will often be their 2S as Jack-O's pokes either hit too high or get out-ranged. When this happens, you can stay back and summon safely, winning the interaction indirectly, or you can wait for the whiff and punish it, especially with 5H. This creates a basic neutral gameplan.
+
+If an opponent is being very aggressive in their approach, or shimmying with backwalk to outspace any pokes, 5H and 2D are very powerful. 2D can catch opponents for not crouch-blocking and 5H is one of Jack-O's safest moves on block, while both get huge reward on Counter Hit. These are dangerous on whiff, and can be easily defeated by low pokes (Usually a 2S), but the huge range and fast startup make them a major threat for the opponent. This can slow an opponent down for fear of the attack, therefore giving Jack-O' more time to summon, build the space, or approach.
+
+Far Range
+Varies heavily by matchup.
+
+Against non-zoners, Jack-O' can use the range to summon servants completely unchallenged, this makes it extremely easy to set up and threaten opponents. Since even long-range characters struggle to hit full-screen (e.g. Testament's Arbiter Sign S), the only reason Jack-O' need approach at all is to avoid cornering herself or to intimidate an opponent out of approaching. With dash momentum her 5H travels immensely far, making it a great counter-poke to commital approaching. Her ranged options become incredibly safe. Bizzarely, at long-range Servant Shoot can anti-air low airdashes, and Throw Servant will hit a low height, making it slightly more difficult to jab out servants.
+
+Against dedicated zoners like Axl, Chaos, and sometimes Faust with the right items, Jack-O' has no easy opportunity to summon, and needs to either approach or otherwise utilise specific gaps in their pressure to get that opportunity. It can often be safer to just focus on approaching into a range her normals can threaten, as without it she can't force the opponent to give her safe openings.
+
+Generally speaking long range is not actually something Jack-O' wants to maintain more than nessecary. As soon as she has a Servant, and has gotten it on the opponent, it is vastly more valuable to approach to establish pressure. Choosing to remain at this range gives her only extremely low reward options, while the risk of correct callouts from the opponent is extremely painful.
+
+Jump-Ins
+Jack-O' has a few main ways to threaten jump-ins, either by doing so normally with an Instant Airdash (IAD), or after launching a servant in the air (see Zoning for more information). While her jump-ins are not particularly strong, they can be essential to challenging some of the strongest low-hitting pokes you will face, and a good way to vary your movement.
+
+Jump-In Normals
+j.H All-around strongest jump-in for advantage and range.
+j.H
+All-around strongest jump-in for advantage and range.
+ 
+j.S Weaker advantage but much deeper hitting.
+j.S
+Weaker advantage but much deeper hitting.
+ 
+j.P Fast and small, good to punish dangerous pokes.
+j.P
+Fast and small, good to punish dangerous pokes.
+While mostly interchangable from an Instant Airdash (IAD), the three jump-ins come with distinct pros and cons.
+
+j.H is your most common, it is +5 on block allowing a frametrap 2K. It also has very large range, allowing you to threaten it from further out. The downside is the high hitbox means you can lose to a 6P incredibly late, and it functionally hits 3 frames later on crouching opponents.
+
+j.S is a usually weaker alternative. While it hits deeper, it is shorter and only +3 on block, forcing you to bait Throws to continue offense.
+
+j.P is a powerful alternative. It only hits standing, and is very short, but it is extremely fast and a simple IAD j.P > j.P > j.P is +4-6 on block while pushing out of Throws, giving the best on-block advantage available. This is especially good against prominent mid-height pokes that can easily counter j.S and j.H such as Ramlethal's f.S and Nagoriyuki's 5H
+
+Air Servant Shoot Cancel
+Jack-O's Air Servant Shoot when cancelled into will virtually never actually hit the opponent. However, it slows your horizontal momentum just enough to often place you out of Throw range, especially if you walk backwards after. This is especially useful from IAD j.S and j.H(2) to more reliably maintain offense, while not affecting your On-block advantage. Done correctly, this allows IAD j.H at +5 on block to safely frametrap with c.S without risk of Throws. This exludes extended Throws from Potemkin and Nagoriyuki.
+
+This can also be used after a crossup IAD j.H(1) to land closer, allowing combos into 2K when it would otherwise be impossible.
+
+In addition, you can cancel j.H(1) to prevent the second hit. This allows an earlier Throw or low 2K, at the cost of opening a gap in your blockstring (+3 on block similar to j.S). This is fuzzy blockable and not a strong mixup, but can easily disrupt opponents unprepared for it.
+
+High Jump-Ins
+From a very high jump-in it's possible to gatling j.S > j.H and stay approximately +10 on block. This is very common when releasing a servant mid-air quickly and Airdash Cancelling (ADC) off the servant, giving an extremely high approach.
+
+Due to the distance needed to accomplish this, it's rarely practical after a 236K RPS without crossing over the opponent, and this will almost never work in the corner as the j.H will whiff.
+
+Anti-air
+Jack-O' has a wide array of viable strategies to combat aerial opponents, many of which are quite strong. As a general rule, opponents are weaker when they're in the air than on the ground, as takes away their control of movement, and any hit is significantly more rewarding on them. While many of these options have significant overlap, choosing the right method can get more reward on hit, or more reliably avoids being hit by strong air-to-ground attacks.
+
+Anti-Air Normals
+Air-to-Air Attacks
+Held Servant
+Anti-Air Normals
+5P High hitting and very fast, good reward on hit.
+5P
+High hitting and very fast, good reward on hit.
+ 
+6P Upper-body invuln for safe and reliable anti-air.
+6P
+Upper-body invuln for safe and reliable anti-air.
+ 
+5K Huge range for long-distance anti-air.
+5K
+Huge range for long-distance anti-air.
+ 
+2S Catch opponents crossing over Jack-O'.
+2S
+Catch opponents crossing over Jack-O'.
+With a large number of useful anti-airs, Jack-O' can combat nearly any aerial approach even without servants at her disposal. Each option serves to counter different kinds of aerial approaches the opponent may use.
+
+6P is the universal anti-air. Its upper-body invuln allows it to defeat the vast majority of air approaches, but it offers much lower reward and can be punished on whiff.
+5P is the most usable on reaction, and allows a strong combo. It is best used against slow but deep-hitting air attacks which would defeat 6P, like Testament's j.H
+5K one of the best pre-emptive anti-airs as it hits extremely far and fast, with low recovery on whiff. Best used with Dash Cancel, to potentially combo or begin pressure.
+2S hits opponents crossing over or dropping directly on top of Jack-O'. Specialist to a fault, with potentially very high reward but only effective on very specific moves like Millia's Kapel.
+
+Air-to-Air Attacks
+Air Throw All around strongest air-to-air option.
+Air Throw
+All around strongest air-to-air option.
+ 
+j.P Good for defending from enemy air-to-airs.
+j.P
+Good for defending from enemy air-to-airs.
+ 
+j.K Very high hitting and active, best for pre-emptive use.
+j.K
+Very high hitting and active, best for pre-emptive use.
+ 
+j.H Huge horizontal range, good after an airdash.
+j.H
+Huge horizontal range, good after an airdash.
+In general, Jack-O' has some of the weakest air-to-air capacity, with weaker range, no disjoints, and dubious combo potential. This makes it much rarer for air-to-air to be optimal, unless in some way forced to by the opponent. Despite this, Jack-O' still has a large range of options each covering different use-cases.
+
+Air Throw is incredibly fast and secures a knockdown. This is a very strong threat when opponents are lingering above Jack-O' as the opponent is forced to guess.
+j.P hits very low down and fast, this makes it excellent to catch an opponent attempting to jump up from below Jack-O.
+j.K with its hitbox and startup, a rising j.K hits almost any air option with ease. Best used from a dash jump, due to its short range. Unfortunately, very unreliable to combo with.
+j.H with an airdash is an extremely commital but potentially very high reward callout to an opponent jumping, especially when used near the corner.
+
+Held Servant
+Attack Command Hits ultra-high and disjointed, going into a full combo.
+Attack Command
+Hits ultra-high and disjointed, going into a full combo.
+ 
+Defend Command Functionally weaker, but much faster.
+Defend Command
+Functionally weaker, but much faster.
+Though very rare, when an opponent is incredibly high above Jack-O', it can often be easier to anti-air with a held servant than to jump up or use 2S. Held Attack Command is hugely disjointed and hits incredibly high up, this can even be done without any Servant Gauge left in reserve! This is particularly good against opponents who can linger mid-air for an extended period of time, causing other attacks to easily whiff.
+
+This is notably useful against Millia, Chipp and Zato; and very rarely against Asuka and Bedman?
+
+Zoning
+Zoning is never the gameplan for Jack-O', it is merely the prelude to set up for your pressure. This is important to emphasise, as Jack-O' cannot win with zoning alone, her reward is too low and the risk far too high. However, zoning is still an essential part of her, the use of zoning creates new threats to force opponents to approach, and it can often allow setting up servants from as safe a position as possible. When combined with the threat of more aggressive neutral, this can force opponents into difficult positions where any wrong call gives Jack-O' access to pressure.
+
+Long-Range Projectiles
+Anti-Air Projectiles
+Summon Cancels
+Blocked Servant RPS
+Air Release Servant
+Whiff Pick Up Cancel
+Long-Range Projectiles
+f.S A simple way to hit a servant far away.
+f.S
+A simple way to hit a servant far away.
+ 
+5H Launches a servant forward while advancing Jack-O'.
+5H
+Launches a servant forward while advancing Jack-O'.
+ 
+6P Upper-body invuln is good against very large pokes.
+6P
+Upper-body invuln is good against very large pokes.
+ 
+6H(2) Can be used to hit a servant extremely far away.
+6H(2)
+Can be used to hit a servant extremely far away.
+ 
+Servant Shoot Crushes enemy projectiles.
+Servant Shoot
+Crushes enemy projectiles.
+ 
+Throw Servant Anti-air and very advantageous on block.
+Throw Servant
+Anti-air and very advantageous on block.
+Each of these moves send servants along far-reaching angles. These are your primary ways to launch from distance to establish a threat the opponet must move through. On hit, you can confirm into Attack Command for a knockdown to close in and set up more servants, on block you are usually able to transition into more summons or Attack Command to catch the opponent being aggressive, creating a strong advantage state.
+
+Each option differs in some way, making them each fulfil a slightly different utility.
+
+f.S works from long-range and is one of the safest ways to avoid dangerous low pokes, like Ky's 2S
+5H moves Jack-O' forward during the attack, making it a strong answer to opponents trying to run in to close range, or trying to back off with a backdash.
+6H(2) can hit a servant from uniquely far away, while covering some airborne attacks.
+6P has upper body invuln making it safer to extremely long anti-zoning pokes, like Faust's Thrust
+Servant Shoot is very slow, but especially good at combatting projectiles like Leo's Gravierte Würde H
+Throw Servant helps cover airdashes and airborne attacks such as I-No's Chemical Love
+
+Anti-Air Projectiles
+2S Launches almost straight up, and back down at max-screen distance.
+2S
+Launches almost straight up, and back down at max-screen distance.
+ 
+6H(1) A slow and lingering arc to run under.
+6H(1)
+A slow and lingering arc to run under.
+ 
+2H Slightly delayed arc after ground bounce, allowing more time to set up before the servant is in the air.
+2H
+Slightly delayed arc after ground bounce, allowing more time to set up before the servant is in the air.
+ 
+Throw Servant Long-range coverage of airdashes and lower height approaches.
+Throw Servant
+Long-range coverage of airdashes and lower height approaches.
+Each of these moves send servants along high-reaching angles. When you zone from a distance, it is usually easier for an opponent to jump in than run on the ground. These are your primary ways to use servants to cover opponents jumping in, both reactively and to pre-emptively block out their options while you set up. Beware, these almost always leave you open to grounded approaches. Thankfully, on hit you can potentilly score big damage as Jack-O' will have time to run underneath to start a combo.
+
+Each option differs in some way, usually to cover different types of aerial movement.
+
+6H(1) is the fastest to create a strong lingering arc, this is good against jumping in from almost any overhead angle.
+2H behaves very similarly to 6H(1) but takes longer to hit the servant and longer for the servant to bounce into the air. This is good against slower approaches, so Jack-O' has more time to set up or advance on the opponent.
+2S shoots at an extreme angle, this is usually best for extremely high approaches such as from Millia's Kapel
+Throw Servant helps cover airdashes from long-range but usually whiffs to jumping up higher.
+Though uncommon knowledge, air blocking projectiles (including Servants and Attack Command) does not affect blockstun like strikes do. This means opponents usually recover mid-air and can actually jump out of attempted setups from your advantage.
+
+Summon Cancels
+When hitting servants, you can cancel the attack. Luckily, every launching move can cancel into Summon Servant. This is especially good in zoning as it allows Jack-O' to cycle through servants at a much faster rate to suppress the opponent or cover multiple options quicker, especially with Throw Servant due to its fast startup (14F Summon into 12F Throw Servant).
+
+At the minimum you will be locked into 25 frames unable to block. While the servant you launch can affect the enemy, this makes it easier to be punished if the opponent has already avoided it. However it's usually best to cancel regardless for some moves where the recovery is especially bad.
+
+Many moves change functionality effectively when cancelled this way, as Jack-O' will end the animation instantly. This can be helpful or a hinderance. This is a standard part of cancel mechanics, but it can reveal niche situations you may want to avoid cancelling immediately, especially for 6P.
+
+6P loses its upper-body invuln.
+f.S retracts its hurtbox significantly.
+5H will stop moving forward and not perform the second hit.
+6H(1) will not perform the second hit.
+2D will stop moving forward.
+
+Blocked Servant RPS
+Though fairly subtle, when an opponent blocks a servant, there is an implicit RPS that can happen. The opponent is likely to either jump out, run past, or hit the servant with a very fast jab, however Jack-O' is plus enough to frametrap with Attack Command. It wastes a lot of resources to use an Attack Command needlessly, but on hit knocks down for a chance to get okizeme, especially near the corner. There are a variety of options available.
+
+Attack Command Frametrap the opponent for a knockdown.
+Attack Command
+Frametrap the opponent for a knockdown.
+ 
+Defend Command Catches even heavily delayed attacks, but will not stop the opponent running past.
+Defend Command
+Catches even heavily delayed attacks, but will not stop the opponent running past.
+ 
+Dash up 2D Running to attack the opponent punishes more commital attacks like 6P or begins pressure.
+Dash up 2D
+Running to attack the opponent punishes more commital attacks like 6P or begins pressure.
+ 
+Summon Servant Reset the zoning pressure while the opponent is distracted.
+Summon Servant
+Reset the zoning pressure while the opponent is distracted.
+These can all be staggered too, especially by dashing forward for a moment before beginning Attack Command or Defend Command, to close the distance on opponents waiting for a more significant opening.
+
+Air Release Servant
+Releasing a servant while rising with a jump creates a low-commitement position. Hitting the servant with j.P, j.K, and j.D covers against anti-airs; j.S creates a lingering barrier against running under Jack-O'; and j.H and j.236K provide a conventional long-range projectile. All of these (except j.236K) maintain cancels, making it easy to reposition immediately with Double Jump or an Airdash, or even another attack to cover your descent.
+
+It can also be useful to not bounce the servant you release. This is good against opponents pre-emptively trying to catch servants mid-air, letting you summon in place while prompting the opponent to hesitate. It is also useful if the opponent is directly below you, allowing you to defensively drop a servant to use Defend Command or Attack Command.
+
+Performing a delayed airdash after j.H can be quite threatening to punish an opponent for using 5P on the servant. An opponent using 6P can counter this, but at the risk of much longer recovery.
+
+Whiff Pick Up Cancel
+One of the easiest applications of "Whiff Pick Up cancel" tech is in zoning, as it allows you to cancel off a servant into an empty recovery to act or begin blocking much faster than otherwise possible.
+
+This is very easy to set up as it can be automated. By either hitting a servant immediately after releasing it, or from the exact spacing after setting it down with 236P. The below chart lists all moves that are autotimed assuming inputs are buffered.
+
+Summon Servant 236P	Release Servant hs.D
+5P, 2P, 6P, 5K, f.S, c.S, 5H, 6H, 236K	2S, 6H, 236K
+This can be accomplished with other moves or other spacings, but requires manual timing, ranging from easy to difficult.
+
+This always provides 14F recovery after the servant has been launched if buffered immediately. The amount of benefit differs largely by move. For 5P and 2P this is pointless, but has a huge impact on 6P, 2S, 6H, and 236K.
+
+Offense
+Okizeme
+
+2D, Jack-O's strongest Okizeme tool.
+
+Throw, Jack-O's most common Okizeme tool.
+Useful Links:
+
+Practical combo & set play collection for Jack-O' by Kazunoko
+Okizeme is the art of attacking an opponent during their wakeup. Jack-O' is a specialist in okizeme, giving her an incredible variety of ways to completely safely pressure an opponent after her offense is complete.
+
+In contrast to Millia, who is also specialist in okizeme, Jack-O' is more capable of safejumps and leading into her own sandwich Pressure, with less loopable damage output on mixups and generally simpler mixups to defend against. Jack-O' also has a lot more variety of okizeme with a variety of different strengths, weaknesses, and counterplay.
+
+Jack-O's okizeme also comes in a huge variety for any situation, specific to the matchup, presense of supers, need for mixups, and more. While she has many options, you likely only need a few versatile options to be particularly ready. For more in-depth information on the theory and routes of Jack-O's okizeme, please visit her Okizeme page below.
+
+Okizeme
+Generally speaking you do not need to use or know all of Jack-O's okizeme, however she can score decent okizeme off almost any situation, making it worthwhile to recognise at least one available route for each attack. You also do not require optimal okizeme to establish a strong threat, therefore you can be selective for okizeme you can perform consistently. For example it is perfectly functional to use a safejump with imperfect timing to hit meaty, you do not need to have it safejump to be useful.
+
+Servantless Pressure
+Without any Servants to her aid, Jack-O' has some of the weakest blockstring threats in the game. Do not disregard it, however. Any strong hit through this offense can be game-deciding from the incredible setplay it can lead into. This is the time to either set up servants aggressively to convert into strong pressure, or bait out attacks to land that Counter Hit.
+
+Basic Blockstrings
+Jack-O's basic blockstring. Delay for the final 236K to hit.
+Your core pressure strings is c.S > f.S > 5H > Delay 236K, giving the central route to stall for Servant Gauge, gain R.I.S.C. and corner carry, and create a mixup opportunity using c.S. There is very minimal threat to a defensive opponent after the c.S, given the weak frame data on f.S and 5H being weak to 6P attacks. However, adding delays helps stall for Servant Gauge and support the use of pressure resets like Summon Servant.
+
+The Servant Shoot is very spacing reliant and can easily whiff. In these instances, instead use Recover Servant to stay -1 on block, or Summon Servant to exploit the safe distance. The longer you delay, the more you move forward and the easier it will hit, but this opens the risk of abare.
+
+A much weaker string for K normals. The core string is (5K or 2K) > 2D > 236K. The string is hindered by a few problems and is quickly forced into a dangerous RPS.
+
+While it seems unimportant, starting with 5K is much stronger than 2K, due to having double the cancel window. A 2K > 2D frametrap is a frame perfect input and 2K > 236K sacrifices any hitconfirm off 2K, making it very easy to challenge for the opponent. With 5K you can delay to catch opponents being aggressive.
+
+Using 2D > 236K is dangerous but it's your only frametrap. It can be backdashed if you don't delay, it can be thrown if you had dash momentum, it naturally opens a gap to reversals, and may be blocked to lock you into the aforementioned RPS. Every option is risky, there is no truly safe route here.
+
+The below table lists characters with easily applicable tools to punish 236K without engaging with the RPS on block.
+
+Backdash and Punish	Throw	Meterless reversal	None
+Sol Ky Axl Chipp Faust Zato* Ramlethal Giovanna I-No Jack-O' I-No Chaos Baiken* Testament* Johnny	Potemkin Nagoriyuki	Sol Ky Leo Chipp Baiken Bridget Sin	May Millia Anji Goldlewis Bedman? Asuka
+This is not your only option. The 2D should be treated similar to 236K, and also use a variety of options from Jack-O's defensive RPS.
+
+Summon Servant Pressure Resets
+While servantless pressure is why by itself, with a slow reset or access to resources there are a large number of ways to convert it into new pressure with a servant. This is a particularly powerful use of Tension and Burst gauges as they offer new pressure far stronger than what you had before, thereby being a lot more powerful than a conventional pressure reset.
+
+Wild Assault
+Dash Cancel BRC
+Summon RRC
+Summon BRC
+Summon PRC
+Wild Assault
+One of the easiest ways to set up servants from servantless pressure is to use 5H > 236D > 236P. This is a 2F frametrap, losing only to Throw and reversals, an extremely high-risk callout for the opponent. This doubles as a way to frametrap when Servant Shoot would whiff.
+
+Even on uncharged Wild Assault, Jack-O' is left +9 on block, giving a true blockstring 2K, an autotimed frametrap with 2D, and enough time to Tick Throw, enhanced by the Guard Crush. On hit, the only possible combo from 236P is with 2K if the opponent does not stagger recover at all. However, Wild Assault can be surprising enough for this to be a realistic combo confirm.
+
+Dash Cancel BRC
+From 5K and c.S you can perform a Dash Cancel and immediately perform Blue Roman Cancel from it. Thanks to the huge slowdown effect, you are able to trap an opponent in blockstun for so long you can summon without opening a gap with (c.S or 5K) > dc~BRC > c.S > 236P > 2K. The main drawback is this must be done immediately from c.S or 5K and not later into the blockstring to allow stalling for Servant Gauge.
+
+Notably if you perform a fast Blue Roman Cancel, while the slowdown is shorter it's not enough to leave openings for most characters as you are +2 on block (+3 if you fBRC with perfect timing), allowing you to perform the same string for much less Tension cost or Tension Penalty. This will however require a 2P to frametrap certain abare like Millia's 2P, and a just frame fBRC is needed to challenge Sol's 5K.
+
+Summon RRC
+Cancelling any move into a forward-drift Red Roman Cancel will leave Jack-O' advantaged enough to summon a servant and reset pressure with c.S&, 2K, or tick throw immediately, while the RRC leaves you spaced just enough to be safe from most Throws. Due to using a Red Roman Cancel, this has the greatest impact on your Tension and is generally not efficient.
+
+Do not forward drift in the corner. You will always be in Throw range, weakening your offense severely.
+Potemkin and Nagoriyuki can usually throw you even from midscreen.
+Sol can reliably use 5K to break the setup.
+You are -1 on block, but the opponent is under the effects of slowdown, meaning their options are severely limited. This has some unusual maths, so the below table provides some simplifications.
+
+Attack used	Trades with	Countered by
+2P	N/A	3F or faster
+2K	4F	3F or faster
+c.S	N/A	4F or faster
+Notably, this means you cannot ever outspeed Sol's 5K, nor low-profile it with Jack-O's 2K.
+
+Summon BRC
+By performing a Roman Cancel immediately after completing Summon Servant (Hold), you will get a Blue Roman Cancel. This has several benefits:
+
+Hugely extended slowdown for stronger offense.
+Tension Penalty reduced from 4 seconds to 2 seconds.
+Able to bait out and punish reversals by opening a gap.
+Compared to Summon RRC, this has a better frame advantage situation.
+Done perfectly, this has 20F before the Roman Cancel begins (14F summon, 6F roman cancel). This means the opponent always has an opportunity to act. If they use a risky move like a slow punish or an invuln reversal, you get a high value punish. However, if they pressed a fast jab it might prevent you pressuring them after the Roman Cancel, wasting the resources.
+
+Unlike Summon RRC, this is heavily impacted by spacing and pushback. If you are heavily pushed out, it is usually better to drift forward. However at close range, especially in the corner, it is better to not do this, to avoid being Thrown or abared by fast attacks.
+
+If the opponent did not already act, you are functionally +0, but the opponent is under the effects of slowdown, meaning their options are severely limited. This has some unusual maths, so the below table provides some simplifications.
+
+Attack used	Trades with	Countered by
+2P	3F	2F or faster
+2K	N/A	3F or faster
+c.S	4F	3F or faster
+Notably, this means you cannot ever outspeed Sol's 5K, nor low-profile it with Jack-O's 2K.
+
+Summon PRC
+The most difficult variant of Summon RC, but is potentially extremely effective in the corner. Cancelling Summon Servant (either version) after Frame 10, the servant will remain while you begin a Roman Cancel as early as Frame 16. This is so fast that it can used from a lot of pressure completely safely.
+
+This is usually preferred with a Fast Roman Cancel, as there is not much change to the pressure situation regardless, and makes it the most efficient form of Summon RC listed.
+
+Due to the shorter distance it travels when fast cancelled, while leaving the servant behind Jack-O', this is usually better in the corner after 2H or 5H, as the pressure mid-screen is not very substantial regardless. The short drift on fast cancelling actually can cause Throws to whiff regardless,
+
+If done perfectly from an Attack Level 4 move, you are +4 on block. If timed a frame off, you will be only +2 on block. The opponent is under the effects of slowdown, meaning their options are severely limited. This has some unusual maths, so the below table provides some simplifications.
+
+Attack used	+4 on block	+2 on block
+Trades with	Countered by	Trades with	Countered by
+2P	N/A	N/A	N/A	Throw
+2K	N/A	N/A	N/A	Throw
+c.S	N/A	Throw	3F	Throw
+Notably, this makes Throw difficult but not impossible to counter. If your timing is perfect, 2K can work. However, you may not need to if the fast PRC does not drift into Throw range, allowing safe use of c.S under most circumstances.
+
+Sandwich Pressure
+
+A simple sandwich position
+Sandwich Pressure is a position of advantage when the opponent has a servant behind them and Jack-O' is in range to use her grounded normals. The "Sandwich" creates a position such that Jack-O' can safely loop pressure for an extended period of time, often building an incredible amount of R.I.S.C., while enforcing an oppressively strong Strike-Throw threat, and some moves allow potential Overhead and Crossup options. Faultless Defense is also less effective, as the pushback of the Attack Command will repeatedly move the opponent closer to Jack-O'.
+
+This offense is usually achieved through Okizeme or Zoning, to get a servat over the opponent. Once Jack-O' is in range, any attack can be used in tandem with Attack Command to begin the pressure.
+
+This is the largest application of Hitstop Cancels, as a hit servant whiffing allows for even better frame data.
+
+Sandwich Pressure Routing
+Sandwich Cheer H
+Sandwich Pressure Routing
+Once in range, the biggest tool at your disposal is a Hitstop Cancelled c.S hitting the servant behind the opponent (notated as c.S&(Whiff)). This launches the servant back, letting you keep the sandwich pressure, and leaves you +10 on block, while able to do many new pressure options.
+
+There's a couple loops that are frequently used for sandwich pressure:
+
+c.S& > Dash c.S > 2D > 214K Standard route off which most sandwich pressure is built.
+c.S > 5H& Alternative route good for corner carry when Servant Gauge is very low and when c.S can't be hitstop cancelled.
+The main goal is to enforce the threat of c.S and especially c.S&(Whiff) as much as possible. When hitstop cancelled this way it offers many different options:
+
+Dash c.S if a very threatening frametrap.
+5D is a gapless overhead.
+2D can be safely delayed to match the 5D timing.
+Tick throw is very easy even against Faultless Defense.
+Forward jump cancel into IAS Attack Command crosses up. Using j.S hits the servant for an autotimed 4F gap, but manually timed j.H can be faster at the risk of making the opponent auto-block.
+Neutral jump cancel into IAS Attack Command enforces a potential F-Shiki j.P mixup.
+Dash Cancel can be used to counter Deflect Shield while staying +3 on block.
+
+Sandwich Cheer H
+If you run out of servant gauge and wish to continue the offence, you may use a fast servant cancel with 5H (Note this doesn't require heavy input buffering), to set up Cheer Servant On H.
+
+This is usually done with 214K > 5H&(Whiff) > 236236H > 214K > .... If the cancel is done fast enough (+13 on block), this is a true blockstring. You can even microdash the 5H to defeat Faultless Defense, without opening a gap.
+
+On top of the standard pressure routing, for additional corner carry you can also use 5H&(2) > 214K from close spacings, while remaining gapless against Faultless Defense.
+
+Similar to corner Cheer H pressure, be mindful of heavy use of Faultless Defense and the use of Yellow Roman Cancel disrupting the pressure after Jack-O' has already spent her Tension. Additionally, the use of f.S and 5H can easily lose to 6P if a gap is opened.
+
+Corner Pressure
+
+Your opponent's single biggest nightmare. Show them no quarter.
+Jack-O's corner pressure is one of the most powerful and diverse positions of any character, and is the core goal of her gameplan. Due to its huge value compared with her riskier neutral. She has access to extremely lengthy tick throw pressure, with huge Tension gain. Its greatest strength is safety, Jack-O' can repeatedly true frametrap many many times before needing to open a single gap, making it hard to get out of. By contrast, it is low damage, with comparatively softer combos and a heavy use Throws, demanding the opponent be locked down continuously.
+
+Standard Corner Pressure
+Held Servant Pressure
+c.S Hitstop Cancel Pressure
+Meterless Dust Combo
+Whiff Pick Up cancel
+Standard Corner Pressure
+Jack-O's basic pressure with a servant is quite good for how long it can be, and offers a surprisingly large range of options.
+
+Generally your goal is to avoid losing the servant from Jack-O' hitting it unnessecarily. A full duration servant can be hit up to 2 times before leaving. Your goal is to build R.I.S.C. and present tick throws. Due to the servant's very limited duration, stagger pressure is less valuable. Conversely building R.I.S.C. is quite easy.
+
+Optimal routing will usually use some part of the c.S > 2H > 236K > 214K blockstring, ommitting parts to avoid hitting the servant more than nessecary (e.g. cancelling c.S into 236K), or using 2K > 2D > 214K to avoid hitting the servant at all. This is very nuanced and situational, requiring some understanding of pushback on block to control when you would hit the servant.
+
+You can build even more R.I.S.C. with c.S > f.S > 2H, but this creates a throwable gap. While 236K& > 214K can frametrap, to ensure the servant is spaced out to do another loop, you will need to delay and open a gap where the opponent can abare.
+
+Example Blockstrings:
+
+All examples assume a full duration servant blocked in the corner by Throw Servant
+
+Dash c.S > 2H > 236K& > dl 214K > Dash c.S > 2H > 236K& > dl 214K > Dash c.S > f.S > 5H (Gaps on delayed Attack Commands) High R.I.S.C. gain, simple pressure.
+Dash c.S > 2H > 236K& > 214K > 2K > 2D > 214K > c.S& > 5H(1) > 214K > Dash c.S > f.S > 5H (Gapless; unsafe on block at the end).
+Dash c.S > 2D > 236K > 214K > Dash c.S&, c.S > 2D > 236K > 214K > Dash c.S&, c.S > f.S > 5H (Backdashable 236K attacks; gauge remaining to cancel the 5H) c.S stagger string, with high Tension gain. Very strict timings.
+
+Held Servant Pressure
+Colloquially known as the "Pichu Pressure" after its discoverer NotPichu.
+
+By cancelling off the servant into Summon Servant (Hold) (usually from 236K&), Jack-O' is able to prolong her pressure with one of the strongest forms of pressure reset possible. When combined with her standard pressure, this can balance her finite resources more efficiently. The full loop, including a starting 2H, provides:
+
+4500 R.I.S.C. (approx. 35% R.I.S.C. Gauge)
+Approx. 23% Tension
+0.44 ~ 0.88 bars of Command Gauge.
+It should be noted this pressure is not by itself a mixup and won't further your offense directly, it is a supporting utility to reset pressure and generate resources.
+
+The core structure looks like 236K& > 236[P] > 236K* > hs.6X > Dash > c.S. This is usually set up from c.S > 2H > 236K for its resiliance to not whiff the servant after FD block. There's two main components, summonning the servant, and releasing the servant. Done correctly, even if a servant is at zero duration after the first 236K, it can be hit again before it can idle, only requiring the servant be hittable at the start.
+
+The second 236K usually whiffs, but its leaves an active hitbox on Frame 8, requiring unique counterplay to abare. This is favoured on trade and combos very well on hit, making it dangerous for opponents. Deviating from this route can punish opponents trying to abare.
+
+236K& > 236[P] > hs.K Replacing with Attack Command catches (almost) any abare.
+236K& > 236[P] > hs.D > 2D Release Servant resets the offense early, and by not extending any hurtbox can cause the opponent to whiff.
+236K& > 236[P] > Backward Dash Spacing out can cause the opponent to whiff, and is your primary answer after Instant Blocks.
+The second gap at hs.6X attempts to fully reset the pressure, even jailing jump attempts. The opponent stand blocking will leave Jack-O' less plus, opening a tiny gap in her reset (potentially allowing a Throw). Some crouching attacks can hit Jack-O' before the servant lands, assuming she is in range. Universally, anyone can use 6P to catch her dash in.
+
+To answer these options Jack-O' must once again deviate from the string.
+
+236K& > 236[P] > 236K* > hs.6X > 2D Simply replacing c.S with 2D punishes any abare at the end, but this weakens the reset as you must spend another Attack Command.
+236K& > 236[P] > 236K* > hs.D > 2D or 2H Releasing the servant instead of throwing it leaves you +10~12. In theory 2H is the better frametrap option but 2D is less spacing-sensitive. Both give enormous reward on hit.
+
+c.S Hitstop Cancel Pressure
+When hitting the servant in the corner with c.S, Jack-O' is left +6 on block thanks to Hitstop Cancelling off the servant. Due to a quirk of c.S inputs you can't true frametrap into another c.S, but this still presents an extremely strong position to apply Stagger Pressure regardless.
+
+5K true frametraps for a combo.
+c.S staggering into another c.S generates more R.I.S.C. without losing the standard pressure.
+5D gatling can hit without opening a gap.
+Tick throws are very easy with its low pushback and high frame advantage.
+A Dash Cancel perfectly times for a Tick Throw (-1 on block) while almost entirely mitigating the effects of Deflect Shield or IBFD.
+
+Meterless Dust Combo
+If a servant is spaced slightly away from the servant (e.g. after blocking Throw Servant), by precisely using 5D you can hit the opponent and have the servant launch them. This has a few outcomes:
+
+Knocks down with time to summon a servant.
+At high Wall Damage results in an immediate Wall Stick.
+If correctly spaced, Jack-O' can combo into 2P > 6P or even 2K > 6H and pick up into a wallbreak combo meterlessly.
+To get an idea of spacing, the green explosion of the Dust Attack should visually appear between the servant and the opponent.
+
+This can often be threatened after Throw Servant, the opponent is expecting a threatening frametrap, and this gives ample opportunity to dash into the spacing.
+
+Whiff Pick Up cancel
+If the spacing is just right when launching a servant forward, using Pick Up Servant will fail, giving a fast cancel. This makes you +7 without holding a servant, allowing a fast Tick Throw or frametrap with 2D, dramatically enhancing the potential threat and preventing opponents abaring on the pressure reset. However, the spacing is so sensitive, it can be broken by just the opponent stand or crouch blocking.
+
+For example the following will reliably work from a dash after Throw Servant, making it one such setup, but only if not FD blocked, and requires careful timing to not be throwable. Dash c.S > f.S > 2H > 236K& > ns.2P (Whiff) > (Dash Throw or 2D).
+
+If too far, no cancel happens, if too close, you will pick the servant and be left horribly disadvantageous.
+
+Sameside Pressure
+In contrast to Sandwich Pressure, if a servant is on the same side as Jack-O' it is called Sameside Pressure. This is much weaker than sandwich pressure, as it becomes difficult to keep both Jack-O' and the servant in range at the same time. But it is a lot more accessible as it can often be achieved directly off an opponent blocking a servant.
+
+5H Summon Reset
+IAS Sameside Mixup
+5H Summon Reset
+Colloquially known as the "SUS", discovered by Eddventure.
+
+When hitting a servant behind Jack-O' with the back of 5H, its launch can take so long to hit the opponent you are left extraordinarily plus on cancels. Done perfectly, 5H& > 236P can be as much as +3 on block.
+
+The further back the servant, the more plus you will be. Jack-O's position does not not matter, as long as 5H hits both the servant and the opponent at the same time.
+
+If servant is too close, this can actually leave you minus. The visual indication for this is very ambiguous, so you may reset safely despite this, due to the lack of visual indicator to the opponent on when it is safe.
+
+IAS Sameside Mixup
+c.S& > jc > TK 214K > j.S& > (ADC > j.P or Land > dl 2K)
+
+Close-range High-Low Mixup. Difficult to set up, reliant on both a fresh servant with just the right spacing. It creates a true blockstring into a difficult to react to high-low mixup that can be made unfuzziable. Unfortunately, both routes will likely end in the 2D RPS, for lack of a servant to support Jack-O'.
+This can also be done from further away using 5K*. Unfortunately, this will make j.S* leave a gap based on how close the servant was. Additionally, based on Jack-O's spacing you may need to add a small delay before the 214K, to ensure the servant bounces back into j.S range.
+Creating a c.S& is difficult, this is because most servants if blocked will be too far from the opponent. For example, Throw Servant > Attack Command does not place it close enough. This makes it very situational. A good way to force this is by using Attack Command before or immediately during a servant being blocked, reducing the pushback to keep it in position.
+
+Super Wall-Break
+
+Your approach here will differ based on their character and Tension. Make sure to check beforehand.
+When Jack-O' breaks the wall using Forever Elysion Driver or Wild Assault, the opponent will be knocked down for +36 advantage.
+
+While this is often nessecary, Jack-O' has a very poor Super Wall-Break, and is a large reason why Jack-O' dislikes needless wall-breaks in favour of corner pressure. While she is advantageous, Jack-O' must usually play around RPS to begin any significant pressure. On the positive side, the near-corner position turns almost any meaty hit into a full combo, and Positive Bonus allows converting even basic blockstrings into devastating corner pressure very quickly.
+
+There's two main approaches to okizeme from this position, usually based on the matchup.
+
+Super Wall-Break: Instant Air Dash j.H
+Super Wall-Break: Run Up c.S
+Super Wall-Break: Instant Air Dash j.H
+This option is recommended for most characters.
+
+(See also: Jump-Ins)
+
+A common option creating decent pressure on block and advances on the opponent.
+
+Unfortunately, Jack-O's jump and airdash cancels are floaty, meaning she takes longer to land than most. This rather upsettingly means Jack-O' cannot safejump fast reversals here, getting hit by any 9F reversal.
+
+Meterless 9F Reversals	50% Tension 9F Reversals	No 9F Reversal
+Sol Leo Chipp Baiken Bridget Sin	Ky May Giovanna Nagoriyuki Ramlethal Millia I-No Anji	Axl Potemkin Faust Zato Goldlewis Jack-O' Chaos Testament Bedman? Asuka Johnny Elphelt
+Generally if the opponent can use an invulnerable reversal, it is not advisable to use this as baiting is notably risky and takes away the main advantages of jumping in.
+
+In addition, any 6P will cause it to whiff, or even punish depending on startup. You can use an Option Select 6D to throw slow 6P attacks at the cost of performing a j.D gatling on hit/block. This weakens your advantage (+6 → +1), but outspaces Throw, usually keeping a good offensive position.
+
+Punished by 6P	Can block 6P	Can throw 6P
+Sol Ky Chipp Faust Millia Ramlethal I-No Chaos Baiken Elphelt	Leo Anji Jack-O' Bridget	May Axl Potemkin Nagoriyuki Giovanna Zato Goldlewis Testament Sin Bedman? Asuka Johnny
+You can also call out a 6P by using j.S, but this has very poor pressure on block, and is throwable out of all attacking options.
+
+Super Wall-Break: Run Up c.S
+The best answer to characters with a strong reversal, going into an RPS with generally stronger risk-reward, especially when backed with meter.
+
+Jack-O's very slow dash means she can only barely hit c.S safely with tight timing. This is throwable if even slightly early or late on the input. This compounds to some other issues. Jack-O' is unable to easily threaten a tight Uncharged Dust Attack, and has almost no counterplay to Backdashes without committing to much weaker options (e.g. dashing in further). Generally, Jack-O's advantage doesn't translate to any new tools here.
+
+If you score this knockdown with spare Tension or Burst, you may use Dash Cancel BRC or Wild Assault to set up. The Positive Bonus will allow you to make up for any of these costs, and often go into Cheer H before it ends (almost entirely removing the Tension Penalty), easily refilling your entire Tension Gauge.
+
+You may Summon Servant before reaching the opponent, this has a side-effect of being a reversal and backdash bait functionally, and is a situation many will not react to. However this will almost always leave you negative.
+
+Defense and blockstrings
+Ending Blockstring RPS
+When Jack-O' is blocked from any unsafe move—which make up the majority of her kit—she is given a variety of options to escape punishes and reset to neutral.
+
+Jack-O' may wish to cancel from any normal to avoid punish, but some are much safer than others. 5H is the safest, it has huge pushback on cancels, high blockstun (attack lv. 4), and has a practical cancel into Servant Shoot. Conversely, 2D has bad blockstun (Attack Lv. 2), leaves Jack-O' extremely close, and while it has a frametrap, you have less time to hitconfirm to avoid wasting okizeme. Servant Shoot, despite middling pushback and blockstun, is also not particularly safe as the opponent has no further frametraps to avoid
+
+Jack-O' needs to end the blockstring safely. There's many many ways to go about this, you are only limited to Jack-O's movement, and the timing of releasing her servant. However, counterplay is usually shared between routes based on their general patterns. Below are these patterns, but do remember that variations within them may slightly alter interactions of matchups.
+
+
+
+BlockAvoid being punished, but allows the opponent to begin pressure.
+... > 214P
+Only normally punishable off a close-range 2D. However, you immediately surrender to the opponent's pressure, not only does this remove Jack-O's momentum, but she may need to handle dangerous pressure imminently. This is one of the least-dangerous options, but with no particular potential for reward.
+
+This is also the simplest way to be safe from problematic reversals, like Leo's Eisensturm or Ramlethal's Mortobato.
+
+
+
+Run AwayAvoid short-range punishes, better with distance
+... > 236[P] > Backward Dash
+Excellent, as most character's best counterplay is to commit to running forward, giving Jack-O' time to react by jumping over a punish or attacking the opponent before they can react. However, if the opponent is very fast, like Ky, Jack-O' may have less time to react or make a decision.
+
+This method is most susceptible to spacing. 2D is always punishable by a reversal attack if Jack-O' was too close. Additionally, spacing affects how long it takes for an opponent to catch up.
+
+If Jack-O' has 50% Tension, this also challenges particularly dangerous Overdrives like Giovanna's Ventania, as Jack-O' can react with her own Forever Elysion Driver.
+
+
+
+JumpAvoid low-hitting punishes, better with higher attack level
+... > 236[P] > Jump > ... > hs.D > ...
+The most varied route, Jack-O' can position herself many ways into the air: back jump, instant Air Backdash, forward jump, even double jumping. However, because Jack-O' must first release the servant, she is exposed to strong air-to-air and anti-air punishes. Some characters can even call out the direction of a jump for even better reward.
+
+Being Counter Hit in the air leads into many powerful combos. It is the most potentially rewarding, as Jack-O' can launch the servant or reset pressure with an airdash, but this comes with significant risk.
+
+
+
+AttackReset pressure against slower punishes, better with higher attack level
+... > 214P > 2K   or   ... > 236[P] > 236K
+Less a blockstring ender and more a form of stagger pressure. Attacking the opponent quickly can often outspeed their usual punishes to other routes.
+
+This can often be disrupted by Faultless Defense or prior spacing, as it will push Jack-O' out of range, but this benefits her other defensive options.
+
+This is much better at close ranges off higher Attack Levels, narrowing the gap in pressure.
+
+This tactic is most important for 2D and 236K, as these are the most unsafe of Jack-O's moveset, however some risk exists with any move, even 5H.
+
+Most characters have hard punishes to any particular route, but these can easily falter to other routes. Varying these will force opponents to generalise their options, which are much lower risk overall. Additionally, most punishes rely on the opponent to act fast, cancelling off early into a blockstring will allow Jack-O' to escape safely, as the opponent is forced to respect potential frametraps.
+
+Matchups often lean heavily into specific punishes, for example Ramlethal's 5H is extremely good for catching run away attempts but she lacks particularly rewarding pressure if blocked, while Potemkin's f.S easily covers jump attempts but his Hammer Fall is very poor for catching running away.
+
+
+Counter-pokes
+Abare and Escaping Pressure
+Jack-O' has a unique mechanic losing her servants any time she's blocking, and hence on defense. When an opponent is pressuring you, it is nearly impossible to set up, and your goal is to steal back that momentum. Her invincible Overdrive, Forever Elysion Driver also suffers from bizarre weaknesses and can't be fully relied upon. This means you will need to understand Jack-O's strengths in universal mechanics to defend correctly.
+
+Abare Normals
+Other Defensive Mechanics
+Forever Elysion Driver
+Abare Normals
+2P Fast enough to stop tick throws while hitting low down, and quick to recover if it misses.
+2P
+Fast enough to stop tick throws while hitting low down, and quick to recover if it misses.
+ 
+2K Very fast, but also low profile with a fantastic reach. Great for mid-range abare and punishes.
+2K
+Very fast, but also low profile with a fantastic reach. Great for mid-range abare and punishes.
+ 
+6P Crushes mid-height attacks with its extremely fast upper-body invulnerability.
+6P
+Crushes mid-height attacks with its extremely fast upper-body invulnerability.
+None of Jack-O's normals will outright disrespect a good frametrap, but when small gaps open or the opponent uses alternative resets, these moves cover a lot of options. The biggest highlight for Jack-O' is both her 2P and 2K. These can be buffered while holding down-back 1 to stay crouch-blocking. They also have generally good speed (5F and 6F respectively) and good range, which can make them easier to use alongside Faultless Defense. In addition, 2P on Counter Hit even links into 2K > 2D, and 2K is low-profile for its entire recovery, being much harder to whiff punish.
+
+In select situations you may need to use 6P to crush high-hitting attacks faster than your other options can attack. While not outstanding, it has a faster-than-average invuln, making it a lot harder for high-hitting attacks to frametrap it early. Be aware it does not maintain this upper-body invuln for long however, making it very susceptiable against even moderately delayed strikes.
+
+Other Defensive Mechanics
+Faultless Defense Abundant Tension to spend as you like.
+Faultless Defense
+Abundant Tension to spend as you like.
+ 
+Backdash Fast recovery for a backdash, great for evasion midscreen.
+Backdash
+Fast recovery for a backdash, great for evasion midscreen.
+ 
+Jump Jump out at low risk. High Jump to get a safer Air Dash!
+Jump
+Jump out at low risk. High Jump to get a safer Air Dash!
+ 
+Low R.I.S.C. Gain Jack-O' gains as much R.I.S.C. as Potemkin. Be patient!
+Low R.I.S.C. Gain
+Jack-O' gains as much R.I.S.C. as Potemkin. Be patient!
+Jack-O' has a very good Tension Gain from everything she does, conversely she is a terrible user of Yellow Roman Cancel and some attacks call out her invulnerable Overdrive. This makes her a big spender with Faultless Defense, as returning to neutral helps her regain the Tension. Combined with her massive 2K, it can be really easy to push opponents too far to keep attacking, but still being able to punish them.
+
+On top of this, Jack-O' is tied for the fastest recovering backdash with the standard 5F Invuln. This creates a strong combination as you can use Faultless Defense to push out the opponent, then backdash any follow-up they might use. The low recovery sometimes gives unique backdash opportunities not available to other characters and is a lot harder to punish this way.
+
+In the corner it can be useful to jump. This is generally lower risk as you are only hittable for 4 frames on prejump. In the air, you can react with a double jump, Air Dash, or j.D which can potentally slow the opponent's offense. Unfortunately for Jack-O' she has a long jump duration and her air options are generally weaker. It can often be helpful to instead High Jump, as this gives a much safer Air Dash out of the corner.
+
+Though more a stat than a move, Jack-O' takes 12.5% less than the standard R.I.S.C. This helpfully means you can afford to be on defense for much longer than otherwise for her low health. Use this to your advantage and wait out the pressure more comfortably, without taking high-risk options.
+
+Forever Elysion Driver
+
+Hits very hard, but beware its strange weaknesses!
+Jack-O's invulnerable Reversal, Forever Elysion Driver, is perhaps among the most bizarre reversals in regards counterplay. It is useful to recognise what options will cause the attack to fail, as it has a lot of them.
+
+If the opponent is too far forward above Jack-O', she will advance past the opponent and whiff.
+Crossups avoid the attack completely, such as Leo's Zweites Kaltes Gestöber
+Due to slower startup, moves with low recovery hit very meaty can recover in time to block, such as Nagoriyuki's 2K
+Parries work against the attack as normal.
+While the move has notoriously very long range if the opponent extended a hurtbox, such as against Axl's 2H, if they have meter to Roman Cancel they can retract the hurtbox Frame 1, thereby causing it to fail. This makes it only function against extended hurtboxes if the opponent lacks the meter to Roman Cancel.
+
+Unlike most Overdrives, Jack-O' can Option Select with a Roman Cancel. If the attack lands, it will put her in a cinematic Frame 2, locking it out. If the attack was blocked, you will instead Red Roman Cancel immediately. You can even Option Select with a Fast Roman Cancel, as none of the inputs will occur if the super hit.
+
+Thanks to the zero hitstop, you can ambiguously set up a mixup with an additional Roman Cancel, in the event the attack fails.
+
+Fast PRC into a Throw before the move would hit. Requires some precise timing on the Roman Cancel.
+Fast RRC into a high, usually j.S. Only works on Crouch block at close range. Delay the Roman Cancel slightly to get airborne.
+Fast RRC down into a low, usually 2D.
+
+Additional Info
+6H Range
+The second hit of 6H (notated as "6H(2)") applies a chain of hitboxes in sequence, each one is higher up and further away. The below table demonstrates at what ranges this move will work on specific characters and the timings of these hits.
+
+Hitbox number	1	2	3	4	5	6
+Range from center	260	380	480	580	680	780
+Active Frames	19~20	19~22	21~24	23~26	25~29	27~29
+Highest hit on characters standing	Giovanna Baiken	Jack-O' May Chipp Bridget	Sol Ky Axl Milla Zato-1 Ramlethal Leo Nagoriyuki Anji I-No Chaos Testament Sin Asuka	Potemkin Faust Goldlewis Bedman?	None
+Dashing	Giovanna Jack-O' May Chipp Ky Milla Ramlethal Leo Anji Chaos Baiken Testament Bedman? Asuka Johnny	Zato-1 Goldlewis Bridget Sin Johnny	None	I-No	None
+Crouching	None
+Additional notes	Sol, Axl, and Faust when dashing low profile the entirety of 6H(2)
+Nagoriyuki's Fukyo low profiles the entirety of 6H(2).
+Millia's Mirazh low profiles the entirety of 6H(2).
+Potemkin has no dash equivalent.
+Faust can be hit by the 6th hitbox when he is standing while wearing an Afro.
+While 6H is rarely much use in neutral, a few exceptions are noteworthy:
+
+Goldlewis is exceptionally easy to hit, as even when dashing he can be hit from significantly further away, and any attack he has is likely to stand up and be hit, especially given his otherwise poor crouching moves.
+Faust with an Afro is particularly exposed. His only benefit is the use of Love which will be hit from 6H easily, and any standing move can be hit from extraordinarily far away.
+I-No suffers a strong range where it can catch her hoverdash and all aerial attacks, but it cannot be hit by anything grounded, not even Stroke The Big Tree H.
+Input Buffering
+Input Buffering is a common technique where you input some of a complex motion early, and then complete it later. This is because some motions are too lengthy to do quickly. In Jack-O's case this is most valuable with her Cheer Servant On Overdrive when cancelling off a servant, because a servant removes so much hitstop as to make it extremely difficult to input fast enough to cancel immediately. Below are some practical examples of this.
+Move string	Input sequence
+c.S& > 236236H	236S236H
+2H& > 236236H	2362H36H
+5H& > 236236H	236H236H
+236K& > 236236H	236K236H
+236[P], 236236H	236[P]236H
+236[P], 236K	236[P]236K
+This technique is utilized in the following sections:
+
+Sandwich Pressure
+Corner Pressure
+Controller Layout
+This is not nessecary to play Jack-O' well, and any layout that is comfortable is a good one, but if you're looking for the easiest layout to play, a few basic checks can help ensure you will be comfortable performing the majority of tech you may learn.
+
+Controller Layout
+Jack-O' has a couple very fast moves, including Summon Servant (Hold) on the P button, and Release Servant on the D button that can make it difficult to quickly go into her next attack, particularly with Servant Shoot (236 K) for combos and pressure.
+
+We recommend your layout comfortably allows you to:
+
+Hold Dust D and press any other attack button P K S H (similar to performing a Burst).
+Hold Punch P and press Kick K.
+It can rarely be helpful to hold Punch P and press Slash S or Heavy Slash H, but this is much less important.
+Below is a couple examples of layouts.
+
+A layout for arcade sticks and hitboxes, with Punch, Kick, and Dust on seperate fingers.
+A layout for arcade sticks and hitboxes, with Punch, Kick, and Dust on seperate fingers.
+ 
+A layout for gamepads, with Dust on the shoulder button.
+A layout for gamepads, with Dust on the shoulder button.
+Keep in mind any other things you may need, such as if you are not using a Roman Cancel RC button you will want to be able to press some combination of three attack buttons, e.g. P K S.
+Universal Tech
+This is all tech that is accessible by some or all other characters, Jack-O' included.
+
+BRC Instant Overhead
+Useful Links:
+
+Creating Instant Overheads and Mixups with Blue Roman Cancels! - Guilty Gear Strive by rooflemonger
+By cancelling a backdash into a forward drift BRC and fast cancel into j.P, Jack-O' can perform a fast overhead attack. On hit this combos into 2K. This is difficult to react to compared compared to jumps and Charged Dust, and is still safe, however has generally lower reward.
+On block it cannot lead into a true blockstring due to the immediate landing recovery and lack of blockstun. While it is advantaged, it doesn't avoid invincible reversals.
+
+Executionally this is quite difficult as the window to input j.P is very tight. When done incorrectly, Jack-O' will land before it becomes active.
+
+c.S BRC Cancel
+It is possible to perform a Blue Roman Cancel during the prejump frames of a jump cancel. This means c.S > jc~BRC will result in a grounded BRC cancel, leaving you extremely plus while the enemy is locked in a slowdown. During this time you can hit a Sweep (2D) or Uncharged Dust (5D) as a true blockstring, creating a reversal-safe unfuzziable high-low mixup. Even better, both options can still combo without further use of Tension, due to the BRC slowdown.
+
+Jack-O' is unable to perform a meterless wallbreak (assuming no prior wall damage) off the Dust without a servant already summoned, however she can still do considerable damage into okizeme with a servant. Even on block, due to BRC slowdown you remain +5, and can frametrap with c.S.
+
+Additonally, Jack-O' can true blockstring summon off any Lv. 1 or higher normal, with the string c.S > jc 66.BRC > (c.S or 2D or 5H) > 236P > 2K, as a potent alternative to Summon PRC.
+
+Tiger Knees
+A "Tiger Knee" (abbreviated to TK) is a special kind of input where you perform an aerial special on the first frame of a jump, being the fastest way to perform a move, but also usually occuring extremely low to the ground, giving it new usability and functionality. Jack-O' can TK a lot of her specials, for sometimes unusual benefits:
+
+214P / 214K / 214S / 214H Servant Commands can be performed as a TK to be made airborne, such as for dodging low-hitting moves like Slide Head and Zarameyuki in neutral.
+214K Off Sandwich Pressure you can TK Attack Command to set up crossups while still frametrapping opponents.
+214S When Defend Command is TK'd you can parry oncoming strikes while evading run-up grabs, defensively covering against both in neutral.
+236K Servant Shoot can still launch servants when TK'd, and can be used in pressure from a jump cancel to maintain blockstrings while staying airborne against Forever Elysion Driver in the mirror match. For launching servants, you will need to not High Jump this.
+hs.6X Throw Servant can be TK'd to throw it at the earliest time to get more time to attack, due to its long recovery time. The motion isn't a "TK" motion but it behaves the same.
+hs.D Performing Release Servant earlier allows you to block potential punishes or use air specials slightly faster. The motion isn't a "TK" motion but it behaves the same.
+Inputting a Tiger Knee
+For most quarter circles you can simply extend the motion of the input into the jump, and slightly delay the attack button to just as you leave the ground, such as a 2369K. Some cases may behave differently, as explained further below.
+
+TK Throw Servant: Throw Servant is unique as it has no motion, so simply inputting hs.9X will result in a TK. This is still important, but extremely to perform.
+Manual direction TK: If you need to control the direction of the TK, you will need to do this while avoiding the unwanted jump directions, for example to neutral jump 236K we need to input 2368K, which can be done as 23658K but not 23698K, as the 9 would simply make you jump forward.
+Low TK: Normally a 2369 motion results in a High Jump, as you do a down input before an up, this can indirectly cause your moves to go higher than you expect. In the case of TK 236K this height will make you whiff servants. To avoid this there is two solutions. You can perform 2369K with a extremely small delay before the 9 to stop it being a High Jump but still in time for the move buffer, or input the motion 9236, where you perform the entire 236K input during prejump. This is not too difficult from a jump cancel, as you can buffer the jump giving you time to perform the TK, but in neutral this is the hardest motion possible.
+TK hs.D and TK hs.6X: Throw Servant and Release Servant have no motion, so simply inputting a jump hs.9X will result in a TK. This is trivially simple for backwards Release Servant (hs.7X), neutral Release Servant (hs.8X), and forward Throw Servant (hs.6x). However, due to the overlap, if you wish to do a forward jump with TK Release Servant or neutral/backward jump Throw Servant you must change the direction during prejump.
+Unlike the other TKs, a TK Release Servant is about how quickly you release the forward direction, not how quickly you can press an input. Interestingly, you can still input hs.9X and it will Release Servant so long as you are no longer holding forward by the time prejump ends.
+Delay Gatlings
+Many gatlings and cancels are commonly used to assert pressure. There is many reasons why you might delay your cancels:
+
+Open a frametrap from a true blockstring.
+Widen the gap to catch fuzzy options.
+Make mixups more ambiguous (e.g. the recovery animation stops being a telegraph of Throw).
+To evade an opponent's Instant Block timing.
+Generate more Servant Gauge
+For the last point, Jack-O's Servant Gauge refills automatically even during her own pressure strings, therefore by slowing down the cancels you can allow yourself to regain more Servant Gauge.
+
+Take for example 214K, c.S > f.S > 5H. The initial Attack Command freezes the Servant Gauge for 60 frames. If we wish to use this as a loop into another Attack Command and leave zero gaps it will be difficult to not lose Servant Gauge rapidly. With the fastest possible inputs it will regain Servant Gauge for only 3 frames. If you delay every attack perfecctly you can gain up to 19 frames, while still leaving it truly gapless. It isn't much but this can make the difference in a pinch.
+
+This can, of course, be taken further. Intentionally opening larger gaps in pressure is not only useful as covered above, but also stalls for even more Servant Gauge.
+
+Advanced Tech
+This section discusses a wide range of tech and mechanics Jack-O' has access to. The application of each is largely different.
+
+F-Shiki Overhead
+In some setups Jack-O' can perform a unique overhead with a rising j.P. This is not the same as other true high-low mixups, but it still enables powerful pressure.
+
+F-Shiki j.P Mixup
+To perform an F-Shiki, the opponent must block a falling overhead (j.K, j.S, or j.H) then quickly jump and hit j.P while they're stuck in a standing animation. You F-Shiki the opponent into allowing j.P to connect off a jump cancel or rising jump, creating an unreactable mixup. If the j.P connects, you combo by cancelling into Attack Command immediately, on block this leaves you advantageous.
+
+This is usually set up for either through an okizeme safejump, hitting very deep to allow a jump cancel j.P to hit, or by using (c.S or 5K) > Jump Cancel > TK 214K > dl j.S to set up the mixup from sandwich pressure.
+
+Unusually, if the opponent crouches and is hit by the initial attack, the jump cancel j.P will whiff, leaving Jack-O' at best +2 but stuck above the opponent. Meaning the decision-making happens before the jump cancel begins. It costs Servant Gauge to combo, and when the opponent reads the mixup, you will lose pressure. The attack is virtually impossible to hitconfirm, nor is it viable to make the attack a safejump while buffering a forward jump cancel. If the opponent willingly takes the hit, the 'low' option combos automatically.
+
+The difficulty varies by opponent, as character's standing height makes for differences in how viable it is against them, and the timing of your attack before a jump cancel will determine how high the j.P will hit. In addition a jump cancel j.P at the lowest height is not the same as a rising j.P from the ground.
+
+Cannot be hit by j.P	Only Jump Cancel j.P	Jump Cancel j.P and Rising j.P
+Giovanna Chipp	May Jack-O' Chaos Baiken Bridget A.B.A	Sol Ky Axl Potemkin Faust Millia Zato Ramlethal Leo Nagoriyuki Anji I-No Goldlewis Testament Sin Bedman? Asuka Johnny Elphelt Slayer
+Non-Wallbreak FED
+An unusual quirk of Forever Elysion Driver's lenient range is its ability to reach an opponent stuck to the wall from a distance where it will not cause a Wall Break, allowing any Wall Stick combo to potentially lead back into corner okizeme.
+
+
+Non-Wallbreak Forever Elysion Driver
+If spaced very well, Jack-O's Forever Elysion Driver can hit an opponent stuck to the wall without sending them through the wall. This allows you to maintain corner pressure and okizeme without resetting to the less favourable "Super Wallbreak" position. To ensure you maintain strong okizeme it is recommended to learn Forever Elysion Driver okizeme before utilising this.
+
+This is best used when an opponent is low health but the Wall Break won't kill, where Positive Bonus is not essential and the improved okizeme and corner pressure enables a better chance of landing a hit to win the round. It's less effective early into a round, as the Wall remains heavily damaged and risks sacrificing the Wall Break if the opponent escapes the pressure.
+
+The spacing is relatively diffcult and far away. Not all confirms allow it and the precision often makes it very hard to score manually. Below is a visual guide to the positioning needed to get this effect
+
+
+The position needed to cause a Non-Wallbreak FED. Use the timer graphic to line up Jack-O's position.
+Hitbox Nullifying
+Useful Links:
+
+Guilty Snacks: Jack-O Tips and Tricks by Ari Manne
+Known by many names, when using Defend Command, if the servant is released or picked up 1 Frame after (with 5F input buffer) the enemy strikes the defend hitbox, the servant will not perform a Guard Crush, instead the hitbox will be nullified without ending their animation. This can enable a lot of unique punishes.
+
+
+
+Hitbox NullifyingInterrupt the Guard Crush for a full punish
+Hard
+214S > ns.2P or hs.S > hs.D
+By releasing or picking up a servant instantly as it parries the attack, the hitbox is nufflified without stopping the attack (and therefore recovery). This allows fully punishing the opponent with a high damage combo meterlessly, especially against DP attacks and slow H normals.
+
+By interrupting the Guard Crush you lose the 33 damage, and do not regain 1 bar of Servant Gauge. Additionally, this only nullifies the first hit: multi-hit attacks such as Eisensturm will simply hit immediately after. Additionally, moves with short recoveries are likely to be be safe.
+
+You cannot drop a servant during the Defend Command animation unless it parries, so you can buffer the hs.D input on prediction. This is not possible when picking up a servant, but its shield lingers as picked up, making it not frame-perfect.
+
+Interestingly, even if you intend to only punish with Forever Elysion Driver, it is still more optimal to use this, as the Guard Crush normally causes combo scaling and proration for significantly less total damage.
+
+This technique is utilized in the following sections:
+
+Ending Blockstrings
+Unscaled Countdown
+The Unscaled Countdown behaviour is generally assumed to be a bug and may be removed in the future.
+When using Countdown, if the explosion hits Jack-O' before hitting the opponent, the explosion will deal damage with no combo scaling besides proration, resulting in an enormous damage boost to a combo, at the loss of some of Jack-O's health.
+
+
+
+Unscaled CountdownEnd a combo with a staggering 80 extra unscaled damage, but beware the self-harm.
+Variable
+
+By routing a combo to set up a servant to hit Jack-O' before the opponent, you can deal an enormous amount more damage. This is key to some of Jack-O's highest damage combos, however on top of removing all Servant Gauge, this also resets to neutral, and deals 80 damage to Jack-O' (and able to lethal herself).
+
+This is usually set up by having the opponent launched high while the servant explodes near the ground, to give as much time as possible for the opponent to avoid the explosion until after it has hit Jack-O'. The servant can be hit into the ground using 2S, 2H, 6H, j.S, or bouncing it off a wall. You can also use Attack Command to hold it at a low position for longer.
+
+Due to the precision of spacing and timing involved, this is reserved for very pre-planned combos routes, and is not realistic to improvise into a combo.
+
+While this is in theory even more expensive than usual Countdown combos, for its self-harm and neutral reset; given most Countdown combos are not worth using unless it kills, this is often just a more optimal use of Countdown—assuming the explosion doesn't take out Jack-O' in the process. If this happens it does result in her losing the round, it will not be a draw.
+
+This technique is utilized in the following sections:
+
+Combos
+Whiff Pick Up Cancelling
+Jack-O's Pick Up Servant is possible to activate when near a servant, but it will not pick up the servant immediately, and if the servant disappears or goes out of range, the move will whiff. This gives Jack-O' a 14F special cancel which does not place her into Held Servant stance, allowing her to recover extraordinarily fast from many moves, for pressure and zoning.
+
+
+Whiff Pick Up cancelFail to pick up a servant to fast cancel off move.
+Easy
+
+236P > 236K* > ns.2P (Whiff)
+By inputting Pick Up Servant as you hit a servant, Jack-O' is able to cancel any move into a 14F recovery. This can be done with any special-cancellable, not just 236K. This is most easily set up with 236P to get the perfect spacing, but adding a slight delay can allow it to be done from 236[P] > hs.D too.
+
+When zoning, using this allows Jack-O' to launch servants while giving herself more time to catch jump-ins, run-unders, defend against potential punishes, or approach behind the servant.
+
+In corner pressure, this can open new frametrap and Tick Throw opportunities, but is difficult to set up due to unreliable pushback spacing.
+
+Because the window between picking up and whiffing the servant is quite narrow, spacing is important. Off some hits it may be required to do a delayed cancel. Additionally the detection range is not limitless, far reaching hits may not allow Pick Up Servant at all. In the corner, it is possible for a servant to never leave its range due to the wall.
+
+Pick Up Servant shares identical frame data to Summon Servant (Hold). When the servant hits an opponent immediately this is +7 minimum, making it very advantageous given Jack-O' has full use of Normals, Throw, and can block.
+
+This technique is utilized in the following sections:
+
+Zoning
+Corner Pressure
+Matchups
+Every matchup is unique and detailed. To better cover this, there is a seperate section on specific matchups.
+
+Matchups
+
+Training Recipes
+Below is a list of every training recipe included on this page.
+
+Learning Jack-O'
+Training Recipes
+Name	Recipe Number	Difficulty	Notes
+PC	PS4/5
+Corner Pressure
+Summon PRC: frametrap post-PRC	16286	12723	Medium	Sol will 5K very shortly after block. You will need to time your PRC precisely to the exact moment the servant appears, and not fast cancel the PRC (to allow the slow down).
+Summon PRC: react to reversals	16783	11728	Very Easy	Use the freeze from PRC to react to an unsafe reversal.
+Cheer H: c.S loop	20008	12759	Very Hard	You will need to apply a dashes after every Attack Command to stay in range.
+Cheer H: 5K loop with 1 servant	---	---	Hard	This will leave very small gaps, try to avoid leaving bigger openings. The timing changes if you hit the servant, but this won't happen every time.
+Cheer H: 5K loop with 2 Servants	16508	---	Medium	Has a consistent rhythmn, see how the additional servant improves the string.
+Servant Shoot: pressure loop	16592	11711	Easy	236K* does not need to be very fast for this challenge. Hold the P input while you buffer 236K, to make this much easier.
+Servant Shoot: 214K frametrap	16623	11692	Easy	Quickly link into 214K to frametrap Ramlethal's 5K, which otherwise defeats a 236K*.
+Servant Shoot: 2H frametrap	16773	11702	Easy	Instead of throwing the servant, release it and frametrap with a 2H, to punish the abare.
+Servant Shoot: catch the jump	16751	11683	Medium	Some opponents are hard to catch in the air, but can still be challenged.
+Advanced Tech
+2S& Servant Unblockable: perform a perfect unblockable	---	---	Very Hard	If you are too early, their 7 will auto-block, if you are too late, you will not grab off the servant hitting.
+2S& Servant Unblockable: combo off a backdash	---	---	Very Hard	More lenient timing for the unblockable.
+Learning Counterplay
+Counter Strategy Recipes
+Character	Name	Recipe Number	Difficulty	Notes
+PC	PS4/5
+Corner Pressure
+Universal	Summon PRC: punish drift PRC	16801	13916	Very Easy	This will also work against 5P even if you do not crouch.
+Universal	Servant Shoot: IB and punish the 236K&	17650	13895	Hard	You will need to use an Instant Block to accomplish this. Most important for Goldlewis and Chaos
+Universal	basic Cancels: fuzzy block the overhead	17713	---	Easy	You can do this challenge predictively, but use it as a good opportunity to practise your fuzzy blocks.
+Axl	Servant Shoot: evade the 214K frametraps	16825	13943	Medium	You cannot reversal 2K, add a very small delay.
+Chipp	Servant Shoot: punish the hs.6X	17552	14015	Very Hard	You need an incredibly precise microdash to have 5P reach while being fast enough to punish without leaving a gap.
+Ramlethal	Servant Shoot: jump and punish hs.6X	17570	13960	Easy	You need to stand block to get enough distance to be able to jump out.
+I-No	Servant Shoot: jump and punish hs.6X	17583	13970	Easy	You will need to be relatively quick to punish in time.
+Chaos	Servant Shoot: evade the 214K frametraps	25450	---	Medium	You cannot reversal 2K, add a very small delay.
+Advanced Tech
+Universal	Unblockables: backdash to minimise damage	---	---	Hard	Backdashing cannot be buffered as easily as supers and jump.
+Universal	2S& Servant Unblockable: fuzzy stand block	---	---	Easy	Crouch block the 2S then stand block after.
+Useful Links
+Resources and References
+Jack-O' Doc
+A simple guide explaining the general gameplan and tools of Jack-O'.
+Strive Jack-O' Compendium
+Document of information on a variety of combos, setups, pressure strings, and matchup interactions.
+Jack-O' Hitbox Reference (Strive Ver.1.09)
+Video showcasing Jack-O's hitboxes in real-time.
+Jack-O' Defend Command Interactions
+A document listing the hitbox interactions of Defend Command in each matchup.
+Goober Essentials
+Overview document introducing Jack-O's movesets and matchups.
+@MeliTrayus and /u/Meli_Trayus
+Twitter and Reddit accounts hosting Everyday Halloween, a series of bitesize tech and setup videos.
+#GGST_JC
+Twitter tag for Jack-O' content, where many players share tech, combos, and clips.
+GGST Jack-o Pro Guide | Part 1: Fundamentals
+A detailed guide on the character and her toolsets.
+Combo and Setup Videos
+JACK-O' Beginner Combos – Guilty Gear Strive by ahmz1404
+【GGST(Ver1.09)】必要十分！ジャック・オー(Jack-O)実用コンボ【vol.1】 by 初心者のための対戦ゲーム最短上達チャンネル
+【GGST(Ver1.09)】必要十分！ジャック・オー(Jack-O)実用コンボ【vol.2】 by 初心者のための対戦ゲーム最短上達チャンネル
+ギルティギア ストライヴ ジャックオー 基本 コンボ【GUILTY GEAR STRIVE JACK-O' BASIC COMBOS】 by メノ(Meno)
+【Guilty Gear Strive】実戦向けコンボ＆セットプレイ集 ジャック・オーを使いたい人向け動画 by かずのこチャンネル (Kazunoko)
+【GGST】JACK-O' Practical Combos & Mix-up 2 GUILTY GEAR -STRIVE-【ジャック・オー】 by SmileLanze
+Jack-o Pressure Guide | Tactics and Application by baccpack
+Notable Player Content
+Eddventure - YouTube Twitter
+Ladwaybac - YouTube
+NotPichu? - None available
+Purepure - Twitter

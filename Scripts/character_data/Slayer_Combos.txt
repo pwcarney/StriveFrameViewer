@@ -1,0 +1,550 @@
+Combo Notation Guide	Character Name Abbreviations
+7 7	8 8	9 9
+4 4	5 5	6 6
+1 1	2 2	3 3
+Numbers represent direction on a keyboard numpad. For example, 236+P becomes 236P.
+> = Proceed from the previous move to the following move.
+▷/land = Indicate that the player must land at that point in the sequence.
+, = Link the previous move into the following move.
+->/~ = Cancel the previous special into a follow-up special.
+dl./delay = Delay the following move.
+whiff/(whiff) = The move must whiff (not hit).
+c. = Close
+f. = Far
+j. = Jumping/Aerial
+hj./sj. = High Jump/Super Jump
+jc = Jump Cancel
+hjc/sjc = High Jump Cancel/Super Jump Cancel
+dc/adc = Dash Cancel/Air Dash Cancel
+CH = Counter Hit
+AA = Anti-Air
+IAS = Instant Air Special
+[X] = Hold input.
+]X[ = Release input.
+(move) = Move is optional.
+[X] or [Y] = Perform sequence X or Y.
+[sequence] xN = Repeat sequence N amount of times.
+(N) = Hit N of a move or move must deal N amount of hits.
+IAD = Instant Air Dash
+BRC = Blue Roman Cancel
+RRC = Red Roman Cancel
+PRC = Purple Roman Cancel
+YRC = Yellow Roman Cancel
+YYXRC = Dash Input X Roman Cancel in Y direction i.e: 22PRC
+XRC~Q = Cancel the X Roman Cancel into Q i.e: RRC~5K
+WS = Wall Stick/Wall Splat
+BSU = Blood Sucking Universe (63214H)
+P/K Dandy = Dandy Step (214P or 214K)
+P/K Mappa = Mappa Hunch (236P or 236K)
+AB = A.B.A
+AN = Anji Mito
+AS = Asuka R♯
+AX = Axl Low
+BA = Baiken
+BE = Bedman?
+BR = Bridget
+CH = Chipp Zanuff
+EL = Elphelt
+FA = Faust
+GI = Giovanna
+GO = Goldlewis
+HA = Happy Chaos
+IN = I-No
+JC = Jack-O'
+JO = Johnny
+KY = Ky Kiske
+LE = Leo Whitefang
+MA = May
+MI = Millia Rage
+NA = Nagoriyuki
+PO = Potemkin
+RA = Ramlethal
+SI = Sin Kiske
+SL = Slayer
+SO = Sol Badguy
+TE = Testament
+ZA = Zato-1
+All damage values were tested against Ky at full life with the R.I.S.C. Level at 0 (unless specified otherwise).
+fS(1) combos into Bloodsucking Universe, fS(2) links into 5K/2K when further out and cS when closer.
+UNIVERSE hits are mini fatals to oversimplify them (Change this when we learn more)
+Fill out as needed.
+	Basic combos are simple combos with the fewest requirements and conditions possible. They:
+Work against every, or almost every, character in the game
+Can be performed from most positions in the play area
+Require few adjustments, and if any are required they are simple
+
+
+Basic 5P/2P ConfirmFor when mashing works.
+Very Easy
+[5P/2P]xN > 236P
+Super simple confirm that leaves you +2 on hit. Either punch can hit up to 3 times at point blank.
+
+
+
+Easier Slash confirm
+Very Easy
+
+(c.S >) f.S/2S > 2H > 236K
+Super simple confirm which connects pretty much always, even when blocked. Swap in 5H when you hit an airborne target. Nice when starting off, but there are better options out there.
+
+
+
+Basic 5K/2K/2D ConfirmBetter punch has better confirm
+Very Easy
+
+(5K/2K >) 2D > 236K
+Basic confirm for the Kicks and 2D.
+
+
+	Core combos balance potency with consistency. They:
+Work against most characters of a selected weight or hurt box type
+May require moderate adjustments to account for variables such as screen position, hit count, resources, and opposing character
+Are expected to be consistently performable by most intermediate and advanced players who main the character
+
+
+BnB Slash comboHP magic trick
+Easy
+
+(c.S > f.S,) c.S > 6H > 214P~P (WS, 6H/214P~P WB)
+Peak damage, reaches wall from almost midscreen distance, and can be even more deadly with meter. Dandy! Safejump comes with shipping.
+
+
+
+CH K Mappa extentionHow to get cornerpressure from roundstart
+Easy
+
+CH 236K > 5K > 236K
+Shouldn't whiff, but even then it won't hurt to try
+
+
+
+(Almost) universal combo pickupFun fact: almost all of the starters can be turned into pilebunker loops as well!
+Easy
+
+Certain starters > c.S > 6H > 214P~P/214K~P (WS, 6H WB)
+You usually use 214P~P, but some require the other one to not sideswap. If the starter causes a launch, you can otfen replace the c.S with 5K for an easier pick-up or do c.S, 5K instead for extra damage.
+
+Starters include:
+
+CH 6H > 214P > ...
+CH 5H > 214P > ...
+CH 2H > 214P > ...
+CH 2D > ...
+UNIVERSE 6K > ...
+(only grounded) c.S > f.S > ...
+(in corner) CH 236K > ...
+(in corner) CH 2D > 236K > ...
+CH 214K/P~S > ...
+CH 214K/P~K > ...
+CH 214K/P~H > ...
+Anything > 66RRC > ... VERY USEFULL!!
+... > Any H > 236D > ...
+j.S > ...
+j.H > ...
+
+
+Basic 6P ConfirmThe f.S/jump-in killer
+Very Easy
+
+6P > 236K
+CH 6P > 214P~P
+If you really need to use 6P, you got at least some extra damage.
+
+
+	Specialized combos are advanced routes which require more knowledge and awareness, but offer advantages over core routes. They:
+Can have any number or combination of requirements and conditions—character, spacing, hit count, resource, or situation specific
+Offer some advantage over core routes; be that in damage, corner carry, okizeme, meter gain, etc.
+Might not necessarily be harder than core combos, but require more specific circumstances and knowledge to execute
+
+
+Another c.S ConversionA very Dandy start to Slayer's combo theory.
+Medium
+[c.S > f.S,]x2 5K > 2D ...
+A basic combo that leads to a bunch of different things. You could OTG with c.S, you could do K Dandy for an auto timed meaty, or even a crossup by dashing afterwards, or you could do K Mappa for corner carry. It's up to you to decide what you think is best.
+
+Alternatively, you could cancel into BSU after the first hit of either f.S.
+
+A slight loss in damage for a great mixup.
+
+
+
+Counterhit Launch ConfirmGetting reward easily from counter-hits.
+Medium
+Starter > c.S > 5[D] > 5K > 6H > 214P~P
+Confirm with good damage and corner carry that works almost universally from large counterhits, 2H being the exception. Valid starters are 5H and 6H, 2D, and It's Late/Master's Hammer. (Dandy Step > S/H) Wallsplats from midscreen.
+
+The timing and leniency of the combo varies slightly based on the starter. After 5H/6H, a 214P cancel may be necessary to close the distance, but they both give ample time to hit. Sometimes, c.S can be used instead of 5K if Slayer is close enough.
+
+With the Universe buff active, 5D and Bump Ahead (Dandy Step > K) will also work as starters.
+
+
+
+Bloodsucking universe confirmYummy Floor 10's
+Medium
+
+(c.S >) f.S, c.S > f.S (1) > 63214H
+Sacrifice damage for the UNIVERSE pressure.
+
+
+
+Wild Assault ExtentionAnywhere is wallbreak distance
+Easy
+
+Any H Button > 236D > c.S > 6H > 214P~P (WS, 6H WB)
+Increase damage, go an extra half of the screen, and connects consistently. On-Block it adds 3 additional auto-timed frametraps/mix-up oppertunities.
+
+
+
+CH c.S comboPilebunker Loops my beloved.
+Medium
+
+CH c.S > 5[D], c.S > 214P~P, c.S > 2S > 2H > 214P~P
+High damage combo off of CH c.S that works anywhere.
+
+Note that if you do this while cornered, you will want to Dash-Kara Cancel the first Pilebunker so that the combo can wallbreak.
+
+
+Roundstart CH 2H
+Roundstart CH 5H
+Roundstart CH 6H
+
+Roundstart CH 2HLowest Damage Option, but the safest.
+Medium
+
+CH 2H > 214P, c.S > 2S > 214K~P, c.S > 2S > 2H > 214P~P WS! 214P~P WB!
+Just because this is the lowest damage combo of the 3 here doesn't mean that it doesn't do much damage. You're opponent will watch in fear as ~70% of the HP just disappears.
+
+
+Roundstart CH 5HThe most realistic option, next to 2H.
+Easy
+
+CH 5H > 214P, 2H > 214P~P, c.S > 2H > 214P~P, c.S > 6H > 236K WS 214P~P WB
+Very similar to the 2H combo, but with a higher damage output. One of the easiest setups to confirm, but it's a little hard to get a CH 5H
+
+
+Roundstart CH 6HHighest damage option, but somewhat niche.
+Very Hard
+
+CH 6H > 214P, dl.2S > 214K~P, c.S > 2H > 214P~P, c.S > 6H > 236K WS, 214P~P/632146S WB
+This combo actually builds enough tension to do a super wallbreak at roundstart. Getting the dl.2S can be quite hard occasionally.
+
+
+
+CH 5K ConfirmNot even Nago has legs like these!
+Hard
+CH 5K > 236D > c.S > f.S(1) > 63214H
+A simple CH 5K confirm that guarantees a BSU from any distance from which the initial hit can connect. If the opponent doesn't burst before WA, then this is a burst safe route into BSU.
+
+Roundstart CH 5HThe most realistic option, next to 2H.
+Easy
+
+CH 5H > 214P, 2H > 214P~P, c.S > 2H > 214P~P, c.S > 6H > 236K WS 214P~P WB
+Very similar to the 2H combo, but with a higher damage output. One of the easiest setups to confirm, but it's a little hard to get a CH 5H
+
+
+Roundstart CH 6HHighest damage option, but somewhat niche.
+Very Hard
+
+CH 6H > 214P, dl.2S > 214K~P, c.S > 2H > 214P~P, c.S > 6H > 236K WS, 214P~P/632146S WB
+This combo actually builds enough tension to do a super wallbreak at roundstart. Getting the dl.2S can be quite hard occasionally.
+
+
+
+CH 5K ConfirmNot even Nago has legs like these!
+Hard
+CH 5K > 236D > c.S > f.S(1) > 63214H
+A simple CH 5K confirm that guarantees a BSU from any distance from which the initial hit can connect. If the opponent doesn't burst before WA, then this is a burst safe route into BSU.
+
+Roundstart CH 6HHighest damage option, but somewhat niche.
+Very Hard
+
+CH 6H > 214P, dl.2S > 214K~P, c.S > 2H > 214P~P, c.S > 6H > 236K WS, 214P~P/632146S WB
+This combo actually builds enough tension to do a super wallbreak at roundstart. Getting the dl.2S can be quite hard occasionally.
+
+
+
+CH 5K ConfirmNot even Nago has legs like these!
+Hard
+CH 5K > 236D > c.S > f.S(1) > 63214H
+A simple CH 5K confirm that guarantees a BSU from any distance from which the initial hit can connect. If the opponent doesn't burst before WA, then this is a burst safe route into BSU.
+
+Pilebunker Loop Theory
+
+What is a Pilebunker Loop?
+A Pilebunker loop is a staple of Slayer's combos, which makes use of the technique known as a back-hit. Back-hits occur when Slayer hits an opponent with Pilebunker while they are directly above him, which manages to send them into rolling tumble while still being behind Slayer as he travels, and they are left in a state where he can continue the combo with c.S.
+
+All PB loops require either a counter-hit or RRC to initiate. Due to their finicky nature, combos can be somewhat character-specific due to the shape and size of the opponent's collision box being different.
+
+Starters
+I wish you a merry christmas (Check the starters for your daily dose of loops)
+
+When and how to extend the loop
+As a general rule: If you used 3 moves before a PB, extending won't work, while setups using 1 or 2 moves before Pilebunker work.
+
+Setups that you cannot extend:
+
+CH c.S > 5[D] > c.S > 214P~P
+CH 2H > 214P, c.S > 2S > 214K~P
+Setups you can extend:
+
+CH 6H > 214P, delay 2S > 214K~dl.P
+CH 5H > 214P, 2H > 214P~P
+You usually extend by doing c.S > 2H > 214P~P, but big bodies require c.S > 2S > 214K~P.
+
+c.S > 2H > 214P~P does more damage, and knocks targets further away.
+c.S > 2S > 214K~P does slightly less damage, knocks the target less far away, and when next to the wall, can occacionally wallstick, causing the extention to whiff (not gud).
+There are times where you need to use the one of the extensions for their specific knockback distances. This is because there is one section in the map where neither the sideswap finisher nor the far hitting finisher can reach the wall, and you need to adjust your position preemptively with a different extension. It's not flawless, so sometimes you simply cannot wallbreak. In cases like these you can end early by not extending and immediately breaking the wall.
+
+Ending the combo
+When you are with the back to the Wall, use c.S > 2S > (2H >) 214P~P WS, 6H/214P~P WB. You may need to ommit the 2H to wallstick at further distances from the wall.
+
+When you are Midscreen, do c.S > 6H > 236K WS, 214P~P WB or c.S > f.S > 5H > 236K WS, 214P~P WB.
+The f.S version should be preferred when using an overdrive to wallbreak in combos with at least 5 hits before the starter.
+Otherwise, the 6H version not only does more damage (or goes even), it even knocks back enemies further, making wallsticks from the middle of the screen possible.
+You should generally prefer doing 6H.
+
+If you wouldn't Wallstick due to being too far away, do c.S > 2S > 2H > 214P~P
+
+You usually don't want to use Last Horizon as your combo ender due to the high RISC scaling, but Super Mappa Hunch is a nice way to tack on extra damage on the Wallbreak while also getting a knockdown Post-Wallbreak.
+
+P Starters
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+2P > (2P > 2P) > 236P	Anywhere	44(60)	Everyone	[1] Very Easy	Tension Gain: 9 ~ 13
+Basic 2P conversion. The number of 2P's possible depends on Slayer's proximity to the opponent.		212826
+(PC)	1.37
+2P > 6P > 236K	Anywhere	70	Everyone	[1] Very Easy	Tension Gain: 14
+Point-blank 2P combo.		216273
+(PC)	1.37
+2P > 236P > 66RRC, 5[D], c.S > 214P~P, (No Extention Pilebunker Loops)	Anywhere	163	Everyone	[3] Medium	Tension Gain: -38
+2P combo extended with a Roman Cancel.		216277
+(PC)	1.37
+CH 2P, c.S > f.S, 5K > 2D > 214P	Anywhere	96	Everyone	[3] Medium	Tension Gain: 21
+Close range counter hit 2P combo that prioritizes oki.		216281
+216282
+(PC)	1.37
+CH 2P, c.S > 6H > 214P~P	Anywhere	163	Everyone	[2] Easy	Tension Gain: 22
+Close range counter hit 2P combo that prioritizes damage.		216278
+(PC)	1.37
+CH 2P, c.S > 6H > 214P~P > 66RRC, 62H > 214P~P, (No Extention Pilebunker Loops)	Anywhere	190	Everyone	[3] Medium	Tension Gain: -26
+Close range counter hit 2P combo extended with a Roman Cancel. Walk forward after the Roman Cancel and use 2H when the opponent reaches the peak of their launch.		216279
+(PC)	1.37
+K Starters
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+5K/2K > 2D > 236K > 66 > ...	Anywhere	84	Everyone	[1] Very Easy	Basic kick conversion which allows you to maintain pressure. On block you can go with 236P -> 2P variant(unsafe vs mashing)		213111
+(PC)	1.37
+5K > 66RRC > slight dl.2S > 214K~P > c.S > 2H > 214P~P > c.S > 2S > 236D > c.S > 6H > 632146S WB	Midscreen	274	Everyone	[3] Medium	Tension Gain: -100
+Combo that has both Pilebunker loop and clean hit Super Mappa in it, How Dandy! Player can start this combo from ANY starter with little timing adjustments, but for me, 5K is the most common opener. Also, player can go for this route anywhere on the screen, but wall won`t break then.		214785
+(PC)	1.37
+S Starters
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+c.S > f.S(, c.S) > 2H > 214P~P	Anywhere	161/175	Everyone	[1] Very Easy/[2] Easy	Not the best option, but the easiest one for sure. Add c.S for more damage when very close, but don't do f.S/2S afterwards, as it will make the link whiff			1.37
+f.S, c.S > f.S > 2H > 214P~P	Anywhere	158	Everyone	[2] Easy	Basic confirm off a f.S (mind that doing c.S>f.S twice will make the 214P~P whiff!)			1.37
+c.S > f.S, c.S > 6H > 214P~P	Anywhere	179	Everyone	[2] Easy	Best meterless damage for a normal c.S hit. Ends with 6H dealing more damage (Only worth with c.S starter)		214854
+(PC)	1.37
+[c.S > f.S,] x2 > 5K > 2D (> 236K)	Anywhere	tod	Everyone	[3] Medium	Does less damage than BnB, but you get an insane mix-up instead			1.37
+(c.S) > f.S, c.S > f.S(1) > 63214H	Anywhere	152	Everyone	[3] Medium	"Simple" BSU confirm, but f.S, c.S is very dependent on range. Deals 117 damage if skipping the first c.S	https://youtu.be/f4NXAgtc5PM	212324
+(PC)	1.37
+[c.S > f.S,] x2 > 5H > 632146S	Anywhere	228	Everyone	[3] Medium	Easiest combo to set up sweet spot Super Mappa Hunch	https://youtu.be/1iCqxsJw9BI	212322
+(PC)	1.37
+CH c.S > 5[D] > c.S > 6H > 214P~P (WS, 6H/214P~P WB)	Anywhere	tbd	Everyone	[2] Easy	Easier CH confirm, if Pilebunker isn't your thing			1.37
+CH c.S > 5[D] > c.S > 214P~dl.P, (No extention Pilebunker Loops)	Anywhere	283	Everyone	[3] Medium	Can sideswitch depending on first reverse hit 214P~dl. P timing; upgrades to Hard if trying to do the back-to-wall version. Does 245 damage without wallstick/wallbreakd	https://www.youtube.com/watch?v=DCTFqq3TBRg	212323
+(PC)	1.37
+c.S > 6H > 214P~P > 66FRRC > 214P > (1 Extention Pilebunker Loops)	Midscreen	304	Everyone	[3] Medium	Autotimed midscreen normal hit c.S 50% meter confirm. Wallsplats at roundstart, gives corner oki if farther than roundstart.	https://youtu.be/6z7mnj5miDU	212329
+(PC)	1.37
+(blocked c.S >) blocked 2S > (delay 5H/delay 63214H/214P~P)	Anywhere		Everyone	[2] Easy	Out of a blocked 2S, you can either: 5H to fish for a counterhit (Beats mashing), 63214H to tick throw (Beats blocking), or 214P~P to cross up. Especially strong in corner pressure.		215381
+215384
+215386
+(PC)	1.37
+H Starters
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+5H > 236K	Anywhere	88	Everyone	[1] Very Easy	A normal grounded hit won't connect into Pilebunker, so it has very little reward.		214850
+(PC)	1.37
+2H/6H > 214P~P	Anywhere	tod	Everyone	[1] Very Easy	Normal hit bnb. When close, 214P will sideswap, while 214K won't. Far 214K will whiff, especially off 2H			1.37
+5H/2H/6H > 236D > c.S > 6H > 214K~P WS, 214P~P/6H WS	Anywhere	tod	Everyone	[1] Very Easy	WA extention from any H move. Consistent connection even when blocked/CH, and when blocked, adds three autotimed frametraps.			1.37
+CH 5H/2H/6H > 214P, c.S > 6H > 214K~P (WS, 214P~P/6H WS)	Anywhere	tod	Everyone	[2] Easy/[3] Medium/[2] Easy	CH H Followup, when Pilebunker loops aren't your thing. The link is particularly difficult with CH 2H, as the timing is rather tight.			1.37
+CH 5H > 214P, 2H > 214P~P, (1 Extention Pilebunker Loops)	Anywhere but Corner		KY and more	[3] Medium	CH 5H confirm off any range. No delay necessary. (TEST; You might need to replace 2H > 214P ~ P with 2S > 214K~P for big Bodies (GO, NA, PO))		214856
+(PC)	1.37
+CH 5H > 214P, dl.2S > 214K~dl.P, (? Extention Pilebunker Loops)	Corner		KY and more	[4] Hard	Unique Modification when the opponent is close to the corner. Use when the first 214P doesn't! sideswap you.			1.37
+CH 5H > 214P, 2H > 214K~dl.P, (? Extention Pilebunker Loops)	Corner		KY and more	[4] Hard	Unique Modification when the opponent is close to the corner. Use when the first 214P does! sideswap you. Usually done after a blocked 2S			1.37
+CH 6H > 214P, delay 2S > 214K~dl.P, (1 Extention Pilebunker Loops)	Anywhere	244	KY and more	[5] Very Hard	CH 6H confirm off any range. You might need to micro walk back and use a different delay timing for each situation.		214860
+(PC)	1.37
+CH 2H > 214P, c.S > 2S > 214K~P, (No Extention Pilebunker Loops)	Anywhere	257	KY and more	[3] Medium	CH 2H confirm off any range.		214861
+(PC)	1.37
+D Starters
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+2D > 236K	Anywhere	61	Everyone	[1] Very Easy	Normal hit confirm		214862
+(PC)	1.37
+CH 2D, c.S > 6H > 214P~P	Anywhere	146	Everyone	[2] Easy	Easy CH confirm		214864
+(PC)	1.37
+CH 2D > 236K, c.S > 6H > 214P~P WS, 6H WB	Corner	214	Everyone	[2] Easy	Works from both close and far hits. Since you often buffer 236K afterwards anyways, it is very easy to hitconfirm.			1.37
+CH 2D, 2S > 214K~P, (? Extention Pilebunker loops)	Roundstart distance or more	wip	Everyone	[2] Easy	Pilebunker setup from CH. Requires a far hit		214865
+(PC)	1.37
+5D > 66rrc, c.S > 5D, c.S > 6H > 214P~P	Anywhere	144	Everyone	[2] Easy	Simple 5D RC conversion. Works from Universe 5D too, but not from all spacings.			1.37
+5D > 66rrc, 2S > 214K~P, (1 Extention Pilebunker Loops)	Outside Corner	159	Everyone	[3] Medium	Midscreen Pilebunker loops from 5D.			1.37
+5D > 66rrc, walk backwards, 2S > 214K~P, (1 Extention Pilebunker Loops)	Corner	196	Everyone	[4] Hard	Pilebunker loops that work in the corner. Walk back long enough that 2s hits when they're falling, at about slayer's eye level.			1.37
+5[D]8, j.D > j.P > j.D > j.D (Finishing Blow)	Anywhere	173	Everyone	[1] Very Easy	Easiest possible Homing jump combo		214867
+(PC)	1.37
+5[D]8, j.D > j.P > j.D > adc > j.D > j.P > j.P (Finishing blow)	Starting	199	Everyone	[2] Easy			212332
+(PC)	1.37
+5[D]8, j.H > jc > j.H, j.H, j.H > j.H	Starting	216	Everyone	[3] Medium			212649
+(PC)	1.37
+5[D]8, j.H > j.K > jc9 > j.H > j.K > j.H > j.DD	Anywhere	227	Everyone	[3] Medium	Simple universal homing jump combo		219058
+(PC)	1.37
+5[D]8, j.H > jc > j.D, j.H, j.K > j.H > jc > j.PP	Anywhere	225	Everyone	[4] Hard	1. For it to work on Potemkin you need to j.D > jc instead of jc > j.D 2. For it to work on I-no you need to delay the first j.H 3. For it to work on Jack-o you need to delay j.H and j.D before jc instead of after and the last jc isn't needed.		212647
+(PC)	1.37
+5[D]8 > j.H > j.D > jc9 > j.K > j.H > j.D > j.K > jc9 > j.PP	Anywhere	228	Ky (and more)	[4] Hard	To make the combo easier, you can omit j.P and instead end it with j.KK. You only lose 4 damage in doing so.			1.37
+Anti-Air Combos
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+AA (c.S >) f.S > (delay) 5H > 236K	Anywhere	103/140	Everyone	[2] Easy	You might need to delay the 5H depending on the height you hit the opponent at. Tends to be very inconsistent, not recommended!			1.37
+AA c.S, 5K > 6H > 214P~P (WS)	Anywhere	166/237	Everyone	[1] Very Easy	A better conversion			1.37
+AA c.S 5[D], c.S/5K > 6H > 214P~P (WS)	Anywhere	202/263	Everyone	[3] Medium	An even better conversion if you hitconfirm even faster. In theory Pilebunker loops are possible, but not recommended. 5K is usually the better option between the two, since the starter doesn't need to connect very close and it has much better pushback (So higher odds for a wallstick) as a trade-off of doing 4-5 points less damage.			1.37
+AA (f.S >) 5H > 214P~P	Anywhere		Everyone	[1] Very Easy	If you specifically AA with f.S, you can connect Pilebunker from this link. Best f.S/5H confirm.			1.37
+AA 5P > 5K > 6H > 214P~P	Anywhere	117/182	Everyone	[1] Very Easy	If you specifically AA with f.S, you can connect Pilebunker from this link. Best f.S/5H confirm.			1.37
+j.K > j.D > Air Dash > j.H > j.D > 2S > 2H > 214P~P > c.S > 2S > 2H > 214P~PWS > 214P~PWB	Midscreen	220	Everyone	[3] Medium	Midscreen conversion off Slayer`s best air-to-air button. Inconsistent for big bodies like Pot, Goldlewis, Nago.		213125
+(PC)	1.37
+Jump-In Starters
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+j.S/j.H > c.S > f.S/2S > 5H/2H > 236K	Anywhere			[1] Very Easy	Much worse in almost any way than the next combo. You cannot use 2H > 214P~P, as it would whiff.			1.37
+j.S/j.H > c.S > 6H/2H > 214P~P WS, 6H/214P~P WB)	Anywhere			[1] Very Easy	Standard conversion. 2H is generally worse.			1.37
+j.S/j.H > c.S > f.S, 5K > 2D	Anywhere			[3] Medium	Another way to get into a hard knockdown mix-up.			1.37
+IAD back j.H > 66RRC, dl.214P~P, (1 Extention Pilebunker Loops)	Midscreen	263	Everyone	[4] Hard	forward jump IAD back j.H from point blank hits all crouching characters, good instant overhead.			1.37
+Throw Starters
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+4/6D(1) RRC~5[D], 2S > 214K~P, (No Extention Pilebunker Loops)	Midscreen	202	Everyone	[4] Hard	Tension Gain: -45
+Roman cancel on the first hit of the throw, before all damage is done, to make this route possible. Since the second pilebunker splats a few frames after it connects, there's enough extra time for slayer to recover and deliver another pilebunker to wallbreak.	YT	213091
+(PC)	1.37
+Special Move Starters
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+CH 236P, 5P > 6H > 214P~P (WS > 214P~P)	Any but corner	123 (188)	Everyone	[3] Medium	Tension Gain: 26 (33)
+Will WS from roundstart. Won't connect if you use 236P from its max range		212634
+(PC)	1.37
+CH 236P, 5P > 6H > 214P~P WS > 6H/5H	Corner	179/178	Everyone	[3] Medium	Tension Gain: 31
+Variant of the above combo. If your opponent was fully cornered, use 5H to break the wall more easily.		212636
+(PC)	1.37
+CH 236K, 5K > 236K	Any	97	Everyone	[2] Easy	Tension Gain: 23
+Won't connect if you use 236K from its max range		212640
+(PC)	1.37
+CH 236K, 5K/c.S > 6H > 214P~P WS > 6H	Near Corner/Corner	202/tbd	Everyone	[2] Easy	Tension Gain: 33/tbd
+Corner version of the above combo. c.S does more damage, but 5K has better reach, allowing for confirms of distances further from the corner		212641
+(PC)	1.37
+CH 236K, c.S > 2S > dl.2H > 214P~P, (No extention Pilebunker loops)	Corner	236 and more	Everyone	[4] Hard	Pilebunker loop setup from a CH Mappa K in/near corner.			1.37
+CH 214P~P, 236K/632146S WB	Round Start	118/192	Everyone	[3] Medium	Tension Gain: 20/-37
+The super will not break the wall if you're very far away from the corner. 236K will whiff if you are further away than Round Start		212643
+(PC)	1.37
+214P~P > 66RRC, dl.214K~dl.P, (1 Extention Pilebunker Loops)	Round Start	253	Everyone	[4] Hard	Tension Gain: -40
+Metered route for raw pilebunker, also works with Bump Ahead and It's Late 66RRC starters, but the dandy step and pilebunker delays are different for each.			1.37
+CH 214K~K, c.S > dl.2S > 214K~dl.P, (No Extention Pilebunker Loops)	Any	232/239	Testing	[3] Medium	Tension Gain: 49
+CH Bump Ahead confirm, only works from K Dandy.		213181
+(PC)	1.37
+CH 214K~S, c.S > DC > c.S > 2S, 214K~P, (No Extention Pilebunker Loops)	Any	241/248	Testing	[3] Medium	Tension Gain: ~55
+CH It's Late confirm, can work from P Dandy, but wont swap sides.		213176
+(PC)	1.37
+CH 214P~H, slight dl.2S, 214K~P, (1 Extention Pilebunker Loops)	Any	264/275	Testing	[3] Medium	Tension Gain: ~60
+CH Master's Hammer confirm, can work from either Dandy Step. Works best as a throw bait.		18742
+(PS)	1.37
+Overdrive Starters
+Combo	Position	Damage	Works on	Difficulty	Notes	Video	Recipe	Ver
+Starting							1.37
+Your most consistent Wallbreak tool is 6H.
+
+If you wallbreak with anything besides a Dandy Step follow-up, you can safely wallbreak with 214P~P. If your opponent had at least a little bit of air time (you only need 1 frame!) before the opponent sticks to the wall after a Pilebunker, then you can also wallbreak with 214P~P.
+
+Breaking the wall with 632146S is always available, primarily being done for extra damage/super wallbreak. In extremely high scaled combos this adds more damage than a regular attack (due to the minimum damage mechanic), making it useful for closing out Pilebunker loops/Metered combos.
+
+"Breaking the wall" with 236236H is always available, as long as you are close enough to the wall. Since it doesn't actually break the wall, it's only used to finish off low health enemies. This is especially useful if the opponent had risk built up before the combo, massively increasing damage.
+
+236D can also be used for super wallbreak only, but it's usefulness is questionable
+
+Thanks to the link of f.S, c.S, you can vastly extend your Slash combos.
+
+Note: This only covers meterless options, go check out the S-starter page for some combos using meter
+
+From a grounded c.S/f.S/2S, you generally can go four* paths:
+
+... > f.S (1) > 63214H
+... > 2H > 214P~P
+... > c.S > 6H > 214P~P
+... > f.S, 5K > 2D
+
+
+The easy enderCount to 3
+Very Easy
+
+... > 2H > 214P~P
+Since it doesn't require any specific S button beforehand, it is the most universally applicable one by far.
+
+The main difficulty lies in not whiffing the 214P~P, is is caused by high gravity scaling.
+
+To figure out how much you can add before the 2H, you simply need to count to 3. This is the total amount of moves you can do, before the scaling is too high.
+
+Do a maximum of 3 S moves before the 2H. Any jump-in counts as 2 moves.
+Some example combos are:
+
+c.S > f.S, c.S > 2H > 214P~P
+f.S, c.S > f.S/2S > 2H > 214P~P
+CH f.S, f.S, c.S > 2H > 214P~P
+j.S, c.S > 2H > 214P~P
+j.H, c.S > 2H > 214P~P
+
+
+Confirm into GrabFishing for UNIVERSE
+Easy
+
+... > f.S (1) > 63214H
+While doing much less damage by itself, it can provide massive pressure thanks to the various high-damage CH confirms
+
+You need to route your combo into ending with f.S (1), then quickly input Bloodsucking Universe.
+
+The combo ender can fail in two ways:
+
+Instead of doing f.S (1), you were close enough for a c.S, making the grab whiff.
+You input the grab too slowly, getting the second hit of f.S, making the grab whiff.
+Especially the first problem can be a little difficult, since it can be hard to gauge if you are close enough for a c.S. If you aren't certain, just use another combo ender instead or quickly react.
+
+Example combos:
+
+(c.S >) f.S, c.S > f.S (1) > 63214H
+(c.S >) f.S (1) > 63214H
+(far hit) CH f.S > f.S (1) > 63214H
+(close hit) CH f.S, c.S > f.S (1) > 63214H
+j.S, c.S > f.S (1) > 63214H
+j.H, c.S > f.S (1) > 63214H
+
+
+The best enderOptimal
+Easy
+
+... > c.S > 6H > 214P~P (WS, 6H/214P~P WB)
+While is appears to be not much different to the 2H pickup, this version does much more damage and knocks the opponent further away, making wallbreaks more likely. Additionally, it doesn't rely on gravity scaling to connect, making it much stronger in longer strings (f.e when extending with RC or WA).
+
+For this combo ender you need to route into c.S, limiting the options slightly.
+
+Example combos (Note):
+
+c.S > f.S > c.S > 6H > 214P~P
+f.S > c.S > 6H > 214P~P
+(start with c.S) c.S > 6H > 214P~P
+j.S > c.S > 6H > 214P~P
+j.H > c.S > 6H > 214P~P
+(c.S > f.S,) c.S > 6H > 236D > c.S > 6H > 214P~P
+UNIVERSE 6K > c.S > 6H > 214P~P
+
+
+Confirm into Hard KnockdownLeo will be PRETTY jealous
+Medium
+
+... > f.S, 5K > 2D
+While doing slightly less damage, it enables one of Slayers strongest Mix-ups
+
+You need to route your combo into ending with f.S, which is not too difficult to achieve. It is much easier to react if you connect a f.S or c.S, making hitconfirms much more reliable than the BSU setup.
+
+(Add Mix options here!)
+
+Example combos:
+
+(c.S >) f.S, c.S > f.S, 5K > 2D
+(c.S >) f.S, 5K > 2D
+(far hit) CH f.S > f.S, 5K > 2D
+(close hit) CH f.S, c.S > f.S, 5K > 2D
+j.S, c.S > f.S, 5K > 2D
+j.H, c.S > f.S, 5K > 2D

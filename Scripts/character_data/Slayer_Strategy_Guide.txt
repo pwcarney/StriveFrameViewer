@@ -1,0 +1,230 @@
+Round Start
+Slayer’s round start is rather character specific. It’s generally recommended to back off at round start with a backdash, or a walk backwards against most characters. The exceptions would be characters that have an easy time keeping Slayer out, like Axl or Happy Chaos. In these cases, you would want to take the initiative.
+
+If you do choose to take immediate initiative, here are some options that Slayer has:
+
+5K - It's fast start up and long reach, alongside the fact that it raises Slayers' lower hurt box, makes it a great round start option. It can beat a number of far slashes, and you can convert into Blue Wild Assault on counter hit.
+
+6P - A universal option that can be used to beat certain disjointed pokes, most notably f.S
+
+2D - Can be used to whiff punish fast light normals or to knockdown people who walk backwards at round start.
+
+2H - Can high profile low hitting moves, and also leads to great reward on counter hit.
+
+Dandy Step - You main goal is to make them whiff their roundstart option, then punish with Pilebunker
+
+Jump/dcJump - Best way to fight jump-ins while potentially getting a jump-in of your own. Use j.K to clear the skies
+
+Neutral
+K Mappa Hunch
+Since Slayer lacks traditional mobility, he has to rely on K Mappa Hunch as his primary method of traversing the screen. It goes nearly fullscreen, and while it is throw punishable at -2 on block, it can be spaced so that it's out of throw range. When properly spaced, K Mappa can be safe or even plus on block. You're going to want to get a feel for the spacing where Slayer can use K Mappa without getting punished. Slayer does have high health, so unless the character can get their win condition off of a throw, getting grabbed is not the worst thing in the world, but still important to keep in mind.
+
+
+K Mappa Hunch's frame advantage depends on the spacing where you use it from
+Your goal in neutral should be to land K Mappa Hunch either on hit or on block from a safe spacing. On block, you can follow up with 2P or 2K, which are 5 frames and 6 frames respectively, and begin your offense from there. If K Mappa Hunch hits, you can do another one to follow up the rolling tumble and beat wake up mashes. You need to time K Mappa so it hits on their wake up. If they’re in the corner, and you score a counter hit, you can convert with c.S for a simple, yet still highly damaging combo.
+
+If you land a counter hit K Mappa at midscreen, you can follow it up with 5K > 236K to continue to carry them to the corner, and run your offense from there. If they’re not in the corner, you can time another K Mappa for their wake up and run offense from there. A counter hit in the corner leads to a full combo.
+
+There are no match ups where you won’t be relying on K Mappa (though it is more important in some match ups than others) so it’s very important to get this down.
+
+Now, K Mappa Hunch is vulnerable to 6Ps, and some characters like Faust can crouch underneath it. So it’s important to mix it up with other tools Slayer has. You can use P Mappa Hunch to bait people into whiffing 6P and then punish them with K Mappa Hunch. P Mappa Hunch is -1 on block and can’t really be punished, so if you do land it, this is another opportunity to start your offense.
+
+You should pretty much ALWAYS kara-cancel the K Mappa for the extra distance. This makes the move go much further and cover even more space in less time. And compared to traditional kara cancels, this one is incredibly easy and consistent. Use the un-kara'd version in combination with good spacing to mix up with a throw
+
+The sheer speed of the move shouldn't be underestimated. You can simply beat out any passive play by just throwing out this move in combination with super mappa hunch. It is especially good at punishing neutral fireballs, since you can just get to them before the projectile comes out, giving you an easy CH.
+
+Poking
+If your opponent is more aggressive and trying to get in on you, 5K is Slayer’s best poke. It raises his lower hurtbox, making it difficult to punish. On block, you can cancel into P Mappa and run your offense from there or you can go into K Mappa if you think it’ll hit. From 5K range, however, K Mappa will be throw punishable, so bear that in mind. On hit, you can cancel into 2D and hit them with an OTG c.S. From there you can run your OTG c.S okizeme (see the okizeme section for more information).
+
+Another decent poke would be 2D, which is a forward advancing normal that hits low and covers a lot of space. Late hits are also less minus, allowing you to stay safe
+
+2H can be used to beat low hitting pokes, since Slayer hops and raises his hurtbox, allowing him to beat it.
+
+Anti-Airs
+If the opponent is air dashing at you frequently, you’ll need to rely on 6P. While you do have various cancel options, canceling into K Mappa is generally your best option here, since it lets you set up your offense as previously mentioned. You do need to delay the K Mappa slightly in order to land it. If K Mappa whiffs, it’s not the worst thing in the world, as you’ll still have a very advantageous knockdown situation.
+
+c.S is also a really strong anti-air tool, as it hits extremely high, and you can always dash cancel it. Even if they block your c.S in the air, since you can dash cancel, you can use Slayer’s teleporting step dash for a mix up. It’s especially good for when the opponent is right above you.
+
+Dandy Step
+Dandy Step in neutral can be a bit risky. This is mainly because it very reactable and with it's very obvious animation and the minimum of 22 startup frames for the fastest option, making it easy to outpoke on reaction. While you are varying degrees of safe if you land most of your Dandy Step follow-ups on block, you need to keep in mind that Pilebunker is not a good neutral poke without Tension. The hitbox isn’t great, it can get stuffed rather easily, and it’s unsafe on block. You also don’t get a lot of reward from it if it lands, since the opponent is launched so far away. With Tension, if you land Pilebunker on block, you can do a fast Roman Cancel into a P Dandy Step and cross the opponent up and go for another mix, but again, if you only have 50 Tension, then unless you land a counter hit, you won't get much of a reward if the Dandy Step follow-up lands. The only effective way to use Dandy Step in neutral is to dodge a move with 214K and then punish with Pilebunker.
+
+Aerial Approaches
+Slayer lacks options while jumping, which makes his air game telegraphed. IAD forward > j.H is his best aerial approach method because on hit, it can be converted into c.S for a combo. That being said, an aerial approach isn't something you're going to want to default to. You'll need to mix it up with K Mappa Hunch and even simply walking or dashing forward, depending on the match up. The multi-hit and air-stall of j.S can also be used to mix up your opponent.
+
+Using Health As a Resource
+Slayer has high health. This allows him to take SOME risks in neutral. Sometimes you’ll be forced to risk it with a Mappa Hunch or an IAD > j.H, but again, his high health allows him to be able to afford to do this.
+
+Super Mappa Hunch in Neutral
+If you’re having difficulty getting in on a zoner, you can use Super Mappa Hunch on reaction to a projectile special move to punish the either the start up or recovery of their projectile attacks. The opponent can't PRC to protect themselves either because of how fast the Overdrive covers the screen. It is very susceptible to jumps, whiffing on anyone who jumped before the reversal got used.
+
+In addition, you can use PRC to prevent the damaging hitbox to surprise opponent with a grab.
+
+Offense
+Slayer's offense relies primarily on stagger pressure combined with his teleporting step dash, P Mappa, and Dandy Step in order to maintain a close range position and potentially mix the opponent.
+
+When the opponent is in the corner, Slayer cannot cross up the opponent anymore with any of his options that would normally allow him to do so (step dash, P Dandy, Master’s Hammer). While this does make his mixups a bit easier to block, the rest of his tools are still extremely volatile and effective.
+
+Slayer's abundance of advancing and far reaching normals and special moves makes it difficult for the opponent to push him out, even with Faultless Defense.
+
+Basic Frametraps/Blockstrings
+When running your pressure as Slayer, you're not always going to want to perform your blockstrings as fast as possible. You'll want to mix up the timing of the buttons and when you press them in order to create variance in your pressure. That way, you can frametrap your opponent if they mash and score a counter hit and reap your reward with Slayer's high damage.
+
+Blockstring	Adv. on-Block	Followups	Notes
+c.S > f.S	+4	5H/2H/Specials	simple string. f.S advances and is +4 on block, while the push back leaves you in a position to continue to frametrap with 5K or 2K.
+c.S > (1F Gap) 6H	-3	Specials	1F Frame trap without manual timing. Entry into Dandy Step Pressure
+c.S > 2S	-11	5H/2H/Specials	Pulls the opponent in, giving way for a 3-Ways mix-up (Check bottom page)
+5K/2K > 2D > 236P	-1	:(	Ending this blockstring with 236P in order to keep yourself safe on block.
+c.S/f.S/5H/2H/6H > (2F Gap) 236D	+34 GC	Anything	Great way to do a metered pressure reset, while also a hit-confirm.
+c.S/f.S/5H/2H/6H > Dandy Step	>w<	Empty (> Grab), P, S, K, H	Check the bottom page for the follow-ups and uses
+blocked 2S
+Blockstring Link	Beats	Loses to	Notes
+2S > 2H	Throws (CH), Lows (CH), Attacks (CH), Jumps	Poor delay + high & far normal, Blocking(-12)	Delay slightly to fish for a CH. Makes it much easier to frametrap lows or any short move.
+2S > 5H	Attacks (CH), Jumps, Blocking(-3)	Throws, Poor delay, Blocking(-3)	Much more rewarding CH confirm, but loses to throws when you don't perfectly delay and cannot whiff punish like 2H can.
+2S > 63214H	Throws*, Blocking	5F or faster abare, Jumping, Throws*	The main reason why someone would mash after 2S to begin with. Very big reward on-hit. Throws will win if you delay poorly.
+2S > 214P~P	Cross-up success, Throws, 10F and slower moves, Non-block jumps	Cross-up fail (-14), Jumping + blocking, 8F and faster moves	Crosses up the opponent for a quick surprise. 9F moves trade.
+2S > 236K	Throws (CH), Attacks (CH), Jumps	Blocking(-2)	Autotimed 1F Gap, making for easier CH fishing but worse reward. Blocking leaves you in throw-punish range.
+Dandy Step Block offense
+Setup :
+
+blocked 2H/6H > Dandy Step
+
+Additional Notes:
+
+The setup is also (safely) possible from c.S/f.S/5H, but they won't connect into Pilebunker on-hit, making it much worse
+c.S/6H > 214P~P crosses up as well if not fd'd
+Blockstring Link	Beats	Looses to	Notes
+P	Attacks (CH), Throws/3F mashing*,	Throws/3F mashing*, Blocking(-14)	Naturally beats 5F mashing and trades with 4F mashing (which is punishable). The primary "Stop mashing against dandy step" tool.
+S	Throws*, Blocking Low (Hit), Blocking High (-2), Jump Blocking (Plus), Jump (Hit)	Mashing, Blocking High (-2), Throws*	Not just an unfuzzyable overhead, but also great at catching jumps
+K	Throws*, Blocking High (Hit), Blocking Low (-2)	Mashing, Jumping (Whiff), Blocking Low (-2), Throws*	The less great brother of the S follow. With jumps making you whiff, you generally only use this when conditioned.
+H	Throws (CH), Blocking, Low hitting moves (Dodge > Block/Hit),	Mashing, Jumping	The big pressure reset with an insane guard crush on block, which allows for a huge mix-up. Uniquely dodges throws and low hitting moves.
+None (> Grab)	Blocking	Attacking, Jumping, Throws	Can surprise opponents who always hold block, but usually gets outdone by H.
+632146S	Mashing (Hit/CH), Throws (CH), DP!	Jumping (Whiff), Blocking (-33)	Jump scare opponents with a kara-cancelled reversal. The ONLY option beating reversals. Watch out for blocking and jumping opponents (Usually only worth if the opponent has a reversal). With reversals slower than 15F, you might loose.
+236236H	Short range mashing, Throws	Jumping (Sometimes), Blocking (-10)	A very funny kara cancel with the ability to beat some mashers. If you use this you are legally insane and should go to jail.
+PRC	ⅽ(≖。≖〞)ↄ	ⅽ(≖。≖〞)ↄ	Viable Manually timed frame trap
+Special * Note: If you used 214K before, you'll beat Throws, and trade with 3F mashing (Which is punishable), otherwise you lose.
+
+When to Use Lost Horizon
+While Lost Horizon does indeed do an immense amount of damage, it doesn’t really see a whole lot of use. It’s best used after a defensive mash, if you’re trying to lock the opponent out of Burst, if you happen to have the Tension to do so.
+
+It has pretty decent use as a reliable combo ender on low health thanks to it's ability to guts crush past the lower 10-30% of health. It can also do a MASSIVE and i mean MASSIVE amounts of damage if you use it as a combo ender in combination with some built up risk. (It is a literal tod on low defense characters or if you have about 50% risk) Best used when it actually kills as you loose two tension bars. You can pick opponents up from a wallstick, but it's only useful if it kills, otherwise just wallbreak.
+
+Incredibly enough, it can actually be used as a half-decent anti-air, thanks to it's ridiculously high and disjointed hitbox.
+
+Okizeme
+Slayer has several options for crossing up his opponent. There's his teleporting step dash and P Dandy Step, which allow him to pass through the opponent, as well as Master's Hammer, which allows him to leap over opponents and hit them from behind. Something important to keep in mind however, is that if the opponent is in the corner with their back up against the wall, none of Slayer's methods of crossing up the opponent will work anymore, so setups that involve crossing the opponent up won't work there.
+
+Safejumps
+After j.S or j.H, use either c.S > 6H or 2S > 2H, as using any other followup makes the link whiff (c.S > 2H whiffs on FD and using more than two S buttons makes ... > 2H > 214P~P whiff). Using 5K/2K and their links is also possible.
+
+For the Pilebunker safejumps, use the Knockdown Table to get the individual knockdown timings.
+
+Knockdown	Setup	Notes
+4/6D	Jump > j.H	Autotimed and always consistent safejump.
+Starter > 214P~P/214K~P (+42/+43)	Jump > iad > j.S	Autotimed. Note that you need to mash the j.S duing the iad. For a 9F safejump, you need a +42 or above (Check the knockdown table), with lower advantages only enabling safejumps for slower reversals. Note that using j.S > (Gap) 2S > 2H isn't a gapless combo on-hit, so don't use it. The multi-hit of j.S makes hitconfirming very easy.
+Starter > 214P~P/214K~P (+40/+41)	Jump > iad > j.H	Autotimed. By mashing j.H during the iad, you can do a 9F safejump for any knockdown of +41 and below (Check the knockdown table).
+Starter > 214P~P/214K~P (close) (41/+42/+43)	Jump > j.H	Autotimed. Use when the opponent is very close. For a 9F safejump, you need a +41 (Check the knockdown table), with lower advantages only enabling safejumps for slower reversals.
+Starter > 214P~P/214K~P (+43)	Jump > iad > dl.j.H	OUTCLASSED! Autotimed. Note that you need to delay, not mash the j.H. For a 9F safejump, you need a +43 (Check the knockdown table), with lower advantages only enabling safejumps for slower reversals.
+Additionally, Slayer is capable of performing a safejump after a super wallbreak, allowing him to extend his pressure beyond the wall.
+
+Super Wallbreak: IAD j.H
+The Long Arm of the Law
+The Long Arm of the Law
+Slayer is able to perform an IAD j.H safejump after a super wallbreak via Super Mappa Hunch to bait out some reversals and mash options. Notably, IAD j.H loses to 9F reversals and trades with 4F mash options (it will outright lose to 3F mash). The table below outlines which characters can pose a threat to this safejump.
+
+IAD j.H is Safe	4F Mash	9F Reversals	Both 4F Mash and 9F Reversal	
+Axl Potemkin Faust Zato Goldlewis Jack-O' Chaos Testament Bedman? Asuka Johnny Slayer
+
+May Elphelt A.B.A
+
+Ky1 Leo Nagoriyuki1 Ramlethal1 I-No1 Anji1 Bridget Sin
+
+Sol2 Chipp2 Millia1 Giovanna1 Baiken1
+
+Key:
+(1) 9F reversal costs 50% Tension
+(2) character has 3F mash
+This is arguably the most important safejump in Slayer's arsenal, and should be utilized where applicable to maximize the duration that Slayer can maintain his offense after a super wallbreak.
+Bloodsucking Universe Re-Pressure
+Unless you’re in the corner, landing Bloodsucking Universe will cause your opponents to land with a soft knockdown away from you. Typically after landing BSU, you end up being +10, leaving you few options to meaty with. One consistent option you can rely on is f.S, which advances Slayer forward and allows you re-pressure them on their wake up. Additionally, 2H gives the best reward on-hit while staying out of throw range.
+
+OTG c.S Dash Cancel Mix
+Slayer's c.S can hit OTG thanks to it's extremely vertical hitbox. Since Slayer's dash allows him to pass through opponents midscreen, you are able to set up a left/right mix after a hard knockdown from 5K/2K > 2D by following up 2D with an OTG c.S and then dash canceling it by inputting the Dash macro after landing the c.S. Inputting dash immediately after landing the c.S will cause Slayer to dash behind the opponent, while slightly delaying the dash input allows him to remain in front of them. After the dash cancel, whether it's delayed or not, you can land a meaty c.S and continue running your offense.
+
+OTG c.S > P Dandy High/Low
+In addition to setting up the left/right mix after landing OTG c.S, you can also do a meaty high/low with P Dandy Step, by going into either It’s Late or Bump Ahead during the opponent’s wake up. You do have to manually time the P Dandy in order to hit the opponent on their wake up. On counter hit, or by Roman Canceling, you'll get opportunities for combos. This is especially good in the corner, since Slayer can’t cross up opponents in the corner.
+
+Master's Hammer Mix on Block
+Since Master's Hammer is +25 on block, after landing it, you will have enough time to dash forward and land a meaty c.S, or Bloodsucking Universe, since the Guard Crush from Master’s Hammer leaves the opponent vulnerable to throws. Bloodsucking Universe will beat all mashes and everything that’s not a reversal Overdrive, backdash, or jump. Since Slayer’s dash can pass through opponents, you will appear on the opposite side if you end up going for this, depending on the distance. Even if you’re too far away for the dash to cross up, you can still at the very least land a meaty c.S. Your opponent can hit you out of Master’s Hammer on reaction, but it’s not easy to do, and that also leaves them open to your other options.
+
+Throw Mix
+After a throw, you can whiff 5P as a frame kill and then dash forward to land a meaty c.S. If you microwalk forwards after whiffing the 5P, and then Dash, you can cross the opponent up on their wakeup and c.S will still be meaty. You can also do an auto-timed safejump.
+
+Corner Steal After Throw
+After a throw in the corner, you can hit the opponent with an OTG 2S to vacuum them towards you and then use P Dandy Step to mix them. If you delay the P Dandy Step slightly then you can hit them with a meaty high/low between Bump Ahead and It's Late.
+
+Meaty K Mappa
+On further knockdowns where you don't have time to get a meaty c.S, you can manually time a K Mappa to hit meaty. This is fantastic at getting pressure after K Mappa, It's Late, or any other distant knockdown where you would otherwise get nothing. This works on any knockdown that gives 18 or more frames of advantage, as K Mappa reaches the vast majority of knockdowns and with a kara you can reach the rest. It can be up to +3 on block with perfect timing to connect with the last active frame, enough for a c.S to beat 5 frame mash. Because Slayer stops moving by the last active frame, the pushback on block spaces you out of throw range. Its relatively easy to be at least +1 though, and if you learn to time it to just after the landing of a soft knockdown, you get around the variable frame advantage of K Mappa's knockdown and can intuitively apply it to all kinds of weird air hits and combo drops.
+
+Defense
+For Defense, Slayer’s fastest buttons are 5P and 2P, at 5 frames. 2P also has a rather decent range, beating out other characters’ 2P in a lot of cases. His 2K is also long and is 6 frames. On hit, by canceling into 2D, it’ll lead to a lot of situations where Slayer can set up his strongest okizeme.
+
+Super Mappa Hatch is his only invincible reversal. This Overdrive’s defensive capabilities aren’t the best, as it's startup is on the slower side. One thing to keep in mind though, is that if your opponent is doing reversal-safe pressure, generally, it won’t cover your backdash, so you’ll be able to backdash in those situations. Since Slayer’s Overdrive has slow startup, he can use Super PRC, which lets you be invulnerable and punish things. This is on the advanced side of things, and not recommended to learn right away.
+
+Hand of Doom is kind of an invincible reversal, but you have to time your backdash invulnerability to avoid your opponent’s attack. Slayer’s backdash is a contender for one of the worst in the game. While it does have the invulnerability frames of a heavyweight character’s backdash, it’s also rather slow and he can’t do anything out of it except for canceling into Hand of Doom. Hand of Doom is decent against safe jump setups, but it’s not especially useful during pressure unless you know your opponent is going to do something with a lot of recovery. If the opponent blocks it, you are minus and your opponent can get a full punish.
+
+Remember: Slayer may not have the best Defense, but he has a lot of HP to make up for it.
+
+Forwards Dash Cancelling (FDC)
+Slayer has a unique type of kara cancel, referred to as an Forwards Dash Cancel (FDC).
+
+
+Forwards Dash Cancel
+By cancelling prejump after a dash, Slayer is capable of providing additional momentum to his specials and overdrives. Successfully performing this input technique will cause a purple effect to appear behind him.
+
+It should be noted that Slayer cannot gain the benefits of FDC with Blue Wild Assault. Though the purple FDC effect appears, Slayer does not receive the momentum bonus that he would with other specials.
+
+FDC P Mappa HunchSafe neutral check with surprisingly good range.
+FDC P Mappa Hunch takes regular P Mappa's greatest weakness (its short range) and gives it some help to make it more useful in neutral. As P Mappa Hunch is safe on block and relatively fast, FDC can make it a fairly useful check at spacings where regular K Mappa Hunch would be unsafe.
+
+
+
+FDC K Mappa HunchIncredible neutral skip.
+This move goes far, allowing Slayer to neutral skip from nearly fullscreen while still being +3 on block. This can be a useful whiff punish tool if you don't have meter to perform Super Mappa Hunch and still want to get a knockdown to start your offense.
+
+
+FDC Bloodsucking UniverseKara Potemkin Buster, who?
+A key component to Slayer's strike/throw pressure, FDC Bloodsucking Universe has extra range to allow him to threaten it in situations where it otherwise would not be possible (such as after the opponent FDs him out).
+
+
+FDC P Dandy StepIf they try to throw this, you win the game.
+Though seemingly redundant at first glance, FDC Dandy Step sends Slayer a noticeable distance through the opponent on cross up. This allows him to effectively shimmy opponents that want to throw him on reaction, giving incredible reward with counterhit Pilebunker or It's Late as a result.
+
+Knockdown Frame Advantage
+Knockdown	Advantage [Counterhit]	Notes
+Pilebunker	+43 [+68]	Reliable combo ender, leading to an IAD j.H safejump on normal hit. The tumble state granted by Pilebunker can allow Super Mappa Hunch to combo on counterhit, allowing for super wallbreak and an IAD j.H safejump there as well.
+Bump Ahead	+58 [+71]	Exceptional okizeme on hit, allowing for a full setup of Slayer's choice.
+It's Late	+20 [+80]	Middling okizeme on normal hit. It's best to only use It's Late with meter or Universe active to guarantee a counterhit, where conversions are possible.
+Master's Hammer	+34 [+82]	Average okizeme on normal hit, at least allowing for a meaty It's Late or Bump Ahead through the use of a slight delay. On counter hit, Slayer will absolutely kill you.
+P Mappa Hunch	N/A [+37-93]	Only causes knockdown on counter hit, and it is only soft knockdown. Frame advantage can vary slightly, as the move is active while sliding.
+K Mappa Hunch	+28-33 [+38-43]	Knockdown advantage can vary, as Mappa Hunch is 6F active while moving.
+2H	+23 [+41]	Slayer is able to get in and threaten followups with P Dandy Step on normal hit.
+2D	+52-57 [+70-75]	Slayer's 2D is extremely susceptible to gravity scaling, but can give fantastic okizeme as an ender in many strings. Slayer's 2D can combo into c.S naturally on CH, and allows for devastating confirms meterlessly. Knockdown advantage can vary, as 2D is 6F active while moving.
+2K > 2D	+51 [+51]	See above. The additional gravity scaling of 2K removes a few frames of advantage.
+6D / 4D	+45 [N/A]	Standard throw hard knockdown. Allows for a (MANUALLY TIMED) meaty Master's Hammer, an OTG setup or an auto-timed j.H safejump.
+Bloodsucking Universe	+10 [N/A]	Bloodsucking Universe leaves Slayer with surprisingly little frame advantage, leading to a soft neutral reset before he can utilize the Universe buff.
+Last Horizon	+20 [N/A]	Last Horizon gives Slayer enough frame advantage to get close to the opponent, but limits his pressure options to an extent.
+Super Mappa Hunch	+53/+41 [N/A]	Super Mappa Hunch grants +53 advantage on regular hit. However, if Slayer managed to clean hit the super, the advantage will drop to +41.
+Pilebunker setups	+40-43	Note for all the following setups: Counterhit only affects the setup if the move after is 2H or 214P~P. If it does, a safejump most likely won't work.
+214P~P	+43 [tbd]	
+f.s(1) > 214P~P	+43 [tbd]	
+(c.S >) 6H > 214P~P	+43 [tbd]	
+(c.S >) f.s > c.S > 6H > 214P~P	+42 [tbd]	
+j.H > c.S > 6H > 214P~P	+42 [tbd]	
+(c.S/f.S/2S >) 2H > 214P~P	+42 [tbd]	
+2 S moves > 2H > 214P~P	+41 [tbd]	
+3 S moves > 2H > 214P~P	+40 [tbd]	
+j.H > c.S > 2H > 214P~P	+40 [tbd]	
+Additional Notes:
+
+All frame data values are assumed to be on a standing opponent.
+Combos naturally cause gravity scaling, meaning that landing an attack raw as depicted in this table is not always comparable to using it as an ender.

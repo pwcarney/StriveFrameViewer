@@ -73,3 +73,7 @@ Then you can run any of the package_*.ps1 or deploy_*.ps1 scripts in the same fo
     1. ```Output/Output/<build>/UE4SS/bin/UE4SS.dll``` to ```Win64/```
     2. ```Output/Output/<build>/bin/proxy/bin/dwmapi.dll``` to ```Win64/```
     3. ```Output/StriveFrameData/<build>/StriveFrameData.dll``` to ```Win64/Mods/StriveFrameData/dlls/```
+	
+## Attribution
+
+The character information used in this project is sourced from the Dustloop Wiki (https://www.dustloop.com). All content is provided “AS IS” by Dustloop Wiki, and the site makes no warranties to the accuracy or completeness of the content. Full credit and thanks to Dustloop and its contributors for their comprehensive and valuable information.
