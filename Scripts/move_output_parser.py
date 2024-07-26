@@ -9,6 +9,7 @@ action_mappings = {
     "CmnActCrouch": "Crouch",
     "CmnActCrouch2Stand": "Stand from crouch",
     "CmnActFDash": "Dash",
+    "CmnActFDashStop": "Dash Stop",
     "CmnActAirFDash": "Forward airdash",
     "CmnActAirBDash": "Back airdash",
     "CmnActAirGuardLoop": "Air blockstun",
@@ -101,8 +102,10 @@ action_mappings = {
     "WSB_Master_Wait": "Sent opponent through wall",
     "WorldSideBreak_Master_DF": "Sent opponent through wall",
     "WSB_Master_Down": "Sent opponent through wall",
+    "WSB_Master_Up": "Sent opponent through wall",
     
     "WSB_Slave_Down": "Sent through wall",
+    "WSB_Slave_Up": "Sent through wall",
     "WorldSideBreak_Slave_DF": "Sent through wall",
     
     # Generic Attacks
@@ -153,7 +156,7 @@ action_mappings = {
     "PotemkinBusterExe": "Potemkin Buster Animation",
     
     # Giovanna
-    "Special1": "Sepultura",  # sus names
+    "Special1": "Sepultura",
     "Special2_land": "Grounded Sol Poente", 
     "Special2_air": "Aerial Sol Poente",  
     "Special3": "Sol Nascente",  
@@ -161,8 +164,36 @@ action_mappings = {
     "Shervi": "Chave", 
     "LandUltimate": "Ventania", 
     "AirUltimate": "Tempestade", 
+    
+    # A.B.A.
+    "ABA_SP1_Land": "Grounded Bonding and Dissolving", 
+    "ABA_SP1_Air": "Aerial Bonding and Dissolving", 
+    "ABA_SP2": "Changing and Swaying", 
+    "ABA_SP3": "Haul and Heed", 
+    "ABA_SP4": "Intertwine and Tilt", 
+    "ABA_SP5": "Menace and Groan", 
+    "ABA_SP6": "Restriction and Constraint", 
+    "ABA_SP7": "Frenzy and Astonishment",
+    "ABA_SP1_Land_Moroha": "Grounded Bonding and Dissolving (Moroha)",
+    "ABA_SP1_Air_Moroha": "Aerial Bonding and Dissolving (Moroha)",
+    "ABA_SP2_Moroha": "Changing and Swaying (Moroha)",
+    "ABA_SP3_Moroha": "Haul and Heed (Moroha)",
+    "ABA_SP4_Moroha": "Intertwine and Tilt (Moroha)",
+    "ABA_SP5_Moroha": "Menace and Groan (Moroha)",
+    "ABA_SP6_Moroha": "Restriction and Constraint (Moroha)",
+    "ABA_SP7_Moroha": "Frenzy and Astonishment (Moroha)",
+    "ABA_SP8": "Judgment and Sentiment", 
+    "ABA_Moroha_End": "Moroha Mode End", 
+    "ABA_Moroha_End": "Moroha Mode End", 
+    "ABA_ULT1": "The Law is Key, Key is King", 
+    "ABA_ULT1_Moroha": "The Law is Key, Key is King (Moroha)", 
+    "ABA_ULT1_Moroha_exe": "The Law is Key, Key is King (Moroha) Animation", 
+    "ABA_ULT1_exe": "The Law is Key, Key is King Animation", 
+    "ABA_ULT2": "Keeper of the Key", 
+    "ABA_ULT2_Moroha": "Keeper of the Key (Moroha)", 
 }
 
+# Some actions are basically the same as the human-readable version so
 no_replace_actions = {
     # Generic
     "WildAssault",
