@@ -9,12 +9,17 @@ action_mappings = {
     "CmnActCrouch": "Crouch",
     "CmnActCrouch2Stand": "Stand from crouch",
     "CmnActFDash": "Dash",
+    "CmnActAirFDash": "Forward airdash",
+    "CmnActAirBDash": "Back airdash",
+    "CmnActAirGuardLoop": "Air blockstun",
     "CmnActFWalk": "Walk Forwards",
     "CmnActJump": "Jump",
     "CmnActJumpLanding": "Jump Land",
+    "CmnActLandingStiff": "Exposed landing",
     "CmnActJumpPre": "Pre-Jump",
     "CmnActStand": "Stand",
     "CmnActStand2Crouch": "Stand to crouch",
+    "CmnActFaultlessPressureLand": "Faultless defense",
     
     # Getting hit
     "CmnActNokezoriHighLv1": "Standing Hitstun lv1",
@@ -23,13 +28,33 @@ action_mappings = {
     "CmnActNokezoriHighLv4": "Standing Hitstun lv4",
     "CmnActNokezoriHighLv5": "Standing Hitstun lv5",
     
+    "CmnActNokezoriBottomLv1": "Hitstun lv1",
+    "CmnActNokezoriBottomLv2": "Hitstun lv2",
+    "CmnActNokezoriBottomLv3": "Hitstun lv3",
+    "CmnActNokezoriBottomLv4": "Hitstun lv4",
+    "CmnActNokezoriBottomLv5": "Hitstun lv5",
+    
+    "CmnActNokezoriLowLv1": "Low Hitstun lv1",
+    "CmnActNokezoriLowLv2": "Low Hitstun lv2",
+    "CmnActNokezoriLowLv3": "Low Hitstun lv3",
+    "CmnActNokezoriLowLv4": "Low Hitstun lv4",
+    "CmnActNokezoriLowLv5": "Low Hitstun lv5",
+    
     "CmnActNokezoriCrouchLv1": "Crouching Hitstun lv1",
     "CmnActNokezoriCrouchLv2": "Crouching Hitstun lv2",
     "CmnActNokezoriCrouchLv3": "Crouching Hitstun lv3",
     "CmnActNokezoriCrouchLv4": "Crouching Hitstun lv4",
     "CmnActNokezoriCrouchLv5": "Crouching Hitstun lv5",
     
-    "CmnActNokezoriCrouchLv5": "Hitstun lv5",
+    "CmnActKirimomiUpper": "Hitstunned",
+    
+    "CmnActHighGuardLoop": "Standing blockstunned",
+    "CmnActCrouchGuardLoop": "Crouching blockstunned",
+    "CmnActCrouchGuardEnd": "Crouching blockstunned ending",
+    "CmnActMidGuardLoop": "Blockstunned",
+    "CmnActMidGuardEnd": "Blockstun ending",
+    "CmnActGuardLanding": "Landing from air blockstun",
+    "CmnActHighGuardEnd": "Blockstun ending",
     
     "CmnActLockWait": "Animation Lock",
     "CmnActBlowoff": "Animation Lock",
@@ -59,7 +84,17 @@ action_mappings = {
     "CmnActQuickDown2Stand": "Soft knockdown recovery",
     
     "CmnActJitabataLoop": "Staggered",
+    "CmnActHajikareCrouch": "Staggered crouch",
+    "CmnActHajikareStand": "Staggered standing",
     "CmnActHizakuzure": "Collapsed kneeling",
+    
+    "CmnActWallBound": "Wall bounced",
+    "CmnActWallBoundDown": "Wall bounced falling",
+    
+    "CmnActWallHaritsuki": "Wallstick",
+    "WSB_Master_Wait": "Sent opponent through wall",
+    "WSB_Master_Down": "Sent opponent through wall",
+    "WSB_Slave_Down": "Sent through wall",
     
     # Generic Attacks
     "NmlAtk2A": "2P",
@@ -76,6 +111,7 @@ action_mappings = {
     "NmlAtk5CFar": "f.S",
     "NmlAtk5CNear": "c.S",
     "NmlAtk5D": "5H",
+    "NmlAtk5E": "5D",
     "NmlAtkAir5A": "j.P",
     "NmlAtkAir5B": "j.K",
     "NmlAtkAir5C": "j.S",
@@ -83,6 +119,8 @@ action_mappings = {
     "NmlAtkAir5E": "j.D",
     "NmlAtkThrow": "Throw",
     "ThrowExe": "Throwing",
+    
+    "CmnActRomanCancel": "Roman Cancel",
     
     # Slayer
     "sly_SP_01": "P Mappa Hunch",
@@ -99,6 +137,25 @@ action_mappings = {
     "sly_ULT_01": "Last Horizon",
     "sly_ULT_01_exe": "Last Horizon Animation",
     "sly_ULT_02": "Super Mappa Hunch",
+    
+    # Potemkin
+    "HeatKnucle": "HeatKnuckle",
+    "PotemkinBusterExe": "Potemkin Buster Animation",
+}
+
+no_replace_actions = {
+    # Generic
+    "WildAssault",
+
+    # Potemkin
+    "HammerFall",
+    "HammerFallBrake",
+    "GarudaImpact",
+    "SlideHead",
+    "MegaFistFront",
+    "MegaFistBack",
+    "PotemkinBuster",
+    "FDB",
 }
 
 # Load the JSON data from the specified file path
@@ -115,19 +172,17 @@ for entry in data:
         action_p1 = entry["p1"]["action"]
         if action_p1 in action_mappings:
             entry["p1"]["action"] = action_mappings[action_p1]
-        else:
-            if action_p1 not in unfound_actions:
-                print(f"No mapping found for action: {action_p1}")
-                unfound_actions.add(action_p1)
+        elif action_p1 not in no_replace_actions and action_p1 not in unfound_actions:
+            print(f"No mapping found for action: {action_p1}")
+            unfound_actions.add(action_p1)
 
     if "p2" in entry and "action" in entry["p2"]:
         action_p2 = entry["p2"]["action"]
         if action_p2 in action_mappings:
             entry["p2"]["action"] = action_mappings[action_p2]
-        else:
-            if action_p2 not in unfound_actions:
-                print(f"No mapping found for action: {action_p2}")
-                unfound_actions.add(action_p2)
+        elif action_p2 not in no_replace_actions and action_p2 not in unfound_actions:
+            print(f"No mapping found for action: {action_p2}")
+            unfound_actions.add(action_p2)
 
 # Save the updated data back to a JSON file
 output_file_path = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GUILTY GEAR STRIVE\\RED\\Binaries\\Win64\\frame_data_readable.json"
