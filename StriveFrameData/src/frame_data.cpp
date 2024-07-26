@@ -236,7 +236,9 @@ void addPlayerDataToJson(json &j, const std::string &playerKey, const PlayerFram
     prevState = playerStateTypeToString(playerData.state);
   }
 
-  addFieldIf(playerJson, "hitstun", playerData.hitstun, 0);
+  // Hitstun is kind of coded weird, omitted for now
+  //addFieldIf(playerJson, "hitstun", playerData.hitstun, 0);
+
   addFieldIf(playerJson, "blkstun", playerData.blockstun, 0);
   if (playerData.attackPhase != prevAtkPhase) {
     playerJson["atkPhase"] = playerData.attackPhase;
