@@ -107,7 +107,7 @@ PlayerFrameData getPlayerFrameData(const asw_player *player, const PlayerState &
 
   data.currentAction = player->get_BB_state();
   data.state = state.type;
-  data.hitstun = player->hitstun;
+  //data.hitstun = player->hitstun;
   data.blockstun = player->blockstun;
 
   // Determine the attack phase and frame number
