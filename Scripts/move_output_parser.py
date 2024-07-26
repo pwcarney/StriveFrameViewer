@@ -16,6 +16,21 @@ action_mappings = {
     "CmnActStand": "Stand",
     "CmnActStand2Crouch": "Stand to crouch",
     
+    # Getting hit
+    "CmnActNokezoriHighLv1": "Standing Hitstun lv1",
+    "CmnActNokezoriHighLv2": "Standing Hitstun lv2",
+    "CmnActNokezoriHighLv3": "Standing Hitstun lv3",
+    "CmnActNokezoriHighLv4": "Standing Hitstun lv4",
+    "CmnActNokezoriHighLv5": "Standing Hitstun lv5",
+    
+    "CmnActNokezoriCrouchLv1": "Crouching Hitstun lv1",
+    "CmnActNokezoriCrouchLv2": "Crouching Hitstun lv2",
+    "CmnActNokezoriCrouchLv3": "Crouching Hitstun lv3",
+    "CmnActNokezoriCrouchLv4": "Crouching Hitstun lv4",
+    "CmnActNokezoriCrouchLv5": "Crouching Hitstun lv5",
+    
+    "CmnActNokezoriCrouchLv5": "Hitstun lv5",
+    
     "CmnActLockWait": "Animation Lock",
     "CmnActBlowoff": "Animation Lock",
     "CmnActZSpin": "Spinning Lock",
@@ -23,18 +38,27 @@ action_mappings = {
     
     "CmnActExDamage": "Hit for extra",
     
-    "CmnActFDownUpper": "Down in air",
-    "CmnActFDownBound": "Knockdown",
-    "CmnActFDownLoop": "Down, animation locked",
+    "CmnActBDownUpper": "Falling",
+    "CmnActBDownBound": "Falling",
+    "CmnActBDownDown": "Falling",
+    "CmnActBDownLoop": "Down",
+    
+    "CmnActFDownUpper": "Falling",
+    "CmnActFDownBound": "Falling",
+    "CmnActFDownLoop": "Down",
 
-    "CmnActVDownUpper": "Down in air",
+    "CmnActVDownUpper": "Falling",
+    "CmnActVDownDown": "Falling",
     "CmnActVDownBound": "Knockdown",
-    "CmnActVDownLoop": "Down, animation locked",
+    "CmnActVDownLoop": "Down",
+    
+    "CmnActBDown2Stand": "Getting up from knockdown",
     "CmnActFDown2Stand": "Getting up from knockdown",
     
     "CmnActQuickDown": "Soft knockdown",
     "CmnActQuickDown2Stand": "Soft knockdown recovery",
     
+    "CmnActJitabataLoop": "Staggered",
     "CmnActHizakuzure": "Collapsed kneeling",
     
     # Generic Attacks
@@ -77,18 +101,36 @@ action_mappings = {
     "sly_ULT_02": "Super Mappa Hunch",
 }
 
-# Load the JSON data
-with open('/mnt/data/frame_data.json', 'r') as file:
+# Load the JSON data from the specified file path
+file_path = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GUILTY GEAR STRIVE\\RED\\Binaries\\Win64\\frame_data.json"
+with open(file_path, 'r') as file:
     data = [json.loads(line) for line in file.readlines()]
+
+# Track unfound actions
+unfound_actions = set()
 
 # Replace esoteric action terms with human-readable text
 for entry in data:
     if "p1" in entry and "action" in entry["p1"]:
-        entry["p1"]["action"] = action_mappings.get(entry["p1"]["action"], entry["p1"]["action"])
+        action_p1 = entry["p1"]["action"]
+        if action_p1 in action_mappings:
+            entry["p1"]["action"] = action_mappings[action_p1]
+        else:
+            if action_p1 not in unfound_actions:
+                print(f"No mapping found for action: {action_p1}")
+                unfound_actions.add(action_p1)
+
     if "p2" in entry and "action" in entry["p2"]:
-        entry["p2"]["action"] = action_mappings.get(entry["p2"]["action"], entry["p2"]["action"])
+        action_p2 = entry["p2"]["action"]
+        if action_p2 in action_mappings:
+            entry["p2"]["action"] = action_mappings[action_p2]
+        else:
+            if action_p2 not in unfound_actions:
+                print(f"No mapping found for action: {action_p2}")
+                unfound_actions.add(action_p2)
 
 # Save the updated data back to a JSON file
-with open('/mnt/data/frame_data_readable.json', 'w') as file:
+output_file_path = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GUILTY GEAR STRIVE\\RED\\Binaries\\Win64\\frame_data_readable.json"
+with open(output_file_path, 'w') as file:
     for entry in data:
         file.write(json.dumps(entry) + '\n')
