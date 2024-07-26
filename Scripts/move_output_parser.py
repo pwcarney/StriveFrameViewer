@@ -93,6 +93,7 @@ action_mappings = {
     "CmnActJitabataLoop": "Staggered",
     "CmnActHajikareCrouch": "Staggered crouch",
     "CmnActHajikareStand": "Staggered standing",
+    "CmnActHajikareAir": "Staggered in air",
     "CmnActHizakuzure": "Collapsed kneeling",
     
     "CmnActWallBound": "Wall bounced",
@@ -111,6 +112,8 @@ action_mappings = {
     "WSB_Slave_Slide": "Put through wall",
     "WSB_Slave_Up": "Put through wall",
     "WorldSideBreak_Slave_DF": "Put through wall",
+    
+    "CmnActMatchWin": "Match win",
     
     # Generic Attacks
     "NmlAtk2A": "2P",
@@ -227,6 +230,12 @@ action_mappings = {
     "GlaenzenDunkel": "Glänzendes Dunkel",
     "GlaenzenDunkelExe": "Glänzendes Dunkel Animation",
     "SchildBrechen": "Glänzendes Dunkel",
+    
+    # Asuka (I need to rethink my structure for him)
+    "Magic": "Spell Cast",
+    "Magic_air": "Spell Cast in air",
+    "ASK_Ultimate1": "High Compression Submicron Particle Sphere",
+    "ASK_Ultimate2": "Bookmark (Full Order)",
 }
 
 # Some actions are basically the same as the human-readable version so
@@ -254,6 +263,12 @@ no_replace_actions = {
     
     # Leo
     "Turbulenz",
+    
+    # Asuka
+    "Draw_or_Discard",
+    "Draw_or_Discard_air",
+    "Change_deck",
+    "Change_deck_air",
 }
 
 # Load the JSON data from the specified file path
