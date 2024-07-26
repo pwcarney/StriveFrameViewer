@@ -236,6 +236,26 @@ action_mappings = {
     "Magic_air": "Spell Cast in air",
     "ASK_Ultimate1": "High Compression Submicron Particle Sphere",
     "ASK_Ultimate2": "Bookmark (Full Order)",
+    
+    # Sol
+    "BukkirabouNiNageru": "Wild Throw",
+    "BukkiraExe": "Wild Throw Animation",
+    "HMC": "Heavy Mob Cemetary",
+    "HMCExe": "Heavy Mob Cemetary Animation",
+    "Fefnir": "Fafnir",
+    "Vortex": "Night Raid Vortex",
+    
+    # Ky
+    "VaporThrustC": "Vapor Thrust S",
+    "VaporThrustD": "Vapor Thrust H",
+    "AirVaporThrustC": "Air Vapor Thrust S",
+    "AirVaporThrustD": "Air Vapor Thrust H",
+    "StunEdge1": "Stun Edge S",
+    "AirStunEdge1": "Air Stun Edge S",
+    "StunEdge2": "Stun Edge H",
+    "AirStunEdge2": "Air Stun Edge H",
+    "Diaekura": "Dire Eclat",
+    "FadulArc": "Foudre Arc",
 }
 
 # Some actions are basically the same as the human-readable version so
@@ -269,6 +289,26 @@ no_replace_actions = {
     "Draw_or_Discard_air",
     "Change_deck",
     "Change_deck_air",
+    
+    # Sol
+    "GunFlame",
+    "GunFlameFeint",
+    "VolcanicViperLandS",
+    "VolcanicViperAirS",
+    "VolcanicViperLandHS",
+    "VolcanicViperAirHS",
+    "BanditRevolver_Land",
+    "BanditRevolver_Air",
+    "BanditBringer_Land",
+    "BanditBringer_Air",
+    "TyrantRave",
+    
+    # Ky
+    "StunDipper",
+    "AirRideTheLightning",
+    "RideTheLightning",
+    "SacredEdge",
+    "DragonInstall",
 }
 
 # Load the JSON data from the specified file path
