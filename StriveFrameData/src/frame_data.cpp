@@ -249,20 +249,6 @@ void addPlayerDataToJson(json &j, const std::string &playerKey, const PlayerFram
   j[playerKey] = playerJson;
 }
 
-bool shouldOutput(const PlayerFrameData &player1, const PlayerFrameData &player2, std::string &reason) {
-  // Exclude certain actions from output
-  const std::set<std::string> excludedActions = {
-      "WSB_Master_Wait", "WSB_Master_Slide", "WSB_Slave_Slide"};
-
-  // Exclude wallbreak animation
-  if (excludedActions.count(player1.currentAction) > 0 || excludedActions.count(player2.currentAction) > 0) {
-    reason = "Wallbreak situation";
-    return false;
-  }
-
-  return true;
-}
-
 void logEvent(const std::string &event) {
   json eventLog = {
       {"frameInd", frameCount},
