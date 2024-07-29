@@ -21,27 +21,29 @@ def load_file(file_path):
 def main():
     api_key_path = 'gemini_key'
     genai.configure(api_key=load_api_key(api_key_path))
-
-    frame_data_path = r"C:\Program Files (x86)\Steam\steamapps\common\GUILTY GEAR STRIVE\RED\Binaries\Win64\frame_data_readable.json"
-    guide_path = r"D:\Git\StriveFrameViewer\Scripts\character_data\Slayer_Overview.txt"
-
+    
     # Load JSON frame data
-    frame_data = load_file(frame_data_path)
+    frame_data = load_file(r"C:\Program Files (x86)\Steam\steamapps\common\GUILTY GEAR STRIVE\RED\Binaries\Win64\frame_data_readable.json")
 
     # Load character guide text
-    guide_text = load_file(guide_path)
+    guide_text = load_file(r"D:\Git\StriveFrameViewer\Scripts\character_data\Slayer_Overview.txt")
 
     # Create the contextual prompt
     user_prompt = f"""
-    Here's the match data for a recent Guilty Gear Strive match:
+    You are coaching a Slayer player in the middle of a Guilty Gear Strive set. Imagine yourself as, say, a boxing coach giving a player a quick pep talks between rounds. 
+    
+    Here's the match history frame data for the most recent match:
 
     {frame_data}
+    
+    This contains information on moves used, frame info (including move startups, active frames, and recovery), and player positions.
 
-    And here is a summary of how to play the character Slayer according to the wiki:
+    Here is a summary of how to play the character Slayer according to the wiki:
 
     {guide_text}
+    
+    Consider the player's habits and pattern of play. Please analyze the player's performance and provide one specific adjustment they can make for the next match of the set. 
 
-    Question: Based on this information, please analyze the player's performance and suggest specific improvements they can make to better utilize Slayer's strengths and address any weaknesses in their gameplay.
     """
     
     with open('test_prompt.txt', 'w', encoding='utf-8') as file:

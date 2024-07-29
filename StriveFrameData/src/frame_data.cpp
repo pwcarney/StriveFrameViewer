@@ -309,7 +309,7 @@ void initOutputFile() {
   std::string p2CharacterName = getCharacterNameFromValue(p2CharacterValue);
 
   // Log the battle event
-  std::string battleEvent = "Battle: " + p1CharacterName + " vs " + p2CharacterName;
+  std::string battleEvent = "P1:" + p1CharacterName + " vs P2:" + p2CharacterName;
   logEvent(battleEvent);
 }
 
