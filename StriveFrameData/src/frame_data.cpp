@@ -195,7 +195,7 @@ std::string getCharacterNameFromValue(int value) {
   case 31:
     return "Lucy";
   default:
-    return "Unknown";
+    return "Unknown value: " + std::to_string(value);
   }
 }
 
