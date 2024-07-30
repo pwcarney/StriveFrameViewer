@@ -56,8 +56,9 @@ action_mappings = {
     "CmnActJumpLanding": "Jump Land",
     "CmnActLandingStiff": "Exposed landing",
     "CmnActJumpPre": "Pre-Jump",
+    "CmnActAirTurn": "Air turn",
     "CmnActStand": "Stand",
-    "CmnActStand2Crouch": "Stand to crouch",
+    "CmnActStand2Crouch": "Crouching",
     "CmnActFaultlessPressureLand": "Faultless defense",
     
     # Getting hit
@@ -100,6 +101,7 @@ action_mappings = {
     "CmnActHighGuardEnd": "Blockstun ending",
     
     "CmnActLockWait": "Animation Lock",
+    "CmnActExDamageLand": "Extra Damage",
     "CmnActBlowoff": "Animation Lock",
     "CmnActZSpin": "Spinning Lock",
     "CmnActKorogari": "Tumbling Lock",
@@ -313,6 +315,24 @@ action_mappings = {
     "BajonetoC": "S Bajoneto",
     "BajonetoD": "H Bajoneto",
     "Morutobato": "Mortobato",
+    
+    # Bridget
+    "KSMH": "Kick Start My Heart",
+    "KSMH_P": "Kick Start My Heart Brake",
+    "KSMH_K": "Kick Start My Heart Shoot",
+    "LoopTheLoop": "Kick Start My Heart Shoot",
+    "NmlAtk5CFar_2nd": "f.S followup",
+    "NmlAtk5D_2nd": "5H followup",
+    "YOYO_214S_Land": "Grounded Stop and Dash (Hit on return)",
+    "YOYO_214S_Air": "Air Stop and Dash (Hit on return)",
+    "YOYO_236S_Land": "Grounded Stop and Dash (Hit on send)",
+    "YOYO_236S_Air": "Air Stop and Dash (Hit on send)",
+    "YOYO_236S_Air": "Air Stop and Dash (Hit on send)",
+    "Rolling": "Rolling movement",
+    "KillMachine_Land": "Return of the Killing Machine",
+    "KillMachine_Air": "Air Return of the Killing Machine",
+    "RockTheBaby_Land": "Rock the Baby",
+    "RockTheBaby_Air": "Air Rock the Baby",
 }
 
 no_replace_actions = {
@@ -380,6 +400,9 @@ no_replace_actions = {
     "Erarurumo2",
     "AgresaOrdono",
     "Sabrobato",
+    
+    # Bridget
+    "LoopTheLoop",
 }
 
 class ChatEngine:
