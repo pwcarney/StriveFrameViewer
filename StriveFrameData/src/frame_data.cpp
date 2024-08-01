@@ -17,7 +17,6 @@ static json previousFrame;
 // Previous state variables for both players
 static int prevTensionPlayer1 = -1;
 static int prevBurstPlayer1 = -1;
-static int prevHPPlayer1 = -1;
 static int prevRiscPlayer1 = -1;
 static int prevPosXPlayer1 = -1;
 static std::string prevStatePlayer1 = "";
@@ -25,7 +24,6 @@ static std::string prevAtkPhasePlayer1 = "";
 
 static int prevTensionPlayer2 = -1;
 static int prevBurstPlayer2 = -1;
-static int prevHPPlayer2 = -1;
 static int prevRiscPlayer2 = -1;
 static int prevPosXPlayer2 = -1;
 static std::string prevStatePlayer2 = "";
@@ -36,19 +34,17 @@ void resetPreviousValues() {
   frameCount = 0;
   identicalFrameCount = 0;
 
-  prevTensionPlayer1 = -1;
-  prevBurstPlayer1 = -1;
-  prevHPPlayer1 = -1;
-  prevRiscPlayer1 = -1;
-  prevPosXPlayer1 = -1;
+  prevTensionPlayer1 = -10000;
+  prevBurstPlayer1 = -10000;
+  prevRiscPlayer1 = -10000;
+  prevPosXPlayer1 = -10000;
   prevStatePlayer1 = "";
   prevAtkPhasePlayer1 = "";
 
-  prevTensionPlayer2 = -1;
-  prevBurstPlayer2 = -1;
-  prevHPPlayer2 = -1;
-  prevRiscPlayer2 = -1;
-  prevPosXPlayer2 = -1;
+  prevTensionPlayer2 = -10000;
+  prevBurstPlayer2 = -10000;
+  prevRiscPlayer2 = -10000;
+  prevPosXPlayer2 = -10000;
   prevStatePlayer2 = "";
   prevAtkPhasePlayer2 = "";
 }
@@ -199,13 +195,10 @@ std::string getCharacterNameFromValue(int value) {
   }
 }
 
-void addPlayerDataToJson(json &j, const std::string &playerKey, const PlayerFrameData &playerData, int tension, int burst, int &prevTension, int &prevBurst, int &prevHP, int &prevRisc, int &prevPosX, std::string &prevState, std::string &prevAtkPhase) {
+void addPlayerDataToJson(json &j, const std::string &playerKey, const PlayerFrameData &playerData, int tension, int burst, int &prevTension, int &prevBurst, int &prevRisc, int &prevPosX, std::string &prevState, std::string &prevAtkPhase, int comboCount, uint8_t counterHit) {
   json playerJson;
 
-  if (playerData.hp != prevHP) {
-    playerJson["hp"] = playerData.hp;
-    prevHP = playerData.hp;
-  }
+  playerJson["hp"] = playerData.hp;
 
   int roundedTension = std::round(tension / 100.0);
   if (roundedTension != prevTension) {
@@ -230,14 +223,6 @@ void addPlayerDataToJson(json &j, const std::string &playerKey, const PlayerFram
   addFieldIf(playerJson, "posY", playerData.positionY);
 
   addFieldIf(playerJson, "action", playerData.currentAction);
-  
-  /* if (playerStateTypeToString(playerData.state) != prevState) {
-    playerJson["state"] = playerStateTypeToString(playerData.state);
-    prevState = playerStateTypeToString(playerData.state);
-  }*/
-
-  // Hitstun is kind of coded weird, omitted for now
-  //addFieldIf(playerJson, "hitstun", playerData.hitstun, 0);
 
   addFieldIf(playerJson, "blkstun", playerData.blockstun, 0);
   if (playerData.attackPhase != prevAtkPhase) {
@@ -245,6 +230,14 @@ void addPlayerDataToJson(json &j, const std::string &playerKey, const PlayerFram
     prevAtkPhase = playerData.attackPhase;
   }
   addFieldIf(playerJson, "atkFrame", playerData.attackFrame, 0);
+
+  // Add combo count and counter hit
+  if (comboCount > 0) {
+    playerJson["combo_count"] = comboCount;
+  }
+  if (counterHit > 0) {
+    playerJson["counter_hit"] = true;
+  }
 
   j[playerKey] = playerJson;
 }
@@ -273,9 +266,9 @@ uintptr_t resolvePointerChain(uintptr_t baseAddress, const std::vector<uintptr_t
 
 void initOutputFile() {
   OutputFile::getInstance().clear();
-  frameCount = 0;          // Reset frame count for new battle
-  identicalFrameCount = 0; // Reset identical frame count
-  previousFrame.clear();   // Clear previous frame for new battle
+  frameCount = 0;
+  identicalFrameCount = 0;
+  previousFrame.clear();
 
   // Log the base address of GGST-Win64-Shipping.exe dynamically using sigscan
   auto basePattern = "\x4D\x5A\x90\x00\x03\x00\x00\x00\x04\x00\x00\x00\xFF\xFF\x00\x00";
@@ -297,16 +290,16 @@ void initOutputFile() {
   uintptr_t player1Address = readMemory(gameSettingsAddress + 0x318);
   uintptr_t player2Address = readMemory(gameSettingsAddress + 0x320);
 
-  // Offset to character name int within player object
+  // Offset to character name byte within player object
   uintptr_t characterOffset = 0x29;
 
-  // Read the character values
-  int p1CharacterValue = *reinterpret_cast<int *>(player1Address + characterOffset);
-  int p2CharacterValue = *reinterpret_cast<int *>(player2Address + characterOffset);
+  // Read the character values as bytes
+  uint8_t p1CharacterValue = *reinterpret_cast<uint8_t *>(player1Address + characterOffset);
+  uint8_t p2CharacterValue = *reinterpret_cast<uint8_t *>(player2Address + characterOffset);
 
   // Convert character values to names
-  std::string p1CharacterName = getCharacterNameFromValue(p1CharacterValue);
-  std::string p2CharacterName = getCharacterNameFromValue(p2CharacterValue);
+  std::string p1CharacterName = getCharacterNameFromValue(static_cast<int>(p1CharacterValue));
+  std::string p2CharacterName = getCharacterNameFromValue(static_cast<int>(p2CharacterValue));
 
   // Log the battle event
   std::string battleEvent = "P1:" + p1CharacterName + " vs P2:" + p2CharacterName;
@@ -316,7 +309,6 @@ void initOutputFile() {
 void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerState &s1, const PlayerState &s2) {
   static int prevTensionPlayer1 = -1;
   static int prevBurstPlayer1 = -1;
-  static int prevHPPlayer1 = p1->hp;
   static int prevRiscPlayer1 = -1;
   static int prevPosXPlayer1 = -1;
   static std::string prevStatePlayer1 = "";
@@ -324,11 +316,13 @@ void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerSta
 
   static int prevTensionPlayer2 = -1;
   static int prevBurstPlayer2 = -1;
-  static int prevHPPlayer2 = p2->hp;
   static int prevRiscPlayer2 = -1;
   static int prevPosXPlayer2 = -1;
   static std::string prevStatePlayer2 = "";
   static std::string prevAtkPhasePlayer2 = "";
+
+  static int prevComboCountPlayer1 = 0;
+  static int prevComboCountPlayer2 = 0;
 
   PlayerFrameData player1 = getPlayerFrameData(p1, s1);
   PlayerFrameData player2 = getPlayerFrameData(p2, s2);
@@ -343,17 +337,22 @@ void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerSta
   int p1burst = *reinterpret_cast<int *>(tbStateAddress + 0x1448);
   int p2burst = *reinterpret_cast<int *>(tbStateAddress + 0x144C);
 
-  // Detect HP change (hit events)
-  if (player1.hp < prevHPPlayer1) {
-    int hpLoss = prevHPPlayer1 - player1.hp;
-    logEvent("Player1 hit and lost " + std::to_string(hpLoss) + " hp");
+  // Read combo-related values
+  int p1ComboCount = p1->combo_count;
+  int p2ComboCount = p2->combo_count;
+  uint8_t p1CounterHit = p1->hit_counter_hit;
+  uint8_t p2CounterHit = p2->hit_counter_hit;
+
+  // Log combo end events
+  if (prevComboCountPlayer1 > 0 && p1ComboCount == 0) {
+    logEvent("Player1 combo ended with " + std::to_string(p1->total_combo_damage) + " damage");
   }
-  if (player2.hp < prevHPPlayer2) {
-    int hpLoss = prevHPPlayer2 - player2.hp;
-    logEvent("Player2 hit and lost " + std::to_string(hpLoss) + " hp");
+  if (prevComboCountPlayer2 > 0 && p2ComboCount == 0) {
+    logEvent("Player2 combo ended with " + std::to_string(p2->total_combo_damage) + " damage");
   }
-  prevHPPlayer1 = player1.hp;
-  prevHPPlayer2 = player2.hp;
+
+  prevComboCountPlayer1 = p1ComboCount;
+  prevComboCountPlayer2 = p2ComboCount;
 
   // Sanity check: do not output if the frame number exceeds 10,000
   frameCount++;
@@ -368,8 +367,8 @@ void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerSta
   frameData.player2 = player2;
 
   json j;
-  addPlayerDataToJson(j, "p1", frameData.player1, p1tension, p1burst, prevTensionPlayer1, prevBurstPlayer1, prevHPPlayer1, prevRiscPlayer1, prevPosXPlayer1, prevStatePlayer1, prevAtkPhasePlayer1);
-  addPlayerDataToJson(j, "p2", frameData.player2, p2tension, p2burst, prevTensionPlayer2, prevBurstPlayer2, prevHPPlayer2, prevRiscPlayer2, prevPosXPlayer2, prevStatePlayer2, prevAtkPhasePlayer2);
+  addPlayerDataToJson(j, "p1", frameData.player1, p1tension, p1burst, prevTensionPlayer1, prevBurstPlayer1, prevRiscPlayer1, prevPosXPlayer1, prevStatePlayer1, prevAtkPhasePlayer1, p1ComboCount, p1CounterHit);
+  addPlayerDataToJson(j, "p2", frameData.player2, p2tension, p2burst, prevTensionPlayer2, prevBurstPlayer2, prevRiscPlayer2, prevPosXPlayer2, prevStatePlayer2, prevAtkPhasePlayer2, p2ComboCount, p2CounterHit);
 
   // Check for identical frame
   if (previousFrame == j) {

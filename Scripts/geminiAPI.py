@@ -461,7 +461,7 @@ def main():
     with open('test_prompt.txt', 'w', encoding='utf-8') as file:
         file.write(user_prompt)
         
-    response = ChatEngine.generate_response(user_prompt)
+    #response = ChatEngine.generate_response(user_prompt)
     if response:
         print(response)
 

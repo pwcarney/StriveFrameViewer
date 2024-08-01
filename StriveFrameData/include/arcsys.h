@@ -313,8 +313,14 @@ public:
     FIELD(0xC78, atk_param, atk_param_defend);
     FIELD(0x1070, atk_param_ex, atk_param_ex_defend);
     FIELD(0x1168, int, backdash_invuln);
+
     FIELD(0x119C, int, hp);
     FIELD(0xC8BC, int, risc);
+
+    FIELD(0x391, uint8_t, hit_counter_hit);  // CH landed (0 or 1)
+
+    FIELD(0xC254, int, total_combo_damage);
+    FIELD(0xC244, int, combo_count);
     // bbscript
     FIELD(0x11E0, bbscript::event_bitmask, event_handler_bitmask);
     FIELD(0x1220, char*, bbs_file);
