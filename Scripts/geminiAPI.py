@@ -309,6 +309,7 @@ action_mappings = {
     "IrukasanYokoD": "H Dolphin Horiz",
     "IrukasanTateD": "H Dolphin Vert",
     "IrukasanJump": "Split Jump Off Dolphin",
+    "IrukasanEnd": "Dolphin End",
     "OverHeadKissExe": "Overhead Kiss Animation",
     
     # Ram
@@ -443,25 +444,24 @@ def main():
 
     # Create the contextual prompt
     user_prompt = f"""
-    You are coaching a Slayer player in the middle of a Guilty Gear Strive set.
-
-    Here's the match history frame data for the most recent match:
-
+    The following is a json comprising the frame data of a game of Guilty Gear Strive:
     {frame_data}
     
-    This contains information on moves used, frame info (including move startups, active frames, and recovery), and player positions.
+    Please write a timeline events in the match. Each bit on the timeline should contain a few seconds of in game time, depending on how much interesting stuff is happening. Concatenate combos. A true combo 20 seconds long can just be one bit. Summarize which buttons were in the combo, how many hits and how much damage. Was the combo dropped? Reflect on the post-combo okizeme situation. 
 
-    Here is a collection of guides on how to play the character Slayer:
+    Here's a representative example of how to display what button hits in a combo sequence: 
+    '''
+    CH 2D, cS, [5D], cS, P Dandy Step, Pilebunker, cS, 2S, 2H, P Dandy Step, Pilebunker
+    '''
+    The above means the starter was a counterhit 2D, followed by cS and a charged 5D. The rest is pretty self explanatory. 
 
-    {combined_guide_text}
-    
-    Consider the player and opponent's exploitable habits and pattern of play. What situations are they struggling in? What moves are they taking that are not effective? Please analyze the player's performance and provide one specific adjustment they can make for the next match of the set.
+    Focus on the player decision points.
     """
     
     with open('test_prompt.txt', 'w', encoding='utf-8') as file:
         file.write(user_prompt)
         
-    #response = ChatEngine.generate_response(user_prompt)
+    response = ChatEngine.generate_response(user_prompt)
     if response:
         print(response)
 

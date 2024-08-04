@@ -3,6 +3,10 @@
 #include <Unreal/AActor.hpp>
 #include "struct_util.h"
 #include "bbscript.h"
+#include <iostream>
+#include <array>
+
+constexpr auto DAMAGE_EFFECT_NAME_OFFSET = 0x74 + 0x6F0 + 0x8;
 
 void ASWInitFunctions();
 
@@ -317,7 +321,13 @@ public:
     FIELD(0x119C, int, hp);
     FIELD(0xC8BC, int, risc);
 
-    FIELD(0x391, uint8_t, hit_counter_hit);  // CH landed (0 or 1)
+    // String[32]
+    // "cmn_counterhit_small"
+    // "cmn_counterhit_middle"
+    // "cmn_counterhit_large"
+    // "cmn_universehit"
+    // 
+    ARRAY_FIELD(DAMAGE_EFFECT_NAME_OFFSET, char[32], damage_effect_name);
 
     FIELD(0xC254, int, total_combo_damage);
     FIELD(0xC244, int, combo_count);
@@ -351,6 +361,7 @@ public:
     int pushbox_bottom() const;
     void get_pushbox(int* left, int* top, int* right, int* bottom) const;
 
+    const char* get_damage_effect_name() const { return &damage_effect_name[0]; }
     const char* get_sprite_name() const { return &sprite_name[0]; }
     const char* get_BB_state() const;
 };

@@ -8,14 +8,23 @@ struct PlayerFrameData {
   int hp;
   int risc;
   int burst;
+
   int positionX;
   int positionY;
+
   std::string currentAction;
   PlayerStateType state;
+
   int hitstun;
   int blockstun;
+
   std::string attackPhase;
   int attackFrame;
+
+  int counterhitLevel;
+
+  int combo;
+  int combo_damage;
 };
 
 struct FrameData {

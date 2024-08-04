@@ -6,6 +6,8 @@
 #include <fstream>
 #include <set>
 #include <unordered_set>
+#include <iostream>
+#include <array>
 
 using json = nlohmann::json;
 
@@ -102,8 +104,6 @@ PlayerFrameData getPlayerFrameData(const asw_player *player, const PlayerState &
   data.positionY = std::round(player->pos_y / 1000.0);
 
   data.currentAction = player->get_BB_state();
-  //data.state = state.type;
-  //data.hitstun = player->hitstun;
   data.blockstun = player->blockstun;
 
   // Determine the attack phase and frame number
@@ -120,6 +120,27 @@ PlayerFrameData getPlayerFrameData(const asw_player *player, const PlayerState &
     data.attackPhase = "";
     data.attackFrame = 0;
   }
+
+  // Retrieve the damage effect name and set counterhitLevel based on its value
+  const char* counterhit_name = player->get_damage_effect_name();
+
+  if (std::strcmp(counterhit_name, "cmn_counterhit_small") == 0) {
+      data.counterhitLevel = 1;
+  }
+  else if (std::strcmp(counterhit_name, "cmn_counterhit_middle") == 0) {
+      data.counterhitLevel = 2;
+  }
+  else if (std::strcmp(counterhit_name, "cmn_counterhit_large") == 0) {
+      data.counterhitLevel = 3;
+  }
+  else if (std::strcmp(counterhit_name, "cmn_universehit") == 0) {
+      data.counterhitLevel = 4;
+  }
+  else {
+      data.counterhitLevel = 0;
+  }
+
+  data.combo = player->combo_count;
 
   return data;
 }
@@ -195,7 +216,7 @@ std::string getCharacterNameFromValue(int value) {
   }
 }
 
-void addPlayerDataToJson(json &j, const std::string &playerKey, const PlayerFrameData &playerData, int tension, int burst, int &prevTension, int &prevBurst, int &prevRisc, int &prevPosX, std::string &prevState, std::string &prevAtkPhase, int comboCount, uint8_t counterHit) {
+void addPlayerDataToJson(json &j, const std::string &playerKey, const PlayerFrameData &playerData, int tension, int burst, int &prevTension, int &prevBurst, int &prevRisc, int &prevPosX, std::string &prevState, std::string &prevAtkPhase) {
   json playerJson;
 
   playerJson["hp"] = playerData.hp;
@@ -231,21 +252,15 @@ void addPlayerDataToJson(json &j, const std::string &playerKey, const PlayerFram
   }
   addFieldIf(playerJson, "atkFrame", playerData.attackFrame, 0);
 
-  // Add combo count and counter hit
-  if (comboCount > 0) {
-    playerJson["combo_count"] = comboCount;
-  }
-  if (counterHit > 0) {
-    playerJson["counter_hit"] = true;
-  }
+  addFieldIf(playerJson, "combo", playerData.combo, 0);
+
+  addFieldIf(playerJson, "counterhitLevel", playerData.counterhitLevel, 0);
 
   j[playerKey] = playerJson;
 }
 
 void logEvent(const std::string &event) {
-  json eventLog = {
-      {"frameInd", frameCount},
-      {"event", event}};
+  json eventLog = {{"event", event}};
 
   OutputFile::getInstance().write(eventLog);
 }
@@ -306,79 +321,97 @@ void initOutputFile() {
   logEvent(battleEvent);
 }
 
-void outputFrameData(const asw_player *p1, const asw_player *p2, const PlayerState &s1, const PlayerState &s2) {
-  static int prevTensionPlayer1 = -1;
-  static int prevBurstPlayer1 = -1;
-  static int prevRiscPlayer1 = -1;
-  static int prevPosXPlayer1 = -1;
-  static std::string prevStatePlayer1 = "";
-  static std::string prevAtkPhasePlayer1 = "";
+void outputFrameData(const asw_player* p1, const asw_player* p2, const PlayerState& s1, const PlayerState& s2) {
+    static int prevTensionPlayer1 = -1;
+    static int prevBurstPlayer1 = -1;
+    static int prevRiscPlayer1 = -1;
+    static int prevPosXPlayer1 = -1;
+    static std::string prevStatePlayer1 = "";
+    static std::string prevAtkPhasePlayer1 = "";
 
-  static int prevTensionPlayer2 = -1;
-  static int prevBurstPlayer2 = -1;
-  static int prevRiscPlayer2 = -1;
-  static int prevPosXPlayer2 = -1;
-  static std::string prevStatePlayer2 = "";
-  static std::string prevAtkPhasePlayer2 = "";
+    static int prevTensionPlayer2 = -1;
+    static int prevBurstPlayer2 = -1;
+    static int prevRiscPlayer2 = -1;
+    static int prevPosXPlayer2 = -1;
+    static std::string prevStatePlayer2 = "";
+    static std::string prevAtkPhasePlayer2 = "";
 
-  static int prevComboCountPlayer1 = 0;
-  static int prevComboCountPlayer2 = 0;
+    static int prevComboDmgPlayer1 = 0;
+    static int prevComboDmgPlayer2 = 0;
 
-  PlayerFrameData player1 = getPlayerFrameData(p1, s1);
-  PlayerFrameData player2 = getPlayerFrameData(p2, s2);
+    PlayerFrameData player1 = getPlayerFrameData(p1, s1);
+    PlayerFrameData player2 = getPlayerFrameData(p2, s2);
 
-  // Get tension and burst values using consistent memory reading
-  std::vector<uintptr_t> tbStateOffsets = {0x130, 0xBB0, 0x0};
-  uintptr_t tbStateAddress = resolvePointerChain(universalBaseAddress, tbStateOffsets);
+    // Get tension and burst values using consistent memory reading
+    std::vector<uintptr_t> tbStateOffsets = { 0x130, 0xBB0, 0x0 };
+    uintptr_t tbStateAddress = resolvePointerChain(universalBaseAddress, tbStateOffsets);
 
-  // Directly read the tension and burst values without additional memory reads
-  int p1tension = *reinterpret_cast<int *>(tbStateAddress + 0x48);
-  int p2tension = *reinterpret_cast<int *>(tbStateAddress + 0x1A8);
-  int p1burst = *reinterpret_cast<int *>(tbStateAddress + 0x1448);
-  int p2burst = *reinterpret_cast<int *>(tbStateAddress + 0x144C);
+    // Directly read the tension and burst values without additional memory reads
+    int p1tension = *reinterpret_cast<int*>(tbStateAddress + 0x48);
+    int p2tension = *reinterpret_cast<int*>(tbStateAddress + 0x1A8);
+    int p1burst = *reinterpret_cast<int*>(tbStateAddress + 0x1448);
+    int p2burst = *reinterpret_cast<int*>(tbStateAddress + 0x144C);
 
-  // Read combo-related values
-  int p1ComboCount = p1->combo_count;
-  int p2ComboCount = p2->combo_count;
-  uint8_t p1CounterHit = p1->hit_counter_hit;
-  uint8_t p2CounterHit = p2->hit_counter_hit;
+    // Variables to track current combo damage
+    int currentComboDmgPlayer1 = 0;
+    int currentComboDmgPlayer2 = 0;
 
-  // Log combo end events
-  if (prevComboCountPlayer1 > 0 && p1ComboCount == 0) {
-    logEvent("Player1 combo ended with " + std::to_string(p1->total_combo_damage) + " damage");
-  }
-  if (prevComboCountPlayer2 > 0 && p2ComboCount == 0) {
-    logEvent("Player2 combo ended with " + std::to_string(p2->total_combo_damage) + " damage");
-  }
+    // Read combo-related values
+    int p1ComboCount = p1->combo_count;
+    int p2ComboCount = p2->combo_count;
 
-  prevComboCountPlayer1 = p1ComboCount;
-  prevComboCountPlayer2 = p2ComboCount;
-
-  // Sanity check: do not output if the frame number exceeds 10,000
-  frameCount++;
-  if (frameCount > 10000) {
-    return;
-  }
-
-  // Write out
-  FrameData frameData;
-  frameData.frameNumber = frameCount;
-  frameData.player1 = player1;
-  frameData.player2 = player2;
-
-  json j;
-  addPlayerDataToJson(j, "p1", frameData.player1, p1tension, p1burst, prevTensionPlayer1, prevBurstPlayer1, prevRiscPlayer1, prevPosXPlayer1, prevStatePlayer1, prevAtkPhasePlayer1, p1ComboCount, p1CounterHit);
-  addPlayerDataToJson(j, "p2", frameData.player2, p2tension, p2burst, prevTensionPlayer2, prevBurstPlayer2, prevRiscPlayer2, prevPosXPlayer2, prevStatePlayer2, prevAtkPhasePlayer2, p2ComboCount, p2CounterHit);
-
-  // Check for identical frame
-  if (previousFrame == j) {
-    ++identicalFrameCount;
-  } else {
-    if (identicalFrameCount > 0) {
-      logEvent("Omitted " + std::to_string(identicalFrameCount) + " identical frames");
-      identicalFrameCount = 0;
+    // Update current combo damage
+    if (p1ComboCount > 0) {
+        currentComboDmgPlayer1 = p1->total_combo_damage;
     }
-    previousFrame = j;
-    OutputFile::getInstance().write(j);
-  }
+    else if (prevComboDmgPlayer1 != 0) {
+        logEvent("P2 combo ended with " + std::to_string(prevComboDmgPlayer1) + " damage");
+        prevComboDmgPlayer1 = 0;
+    }
+
+    if (p2ComboCount > 0) {
+        currentComboDmgPlayer2 = p2->total_combo_damage;
+    }
+    else if (prevComboDmgPlayer2 != 0) {
+        logEvent("P1 combo ended with " + std::to_string(prevComboDmgPlayer2) + " damage");
+        prevComboDmgPlayer2 = 0;
+    }
+
+    // Update previous combo damage values
+    if (p1ComboCount > 0) {
+        prevComboDmgPlayer1 = currentComboDmgPlayer1;
+    }
+    if (p2ComboCount > 0) {
+        prevComboDmgPlayer2 = currentComboDmgPlayer2;
+    }
+
+    // Sanity check: do not output if the frame number exceeds 10,000
+    frameCount++;
+    if (frameCount > 10000) {
+        return;
+    }
+
+    // Write out
+    FrameData frameData;
+    frameData.frameNumber = frameCount;
+    frameData.player1 = player1;
+    frameData.player2 = player2;
+
+    json j;
+    addPlayerDataToJson(j, "p1", frameData.player1, p1tension, p1burst, prevTensionPlayer1, prevBurstPlayer1, prevRiscPlayer1, prevPosXPlayer1, prevStatePlayer1, prevAtkPhasePlayer1);
+    addPlayerDataToJson(j, "p2", frameData.player2, p2tension, p2burst, prevTensionPlayer2, prevBurstPlayer2, prevRiscPlayer2, prevPosXPlayer2, prevStatePlayer2, prevAtkPhasePlayer2);
+
+    // Check for identical frame
+    if (previousFrame == j) {
+        ++identicalFrameCount;
+    }
+    else {
+        if (identicalFrameCount > 0) {
+            logEvent("Omitted " + std::to_string(identicalFrameCount) + " identical frames");
+            identicalFrameCount = 0;
+        }
+        previousFrame = j;
+        OutputFile::getInstance().write(j);
+    }
 }
+
