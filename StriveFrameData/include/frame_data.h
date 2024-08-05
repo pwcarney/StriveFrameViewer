@@ -21,7 +21,7 @@ struct PlayerFrameData {
   std::string attackPhase;
   int attackFrame;
 
-  int counterhitLevel;
+  char counterhitLevel[32];
 
   int combo;
   int combo_damage;

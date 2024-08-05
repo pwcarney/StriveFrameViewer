@@ -8,6 +8,8 @@
 #include <unordered_set>
 #include <iostream>
 #include <array>
+#include <string>
+#include <unordered_map>
 
 using json = nlohmann::json;
 
@@ -15,6 +17,9 @@ static uintptr_t universalBaseAddress;
 static int frameCount = 0;
 static int identicalFrameCount = 0;
 static json previousFrame;
+
+static std::string p1CharacterName;
+static std::string p2CharacterName;
 
 // Previous state variables for both players
 static int prevTensionPlayer1 = -1;
@@ -33,292 +38,217 @@ static std::string prevAtkPhasePlayer2 = "";
 
 // Utility function to reset previous state values
 void resetPreviousValues() {
-  frameCount = 0;
-  identicalFrameCount = 0;
+    frameCount = 0;
+    identicalFrameCount = 0;
 
-  prevTensionPlayer1 = -10000;
-  prevBurstPlayer1 = -10000;
-  prevRiscPlayer1 = -10000;
-  prevPosXPlayer1 = -10000;
-  prevStatePlayer1 = "";
-  prevAtkPhasePlayer1 = "";
+    prevTensionPlayer1 = -10000;
+    prevBurstPlayer1 = -10000;
+    prevRiscPlayer1 = -10000;
+    prevPosXPlayer1 = -10000;
+    prevStatePlayer1 = "";
+    prevAtkPhasePlayer1 = "";
 
-  prevTensionPlayer2 = -10000;
-  prevBurstPlayer2 = -10000;
-  prevRiscPlayer2 = -10000;
-  prevPosXPlayer2 = -10000;
-  prevStatePlayer2 = "";
-  prevAtkPhasePlayer2 = "";
+    prevTensionPlayer2 = -10000;
+    prevBurstPlayer2 = -10000;
+    prevRiscPlayer2 = -10000;
+    prevPosXPlayer2 = -10000;
+    prevStatePlayer2 = "";
+    prevAtkPhasePlayer2 = "";
 }
 
 // Function to log round start and reset previous values
 void logRoundStart() {
-  resetPreviousValues();
-  logEvent("Round Start!");
-}
-
-template <typename T>
-void addFieldIf(json &j, const std::string &key, const T &value, const T &defaultValue = T()) {
-  if (value != defaultValue) {
-    j[key] = value;
-  }
-}
-
-// Specialization for std::string to handle empty string case
-template <>
-void addFieldIf<std::string>(json &j, const std::string &key, const std::string &value, const std::string &defaultValue) {
-  if (!value.empty() && value != defaultValue) {
-    j[key] = value;
-  }
+    resetPreviousValues();
+    logEvent("Round Start!");
 }
 
 // Define a mapping from PlayerStateType to string
 std::string playerStateTypeToString(PlayerStateType state) {
-  static const std::unordered_map<PlayerStateType, std::string> stateToString = {
-      {PST_Idle, "Idle"},
-      {PST_BlockStunned, "BlockStunned"},
-      {PST_HitStunned, "HitStunned"},
-      {PST_Busy, "Busy"},
-      {PST_Attacking, "Attacking"},
-      {PST_ProjectileAttacking, "ProjectileAttacking"},
-      {PST_Recovering, "Recovering"},
-      {PST_None, "None"},
-      {PST_End, "End"}};
+    static const std::unordered_map<PlayerStateType, std::string> stateToString = {
+        {PST_Idle, "Idle"},
+        {PST_BlockStunned, "BlockStunned"},
+        {PST_HitStunned, "HitStunned"},
+        {PST_Busy, "Busy"},
+        {PST_Attacking, "Attacking"},
+        {PST_ProjectileAttacking, "ProjectileAttacking"},
+        {PST_Recovering, "Recovering"},
+        {PST_None, "None"},
+        {PST_End, "End"}
+    };
 
-  auto it = stateToString.find(state);
-  if (it != stateToString.end()) {
-    return it->second;
-  } else {
-    return "Unknown";
-  }
+    auto it = stateToString.find(state);
+    if (it != stateToString.end()) {
+        return it->second;
+    }
+    else {
+        return "Unknown";
+    }
 }
 
-PlayerFrameData getPlayerFrameData(const asw_player *player, const PlayerState &state) {
-  PlayerFrameData data;
+void addPlayerDataToJson(json& playerJson, const asw_player* player, const PlayerState& state, int tension, int burst, int& prevTension, int& prevBurst, int& prevRisc, int& prevPosX, std::string& prevState, std::string& prevAtkPhase) {
+    playerJson["hp"] = player->hp;
 
-  data.hp = player->hp;
-  data.risc = player->risc;
+    int roundedTension = std::round(tension / 100.0);
+    if (roundedTension != prevTension) {
+        playerJson["tension"] = roundedTension;
+        prevTension = roundedTension;
+    }
 
-  // Divide position by 1000 and round to the nearest whole number
-  data.positionX = std::round(player->pos_x_from_center / 1000.0);
-  data.positionY = std::round(player->pos_y / 1000.0);
+    int roundedBurst = std::round(burst / 100.0);
+    if (roundedBurst != prevBurst) {
+        playerJson["burst"] = roundedBurst;
+        prevBurst = roundedBurst;
+    }
 
-  data.currentAction = player->get_BB_state();
-  data.blockstun = player->blockstun;
+    if (player->risc != prevRisc) {
+        playerJson["risc"] = player->risc;
+        prevRisc = player->risc;
+    }
 
-  // Determine the attack phase and frame number
-  if (state.type == PST_Busy) {
-    data.attackPhase = "startup";
-    data.attackFrame = state.state_time;
-  } else if (state.type == PST_Attacking || state.type == PST_ProjectileAttacking) {
-    data.attackPhase = "active";
-    data.attackFrame = state.state_time;
-  } else if (state.type == PST_Recovering) {
-    data.attackPhase = "recovery";
-    data.attackFrame = state.state_time;
-  } else {
-    data.attackPhase = "";
-    data.attackFrame = 0;
-  }
+    if (player->pos_x_from_center != prevPosX) {
+        playerJson["posX"] = std::round(player->pos_x_from_center / 1000.0);
+        prevPosX = player->pos_x_from_center;
+    }
 
-  // Retrieve the damage effect name and set counterhitLevel based on its value
-  const char* counterhit_name = player->get_damage_effect_name();
+    if (player->pos_y != 0) {
+        playerJson["posY"] = std::round(player->pos_y / 1000.0);
+    }
 
-  if (std::strcmp(counterhit_name, "cmn_counterhit_small") == 0) {
-      data.counterhitLevel = 1;
-  }
-  else if (std::strcmp(counterhit_name, "cmn_counterhit_middle") == 0) {
-      data.counterhitLevel = 2;
-  }
-  else if (std::strcmp(counterhit_name, "cmn_counterhit_large") == 0) {
-      data.counterhitLevel = 3;
-  }
-  else if (std::strcmp(counterhit_name, "cmn_universehit") == 0) {
-      data.counterhitLevel = 4;
-  }
-  else {
-      data.counterhitLevel = 0;
-  }
+    playerJson["action"] = player->get_BB_state();
 
-  data.combo = player->combo_count;
+    if (player->blockstun != 0) {
+        playerJson["blkstun"] = player->blockstun;
+    }
 
-  return data;
+    std::string attackPhase;
+    if (state.type == PST_Busy) {
+        attackPhase = "startup";
+    }
+    else if (state.type == PST_Attacking || state.type == PST_ProjectileAttacking) {
+        attackPhase = "active";
+    }
+    else if (state.type == PST_Recovering) {
+        attackPhase = "recovery";
+    }
+    else {
+        attackPhase = "";
+    }
+    if (attackPhase != prevAtkPhase) {
+        playerJson["atkPhase"] = attackPhase;
+        prevAtkPhase = attackPhase;
+    }
+    playerJson["atkFrame"] = state.state_time;
+
+    const char* counterhit_name = player->get_damage_effect_name();
+    static const std::unordered_map<std::string, std::string> counterhitMap = {
+        {"cmn_counterhit_small", "Small Counterhit"},
+        {"cmn_counterhit_middle", "Counterhit"},
+        {"cmn_counterhit_large", "Large Counterhit"},
+        {"cmn_universehit", "Universe Counterhit"}
+    };
+    auto it = counterhitMap.find(counterhit_name);
+    if (it != counterhitMap.end()) {
+        playerJson["counterhit"] = it->second;
+    }
 }
 
 std::string getCharacterNameFromValue(int value) {
-  switch (value) {
-  case 0:
-    return "Sol Badguy";
-  case 1:
-    return "Ky Kiske";
-  case 2:
-    return "May";
-  case 3:
-    return "Axl Low";
-  case 4:
-    return "Chipp Zanuff";
-  case 5:
-    return "Potemkin";
-  case 6:
-    return "Faust";
-  case 7:
-    return "Millia Rage";
-  case 8:
-    return "Zato-1";
-  case 9:
-    return "Ramlethal Valentine";
-  case 10:
-    return "Leo Whitefang";
-  case 11:
-    return "Nagoriyuki";
-  case 12:
-    return "Giovanna";
-  case 13:
-    return "Anji Mito";
-  case 14:
-    return "I-No";
-  case 15:
-    return "Goldlewis Dickinson";
-  case 16:
-    return "Jack-O'";
-  case 17:
-    return "Happy Chaos";
-  case 18:
-    return "Baiken";
-  case 19:
-    return "Testament";
-  case 20:
-    return "Bridget";
-  case 21:
-    return "Sin Kiske";
-  case 22:
-    return "Bedman?";
-  case 23:
-    return "Asuka";
-  case 24:
-    return "Johnny";
-  case 25:
-    return "Elphelt Valentine";
-  case 26:
-    return "A.B.A.";
-  case 27:
-    return "Slayer";
-  case 28:
-    return "Queen Dizzy";
-  case 29:
-    return "Venom";
-  case 30:
-    return "Unika";
-  case 31:
-    return "Lucy";
-  default:
-    return "Unknown value: " + std::to_string(value);
-  }
+    switch (value) {
+    case 0: return "Sol Badguy";
+    case 1: return "Ky Kiske";
+    case 2: return "May";
+    case 3: return "Axl Low";
+    case 4: return "Chipp Zanuff";
+    case 5: return "Potemkin";
+    case 6: return "Faust";
+    case 7: return "Millia Rage";
+    case 8: return "Zato-1";
+    case 9: return "Ramlethal Valentine";
+    case 10: return "Leo Whitefang";
+    case 11: return "Nagoriyuki";
+    case 12: return "Giovanna";
+    case 13: return "Anji Mito";
+    case 14: return "I-No";
+    case 15: return "Goldlewis Dickinson";
+    case 16: return "Jack-O'";
+    case 17: return "Happy Chaos";
+    case 18: return "Baiken";
+    case 19: return "Testament";
+    case 20: return "Bridget";
+    case 21: return "Sin Kiske";
+    case 22: return "Bedman?";
+    case 23: return "Asuka";
+    case 24: return "Johnny";
+    case 25: return "Elphelt Valentine";
+    case 26: return "A.B.A.";
+    case 27: return "Slayer";
+    case 28: return "Queen Dizzy";
+    case 29: return "Venom";
+    case 30: return "Unika";
+    case 31: return "Lucy";
+    default: return "Unknown value: " + std::to_string(value);
+    }
 }
 
-void addPlayerDataToJson(json &j, const std::string &playerKey, const PlayerFrameData &playerData, int tension, int burst, int &prevTension, int &prevBurst, int &prevRisc, int &prevPosX, std::string &prevState, std::string &prevAtkPhase) {
-  json playerJson;
-
-  playerJson["hp"] = playerData.hp;
-
-  int roundedTension = std::round(tension / 100.0);
-  if (roundedTension != prevTension) {
-    playerJson["tension"] = roundedTension;
-    prevTension = roundedTension;
-  }
-
-  int roundedBurst = std::round(burst / 100.0);
-  if (roundedBurst != prevBurst) {
-    playerJson["burst"] = roundedBurst;
-    prevBurst = roundedBurst;
-  }
-
-  addFieldIf(playerJson, "risc", playerData.risc, prevRisc);
-  prevRisc = playerData.risc;
-
-  if (playerData.positionX != prevPosX) {
-    playerJson["posX"] = playerData.positionX;
-    prevPosX = playerData.positionX;
-  }
-
-  addFieldIf(playerJson, "posY", playerData.positionY);
-
-  addFieldIf(playerJson, "action", playerData.currentAction);
-
-  addFieldIf(playerJson, "blkstun", playerData.blockstun, 0);
-  if (playerData.attackPhase != prevAtkPhase) {
-    playerJson["atkPhase"] = playerData.attackPhase;
-    prevAtkPhase = playerData.attackPhase;
-  }
-  addFieldIf(playerJson, "atkFrame", playerData.attackFrame, 0);
-
-  addFieldIf(playerJson, "combo", playerData.combo, 0);
-
-  addFieldIf(playerJson, "counterhitLevel", playerData.counterhitLevel, 0);
-
-  j[playerKey] = playerJson;
-}
-
-void logEvent(const std::string &event) {
-  json eventLog = {{"event", event}};
-
-  OutputFile::getInstance().write(eventLog);
+void logEvent(const std::string& event) {
+    json eventLog = { {"event", event} };
+    OutputFile::getInstance().write(eventLog);
 }
 
 // Helper function to read memory
 uintptr_t readMemory(uintptr_t address) {
-  return *reinterpret_cast<uintptr_t *>(address);
+    return *reinterpret_cast<uintptr_t*>(address);
 }
 
 // Function to resolve the final address by following the pointer chain
-uintptr_t resolvePointerChain(uintptr_t baseAddress, const std::vector<uintptr_t> &offsets) {
-  uintptr_t currentAddress = baseAddress;
-  for (uintptr_t offset : offsets) {
-    currentAddress = readMemory(currentAddress) + offset;
-  }
-  return currentAddress;
+uintptr_t resolvePointerChain(uintptr_t baseAddress, const std::vector<uintptr_t>& offsets) {
+    uintptr_t currentAddress = baseAddress;
+    for (uintptr_t offset : offsets) {
+        currentAddress = readMemory(currentAddress) + offset;
+    }
+    return currentAddress;
 }
 
 void initOutputFile() {
-  OutputFile::getInstance().clear();
-  frameCount = 0;
-  identicalFrameCount = 0;
-  previousFrame.clear();
+    OutputFile::getInstance().clear();
+    frameCount = 0;
+    identicalFrameCount = 0;
+    previousFrame.clear();
 
-  // Log the base address of GGST-Win64-Shipping.exe dynamically using sigscan
-  auto basePattern = "\x4D\x5A\x90\x00\x03\x00\x00\x00\x04\x00\x00\x00\xFF\xFF\x00\x00";
-  auto baseMask = "xxxxxxxxxxxxxxxx";
-  uintptr_t ggstBaseAddress = sigscan::get().scan(basePattern, baseMask);
-  if (ggstBaseAddress == 0) {
-    logEvent("Error: GGST base address not found");
-    return;
-  }
+    // Log the base address of GGST-Win64-Shipping.exe dynamically using sigscan
+    auto basePattern = "\x4D\x5A\x90\x00\x03\x00\x00\x00\x04\x00\x00\x00\xFF\xFF\x00\x00";
+    auto baseMask = "xxxxxxxxxxxxxxxx";
+    uintptr_t ggstBaseAddress = sigscan::get().scan(basePattern, baseMask);
+    if (ggstBaseAddress == 0) {
+        logEvent("Error: GGST base address not found");
+        return;
+    }
 
-  // Calculate the universal base address
-  universalBaseAddress = ggstBaseAddress + 0x050ECC60;
+    // Calculate the universal base address
+    universalBaseAddress = ggstBaseAddress + 0x050ECC60;
 
-  // Offsets to GameSettings
-  std::vector<uintptr_t> gameSettingsOffsets = {0x188, 0x520, 0x20, 0x1B0};
-  uintptr_t gameSettingsAddress = resolvePointerChain(universalBaseAddress, gameSettingsOffsets);
+    // Offsets to GameSettings
+    std::vector<uintptr_t> gameSettingsOffsets = { 0x188, 0x520, 0x20, 0x1B0 };
+    uintptr_t gameSettingsAddress = resolvePointerChain(universalBaseAddress, gameSettingsOffsets);
 
-  // Offsets to Player 1 and Player 2
-  uintptr_t player1Address = readMemory(gameSettingsAddress + 0x318);
-  uintptr_t player2Address = readMemory(gameSettingsAddress + 0x320);
+    // Offsets to Player 1 and Player 2
+    uintptr_t player1Address = readMemory(gameSettingsAddress + 0x318);
+    uintptr_t player2Address = readMemory(gameSettingsAddress + 0x320);
 
-  // Offset to character name byte within player object
-  uintptr_t characterOffset = 0x29;
+    // Offset to character name byte within player object
+    uintptr_t characterOffset = 0x29;
 
-  // Read the character values as bytes
-  uint8_t p1CharacterValue = *reinterpret_cast<uint8_t *>(player1Address + characterOffset);
-  uint8_t p2CharacterValue = *reinterpret_cast<uint8_t *>(player2Address + characterOffset);
+    // Read the character values as bytes
+    uint8_t p1CharacterValue = *reinterpret_cast<uint8_t*>(player1Address + characterOffset);
+    uint8_t p2CharacterValue = *reinterpret_cast<uint8_t*>(player2Address + characterOffset);
 
-  // Convert character values to names
-  std::string p1CharacterName = getCharacterNameFromValue(static_cast<int>(p1CharacterValue));
-  std::string p2CharacterName = getCharacterNameFromValue(static_cast<int>(p2CharacterValue));
+    // Convert character values to names
+    p1CharacterName = getCharacterNameFromValue(static_cast<int>(p1CharacterValue));
+    p2CharacterName = getCharacterNameFromValue(static_cast<int>(p2CharacterValue));
 
-  // Log the battle event
-  std::string battleEvent = "P1:" + p1CharacterName + " vs P2:" + p2CharacterName;
-  logEvent(battleEvent);
+    // Log the battle event
+    std::string battleEvent = "P1:" + p1CharacterName + " vs P2:" + p2CharacterName;
+    logEvent(battleEvent);
 }
 
 void outputFrameData(const asw_player* p1, const asw_player* p2, const PlayerState& s1, const PlayerState& s2) {
@@ -338,9 +268,6 @@ void outputFrameData(const asw_player* p1, const asw_player* p2, const PlayerSta
 
     static int prevComboDmgPlayer1 = 0;
     static int prevComboDmgPlayer2 = 0;
-
-    PlayerFrameData player1 = getPlayerFrameData(p1, s1);
-    PlayerFrameData player2 = getPlayerFrameData(p2, s2);
 
     // Get tension and burst values using consistent memory reading
     std::vector<uintptr_t> tbStateOffsets = { 0x130, 0xBB0, 0x0 };
@@ -362,27 +289,27 @@ void outputFrameData(const asw_player* p1, const asw_player* p2, const PlayerSta
 
     // Update current combo damage
     if (p1ComboCount > 0) {
-        currentComboDmgPlayer1 = p1->total_combo_damage;
+        currentComboDmgPlayer2 = p1->total_combo_damage;  // Player 2 is hitting Player 1
     }
-    else if (prevComboDmgPlayer1 != 0) {
-        logEvent("P2 combo ended with " + std::to_string(prevComboDmgPlayer1) + " damage");
-        prevComboDmgPlayer1 = 0;
+    else if (prevComboDmgPlayer2 != 0) {
+        logEvent("P2 combo ended with " + std::to_string(prevComboDmgPlayer2) + " damage");
+        prevComboDmgPlayer2 = 0;
     }
 
     if (p2ComboCount > 0) {
-        currentComboDmgPlayer2 = p2->total_combo_damage;
+        currentComboDmgPlayer1 = p2->total_combo_damage;  // Player 1 is hitting Player 2
     }
-    else if (prevComboDmgPlayer2 != 0) {
-        logEvent("P1 combo ended with " + std::to_string(prevComboDmgPlayer2) + " damage");
-        prevComboDmgPlayer2 = 0;
+    else if (prevComboDmgPlayer1 != 0) {
+        logEvent("P1 combo ended with " + std::to_string(prevComboDmgPlayer1) + " damage");
+        prevComboDmgPlayer1 = 0;
     }
 
     // Update previous combo damage values
     if (p1ComboCount > 0) {
-        prevComboDmgPlayer1 = currentComboDmgPlayer1;
+        prevComboDmgPlayer2 = currentComboDmgPlayer2;
     }
     if (p2ComboCount > 0) {
-        prevComboDmgPlayer2 = currentComboDmgPlayer2;
+        prevComboDmgPlayer1 = currentComboDmgPlayer1;
     }
 
     // Sanity check: do not output if the frame number exceeds 10,000
@@ -392,14 +319,18 @@ void outputFrameData(const asw_player* p1, const asw_player* p2, const PlayerSta
     }
 
     // Write out
-    FrameData frameData;
-    frameData.frameNumber = frameCount;
-    frameData.player1 = player1;
-    frameData.player2 = player2;
-
     json j;
-    addPlayerDataToJson(j, "p1", frameData.player1, p1tension, p1burst, prevTensionPlayer1, prevBurstPlayer1, prevRiscPlayer1, prevPosXPlayer1, prevStatePlayer1, prevAtkPhasePlayer1);
-    addPlayerDataToJson(j, "p2", frameData.player2, p2tension, p2burst, prevTensionPlayer2, prevBurstPlayer2, prevRiscPlayer2, prevPosXPlayer2, prevStatePlayer2, prevAtkPhasePlayer2);
+
+    addPlayerDataToJson(j[p1CharacterName], p1, s1, p1tension, p1burst, prevTensionPlayer1, prevBurstPlayer1, prevRiscPlayer1, prevPosXPlayer1, prevStatePlayer1, prevAtkPhasePlayer1);
+    addPlayerDataToJson(j[p2CharacterName], p2, s2, p2tension, p2burst, prevTensionPlayer2, prevBurstPlayer2, prevRiscPlayer2, prevPosXPlayer2, prevStatePlayer2, prevAtkPhasePlayer2);
+
+    // Add combo fields to the JSON
+    if (p1ComboCount > 0) {
+        j[p2CharacterName]["combo"] = p1ComboCount;
+    }
+    if (p2ComboCount > 0) {
+        j[p1CharacterName]["combo"] = p2ComboCount;
+    }
 
     // Check for identical frame
     if (previousFrame == j) {
@@ -414,4 +345,3 @@ void outputFrameData(const asw_player* p1, const asw_player* p2, const PlayerSta
         OutputFile::getInstance().write(j);
     }
 }
-
