@@ -36,6 +36,9 @@ static int prevPosXPlayer2 = -1;
 static std::string prevStatePlayer2 = "";
 static std::string prevAtkPhasePlayer2 = "";
 
+static int prevComboDmgPlayer1 = 0;
+static int prevComboDmgPlayer2 = 0;
+
 // Utility function to reset previous state values
 void resetPreviousValues() {
     frameCount = 0;
@@ -54,6 +57,9 @@ void resetPreviousValues() {
     prevPosXPlayer2 = -10000;
     prevStatePlayer2 = "";
     prevAtkPhasePlayer2 = "";
+
+    prevComboDmgPlayer1 = 0;
+    prevComboDmgPlayer2 = 0;
 }
 
 // Function to log round start and reset previous values
@@ -123,21 +129,24 @@ void addPlayerDataToJson(json& playerJson, const asw_player* player, const Playe
     std::string attackPhase;
     if (state.type == PST_Busy) {
         attackPhase = "startup";
+        playerJson["atkFrame"] = state.state_time;
     }
     else if (state.type == PST_Attacking || state.type == PST_ProjectileAttacking) {
         attackPhase = "active";
+        playerJson["atkFrame"] = state.state_time;
     }
     else if (state.type == PST_Recovering) {
         attackPhase = "recovery";
+        playerJson["atkFrame"] = state.state_time;
     }
     else {
         attackPhase = "";
     }
-    if (attackPhase != prevAtkPhase) {
+
+    if (attackPhase != prevAtkPhase && attackPhase != "") {
         playerJson["atkPhase"] = attackPhase;
-        prevAtkPhase = attackPhase;
     }
-    playerJson["atkFrame"] = state.state_time;
+    prevAtkPhase = attackPhase;
 
     const char* counterhit_name = player->get_damage_effect_name();
     static const std::unordered_map<std::string, std::string> counterhitMap = {
@@ -265,9 +274,6 @@ void outputFrameData(const asw_player* p1, const asw_player* p2, const PlayerSta
     static int prevPosXPlayer2 = -1;
     static std::string prevStatePlayer2 = "";
     static std::string prevAtkPhasePlayer2 = "";
-
-    static int prevComboDmgPlayer1 = 0;
-    static int prevComboDmgPlayer2 = 0;
 
     // Get tension and burst values using consistent memory reading
     std::vector<uintptr_t> tbStateOffsets = { 0x130, 0xBB0, 0x0 };
