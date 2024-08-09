@@ -17,21 +17,14 @@ def parse_frame_data(input_file_path, output_file_path, action_mappings, no_repl
     unfound_actions = set()
 
     for entry in data:
-        if "p1" in entry and "action" in entry["p1"]:
-            action_p1 = entry["p1"]["action"]
-            if action_p1 in action_mappings:
-                entry["p1"]["action"] = action_mappings[action_p1]
-            elif action_p1 not in no_replace_actions and action_p1 not in unfound_actions:
-                print(f"No mapping found for action: {action_p1}")
-                unfound_actions.add(action_p1)
-
-        if "p2" in entry and "action" in entry["p2"]:
-            action_p2 = entry["p2"]["action"]
-            if action_p2 in action_mappings:
-                entry["p2"]["action"] = action_mappings[action_p2]
-            elif action_p2 not in no_replace_actions and action_p2 not in unfound_actions:
-                print(f"No mapping found for action: {action_p2}")
-                unfound_actions.add(action_p2)
+        for character, details in entry.items():
+            if "action" in details:
+                action = details["action"]
+                if action in action_mappings:
+                    details["action"] = action_mappings[action]
+                elif action not in no_replace_actions and action not in unfound_actions:
+                    print(f"No mapping found for action: {action}")
+                    unfound_actions.add(action)
 
     with open(output_file_path, 'w', encoding='utf-8') as file:
         for entry in data:
@@ -334,6 +327,22 @@ action_mappings = {
     "KillMachine_Air": "Air Return of the Killing Machine",
     "RockTheBaby_Land": "Rock the Baby",
     "RockTheBaby_Air": "Air Rock the Baby",
+    
+    # Bedman?
+    "AirMove": "Air Move",
+    "AirMove7": "Air Move Up Back",
+    "AirMove8": "Air Move Up",
+    "AirMove9": "Air Move Up Forward",
+    "AirMove4": "Air Move Back",
+    "AirMove6": "Air Move Forward",
+    "AirMove1": "Air Move Down Back",
+    "AirMove2": "Air Move Down",
+    "AirMove3": "Air Move Down Forward",
+    "Ultimate1_Land": "Call 13C",
+    "Ultimate1_Air": "Call 13C (air)",
+    "Ultimate2": "Call 4CC",
+    "Special1_Land": "call 4BA",
+    "Special1_Air": "call 4BA (air)",
 }
 
 no_replace_actions = {
